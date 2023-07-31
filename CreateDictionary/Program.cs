@@ -9,19 +9,15 @@ namespace CreateDictionary
 {
     public class Program
     {
-
         static void Main()
         {
             string mmcifFilePath = "../../../Input/MMCIF/1A0A.mmcif";
             string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/ubdbAssign_1A0A.log";
-
-            /**List<string[]> res = ParseMmcifFile(mmcifFilePath);
+            List<string[]> res = CreateList(ParseMmcifFile(mmcifFilePath),ParseUbdbAssignLog(ubdbAssignLogFilePath));
             foreach(string[] r in res)
             {
-                Console.WriteLine(r[0] + " " + r[1] + " " + r[2] );
-            }*/
-
-            ParseUbdbAssignLog(ubdbAssignLogFilePath);
+                Console.WriteLine(r[0] + " " + r[1] + " " + r[2] + " " );
+            }
             string outputFilePath = "../../../votre_fichier_sortie.txt";
             Console.ReadLine();
         }
@@ -79,5 +75,24 @@ namespace CreateDictionary
             return output;
         }
 
+        static List<string[]> CreateList(List<string[]> listOfMmcif, List<string[]> listofLog)
+        {
+            List<string[]> output = new List<string[]>();
+            foreach (string[] item in listOfMmcif)
+            {
+                string[] itemToAdd = new string[3];
+                itemToAdd[0] = item[2];
+                itemToAdd[1] = item[0].Substring(0, item[0].IndexOf('_')) ;
+                foreach (string[] item2 in listofLog)
+                {
+                    if(item2[0] == item[0])
+                    {
+                        itemToAdd[2] = item2[2];
+                    }
+                }
+                output.Add(itemToAdd);
+            }
+            return output;
+        }
     }
 }
