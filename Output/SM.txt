@@ -1,0 +1,7 @@
+Residue
+Atom_name
+Atome_type
+SM	SM	-
+SM	SM	-
+SM	SM	-
+SM	SM	-

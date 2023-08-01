@@ -1,0 +1,8 @@
+Residue
+Atom_name
+Atome_type
+2HP	P	-
+2HP	O1	-
+2HP	O2	-
+2HP	O3	-
+2HP	O4	-

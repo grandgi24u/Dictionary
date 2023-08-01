@@ -1,0 +1,711 @@
+data_1A1D
+_entry.id 1A1D
+
+_pdbx_database_status.entry_id 1A1D
+_pdbx_database_status.recvd_initial_deposition_date 1997-12-10
+
+loop_
+_audit_author.pdbx_ordinal
+_audit_author.name
+1 'Krapp, S.'
+2 'Kelly, G.'
+3 'Reischl, J.'
+4 'Weinzierl, R.'
+5 'Matthews, S.'
+
+_cell.entry_id 1A1D
+_cell.length_a 1
+_cell.length_b 1
+_cell.length_c 1
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+_cell.Z_PDB 1
+
+_symmetry.entry_id 1A1D
+_symmetry.space_group_name_H-M 'P 1'
+_symmetry.Int_Tables_number 1
+
+loop_
+_entity.id
+_entity.type
+1 polymer
+
+loop_
+_struct_ref.id
+_struct_ref.entity_id
+_struct_ref.db_name
+_struct_ref.db_code
+_struct_ref.pdbx_db_accession
+_struct_ref.pdbx_db_isoform
+1 1 UNP 'RPB8_YEAST' P20436 ?
+
+loop_
+_struct_ref_seq.align_id
+_struct_ref_seq.ref_id
+_struct_ref_seq.pdbx_strand_id
+_struct_ref_seq.seq_align_beg
+_struct_ref_seq.seq_align_end
+_struct_ref_seq.db_align_beg
+_struct_ref_seq.db_align_end
+_struct_ref_seq.pdbx_auth_seq_align_beg
+_struct_ref_seq.pdbx_seq_align_beg_ins_code
+_struct_ref_seq.pdbx_auth_seq_align_end
+_struct_ref_seq.pdbx_seq_align_end_ins_code
+1 1 A 1 146 1 146 1 ? 146 ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+ASN .
+ASP .
+CYS .
+GLN .
+GLU .
+GLY .
+ILE .
+LEU .
+LYS .
+MET .
+PHE .
+PRO .
+SER .
+THR .
+TRP .
+TYR .
+VAL .
+
+loop_
+_exptl.entry_id
+_exptl.method
+_exptl.crystals_number
+1A1D 'SOLUTION NMR' ?
+
+loop_
+_reflns.entry_id
+_reflns.pdbx_ordinal
+_reflns.pdbx_diffrn_id
+_reflns.number_obs
+_reflns.d_resolution_high
+_reflns.d_resolution_low
+_reflns.percent_possible_obs
+_reflns.pdbx_redundancy
+_reflns.pdbx_Rmerge_I_obs
+_reflns.pdbx_Rsym_value
+_reflns.pdbx_netI_over_sigmaI
+1A1D 1 . ? ? ? ? ? ? ? ?
+
+
+_struct.entry_id 1A1D
+_struct.title 'YEAST RNA POLYMERASE SUBUNIT RPB8, NMR, MINIMIZED AVERAGE STRUCTURE, ALPHA CARBONS ONLY'
+
+_struct_keywords.entry_id 1A1D
+_struct_keywords.pdbx_keywords NUCLEOTIDYLTRANSFERASE
+_struct_keywords.text 'RPB8, RNA POLYMERASE, OB FOLD, EUKARYOTIC, YEAST, NUCLEOTIDYLTRANSFERASE'
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A 1
+
+loop_
+_struct_conf.conf_type_id
+_struct_conf.id
+_struct_conf.beg_auth_asym_id
+_struct_conf.beg_label_asym_id
+_struct_conf.beg_label_comp_id
+_struct_conf.beg_label_seq_id
+_struct_conf.beg_auth_seq_id
+_struct_conf.pdbx_beg_PDB_ins_code
+_struct_conf.end_auth_asym_id
+_struct_conf.end_label_asym_id
+_struct_conf.end_label_comp_id
+_struct_conf.end_label_seq_id
+_struct_conf.end_auth_seq_id
+_struct_conf.pdbx_end_PDB_ins_code
+_struct_conf.pdbx_PDB_helix_class
+_struct_conf.pdbx_PDB_helix_length
+HELX_P H1 A A LEU 63 63 ? A A LEU 65 65 ? 5 3
+HELX_P H2 A A ALA 90 90 ? A A TYR 93 93 ? 1 4
+HELX_P H3 A A ARG 130 130 ? A A LEU 132 132 ? 5 3
+
+_struct_conf_type.id HELX_P
+
+loop_
+_struct_sheet.id
+_struct_sheet.number_strands
+A 4
+B 4
+
+loop_
+_struct_sheet_order.sheet_id
+_struct_sheet_order.range_id_1
+_struct_sheet_order.range_id_2
+_struct_sheet_order.sense
+A 1 2 anti-parallel
+A 2 3 anti-parallel
+A 3 4 anti-parallel
+B 1 2 anti-parallel
+B 2 3 anti-parallel
+B 3 4 anti-parallel
+
+loop_
+_struct_sheet_range.sheet_id
+_struct_sheet_range.id
+_struct_sheet_range.beg_auth_asym_id
+_struct_sheet_range.beg_label_asym_id
+_struct_sheet_range.beg_label_comp_id
+_struct_sheet_range.beg_label_seq_id
+_struct_sheet_range.beg_auth_seq_id
+_struct_sheet_range.pdbx_beg_PDB_ins_code
+_struct_sheet_range.end_auth_asym_id
+_struct_sheet_range.end_label_asym_id
+_struct_sheet_range.end_label_comp_id
+_struct_sheet_range.end_label_seq_id
+_struct_sheet_range.end_auth_seq_id
+_struct_sheet_range.pdbx_end_PDB_ins_code
+A 1 A A ASP 7 7 ? A A PHE 10 10 ?
+A 2 A A LEU 55 55 ? A A THR 58 58 ?
+A 3 A A TYR 141 141 ? A A ILE 144 144 ?
+A 4 A A TYR 95 95 ? A A TYR 98 98 ?
+B 1 A A CYS 24 24 ? A A ALA 29 29 ?
+B 2 A A LYS 37 37 ? A A ILE 42 42 ?
+B 3 A A LEU 122 122 ? A A GLY 127 127 ?
+B 4 A A ILE 112 112 ? A A SER 117 117 ?
+
+
+loop_
+_pdbx_struct_assembly.id
+_pdbx_struct_assembly.details
+_pdbx_struct_assembly.method_details
+_pdbx_struct_assembly.oligomeric_details
+_pdbx_struct_assembly.oligomeric_count
+1 author_defined_assembly ? monomeric 1
+
+
+loop_
+_pdbx_struct_assembly_gen.assembly_id
+_pdbx_struct_assembly_gen.oper_expression
+_pdbx_struct_assembly_gen.asym_id_list
+1 1 A
+
+loop_
+_pdbx_struct_oper_list.id
+_pdbx_struct_oper_list.type
+_pdbx_struct_oper_list.matrix[1][1]
+_pdbx_struct_oper_list.matrix[1][2]
+_pdbx_struct_oper_list.matrix[1][3]
+_pdbx_struct_oper_list.vector[1]
+_pdbx_struct_oper_list.matrix[2][1]
+_pdbx_struct_oper_list.matrix[2][2]
+_pdbx_struct_oper_list.matrix[2][3]
+_pdbx_struct_oper_list.vector[2]
+_pdbx_struct_oper_list.matrix[3][1]
+_pdbx_struct_oper_list.matrix[3][2]
+_pdbx_struct_oper_list.matrix[3][3]
+_pdbx_struct_oper_list.vector[3]
+1 'identity operation' 1 0 0 0 0 1 0 0 0 0 1 0
+
+
+
+
+_atom_sites.entry_id 1A1D
+_atom_sites.fract_transf_matrix[1][1] 1
+_atom_sites.fract_transf_matrix[1][2] -0
+_atom_sites.fract_transf_matrix[1][3] -0
+_atom_sites.fract_transf_vector[1] 0
+_atom_sites.fract_transf_matrix[2][1] 0
+_atom_sites.fract_transf_matrix[2][2] 1
+_atom_sites.fract_transf_matrix[2][3] 0
+_atom_sites.fract_transf_vector[2] 0
+_atom_sites.fract_transf_matrix[3][1] 0
+_atom_sites.fract_transf_matrix[3][2] 0
+_atom_sites.fract_transf_matrix[3][3] 1
+_atom_sites.fract_transf_vector[3] 0
+
+loop_
+_atom_type.symbol
+H
+C
+
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+1 1 MET
+1 2 SER
+1 3 ASN
+1 4 THR
+1 5 LEU
+1 6 PHE
+1 7 ASP
+1 8 ASP
+1 9 ILE
+1 10 PHE
+1 11 GLN
+1 12 VAL
+1 13 SER
+1 14 GLU
+1 15 VAL
+1 16 ASP
+1 17 PRO
+1 18 GLY
+1 19 ARG
+1 20 TYR
+1 21 ASN
+1 22 LYS
+1 23 VAL
+1 24 CYS
+1 25 ARG
+1 26 ILE
+1 27 GLU
+1 28 ALA
+1 29 ALA
+1 30 SER
+1 31 THR
+1 32 THR
+1 33 GLN
+1 34 ASP
+1 35 GLN
+1 36 CYS
+1 37 LYS
+1 38 LEU
+1 39 THR
+1 40 LEU
+1 41 ASP
+1 42 ILE
+1 43 ASN
+1 44 VAL
+1 45 GLU
+1 46 LEU
+1 47 PHE
+1 48 PRO
+1 49 VAL
+1 50 ALA
+1 51 ALA
+1 52 GLN
+1 53 ASP
+1 54 SER
+1 55 LEU
+1 56 THR
+1 57 VAL
+1 58 THR
+1 59 ILE
+1 60 ALA
+1 61 SER
+1 62 SER
+1 63 LEU
+1 64 ASN
+1 65 LEU
+1 66 GLU
+1 67 ASP
+1 68 THR
+1 69 PRO
+1 70 ALA
+1 71 ASN
+1 72 ASP
+1 73 SER
+1 74 SER
+1 75 ALA
+1 76 THR
+1 77 ARG
+1 78 SER
+1 79 TRP
+1 80 ARG
+1 81 PRO
+1 82 PRO
+1 83 GLN
+1 84 ALA
+1 85 GLY
+1 86 ASP
+1 87 ARG
+1 88 SER
+1 89 LEU
+1 90 ALA
+1 91 ASP
+1 92 ASP
+1 93 TYR
+1 94 ASP
+1 95 TYR
+1 96 VAL
+1 97 MET
+1 98 TYR
+1 99 GLY
+1 100 THR
+1 101 ALA
+1 102 TYR
+1 103 LYS
+1 104 PHE
+1 105 GLU
+1 106 GLU
+1 107 VAL
+1 108 SER
+1 109 LYS
+1 110 ASP
+1 111 LEU
+1 112 ILE
+1 113 ALA
+1 114 VAL
+1 115 TYR
+1 116 TYR
+1 117 SER
+1 118 PHE
+1 119 GLY
+1 120 GLY
+1 121 LEU
+1 122 LEU
+1 123 MET
+1 124 ARG
+1 125 LEU
+1 126 GLU
+1 127 GLY
+1 128 ASN
+1 129 TYR
+1 130 ARG
+1 131 ASN
+1 132 LEU
+1 133 ASN
+1 134 ASN
+1 135 LEU
+1 136 LYS
+1 137 GLN
+1 138 GLU
+1 139 ASN
+1 140 ALA
+1 141 TYR
+1 142 LEU
+1 143 LEU
+1 144 ILE
+1 145 ARG
+1 146 ARG
+
+loop_
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+_atom_site.calc_flag
+1 C CA . MET A 1 1 ? 11.361 -16.028 -20.309 1 7.92 ? 1 A 1 .
+2 H HA . MET A 1 1 ? 12.346 -16.028 -20.309 0 7.92 ? 1 A 1 c
+3 C CA . SER A 1 2 ? 8.922 -15.65 -17.391 1 5.45 ? 2 A 1 .
+4 H HA . SER A 1 2 ? 9.917 -15.65 -17.391 0 5.45 ? 2 A 1 c
+5 C CA . ASN A 1 3 ? 8.666 -11.989 -18.462 1 4.14 ? 3 A 1 .
+6 H HA . ASN A 1 3 ? 9.652 -11.989 -18.462 0 4.14 ? 3 A 1 c
+7 C CA . THR A 1 4 ? 4.956 -12.136 -19.365 1 2.87 ? 4 A 1 .
+8 H HA . THR A 1 4 ? 5.941 -12.136 -19.365 0 2.87 ? 4 A 1 c
+9 C CA . LEU A 1 5 ? 3.708 -10.024 -16.436 1 2.21 ? 5 A 1 .
+10 H HA . LEU A 1 5 ? 4.693 -10.024 -16.436 0 2.21 ? 5 A 1 c
+11 C CA . PHE A 1 6 ? 1.689 -6.999 -17.66 1 1.63 ? 6 A 1 .
+12 H HA . PHE A 1 6 ? 2.68 -6.999 -17.66 0 1.63 ? 6 A 1 c
+13 C CA . ASP A 1 7 ? 3.504 -3.795 -18.685 1 1.8 ? 7 A 1 .
+14 H HA . ASP A 1 7 ? 4.49 -3.795 -18.685 0 1.8 ? 7 A 1 c
+15 C CA . ASP A 1 8 ? 1.572 -1.441 -20.99 1 1.68 ? 8 A 1 .
+16 H HA . ASP A 1 8 ? 2.558 -1.441 -20.99 0 1.68 ? 8 A 1 c
+17 C CA . ILE A 1 9 ? 1.718 2.359 -21.344 1 1.58 ? 9 A 1 .
+18 H HA . ILE A 1 9 ? 2.692 2.359 -21.344 0 1.58 ? 9 A 1 c
+19 C CA . PHE A 1 10 ? -1.726 4.011 -21.475 1 1.23 ? 10 A 1 .
+20 H HA . PHE A 1 10 ? -0.735 4.011 -21.475 0 1.23 ? 10 A 1 c
+21 C CA . GLN A 1 11 ? -2.339 7.437 -23.046 1 1.34 ? 11 A 1 .
+22 H HA . GLN A 1 11 ? -1.354 7.437 -23.046 0 1.34 ? 11 A 1 c
+23 C CA . VAL A 1 12 ? -5.815 8.892 -22.627 1 1.96 ? 12 A 1 .
+24 H HA . VAL A 1 12 ? -4.841 8.892 -22.627 0 1.96 ? 12 A 1 c
+25 C CA . SER A 1 13 ? -8.153 11.373 -20.926 1 1.27 ? 13 A 1 .
+26 H HA . SER A 1 13 ? -7.158 11.373 -20.926 0 1.27 ? 13 A 1 c
+27 C CA . GLU A 1 14 ? -9.417 9.823 -17.656 1 1.9 ? 14 A 1 .
+28 H HA . GLU A 1 14 ? -8.432 9.823 -17.656 0 1.9 ? 14 A 1 c
+29 C CA . VAL A 1 15 ? -12.268 11.715 -16.002 1 2.18 ? 15 A 1 .
+30 H HA . VAL A 1 15 ? -11.294 11.715 -16.002 0 2.18 ? 15 A 1 c
+31 C CA . ASP A 1 16 ? -15.131 11.151 -13.528 1 2.71 ? 16 A 1 .
+32 H HA . ASP A 1 16 ? -14.145 11.151 -13.528 0 2.71 ? 16 A 1 c
+33 C CA . PRO A 1 17 ? -18.502 12.916 -13.856 1 4.34 ? 17 A 1 .
+34 H HA . PRO A 1 17 ? -17.512 12.916 -13.856 0 4.34 ? 17 A 1 c
+35 C CA . GLY A 1 18 ? -19.298 12.267 -10.172 1 4.61 ? 18 A 1 .
+36 H HA3 . GLY A 1 18 ? -18.308 12.267 -10.172 0 4.61 ? 18 A 1 c
+37 H HA2 . GLY A 1 18 ? -19.6076875 13.2073157 -10.172 0 4.61 ? 18 A 1 c
+38 C CA . ARG A 1 19 ? -17.616 15.168 -8.334 1 5.43 ? 19 A 1 .
+39 H HA . ARG A 1 19 ? -16.631 15.168 -8.334 0 5.43 ? 19 A 1 c
+40 C CA . TYR A 1 20 ? -20.991 15.704 -6.616 1 5 ? 20 A 1 .
+41 H HA . TYR A 1 20 ? -20 15.704 -6.616 0 5 ? 20 A 1 c
+42 C CA . ASN A 1 21 ? -19.318 13.877 -3.707 1 4.47 ? 21 A 1 .
+43 H HA . ASN A 1 21 ? -18.332 13.877 -3.707 0 4.47 ? 21 A 1 c
+44 C CA . LYS A 1 22 ? -15.524 13.674 -4.065 1 3.46 ? 22 A 1 .
+45 H HA . LYS A 1 22 ? -14.539 13.674 -4.065 0 3.46 ? 22 A 1 c
+46 C CA . VAL A 1 23 ? -14.685 10.2 -5.424 1 2.48 ? 23 A 1 .
+47 H HA . VAL A 1 23 ? -13.711 10.2 -5.424 0 2.48 ? 23 A 1 c
+48 C CA . CYS A 1 24 ? -12.404 10.272 -8.493 1 2.04 ? 24 A 1 .
+49 H HA . CYS A 1 24 ? -11.419 10.272 -8.493 0 2.04 ? 24 A 1 c
+50 C CA . ARG A 1 25 ? -12.308 7.939 -11.514 1 1.76 ? 25 A 1 .
+51 H HA . ARG A 1 25 ? -11.323 7.939 -11.514 0 1.76 ? 25 A 1 c
+52 C CA . ILE A 1 26 ? -9.337 7.465 -13.854 1 1.72 ? 26 A 1 .
+53 H HA . ILE A 1 26 ? -8.363 7.465 -13.854 0 1.72 ? 26 A 1 c
+54 C CA . GLU A 1 27 ? -10.69 5.741 -16.986 1 1.18 ? 27 A 1 .
+55 H HA . GLU A 1 27 ? -9.705 5.741 -16.986 0 1.18 ? 27 A 1 c
+56 C CA . ALA A 1 28 ? -7.989 5.335 -19.644 1 0.95 ? 28 A 1 .
+57 H HA . ALA A 1 28 ? -7.003 5.335 -19.644 0 0.95 ? 28 A 1 c
+58 C CA . ALA A 1 29 ? -8.158 3.52 -22.989 1 0.99 ? 29 A 1 .
+59 H HA . ALA A 1 29 ? -7.172 3.52 -22.989 0 0.99 ? 29 A 1 c
+60 C CA . SER A 1 30 ? -5.132 1.46 -24.089 1 1.93 ? 30 A 1 .
+61 H HA . SER A 1 30 ? -4.137 1.46 -24.089 0 1.93 ? 30 A 1 c
+62 C CA . THR A 1 31 ? -3.838 2.236 -27.578 1 1.85 ? 31 A 1 .
+63 H HA . THR A 1 31 ? -2.853 2.236 -27.578 0 1.85 ? 31 A 1 c
+64 C CA . THR A 1 32 ? -0.631 1.013 -29.272 1 3.08 ? 32 A 1 .
+65 H HA . THR A 1 32 ? 0.354 1.013 -29.272 0 3.08 ? 32 A 1 c
+66 C CA . GLN A 1 33 ? -3.076 -1.081 -31.394 1 3.67 ? 33 A 1 .
+67 H HA . GLN A 1 33 ? -2.091 -1.081 -31.394 0 3.67 ? 33 A 1 c
+68 C CA . ASP A 1 34 ? -6.441 -0.826 -29.568 1 2.69 ? 34 A 1 .
+69 H HA . ASP A 1 34 ? -5.455 -0.826 -29.568 0 2.69 ? 34 A 1 c
+70 C CA . GLN A 1 35 ? -7.434 -3.809 -27.398 1 1.85 ? 35 A 1 .
+71 H HA . GLN A 1 35 ? -6.449 -3.809 -27.398 0 1.85 ? 35 A 1 c
+72 C CA . CYS A 1 36 ? -6.53 -3.057 -23.753 1 1.36 ? 36 A 1 .
+73 H HA . CYS A 1 36 ? -5.545 -3.057 -23.753 0 1.36 ? 36 A 1 c
+74 C CA . LYS A 1 37 ? -8.667 -1.002 -21.326 1 0.95 ? 37 A 1 .
+75 H HA . LYS A 1 37 ? -7.682 -1.002 -21.326 0 0.95 ? 37 A 1 c
+76 C CA . LEU A 1 38 ? -7.741 0.237 -17.828 1 0.64 ? 38 A 1 .
+77 H HA . LEU A 1 38 ? -6.756 0.237 -17.828 0 0.64 ? 38 A 1 c
+78 C CA . THR A 1 39 ? -9.182 2.647 -15.292 1 0.88 ? 39 A 1 .
+79 H HA . THR A 1 39 ? -8.197 2.647 -15.292 0 0.88 ? 39 A 1 c
+80 C CA . LEU A 1 40 ? -8.827 3.639 -11.614 1 1.36 ? 40 A 1 .
+81 H HA . LEU A 1 40 ? -7.842 3.639 -11.614 0 1.36 ? 40 A 1 c
+82 C CA . ASP A 1 41 ? -11.803 4.597 -9.41 1 1.78 ? 41 A 1 .
+83 H HA . ASP A 1 41 ? -10.817 4.597 -9.41 0 1.78 ? 41 A 1 c
+84 C CA . ILE A 1 42 ? -10.241 6.331 -6.386 1 2.03 ? 42 A 1 .
+85 H HA . ILE A 1 42 ? -9.267 6.331 -6.386 0 2.03 ? 42 A 1 c
+86 C CA . ASN A 1 43 ? -9.963 9.707 -4.619 1 2.22 ? 43 A 1 .
+87 H HA . ASN A 1 43 ? -8.977 9.707 -4.619 0 2.22 ? 43 A 1 c
+88 C CA . VAL A 1 44 ? -6.423 9.903 -3.2 1 3.05 ? 44 A 1 .
+89 H HA . VAL A 1 44 ? -5.449 9.903 -3.2 0 3.05 ? 44 A 1 c
+90 C CA . GLU A 1 45 ? -4.992 12.127 -5.949 1 3.51 ? 45 A 1 .
+91 H HA . GLU A 1 45 ? -4.007 12.127 -5.949 0 3.51 ? 45 A 1 c
+92 C CA . LEU A 1 46 ? -7.111 13.659 -8.674 1 3.51 ? 46 A 1 .
+93 H HA . LEU A 1 46 ? -6.126 13.659 -8.674 0 3.51 ? 46 A 1 c
+94 C CA . PHE A 1 47 ? -3.828 14.158 -10.564 1 2.51 ? 47 A 1 .
+95 H HA . PHE A 1 47 ? -2.837 14.158 -10.564 0 2.51 ? 47 A 1 c
+96 C CA . PRO A 1 48 ? -5.135 17.025 -12.72 1 3.15 ? 48 A 1 .
+97 H HA . PRO A 1 48 ? -4.145 17.025 -12.72 0 3.15 ? 48 A 1 c
+98 C CA . VAL A 1 49 ? -1.565 17.836 -13.827 1 2.36 ? 49 A 1 .
+99 H HA . VAL A 1 49 ? -0.591 17.836 -13.827 0 2.36 ? 49 A 1 c
+100 C CA . ALA A 1 50 ? -1.925 15.856 -17.079 1 2.44 ? 50 A 1 .
+101 H HA . ALA A 1 50 ? -0.939 15.856 -17.079 0 2.44 ? 50 A 1 c
+102 C CA . ALA A 1 51 ? -0.242 12.472 -16.426 1 2.72 ? 51 A 1 .
+103 H HA . ALA A 1 51 ? 0.744 12.472 -16.426 0 2.72 ? 51 A 1 c
+104 C CA . GLN A 1 52 ? -3.664 11.112 -17.428 1 2.11 ? 52 A 1 .
+105 H HA . GLN A 1 52 ? -2.679 11.112 -17.428 0 2.11 ? 52 A 1 c
+106 C CA . ASP A 1 53 ? -2.812 12.053 -21.022 1 1.44 ? 53 A 1 .
+107 H HA . ASP A 1 53 ? -1.826 12.053 -21.022 0 1.44 ? 53 A 1 c
+108 C CA . SER A 1 54 ? 0.04 9.519 -20.933 1 1.34 ? 54 A 1 .
+109 H HA . SER A 1 54 ? 1.035 9.519 -20.933 0 1.34 ? 54 A 1 c
+110 C CA . LEU A 1 55 ? -0.188 7.238 -17.898 1 1.28 ? 55 A 1 .
+111 H HA . LEU A 1 55 ? 0.797 7.238 -17.898 0 1.28 ? 55 A 1 c
+112 C CA . THR A 1 56 ? 1.467 3.798 -17.69 1 1.43 ? 56 A 1 .
+113 H HA . THR A 1 56 ? 2.452 3.798 -17.69 0 1.43 ? 56 A 1 c
+114 C CA . VAL A 1 57 ? 0.775 0.699 -15.566 1 1.35 ? 57 A 1 .
+115 H HA . VAL A 1 57 ? 1.749 0.699 -15.566 0 1.35 ? 57 A 1 c
+116 C CA . THR A 1 58 ? 2.94 -2.377 -14.889 1 1.66 ? 58 A 1 .
+117 H HA . THR A 1 58 ? 3.925 -2.377 -14.889 0 1.66 ? 58 A 1 c
+118 C CA . ILE A 1 59 ? 1.937 -5.509 -12.944 1 1.66 ? 59 A 1 .
+119 H HA . ILE A 1 59 ? 2.911 -5.509 -12.944 0 1.66 ? 59 A 1 c
+120 C CA . ALA A 1 60 ? 5.206 -7.468 -12.716 1 2.22 ? 60 A 1 .
+121 H HA . ALA A 1 60 ? 6.192 -7.468 -12.716 0 2.22 ? 60 A 1 c
+122 C CA . SER A 1 61 ? 6.748 -9.41 -9.809 1 2.69 ? 61 A 1 .
+123 H HA . SER A 1 61 ? 7.743 -9.41 -9.809 0 2.69 ? 61 A 1 c
+124 C CA . SER A 1 62 ? 10.415 -8.353 -9.791 1 3.61 ? 62 A 1 .
+125 H HA . SER A 1 62 ? 11.41 -8.353 -9.791 0 3.61 ? 62 A 1 c
+126 C CA . LEU A 1 63 ? 9.629 -4.729 -10.724 1 2.92 ? 63 A 1 .
+127 H HA . LEU A 1 63 ? 10.614 -4.729 -10.724 0 2.92 ? 63 A 1 c
+128 C CA . ASN A 1 64 ? 9.94 -4.173 -6.959 1 4.22 ? 64 A 1 .
+129 H HA . ASN A 1 64 ? 10.926 -4.173 -6.959 0 4.22 ? 64 A 1 c
+130 C CA . LEU A 1 65 ? 13.661 -4.968 -7.234 1 4.98 ? 65 A 1 .
+131 H HA . LEU A 1 65 ? 14.646 -4.968 -7.234 0 4.98 ? 65 A 1 c
+132 C CA . GLU A 1 66 ? 13.929 -4.716 -11.01 1 4.97 ? 66 A 1 .
+133 H HA . GLU A 1 66 ? 14.914 -4.716 -11.01 0 4.97 ? 66 A 1 c
+134 C CA . ASP A 1 67 ? 14.906 -8.376 -10.724 1 6.16 ? 67 A 1 .
+135 H HA . ASP A 1 67 ? 15.892 -8.376 -10.724 0 6.16 ? 67 A 1 c
+136 C CA . THR A 1 68 ? 18.348 -6.978 -9.924 1 7.05 ? 68 A 1 .
+137 H HA . THR A 1 68 ? 19.333 -6.978 -9.924 0 7.05 ? 68 A 1 c
+138 C CA . PRO A 1 69 ? 20.395 -10.09 -10.754 1 8.17 ? 69 A 1 .
+139 H HA . PRO A 1 69 ? 21.385 -10.09 -10.754 0 8.17 ? 69 A 1 c
+140 C CA . ALA A 1 70 ? 23.19 -9.035 -8.369 1 8.96 ? 70 A 1 .
+141 H HA . ALA A 1 70 ? 24.176 -9.035 -8.369 0 8.96 ? 70 A 1 c
+142 C CA . ASN A 1 71 ? 22.97 -7.43 -4.913 1 8.89 ? 71 A 1 .
+143 H HA . ASN A 1 71 ? 23.956 -7.43 -4.913 0 8.89 ? 71 A 1 c
+144 C CA . ASP A 1 72 ? 26.429 -6.871 -3.461 1 8.4 ? 72 A 1 .
+145 H HA . ASP A 1 72 ? 27.415 -6.871 -3.461 0 8.4 ? 72 A 1 c
+146 C CA . SER A 1 73 ? 25.761 -3.328 -2.291 1 8.46 ? 73 A 1 .
+147 H HA . SER A 1 73 ? 26.756 -3.328 -2.291 0 8.46 ? 73 A 1 c
+148 C CA . SER A 1 74 ? 23.654 -4.095 0.793 1 8.75 ? 74 A 1 .
+149 H HA . SER A 1 74 ? 24.649 -4.095 0.793 0 8.75 ? 74 A 1 c
+150 C CA . ALA A 1 75 ? 21.131 -1.39 1.761 1 9.66 ? 75 A 1 .
+151 H HA . ALA A 1 75 ? 22.117 -1.39 1.761 0 9.66 ? 75 A 1 c
+152 C CA . THR A 1 76 ? 22.9 0.712 4.413 1 9.25 ? 76 A 1 .
+153 H HA . THR A 1 76 ? 23.885 0.712 4.413 0 9.25 ? 76 A 1 c
+154 C CA . ARG A 1 77 ? 22.476 3.814 2.248 1 9.5 ? 77 A 1 .
+155 H HA . ARG A 1 77 ? 23.461 3.814 2.248 0 9.5 ? 77 A 1 c
+156 C CA . SER A 1 78 ? 25.329 5.591 0.438 1 9.48 ? 78 A 1 .
+157 H HA . SER A 1 78 ? 26.324 5.591 0.438 0 9.48 ? 78 A 1 c
+158 C CA . TRP A 1 79 ? 27.271 3.788 -2.307 1 9.99 ? 79 A 1 .
+159 H HA . TRP A 1 79 ? 28.257 3.788 -2.307 0 9.99 ? 79 A 1 c
+160 C CA . ARG A 1 80 ? 25.857 5.235 -5.53 1 9.66 ? 80 A 1 .
+161 H HA . ARG A 1 80 ? 26.842 5.235 -5.53 0 9.66 ? 80 A 1 c
+162 C CA . PRO A 1 81 ? 22.786 7.506 -5.334 1 8.63 ? 81 A 1 .
+163 H HA . PRO A 1 81 ? 23.776 7.506 -5.334 0 8.63 ? 81 A 1 c
+164 C CA . PRO A 1 82 ? 19.735 5.377 -6.228 1 8.99 ? 82 A 1 .
+165 H HA . PRO A 1 82 ? 20.725 5.377 -6.228 0 8.99 ? 82 A 1 c
+166 C CA . GLN A 1 83 ? 17.648 8.49 -6.877 1 8.55 ? 83 A 1 .
+167 H HA . GLN A 1 83 ? 18.633 8.49 -6.877 0 8.55 ? 83 A 1 c
+168 C CA . ALA A 1 84 ? 16.11 6.732 -9.84 1 8.57 ? 84 A 1 .
+169 H HA . ALA A 1 84 ? 17.096 6.732 -9.84 0 8.57 ? 84 A 1 c
+170 C CA . GLY A 1 85 ? 15.06 3.772 -7.688 1 7.03 ? 85 A 1 .
+171 H HA3 . GLY A 1 85 ? 16.05 3.772 -7.688 0 7.03 ? 85 A 1 c
+172 H HA2 . GLY A 1 85 ? 14.7503125 4.7123157 -7.688 0 7.03 ? 85 A 1 c
+173 C CA . ASP A 1 86 ? 18.527 2.322 -8.366 1 6.1 ? 86 A 1 .
+174 H HA . ASP A 1 86 ? 19.513 2.322 -8.366 0 6.1 ? 86 A 1 c
+175 C CA . ARG A 1 87 ? 18.43 3.473 -11.99 1 4.25 ? 87 A 1 .
+176 H HA . ARG A 1 87 ? 19.415 3.473 -11.99 0 4.25 ? 87 A 1 c
+177 C CA . SER A 1 88 ? 15.446 1.169 -12.447 1 2.87 ? 88 A 1 .
+178 H HA . SER A 1 88 ? 16.441 1.169 -12.447 0 2.87 ? 88 A 1 c
+179 C CA . LEU A 1 89 ? 13.137 1.621 -15.459 1 3.27 ? 89 A 1 .
+180 H HA . LEU A 1 89 ? 14.122 1.621 -15.459 0 3.27 ? 89 A 1 c
+181 C CA . ALA A 1 90 ? 9.947 2.861 -13.764 1 2.71 ? 90 A 1 .
+182 H HA . ALA A 1 90 ? 10.933 2.861 -13.764 0 2.71 ? 90 A 1 c
+183 C CA . ASP A 1 91 ? 11.898 5.626 -11.992 1 2.53 ? 91 A 1 .
+184 H HA . ASP A 1 91 ? 12.884 5.626 -11.992 0 2.53 ? 91 A 1 c
+185 C CA . ASP A 1 92 ? 12.922 6.986 -15.414 1 2.73 ? 92 A 1 .
+186 H HA . ASP A 1 92 ? 13.908 6.986 -15.414 0 2.73 ? 92 A 1 c
+187 C CA . TYR A 1 93 ? 9.243 7.533 -16.295 1 2.34 ? 93 A 1 .
+188 H HA . TYR A 1 93 ? 10.234 7.533 -16.295 0 2.34 ? 93 A 1 c
+189 C CA . ASP A 1 94 ? 8.431 10.318 -13.811 1 2.36 ? 94 A 1 .
+190 H HA . ASP A 1 94 ? 9.417 10.318 -13.811 0 2.36 ? 94 A 1 c
+191 C CA . TYR A 1 95 ? 5.675 9.52 -11.295 1 2.23 ? 95 A 1 .
+192 H HA . TYR A 1 95 ? 6.666 9.52 -11.295 0 2.23 ? 95 A 1 c
+193 C CA . VAL A 1 96 ? 5.828 5.873 -10.168 1 2.34 ? 96 A 1 .
+194 H HA . VAL A 1 96 ? 6.802 5.873 -10.168 0 2.34 ? 96 A 1 c
+195 C CA . MET A 1 97 ? 3.487 4.572 -7.442 1 2.38 ? 97 A 1 .
+196 H HA . MET A 1 97 ? 4.472 4.572 -7.442 0 2.38 ? 97 A 1 c
+197 C CA . TYR A 1 98 ? 2.941 1.128 -5.873 1 2.42 ? 98 A 1 .
+198 H HA . TYR A 1 98 ? 3.932 1.128 -5.873 0 2.42 ? 98 A 1 c
+199 C CA . GLY A 1 99 ? -0.244 -0.985 -5.913 1 2 ? 99 A 1 .
+200 H HA3 . GLY A 1 99 ? 0.746 -0.985 -5.913 0 2 ? 99 A 1 c
+201 H HA2 . GLY A 1 99 ? -0.553687546 -0.0446842955 -5.913 0 2 ? 99 A 1 c
+202 C CA . THR A 1 100 ? -1.439 -4.593 -5.484 1 2 ? 100 A 1 .
+203 H HA . THR A 1 100 ? -0.454 -4.593 -5.484 0 2 ? 100 A 1 c
+204 C CA . ALA A 1 101 ? -3.936 -7.006 -7.084 1 1.72 ? 101 A 1 .
+205 H HA . ALA A 1 101 ? -2.95 -7.006 -7.084 0 1.72 ? 101 A 1 c
+206 C CA . TYR A 1 102 ? -7.049 -8.337 -5.311 1 1.99 ? 102 A 1 .
+207 H HA . TYR A 1 102 ? -6.058 -8.337 -5.311 0 1.99 ? 102 A 1 c
+208 C CA . LYS A 1 103 ? -9.829 -9.572 -7.613 1 1.82 ? 103 A 1 .
+209 H HA . LYS A 1 103 ? -8.844 -9.572 -7.613 0 1.82 ? 103 A 1 c
+210 C CA . PHE A 1 104 ? -9.442 -11.088 -11.096 1 1.54 ? 104 A 1 .
+211 H HA . PHE A 1 104 ? -8.451 -11.088 -11.096 0 1.54 ? 104 A 1 c
+212 C CA . GLU A 1 105 ? -12.354 -12.219 -13.296 1 1.84 ? 105 A 1 .
+213 H HA . GLU A 1 105 ? -11.369 -12.219 -13.296 0 1.84 ? 105 A 1 c
+214 C CA . GLU A 1 106 ? -12.975 -12.782 -17.025 1 2.05 ? 106 A 1 .
+215 H HA . GLU A 1 106 ? -11.99 -12.782 -17.025 0 2.05 ? 106 A 1 c
+216 C CA . VAL A 1 107 ? -16.016 -11.254 -18.753 1 2.88 ? 107 A 1 .
+217 H HA . VAL A 1 107 ? -15.042 -11.254 -18.753 0 2.88 ? 107 A 1 c
+218 C CA . SER A 1 108 ? -16.924 -10.873 -22.442 1 3.92 ? 108 A 1 .
+219 H HA . SER A 1 108 ? -15.929 -10.873 -22.442 0 3.92 ? 108 A 1 c
+220 C CA . LYS A 1 109 ? -14.911 -12.974 -24.916 1 4.05 ? 109 A 1 .
+221 H HA . LYS A 1 109 ? -13.926 -12.974 -24.916 0 4.05 ? 109 A 1 c
+222 C CA . ASP A 1 110 ? -11.105 -13.029 -25.345 1 3.05 ? 110 A 1 .
+223 H HA . ASP A 1 110 ? -10.119 -13.029 -25.345 0 3.05 ? 110 A 1 c
+224 C CA . LEU A 1 111 ? -11.302 -9.664 -23.557 1 2 ? 111 A 1 .
+225 H HA . LEU A 1 111 ? -10.317 -9.664 -23.557 0 2 ? 111 A 1 c
+226 C CA . ILE A 1 112 ? -11.175 -10.26 -19.772 1 1.59 ? 112 A 1 .
+227 H HA . ILE A 1 112 ? -10.201 -10.26 -19.772 0 1.59 ? 112 A 1 c
+228 C CA . ALA A 1 113 ? -11.063 -7.64 -16.981 1 1.28 ? 113 A 1 .
+229 H HA . ALA A 1 113 ? -10.077 -7.64 -16.981 0 1.28 ? 113 A 1 c
+230 C CA . VAL A 1 114 ? -9.259 -7.595 -13.609 1 1.19 ? 114 A 1 .
+231 H HA . VAL A 1 114 ? -8.285 -7.595 -13.609 0 1.19 ? 114 A 1 c
+232 C CA . TYR A 1 115 ? -9.455 -5.231 -10.604 1 1.42 ? 115 A 1 .
+233 H HA . TYR A 1 115 ? -8.464 -5.231 -10.604 0 1.42 ? 115 A 1 c
+234 C CA . TYR A 1 116 ? -8.066 -4.805 -7.066 1 1.65 ? 116 A 1 .
+235 H HA . TYR A 1 116 ? -7.075 -4.805 -7.066 0 1.65 ? 116 A 1 c
+236 C CA . SER A 1 117 ? -9.577 -3.144 -3.975 1 2.12 ? 117 A 1 .
+237 H HA . SER A 1 117 ? -8.582 -3.144 -3.975 0 2.12 ? 117 A 1 c
+238 C CA . PHE A 1 118 ? -7.963 -1.788 -0.788 1 2.59 ? 118 A 1 .
+239 H HA . PHE A 1 118 ? -6.972 -1.788 -0.788 0 2.59 ? 118 A 1 c
+240 C CA . GLY A 1 119 ? -10.919 -0.244 1.079 1 2.75 ? 119 A 1 .
+241 H HA3 . GLY A 1 119 ? -9.929 -0.244 1.079 0 2.75 ? 119 A 1 c
+242 H HA2 . GLY A 1 119 ? -11.2286875 0.696315705 1.079 0 2.75 ? 119 A 1 c
+243 C CA . GLY A 1 120 ? -11.899 2.729 -1.113 1 2.58 ? 120 A 1 .
+244 H HA3 . GLY A 1 120 ? -10.909 2.729 -1.113 0 2.58 ? 120 A 1 c
+245 H HA2 . GLY A 1 120 ? -12.2086875 3.6693157 -1.113 0 2.58 ? 120 A 1 c
+246 C CA . LEU A 1 121 ? -9.56 3.039 -4.118 1 2.11 ? 121 A 1 .
+247 H HA . LEU A 1 121 ? -8.575 3.039 -4.118 0 2.11 ? 121 A 1 c
+248 C CA . LEU A 1 122 ? -10.424 0.44 -6.784 1 2.31 ? 122 A 1 .
+249 H HA . LEU A 1 122 ? -9.439 0.44 -6.784 0 2.31 ? 122 A 1 c
+250 C CA . MET A 1 123 ? -8.409 -0.281 -9.952 1 1.52 ? 123 A 1 .
+251 H HA . MET A 1 123 ? -7.424 -0.281 -9.952 0 1.52 ? 123 A 1 c
+252 C CA . ARG A 1 124 ? -9.55 -2.299 -12.994 1 1.25 ? 124 A 1 .
+253 H HA . ARG A 1 124 ? -8.565 -2.299 -12.994 0 1.25 ? 124 A 1 c
+254 C CA . LEU A 1 125 ? -8.158 -3.356 -16.396 1 0.88 ? 125 A 1 .
+255 H HA . LEU A 1 125 ? -7.173 -3.356 -16.396 0 0.88 ? 125 A 1 c
+256 C CA . GLU A 1 126 ? -9.214 -5.484 -19.398 1 1.11 ? 126 A 1 .
+257 H HA . GLU A 1 126 ? -8.229 -5.484 -19.398 0 1.11 ? 126 A 1 c
+258 C CA . GLY A 1 127 ? -6.829 -7.267 -21.786 1 1.36 ? 127 A 1 .
+259 H HA3 . GLY A 1 127 ? -5.839 -7.267 -21.786 0 1.36 ? 127 A 1 c
+260 H HA2 . GLY A 1 127 ? -7.13868755 -6.3266843 -21.786 0 1.36 ? 127 A 1 c
+261 C CA . ASN A 1 128 ? -5.491 -10.823 -22.306 1 1.65 ? 128 A 1 .
+262 H HA . ASN A 1 128 ? -4.505 -10.823 -22.306 0 1.65 ? 128 A 1 c
+263 C CA . TYR A 1 129 ? -5.69 -13.622 -19.708 1 2.59 ? 129 A 1 .
+264 H HA . TYR A 1 129 ? -4.699 -13.622 -19.708 0 2.59 ? 129 A 1 c
+265 C CA . ARG A 1 130 ? -2.57 -15.822 -19.643 1 2.39 ? 130 A 1 .
+266 H HA . ARG A 1 130 ? -1.585 -15.822 -19.643 0 2.39 ? 130 A 1 c
+267 C CA . ASN A 1 131 ? -0.756 -12.636 -18.587 1 3.42 ? 131 A 1 .
+268 H HA . ASN A 1 131 ? 0.23 -12.636 -18.587 0 3.42 ? 131 A 1 c
+269 C CA . LEU A 1 132 ? -2.759 -12.851 -15.335 1 3.44 ? 132 A 1 .
+270 H HA . LEU A 1 132 ? -1.774 -12.851 -15.335 0 3.44 ? 132 A 1 c
+271 C CA . ASN A 1 133 ? -1.644 -16.45 -14.651 1 2.16 ? 133 A 1 .
+272 H HA . ASN A 1 133 ? -0.658 -16.45 -14.651 0 2.16 ? 133 A 1 c
+273 C CA . ASN A 1 134 ? 1.181 -14.807 -12.68 1 2 ? 134 A 1 .
+274 H HA . ASN A 1 134 ? 2.167 -14.807 -12.68 0 2 ? 134 A 1 c
+275 C CA . LEU A 1 135 ? -1.14 -12.157 -11.197 1 2 ? 135 A 1 .
+276 H HA . LEU A 1 135 ? -0.155 -12.157 -11.197 0 2 ? 135 A 1 c
+277 C CA . LYS A 1 136 ? -2.36 -14.914 -8.837 1 2.33 ? 136 A 1 .
+278 H HA . LYS A 1 136 ? -1.375 -14.914 -8.837 0 2.33 ? 136 A 1 c
+279 C CA . GLN A 1 137 ? 0.133 -13.265 -6.458 1 2.37 ? 137 A 1 .
+280 H HA . GLN A 1 137 ? 1.118 -13.265 -6.458 0 2.37 ? 137 A 1 c
+281 C CA . GLU A 1 138 ? 2.121 -10.083 -7.171 1 2.39 ? 138 A 1 .
+282 H HA . GLU A 1 138 ? 3.106 -10.083 -7.171 0 2.39 ? 138 A 1 c
+283 C CA . ASN A 1 139 ? 2.06 -6.27 -6.954 1 2.15 ? 139 A 1 .
+284 H HA . ASN A 1 139 ? 3.046 -6.27 -6.954 0 2.15 ? 139 A 1 c
+285 C CA . ALA A 1 140 ? 1.206 -3.66 -9.611 1 1.84 ? 140 A 1 .
+286 H HA . ALA A 1 140 ? 2.192 -3.66 -9.611 0 1.84 ? 140 A 1 c
+287 C CA . TYR A 1 141 ? 2.925 -0.249 -9.726 1 2.03 ? 141 A 1 .
+288 H HA . TYR A 1 141 ? 3.916 -0.249 -9.726 0 2.03 ? 141 A 1 c
+289 C CA . LEU A 1 142 ? 1.658 2.82 -11.619 1 1.86 ? 142 A 1 .
+290 H HA . LEU A 1 142 ? 2.643 2.82 -11.619 0 1.86 ? 142 A 1 c
+291 C CA . LEU A 1 143 ? 3.972 4.989 -13.75 1 1.9 ? 143 A 1 .
+292 H HA . LEU A 1 143 ? 4.957 4.989 -13.75 0 1.9 ? 143 A 1 c
+293 C CA . ILE A 1 144 ? 2.499 8.237 -15.11 1 1.73 ? 144 A 1 .
+294 H HA . ILE A 1 144 ? 3.473 8.237 -15.11 0 1.73 ? 144 A 1 c
+295 C CA . ARG A 1 145 ? 4.323 10.663 -17.428 1 2.02 ? 145 A 1 .
+296 H HA . ARG A 1 145 ? 5.308 10.663 -17.428 0 2.02 ? 145 A 1 c
+297 C CA . ARG A 1 146 ? 3.311 13.663 -19.567 1 2.03 ? 146 A 1 .
+298 H HA . ARG A 1 146 ? 4.296 13.663 -19.567 0 2.03 ? 146 A 1 c
+
+loop_
+_software.pdbx_ordinal
+_software.classification
+_software.name
+_software.version
+_software.date
+1 'model building' X-PLOR . ?
+2 refinement X-PLOR . ?
+3 phasing X-PLOR . ?

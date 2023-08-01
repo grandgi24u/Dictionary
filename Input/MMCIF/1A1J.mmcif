@@ -1,0 +1,2773 @@
+data_1A1J
+_entry.id 1A1J
+
+_pdbx_database_status.entry_id 1A1J
+_pdbx_database_status.recvd_initial_deposition_date 1997-12-10
+
+loop_
+_audit_author.pdbx_ordinal
+_audit_author.name
+1 'Elrod-Erickson, M.'
+2 'Benson, T.E.'
+3 'Pabo, C.O.'
+
+_cell.entry_id 1A1J
+_cell.length_a 42.3
+_cell.length_b 55.9
+_cell.length_c 133.6
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+_cell.Z_PDB 8
+
+_symmetry.entry_id 1A1J
+_symmetry.space_group_name_H-M 'C 2 2 21'
+_symmetry.Int_Tables_number 20
+
+loop_
+_entity.id
+_entity.type
+1 polymer
+2 polymer
+3 polymer
+4 non-polymer
+5 water
+
+loop_
+_struct_ref.id
+_struct_ref.entity_id
+_struct_ref.db_name
+_struct_ref.db_code
+_struct_ref.pdbx_db_accession
+_struct_ref.pdbx_db_isoform
+1 1 PDB 1A1J 1A1J ?
+2 2 PDB 1A1J 1A1J ?
+3 3 UNP 'EGR1_MOUSE' P08046 ?
+
+loop_
+_struct_ref_seq.align_id
+_struct_ref_seq.ref_id
+_struct_ref_seq.pdbx_strand_id
+_struct_ref_seq.seq_align_beg
+_struct_ref_seq.seq_align_end
+_struct_ref_seq.db_align_beg
+_struct_ref_seq.db_align_end
+_struct_ref_seq.pdbx_auth_seq_align_beg
+_struct_ref_seq.pdbx_seq_align_beg_ins_code
+_struct_ref_seq.pdbx_auth_seq_align_end
+_struct_ref_seq.pdbx_seq_align_end_ins_code
+1 1 B 1 11 1 11 1 ? 11 ?
+2 2 C 1 11 51 61 51 ? 61 ?
+3 3 A 2 90 308 396 102 ? 190 ?
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+ARG .
+ASN .
+ASP .
+CYS .
+DA .
+DC .
+DG .
+DT .
+GLN .
+GLU .
+GLY .
+HIS .
+HOH .
+ILE .
+LEU .
+LYS .
+MET .
+PHE .
+PRO .
+SER .
+THR .
+TYR .
+VAL .
+ZN .
+
+loop_
+_exptl.entry_id
+_exptl.method
+_exptl.crystals_number
+1A1J 'X-RAY DIFFRACTION' 1
+
+loop_
+_exptl_crystal.id
+_exptl_crystal.description
+1 ?
+
+loop_
+_diffrn.id
+_diffrn.crystal_id
+_diffrn.ambient_temp
+1 1 130
+
+loop_
+_diffrn_detector.diffrn_id
+_diffrn_detector.pdbx_collection_date
+_diffrn_detector.detector
+_diffrn_detector.type
+_diffrn_detector.details
+1 1995-12-15 'IMAGE PLATE' 'RIGAKU RAXIS IIC' 'YALE MIRRORS'
+
+loop_
+_diffrn_radiation.diffrn_id
+_diffrn_radiation.pdbx_scattering_type
+_diffrn_radiation.pdbx_monochromatic_or_laue_m_l
+_diffrn_radiation.monochromator
+1 x-ray M 'YALE MIRRORS'
+
+loop_
+_diffrn_source.diffrn_id
+_diffrn_source.source
+_diffrn_source.type
+_diffrn_source.pdbx_synchrotron_site
+_diffrn_source.pdbx_synchrotron_beamline
+_diffrn_source.pdbx_wavelength_list
+1 'ROTATING ANODE' 'RIGAKU RU200' ? ? ?
+
+loop_
+_reflns.entry_id
+_reflns.pdbx_ordinal
+_reflns.pdbx_diffrn_id
+_reflns.number_obs
+_reflns.d_resolution_high
+_reflns.d_resolution_low
+_reflns.percent_possible_obs
+_reflns.pdbx_redundancy
+_reflns.pdbx_Rmerge_I_obs
+_reflns.pdbx_Rsym_value
+_reflns.pdbx_netI_over_sigmaI
+1A1J 1 1 9959 2 20 89.6 3 ? 0.034 39.5
+
+
+loop_
+_refine.entry_id
+_refine.pdbx_refine_id
+_refine.ls_d_res_high
+_refine.ls_d_res_low
+_refine.ls_percent_reflns_obs
+_refine.ls_number_reflns_obs
+1A1J 'X-RAY DIFFRACTION' 2 20 89.6 9959
+
+
+
+
+_struct.entry_id 1A1J
+_struct.title 'RADR (ZIF268 VARIANT) ZINC FINGER-DNA COMPLEX (GCGT SITE)'
+
+_struct_keywords.entry_id 1A1J
+_struct_keywords.pdbx_keywords TRANSCRIPTION/DNA
+_struct_keywords.text 'ZINC FINGER-DNA COMPLEX, ZINC FINGER, DNA-BINDING PROTEIN, TRANSCRIPTION-DNA COMPLEX'
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A 1
+B 2
+C 3
+D 4
+E 4
+F 4
+G 5
+H 5
+I 5
+
+loop_
+_struct_conf.conf_type_id
+_struct_conf.id
+_struct_conf.beg_auth_asym_id
+_struct_conf.beg_label_asym_id
+_struct_conf.beg_label_comp_id
+_struct_conf.beg_label_seq_id
+_struct_conf.beg_auth_seq_id
+_struct_conf.pdbx_beg_PDB_ins_code
+_struct_conf.end_auth_asym_id
+_struct_conf.end_label_asym_id
+_struct_conf.end_label_comp_id
+_struct_conf.end_label_seq_id
+_struct_conf.end_auth_seq_id
+_struct_conf.pdbx_end_PDB_ins_code
+_struct_conf.pdbx_PDB_helix_class
+_struct_conf.pdbx_PDB_helix_length
+HELX_P H1 A C SER 19 119 ? A C THR 30 130 ? 1 12
+HELX_P H2 A C SER 47 147 ? A C THR 58 158 ? 1 12
+HELX_P H3 A C SER 75 175 ? A C HIS 85 185 ? 1 11
+
+_struct_conf_type.id HELX_P
+
+loop_
+_struct_sheet.id
+_struct_sheet.number_strands
+A 2
+B 2
+C 2
+
+loop_
+_struct_sheet_order.sheet_id
+_struct_sheet_order.range_id_1
+_struct_sheet_order.range_id_2
+_struct_sheet_order.sense
+A 1 2 anti-parallel
+B 1 2 anti-parallel
+C 1 2 anti-parallel
+
+loop_
+_struct_sheet_range.sheet_id
+_struct_sheet_range.id
+_struct_sheet_range.beg_auth_asym_id
+_struct_sheet_range.beg_label_asym_id
+_struct_sheet_range.beg_label_comp_id
+_struct_sheet_range.beg_label_seq_id
+_struct_sheet_range.beg_auth_seq_id
+_struct_sheet_range.pdbx_beg_PDB_ins_code
+_struct_sheet_range.end_auth_asym_id
+_struct_sheet_range.end_label_asym_id
+_struct_sheet_range.end_label_comp_id
+_struct_sheet_range.end_label_seq_id
+_struct_sheet_range.end_auth_seq_id
+_struct_sheet_range.pdbx_end_PDB_ins_code
+A 1 A C TYR 5 105 ? A C ALA 6 106 ?
+A 2 A C ARG 15 115 ? A C PHE 16 116 ?
+B 1 A C PHE 35 135 ? A C GLN 36 136 ?
+B 2 A C ASN 43 143 ? A C PHE 44 144 ?
+C 1 A C PHE 63 163 ? A C ALA 64 164 ?
+C 2 A C LYS 71 171 ? A C PHE 72 172 ?
+
+loop_
+_pdbx_struct_sheet_hbond.sheet_id
+_pdbx_struct_sheet_hbond.range_id_1
+_pdbx_struct_sheet_hbond.range_id_2
+_pdbx_struct_sheet_hbond.range_1_auth_asym_id
+_pdbx_struct_sheet_hbond.range_1_label_asym_id
+_pdbx_struct_sheet_hbond.range_1_label_comp_id
+_pdbx_struct_sheet_hbond.range_1_label_seq_id
+_pdbx_struct_sheet_hbond.range_1_auth_seq_id
+_pdbx_struct_sheet_hbond.range_1_PDB_ins_code
+_pdbx_struct_sheet_hbond.range_1_label_atom_id
+_pdbx_struct_sheet_hbond.range_2_auth_asym_id
+_pdbx_struct_sheet_hbond.range_2_label_asym_id
+_pdbx_struct_sheet_hbond.range_2_label_comp_id
+_pdbx_struct_sheet_hbond.range_2_label_seq_id
+_pdbx_struct_sheet_hbond.range_2_auth_seq_id
+_pdbx_struct_sheet_hbond.range_2_PDB_ins_code
+_pdbx_struct_sheet_hbond.range_2_label_atom_id
+A 1 2 A C TYR 5 105 ? O A C PHE 16 116 ? N
+B 1 2 A C PHE 35 135 ? O A C PHE 44 144 ? N
+C 1 2 A C PHE 63 163 ? N A C PHE 72 172 ? O
+
+loop_
+_pdbx_struct_assembly.id
+_pdbx_struct_assembly.details
+_pdbx_struct_assembly.method_details
+_pdbx_struct_assembly.oligomeric_details
+_pdbx_struct_assembly.oligomeric_count
+1 author_defined_assembly ? trimeric 3
+
+
+loop_
+_pdbx_struct_assembly_gen.assembly_id
+_pdbx_struct_assembly_gen.oper_expression
+_pdbx_struct_assembly_gen.asym_id_list
+1 1 A,B,C,D,E,F,G,H,I
+
+loop_
+_pdbx_struct_oper_list.id
+_pdbx_struct_oper_list.type
+_pdbx_struct_oper_list.matrix[1][1]
+_pdbx_struct_oper_list.matrix[1][2]
+_pdbx_struct_oper_list.matrix[1][3]
+_pdbx_struct_oper_list.vector[1]
+_pdbx_struct_oper_list.matrix[2][1]
+_pdbx_struct_oper_list.matrix[2][2]
+_pdbx_struct_oper_list.matrix[2][3]
+_pdbx_struct_oper_list.vector[2]
+_pdbx_struct_oper_list.matrix[3][1]
+_pdbx_struct_oper_list.matrix[3][2]
+_pdbx_struct_oper_list.matrix[3][3]
+_pdbx_struct_oper_list.vector[3]
+1 'identity operation' 1 0 0 0 0 1 0 0 0 0 1 0
+
+loop_
+_struct_conn.id
+_struct_conn.conn_type_id
+_struct_conn.ptnr1_auth_asym_id
+_struct_conn.ptnr1_label_asym_id
+_struct_conn.ptnr1_label_comp_id
+_struct_conn.ptnr1_label_seq_id
+_struct_conn.ptnr1_label_atom_id
+_struct_conn.pdbx_ptnr1_label_alt_id
+_struct_conn.ptnr1_auth_seq_id
+_struct_conn.pdbx_ptnr1_PDB_ins_code
+_struct_conn.ptnr1_symmetry
+_struct_conn.ptnr2_auth_asym_id
+_struct_conn.ptnr2_label_asym_id
+_struct_conn.ptnr2_label_comp_id
+_struct_conn.ptnr2_label_seq_id
+_struct_conn.ptnr2_label_atom_id
+_struct_conn.pdbx_ptnr2_label_alt_id
+_struct_conn.ptnr2_auth_seq_id
+_struct_conn.pdbx_ptnr2_PDB_ins_code
+_struct_conn.ptnr2_symmetry
+_struct_conn.details
+_struct_conn.pdbx_dist_value
+_struct_conn.ccp4_link_id
+metalc1 metalc A D ZN . ZN ? 201 ? 1_555 A C HIS 25 NE2 ? 125 ? 1_555 ? 2.1071 ZN-HISNE
+metalc2 metalc A D ZN . ZN ? 201 ? 1_555 A C HIS 29 NE2 ? 129 ? 1_555 ? 1.9538 ZN-HISNE
+metalc3 metalc A E ZN . ZN ? 202 ? 1_555 A C CYS 37 SG ? 137 ? 1_555 ? 2.1849 ZN-CYS
+metalc4 metalc A E ZN . ZN ? 202 ? 1_555 A C CYS 40 SG ? 140 ? 1_555 ? 2.2603 ZN-CYS
+metalc5 metalc A E ZN . ZN ? 202 ? 1_555 A C HIS 53 NE2 ? 153 ? 1_555 ? 2.2598 ZN-HISNE
+metalc6 metalc A E ZN . ZN ? 202 ? 1_555 A C HIS 57 NE2 ? 157 ? 1_555 ? 2.2236 ZN-HISNE
+metalc7 metalc A F ZN . ZN ? 203 ? 1_555 A C CYS 68 SG ? 168 ? 1_555 ? 2.3247 ZN-CYS
+metalc8 metalc A F ZN . ZN ? 203 ? 1_555 A C HIS 81 NE2 ? 181 ? 1_555 ? 2.1170 ZN-HISNE
+metalc9 metalc A F ZN . ZN ? 203 ? 1_555 A C HIS 85 NE2 ? 185 ? 1_555 ? 1.9056 ZN-HISNE
+metalc10 metalc A D ZN . ZN ? 201 ? 1_555 A C CYS 7 SG ? 107 ? 1_555 ? 2.4115 ZN-CYS
+metalc11 metalc A D ZN . ZN ? 201 ? 1_555 A C CYS 12 SG ? 112 ? 1_555 ? 2.4313 ZN-CYS
+metalc12 metalc A F ZN . ZN ? 203 ? 1_555 A C CYS 65 SG ? 165 ? 1_555 ? 2.4031 ZN-CYS
+hydrog1 hydrog B A DG 2 N1 ? 2 ? 1_555 C B DC 11 N3 ? 61 ? 1_555 ? 3.0865 ?
+hydrog2 hydrog B A DG 2 N2 ? 2 ? 1_555 C B DC 11 O2 ? 61 ? 1_555 ? 2.7674 ?
+hydrog3 hydrog B A DG 2 O6 ? 2 ? 1_555 C B DC 11 N4 ? 61 ? 1_555 ? 3.2882 ?
+hydrog4 hydrog B A DC 3 N3 ? 3 ? 1_555 C B DG 10 N1 ? 60 ? 1_555 ? 2.9557 ?
+hydrog5 hydrog B A DC 3 N4 ? 3 ? 1_555 C B DG 10 O6 ? 60 ? 1_555 ? 3.0885 ?
+hydrog6 hydrog B A DC 3 O2 ? 3 ? 1_555 C B DG 10 N2 ? 60 ? 1_555 ? 2.6905 ?
+hydrog7 hydrog B A DG 4 N1 ? 4 ? 1_555 C B DC 9 N3 ? 59 ? 1_555 ? 3.0086 ?
+hydrog8 hydrog B A DG 4 N2 ? 4 ? 1_555 C B DC 9 O2 ? 59 ? 1_555 ? 2.8722 ?
+hydrog9 hydrog B A DG 4 O6 ? 4 ? 1_555 C B DC 9 N4 ? 59 ? 1_555 ? 3.0359 ?
+hydrog10 hydrog B A DT 5 N3 ? 5 ? 1_555 C B DA 8 N1 ? 58 ? 1_555 ? 2.9363 ?
+hydrog11 hydrog B A DT 5 O4 ? 5 ? 1_555 C B DA 8 N6 ? 58 ? 1_555 ? 3.0817 ?
+hydrog12 hydrog B A DG 6 N1 ? 6 ? 1_555 C B DC 7 N3 ? 57 ? 1_555 ? 3.2406 ?
+hydrog13 hydrog B A DG 6 N2 ? 6 ? 1_555 C B DC 7 O2 ? 57 ? 1_555 ? 3.0522 ?
+hydrog14 hydrog B A DG 6 O6 ? 6 ? 1_555 C B DC 7 N4 ? 57 ? 1_555 ? 3.3105 ?
+hydrog15 hydrog B A DG 7 N1 ? 7 ? 1_555 C B DC 6 N3 ? 56 ? 1_555 ? 2.9885 ?
+hydrog16 hydrog B A DG 7 N2 ? 7 ? 1_555 C B DC 6 O2 ? 56 ? 1_555 ? 2.9702 ?
+hydrog17 hydrog B A DG 7 O6 ? 7 ? 1_555 C B DC 6 N4 ? 56 ? 1_555 ? 2.9350 ?
+hydrog18 hydrog B A DG 8 N1 ? 8 ? 1_555 C B DC 5 N3 ? 55 ? 1_555 ? 2.9370 ?
+hydrog19 hydrog B A DG 8 N2 ? 8 ? 1_555 C B DC 5 O2 ? 55 ? 1_555 ? 2.7677 ?
+hydrog20 hydrog B A DG 8 O6 ? 8 ? 1_555 C B DC 5 N4 ? 55 ? 1_555 ? 3.0038 ?
+hydrog21 hydrog B A DC 9 N3 ? 9 ? 1_555 C B DG 4 N1 ? 54 ? 1_555 ? 3.0657 ?
+hydrog22 hydrog B A DC 9 N4 ? 9 ? 1_555 C B DG 4 O6 ? 54 ? 1_555 ? 3.2115 ?
+hydrog23 hydrog B A DC 9 O2 ? 9 ? 1_555 C B DG 4 N2 ? 54 ? 1_555 ? 2.8072 ?
+hydrog24 hydrog B A DG 10 N1 ? 10 ? 1_555 C B DC 3 N3 ? 53 ? 1_555 ? 3.0903 ?
+hydrog25 hydrog B A DG 10 N2 ? 10 ? 1_555 C B DC 3 O2 ? 53 ? 1_555 ? 2.8169 ?
+hydrog26 hydrog B A DG 10 O6 ? 10 ? 1_555 C B DC 3 N4 ? 53 ? 1_555 ? 3.2853 ?
+hydrog27 hydrog B A DT 11 N3 ? 11 ? 1_555 C B DA 2 N1 ? 52 ? 1_555 ? 3.2349 ?
+hydrog28 hydrog B A DT 11 O4 ? 11 ? 1_555 C B DA 2 N6 ? 52 ? 1_555 ? 3.4310 ?
+
+loop_
+_struct_conn_type.id
+hydrog
+metalc
+
+
+_atom_sites.entry_id 1A1J
+_atom_sites.fract_transf_matrix[1][1] 0.0236406619
+_atom_sites.fract_transf_matrix[1][2] -0
+_atom_sites.fract_transf_matrix[1][3] -0
+_atom_sites.fract_transf_vector[1] 0
+_atom_sites.fract_transf_matrix[2][1] 0
+_atom_sites.fract_transf_matrix[2][2] 0.0178890877
+_atom_sites.fract_transf_matrix[2][3] 0
+_atom_sites.fract_transf_vector[2] 0
+_atom_sites.fract_transf_matrix[3][1] 0
+_atom_sites.fract_transf_matrix[3][2] 0
+_atom_sites.fract_transf_matrix[3][3] 0.00748502994
+_atom_sites.fract_transf_vector[3] 0
+
+loop_
+_atom_type.symbol
+H
+C
+N
+O
+P
+S
+ZN
+
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+1 1 DA
+1 2 DG
+1 3 DC
+1 4 DG
+1 5 DT
+1 6 DG
+1 7 DG
+1 8 DG
+1 9 DC
+1 10 DG
+1 11 DT
+2 1 DT
+2 2 DA
+2 3 DC
+2 4 DG
+2 5 DC
+2 6 DC
+2 7 DC
+2 8 DA
+2 9 DC
+2 10 DG
+2 11 DC
+3 1 MET
+3 2 GLU
+3 3 ARG
+3 4 PRO
+3 5 TYR
+3 6 ALA
+3 7 CYS
+3 8 PRO
+3 9 VAL
+3 10 GLU
+3 11 SER
+3 12 CYS
+3 13 ASP
+3 14 ARG
+3 15 ARG
+3 16 PHE
+3 17 SER
+3 18 ARG
+3 19 SER
+3 20 ALA
+3 21 ASP
+3 22 LEU
+3 23 THR
+3 24 ARG
+3 25 HIS
+3 26 ILE
+3 27 ARG
+3 28 ILE
+3 29 HIS
+3 30 THR
+3 31 GLY
+3 32 GLN
+3 33 LYS
+3 34 PRO
+3 35 PHE
+3 36 GLN
+3 37 CYS
+3 38 ARG
+3 39 ILE
+3 40 CYS
+3 41 MET
+3 42 ARG
+3 43 ASN
+3 44 PHE
+3 45 SER
+3 46 ARG
+3 47 SER
+3 48 ASP
+3 49 HIS
+3 50 LEU
+3 51 THR
+3 52 THR
+3 53 HIS
+3 54 ILE
+3 55 ARG
+3 56 THR
+3 57 HIS
+3 58 THR
+3 59 GLY
+3 60 GLU
+3 61 LYS
+3 62 PRO
+3 63 PHE
+3 64 ALA
+3 65 CYS
+3 66 ASP
+3 67 ILE
+3 68 CYS
+3 69 GLY
+3 70 ARG
+3 71 LYS
+3 72 PHE
+3 73 ALA
+3 74 ARG
+3 75 SER
+3 76 ASP
+3 77 GLU
+3 78 ARG
+3 79 LYS
+3 80 ARG
+3 81 HIS
+3 82 THR
+3 83 LYS
+3 84 ILE
+3 85 HIS
+3 86 LEU
+3 87 ARG
+3 88 GLN
+3 89 LYS
+3 90 ASP
+
+loop_
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+_atom_site.calc_flag
+1 O "O5'" . DA A 1 1 ? 13.001 24.201 41.192 1 30.05 ? 1 B 1 .
+2 C "C5'" . DA A 1 1 ? 14.359 24.472 40.852 1 29.64 ? 1 B 1 .
+3 C "C4'" . DA A 1 1 ? 15.342 23.583 41.579 1 30.19 ? 1 B 1 .
+4 O "O4'" . DA A 1 1 ? 15.264 23.819 43.005 1 29.76 ? 1 B 1 .
+5 C "C3'" . DA A 1 1 ? 15.129 22.08 41.393 1 30.7 ? 1 B 1 .
+6 O "O3'" . DA A 1 1 ? 16.399 21.427 41.319 1 31.64 ? 1 B 1 .
+7 C "C2'" . DA A 1 1 ? 14.402 21.67 42.661 1 29.31 ? 1 B 1 .
+8 C "C1'" . DA A 1 1 ? 15.032 22.595 43.685 1 27.9 ? 1 B 1 .
+9 N N9 . DA A 1 1 ? 14.193 22.878 44.845 1 26.52 ? 1 B 1 .
+10 C C8 . DA A 1 1 ? 14.431 22.531 46.15 1 25.24 ? 1 B 1 .
+11 N N7 . DA A 1 1 ? 13.506 22.936 46.983 1 24.83 ? 1 B 1 .
+12 C C5 . DA A 1 1 ? 12.592 23.593 46.172 1 25.5 ? 1 B 1 .
+13 C C6 . DA A 1 1 ? 11.383 24.253 46.452 1 25.52 ? 1 B 1 .
+14 N N6 . DA A 1 1 ? 10.873 24.372 47.68 1 25.72 ? 1 B 1 .
+15 N N1 . DA A 1 1 ? 10.707 24.795 45.414 1 25.13 ? 1 B 1 .
+16 C C2 . DA A 1 1 ? 11.228 24.686 44.186 1 24.27 ? 1 B 1 .
+17 N N3 . DA A 1 1 ? 12.358 24.097 43.798 1 25.77 ? 1 B 1 .
+18 C C4 . DA A 1 1 ? 12.999 23.563 44.852 1 25.52 ? 1 B 1 .
+19 H "H5'" . DA A 1 1 ? 14.5687266 25.4205108 41.0376419 1 29.64 ? 1 B 1 c
+20 H "H5''" . DA A 1 1 ? 14.4857395 24.3784814 39.8756228 1 29.64 ? 1 B 1 c
+21 H "H4'" . DA A 1 1 ? 16.2511176 23.8065449 41.266427 1 30.19 ? 1 B 1 c
+22 H "H3'" . DA A 1 1 ? 14.5954268 21.8994746 40.5813016 1 30.7 ? 1 B 1 c
+23 H "H2'" . DA A 1 1 ? 14.5726641 20.7329865 42.8787349 1 29.31 ? 1 B 1 c
+24 H "H2''" . DA A 1 1 ? 13.4411301 21.8293881 42.5844916 1 29.31 ? 1 B 1 c
+25 H "H1'" . DA A 1 1 ? 15.9022491 22.2163585 43.9771405 1 27.9 ? 1 B 1 c
+26 H H8 . DA A 1 1 ? 15.1912065 22.0453886 46.4213515 1 25.24 ? 1 B 1 c
+27 H H61 . DA A 1 1 ? 10.1136594 24.7950753 47.7963537 1 25.72 ? 1 B 1 c
+28 H H62 . DA A 1 1 ? 11.3001181 24.0264433 48.3635859 1 25.72 ? 1 B 1 c
+29 H H2 . DA A 1 1 ? 10.7210908 25.0842631 43.4950191 1 24.27 ? 1 B 1 c
+30 P P . DG A 1 2 ? 16.485 19.905 40.822 1 32.1 ? 2 B 1 .
+31 O OP1 . DG A 1 2 ? 17.839 19.708 40.244 1 32.57 ? 2 B 1 .
+32 O OP2 . DG A 1 2 ? 15.282 19.619 39.999 1 32.01 ? 2 B 1 .
+33 O "O5'" . DG A 1 2 ? 16.383 19.061 42.168 1 30.06 ? 2 B 1 .
+34 C "C5'" . DG A 1 2 ? 17.525 18.925 43.025 1 30.14 ? 2 B 1 .
+35 C "C4'" . DG A 1 2 ? 17.234 17.941 44.13 1 30.8 ? 2 B 1 .
+36 O "O4'" . DG A 1 2 ? 16.324 18.527 45.09 1 29.65 ? 2 B 1 .
+37 C "C3'" . DG A 1 2 ? 16.589 16.63 43.676 1 31.9 ? 2 B 1 .
+38 O "O3'" . DG A 1 2 ? 17.175 15.54 44.391 1 32.97 ? 2 B 1 .
+39 C "C2'" . DG A 1 2 ? 15.129 16.805 44.059 1 30.86 ? 2 B 1 .
+40 C "C1'" . DG A 1 2 ? 15.25 17.633 45.323 1 29.75 ? 2 B 1 .
+41 N N9 . DG A 1 2 ? 14.078 18.425 45.676 1 26.99 ? 2 B 1 .
+42 C C8 . DG A 1 2 ? 13.155 18.982 44.826 1 26.69 ? 2 B 1 .
+43 N N7 . DG A 1 2 ? 12.227 19.657 45.449 1 26.19 ? 2 B 1 .
+44 C C5 . DG A 1 2 ? 12.556 19.534 46.792 1 25.5 ? 2 B 1 .
+45 C C6 . DG A 1 2 ? 11.921 20.058 47.948 1 24.46 ? 2 B 1 .
+46 O O6 . DG A 1 2 ? 10.906 20.763 48.018 1 25.05 ? 2 B 1 .
+47 N N1 . DG A 1 2 ? 12.589 19.686 49.111 1 23.12 ? 2 B 1 .
+48 C C2 . DG A 1 2 ? 13.72 18.911 49.158 1 23.34 ? 2 B 1 .
+49 N N2 . DG A 1 2 ? 14.21 18.655 50.378 1 21.91 ? 2 B 1 .
+50 N N3 . DG A 1 2 ? 14.325 18.421 48.088 1 25.45 ? 2 B 1 .
+51 C C4 . DG A 1 2 ? 13.693 18.77 46.947 1 25.65 ? 2 B 1 .
+52 H "H5'" . DG A 1 2 ? 17.7583837 19.8032606 43.4152709 1 30.14 ? 2 B 1 c
+53 H "H5''" . DG A 1 2 ? 18.3035527 18.6143678 42.500134 1 30.14 ? 2 B 1 c
+54 H "H4'" . DG A 1 2 ? 18.0834938 17.7253717 44.5839094 1 30.8 ? 2 B 1 c
+55 H "H3'" . DG A 1 2 ? 16.6953062 16.5061627 42.7015733 1 31.9 ? 2 B 1 c
+56 H "H2'" . DG A 1 2 ? 14.7055952 15.9433225 44.2400229 1 30.86 ? 2 B 1 c
+57 H "H2''" . DG A 1 2 ? 14.6374411 17.2874356 43.366068 1 30.86 ? 2 B 1 c
+58 H "H1'" . DG A 1 2 ? 15.4823674 17.0382027 46.083441 1 29.75 ? 2 B 1 c
+59 H H8 . DG A 1 2 ? 13.1886103 18.8864303 43.8894634 1 26.69 ? 2 B 1 c
+60 H H1 . DG A 1 2 ? 12.2497037 19.9782602 49.8882201 1 23.12 ? 2 B 1 c
+61 H H21 . DG A 1 2 ? 14.93166 18.164263 50.4646776 1 21.91 ? 2 B 1 c
+62 H H22 . DG A 1 2 ? 13.8078927 18.978787 51.0869433 1 21.91 ? 2 B 1 c
+63 P P . DC A 1 3 ? 16.616 14.051 44.176 1 35.36 ? 3 B 1 .
+64 O OP1 . DC A 1 3 ? 17.712 13.111 44.532 1 33.96 ? 3 B 1 .
+65 O OP2 . DC A 1 3 ? 15.987 13.966 42.829 1 35.38 ? 3 B 1 .
+66 O "O5'" . DC A 1 3 ? 15.469 13.94 45.275 1 32.2 ? 3 B 1 .
+67 C "C5'" . DC A 1 3 ? 15.778 14.151 46.657 1 30.04 ? 3 B 1 .
+68 C "C4'" . DC A 1 3 ? 14.555 13.952 47.517 1 28.68 ? 3 B 1 .
+69 O "O4'" . DC A 1 3 ? 13.725 15.138 47.566 1 27.63 ? 3 B 1 .
+70 C "C3'" . DC A 1 3 ? 13.625 12.797 47.124 1 28.09 ? 3 B 1 .
+71 O "O3'" . DC A 1 3 ? 13.192 12.143 48.314 1 29.63 ? 3 B 1 .
+72 C "C2'" . DC A 1 3 ? 12.418 13.518 46.555 1 27.69 ? 3 B 1 .
+73 C "C1'" . DC A 1 3 ? 12.39 14.681 47.519 1 26.87 ? 3 B 1 .
+74 N N1 . DC A 1 3 ? 11.502 15.813 47.222 1 25.42 ? 3 B 1 .
+75 C C2 . DC A 1 3 ? 11.048 16.592 48.292 1 24.9 ? 3 B 1 .
+76 O O2 . DC A 1 3 ? 11.474 16.353 49.432 1 24.72 ? 3 B 1 .
+77 N N3 . DC A 1 3 ? 10.163 17.584 48.059 1 24.67 ? 3 B 1 .
+78 C C4 . DC A 1 3 ? 9.741 17.82 46.816 1 24.18 ? 3 B 1 .
+79 N N4 . DC A 1 3 ? 8.839 18.786 46.639 1 24.26 ? 3 B 1 .
+80 C C5 . DC A 1 3 ? 10.219 17.07 45.702 1 23.88 ? 3 B 1 .
+81 C C6 . DC A 1 3 ? 11.093 16.086 45.948 1 24.49 ? 3 B 1 .
+82 H "H5'" . DC A 1 3 ? 16.1297395 15.0662283 46.7864506 1 30.04 ? 3 B 1 c
+83 H "H5''" . DC A 1 3 ? 16.489329 13.5254521 46.9412919 1 30.04 ? 3 B 1 c
+84 H "H4'" . DC A 1 3 ? 14.8526557 13.7360456 48.4329333 1 28.68 ? 3 B 1 c
+85 H "H3'" . DC A 1 3 ? 14.0883123 12.1622307 46.5252065 1 28.09 ? 3 B 1 c
+86 H "H2'" . DC A 1 3 ? 11.6058498 12.9716907 46.6342609 1 27.69 ? 3 B 1 c
+87 H "H2''" . DC A 1 3 ? 12.5844699 13.8224208 45.6363381 1 27.69 ? 3 B 1 c
+88 H "H1'" . DC A 1 3 ? 12.115959 14.364666 48.4172847 1 26.87 ? 3 B 1 c
+89 H H41 . DC A 1 3 ? 8.54507605 19.2400105 47.329371 1 24.26 ? 3 B 1 c
+90 H H42 . DC A 1 3 ? 8.54295228 18.9638217 45.8328585 1 24.26 ? 3 B 1 c
+91 H H5 . DC A 1 3 ? 9.93341515 17.2563597 44.8249639 1 23.88 ? 3 B 1 c
+92 H H6 . DC A 1 3 ? 11.4358307 15.5710002 45.2469527 1 24.49 ? 3 B 1 c
+93 P P . DG A 1 4 ? 13.219 10.543 48.413 1 30.6 ? 4 B 1 .
+94 O OP1 . DG A 1 4 ? 14.585 10.086 48.056 1 32.44 ? 4 B 1 .
+95 O OP2 . DG A 1 4 ? 12.041 9.991 47.686 1 29.87 ? 4 B 1 .
+96 O "O5'" . DG A 1 4 ? 12.99 10.291 49.966 1 30.25 ? 4 B 1 .
+97 C "C5'" . DG A 1 4 ? 13.812 10.953 50.943 1 28.65 ? 4 B 1 .
+98 C "C4'" . DG A 1 4 ? 12.977 11.369 52.13 1 28.14 ? 4 B 1 .
+99 O "O4'" . DG A 1 4 ? 12.232 12.579 51.84 1 28.1 ? 4 B 1 .
+100 C "C3'" . DG A 1 4 ? 11.951 10.327 52.567 1 27.71 ? 4 B 1 .
+101 O "O3'" . DG A 1 4 ? 11.935 10.233 53.988 1 27.53 ? 4 B 1 .
+102 C "C2'" . DG A 1 4 ? 10.637 10.88 52.041 1 26.75 ? 4 B 1 .
+103 C "C1'" . DG A 1 4 ? 10.856 12.38 52.119 1 25.8 ? 4 B 1 .
+104 N N9 . DG A 1 4 ? 10.087 13.154 51.148 1 25.78 ? 4 B 1 .
+105 C C8 . DG A 1 4 ? 10.219 13.126 49.78 1 25 ? 4 B 1 .
+106 N N7 . DG A 1 4 ? 9.394 13.931 49.168 1 24.22 ? 4 B 1 .
+107 C C5 . DG A 1 4 ? 8.67 14.528 50.191 1 23.59 ? 4 B 1 .
+108 C C6 . DG A 1 4 ? 7.626 15.491 50.141 1 21.83 ? 4 B 1 .
+109 O O6 . DG A 1 4 ? 7.118 16.027 49.147 1 22.39 ? 4 B 1 .
+110 N N1 . DG A 1 4 ? 7.172 15.818 51.413 1 20.44 ? 4 B 1 .
+111 C C2 . DG A 1 4 ? 7.657 15.291 52.584 1 20.97 ? 4 B 1 .
+112 N N2 . DG A 1 4 ? 7.086 15.735 53.713 1 20.95 ? 4 B 1 .
+113 N N3 . DG A 1 4 ? 8.628 14.397 52.647 1 22.92 ? 4 B 1 .
+114 C C4 . DG A 1 4 ? 9.084 14.061 51.421 1 24.8 ? 4 B 1 .
+115 H "H5'" . DG A 1 4 ? 14.2366187 11.750075 50.5398978 1 28.65 ? 4 B 1 c
+116 H "H5''" . DG A 1 4 ? 14.5338924 10.3462221 51.2410151 1 28.65 ? 4 B 1 c
+117 H "H4'" . DG A 1 4 ? 13.5831482 11.5402263 52.8898914 1 28.14 ? 4 B 1 c
+118 H "H3'" . DG A 1 4 ? 12.1490471 9.44837181 52.1608795 1 27.71 ? 4 B 1 c
+119 H "H2'" . DG A 1 4 ? 9.88705251 10.6025666 52.602372 1 26.75 ? 4 B 1 c
+120 H "H2''" . DG A 1 4 ? 10.4763258 10.5935717 51.1208524 1 26.75 ? 4 B 1 c
+121 H "H1'" . DG A 1 4 ? 10.6639162 12.691702 53.0420356 1 25.8 ? 4 B 1 c
+122 H H8 . DG A 1 4 ? 10.8420844 12.5806906 49.3308146 1 25 ? 4 B 1 c
+123 H H1 . DG A 1 4 ? 6.5102177 16.4210034 51.4681368 1 20.44 ? 4 B 1 c
+124 H H21 . DG A 1 4 ? 7.35836685 15.4307085 54.4891134 1 20.95 ? 4 B 1 c
+125 H H22 . DG A 1 4 ? 6.44164832 16.3285407 53.6723873 1 20.95 ? 4 B 1 c
+126 P P . DT A 1 5 ? 11.259 8.963 54.686 1 26.72 ? 5 B 1 .
+127 O OP1 . DT A 1 5 ? 11.769 8.878 56.075 1 27.4 ? 5 B 1 .
+128 O OP2 . DT A 1 5 ? 11.396 7.795 53.782 1 26.36 ? 5 B 1 .
+129 O "O5'" . DT A 1 5 ? 9.722 9.36 54.734 1 27.87 ? 5 B 1 .
+130 C "C5'" . DT A 1 5 ? 9.268 10.406 55.598 1 27.72 ? 5 B 1 .
+131 C "C4'" . DT A 1 5 ? 7.778 10.593 55.447 1 27.34 ? 5 B 1 .
+132 O "O4'" . DT A 1 5 ? 7.469 11.422 54.301 1 26.33 ? 5 B 1 .
+133 C "C3'" . DT A 1 5 ? 6.983 9.295 55.263 1 28.5 ? 5 B 1 .
+134 O "O3'" . DT A 1 5 ? 5.789 9.367 56.042 1 31.93 ? 5 B 1 .
+135 C "C2'" . DT A 1 5 ? 6.608 9.33 53.792 1 26.53 ? 5 B 1 .
+136 C "C1'" . DT A 1 5 ? 6.382 10.818 53.633 1 25.96 ? 5 B 1 .
+137 N N1 . DT A 1 5 ? 6.309 11.35 52.262 1 23.85 ? 5 B 1 .
+138 C C2 . DT A 1 5 ? 5.495 12.442 52.056 1 22.71 ? 5 B 1 .
+139 O O2 . DT A 1 5 ? 4.896 13.006 52.956 1 23.19 ? 5 B 1 .
+140 N N3 . DT A 1 5 ? 5.407 12.854 50.753 1 21.74 ? 5 B 1 .
+141 C C4 . DT A 1 5 ? 6.045 12.306 49.663 1 20.93 ? 5 B 1 .
+142 O O4 . DT A 1 5 ? 5.847 12.772 48.548 1 20.17 ? 5 B 1 .
+143 C C5 . DT A 1 5 ? 6.915 11.185 49.954 1 21.65 ? 5 B 1 .
+144 C C7 . DT A 1 5 ? 7.674 10.544 48.835 1 22.15 ? 5 B 1 .
+145 C C6 . DT A 1 5 ? 7.003 10.769 51.224 1 22.94 ? 5 B 1 .
+146 H "H5'" . DT A 1 5 ? 9.73288857 11.2502559 55.3761182 1 27.72 ? 5 B 1 c
+147 H "H5''" . DT A 1 5 ? 9.48110541 10.1817697 56.5373763 1 27.72 ? 5 B 1 c
+148 H "H4'" . DT A 1 5 ? 7.43801662 11.0375564 56.2599882 1 27.34 ? 5 B 1 c
+149 H "H3'" . DT A 1 5 ? 7.5249938 8.51184572 55.5257853 1 28.5 ? 5 B 1 c
+150 H "H2'" . DT A 1 5 ? 5.78281986 8.82552682 53.6219749 1 26.53 ? 5 B 1 c
+151 H "H2''" . DT A 1 5 ? 7.34964922 9.02131635 53.2272037 1 26.53 ? 5 B 1 c
+152 H "H1'" . DT A 1 5 ? 5.53037387 11.0784784 54.078982 1 25.96 ? 5 B 1 c
+153 H H3 . DT A 1 5 ? 4.87472019 13.5557599 50.605826 1 21.74 ? 5 B 1 c
+154 H H71 . DT A 1 5 ? 8.50828975 10.1797731 49.1728467 1 22.15 ? 5 B 1 c
+155 H H72 . DT A 1 5 ? 7.86652608 11.204996 48.1502672 1 22.15 ? 5 B 1 c
+156 H H73 . DT A 1 5 ? 7.14409497 9.82757368 48.4492864 1 22.15 ? 5 B 1 c
+157 H H6 . DT A 1 5 ? 7.57260621 10.0347299 51.425983 1 22.94 ? 5 B 1 c
+158 P P . DG A 1 6 ? 5.105 8.022 56.594 1 32.42 ? 6 B 1 .
+159 O OP1 . DG A 1 6 ? 5.963 7.488 57.681 1 33.16 ? 6 B 1 .
+160 O OP2 . DG A 1 6 ? 4.737 7.147 55.446 1 32.6 ? 6 B 1 .
+161 O "O5'" . DG A 1 6 ? 3.772 8.564 57.264 1 32.73 ? 6 B 1 .
+162 C "C5'" . DG A 1 6 ? 3.803 9.738 58.091 1 33.47 ? 6 B 1 .
+163 C "C4'" . DG A 1 6 ? 2.593 10.6 57.817 1 33.54 ? 6 B 1 .
+164 O "O4'" . DG A 1 6 ? 2.718 11.239 56.521 1 32.31 ? 6 B 1 .
+165 C "C3'" . DG A 1 6 ? 1.278 9.822 57.788 1 34.54 ? 6 B 1 .
+166 O "O3'" . DG A 1 6 ? 0.258 10.549 58.473 1 36.74 ? 6 B 1 .
+167 C "C2'" . DG A 1 6 ? 0.96 9.708 56.307 1 33.3 ? 6 B 1 .
+168 C "C1'" . DG A 1 6 ? 1.561 10.982 55.741 1 31.45 ? 6 B 1 .
+169 N N9 . DG A 1 6 ? 1.971 10.867 54.343 1 29.46 ? 6 B 1 .
+170 C C8 . DG A 1 6 ? 2.944 10.047 53.826 1 28.12 ? 6 B 1 .
+171 N N7 . DG A 1 6 ? 3.058 10.14 52.529 1 26.13 ? 6 B 1 .
+172 C C5 . DG A 1 6 ? 2.11 11.085 52.166 1 26.34 ? 6 B 1 .
+173 C C6 . DG A 1 6 ? 1.762 11.596 50.889 1 25.06 ? 6 B 1 .
+174 O O6 . DG A 1 6 ? 2.232 11.299 49.786 1 23.84 ? 6 B 1 .
+175 N N1 . DG A 1 6 ? 0.749 12.545 50.976 1 26.11 ? 6 B 1 .
+176 C C2 . DG A 1 6 ? 0.146 12.951 52.14 1 26.53 ? 6 B 1 .
+177 N N2 . DG A 1 6 ? -0.801 13.889 52.019 1 26.79 ? 6 B 1 .
+178 N N3 . DG A 1 6 ? 0.454 12.476 53.337 1 27.15 ? 6 B 1 .
+179 C C4 . DG A 1 6 ? 1.437 11.552 53.276 1 27.6 ? 6 B 1 .
+180 H "H5'" . DG A 1 6 ? 4.6267035 10.254574 57.9099342 1 33.47 ? 6 B 1 c
+181 H "H5''" . DG A 1 6 ? 3.81550215 9.47659858 59.0447473 1 33.47 ? 6 B 1 c
+182 H "H4'" . DG A 1 6 ? 2.54507819 11.2966657 58.5145166 1 33.54 ? 6 B 1 c
+183 H "H3'" . DG A 1 6 ? 1.39317386 8.92421049 58.1840467 1 34.54 ? 6 B 1 c
+184 H "H2'" . DG A 1 6 ? -0.00440959634 9.67391705 56.1544173 1 33.3 ? 6 B 1 c
+185 H "H2''" . DG A 1 6 ? 1.37764135 8.91602425 55.9160024 1 33.3 ? 6 B 1 c
+186 H "H1'" . DG A 1 6 ? 0.91744806 11.7288614 55.8596924 1 31.45 ? 6 B 1 c
+187 H H8 . DG A 1 6 ? 3.47468573 9.47580155 54.3546483 1 28.12 ? 6 B 1 c
+188 H H1 . DG A 1 6 ? 0.471482649 12.9179888 50.2088804 1 26.11 ? 6 B 1 c
+189 H H21 . DG A 1 6 ? -1.21764446 14.183549 52.7322863 1 26.79 ? 6 B 1 c
+190 H H22 . DG A 1 6 ? -1.00241253 14.2066342 51.2267434 1 26.79 ? 6 B 1 c
+191 P P . DG A 1 7 ? -1.088 9.799 58.925 1 37.09 ? 7 B 1 .
+192 O OP1 . DG A 1 7 ? -1.406 10.242 60.307 1 36.5 ? 7 B 1 .
+193 O OP2 . DG A 1 7 ? -0.956 8.345 58.626 1 36.51 ? 7 B 1 .
+194 O "O5'" . DG A 1 7 ? -2.178 10.422 57.95 1 35.17 ? 7 B 1 .
+195 C "C5'" . DG A 1 7 ? -2.469 11.824 57.996 1 32.82 ? 7 B 1 .
+196 C "C4'" . DG A 1 7 ? -3.498 12.176 56.951 1 32.76 ? 7 B 1 .
+197 O "O4'" . DG A 1 7 ? -2.894 12.112 55.638 1 32.22 ? 7 B 1 .
+198 C "C3'" . DG A 1 7 ? -4.71 11.243 56.91 1 33.16 ? 7 B 1 .
+199 O "O3'" . DG A 1 7 ? -5.894 12.015 56.699 1 33.55 ? 7 B 1 .
+200 C "C2'" . DG A 1 7 ? -4.426 10.346 55.715 1 32.04 ? 7 B 1 .
+201 C "C1'" . DG A 1 7 ? -3.688 11.295 54.792 1 32.04 ? 7 B 1 .
+202 N N9 . DG A 1 7 ? -2.803 10.672 53.814 1 31.32 ? 7 B 1 .
+203 C C8 . DG A 1 7 ? -1.832 9.728 54.046 1 31.73 ? 7 B 1 .
+204 N N7 . DG A 1 7 ? -1.183 9.385 52.965 1 31.97 ? 7 B 1 .
+205 C C5 . DG A 1 7 ? -1.766 10.145 51.959 1 31.48 ? 7 B 1 .
+206 C C6 . DG A 1 7 ? -1.478 10.207 50.568 1 30.58 ? 7 B 1 .
+207 O O6 . DG A 1 7 ? -0.614 9.591 49.93 1 29.37 ? 7 B 1 .
+208 N N1 . DG A 1 7 ? -2.318 11.104 49.912 1 30.15 ? 7 B 1 .
+209 C C2 . DG A 1 7 ? -3.304 11.848 50.515 1 30.84 ? 7 B 1 .
+210 N N2 . DG A 1 7 ? -4.018 12.655 49.712 1 30.02 ? 7 B 1 .
+211 N N3 . DG A 1 7 ? -3.574 11.805 51.809 1 31.68 ? 7 B 1 .
+212 C C4 . DG A 1 7 ? -2.773 10.937 52.465 1 31.42 ? 7 B 1 .
+213 H "H5'" . DG A 1 7 ? -1.64278309 12.3437852 57.836909 1 32.82 ? 7 B 1 c
+214 H "H5''" . DG A 1 7 ? -2.80921765 12.0670527 58.8922691 1 32.82 ? 7 B 1 c
+215 H "H4'" . DG A 1 7 ? -3.80513759 13.099042 57.1178202 1 32.76 ? 7 B 1 c
+216 H "H3'" . DG A 1 7 ? -4.77809272 10.7200335 57.745472 1 33.16 ? 7 B 1 c
+217 H "H2'" . DG A 1 7 ? -5.25490355 10.0287716 55.3065713 1 32.04 ? 7 B 1 c
+218 H "H2''" . DG A 1 7 ? -3.8625022 9.58892149 55.9676487 1 32.04 ? 7 B 1 c
+219 H "H1'" . DG A 1 7 ? -4.34571024 11.8654733 54.3144788 1 32.04 ? 7 B 1 c
+220 H H8 . DG A 1 7 ? -1.65334321 9.3659807 54.8971097 1 31.73 ? 7 B 1 c
+221 H H1 . DG A 1 7 ? -2.20275155 11.2001459 49.0276456 1 30.15 ? 7 B 1 c
+222 H H21 . DG A 1 7 ? -4.65866158 13.1503676 50.0485898 1 30.02 ? 7 B 1 c
+223 H H22 . DG A 1 7 ? -3.84144623 12.6841912 48.8534514 1 30.02 ? 7 B 1 c
+224 P P . DG A 1 8 ? -7.335 11.303 56.729 1 32.31 ? 8 B 1 .
+225 O OP1 . DG A 1 8 ? -8.273 12.26 57.368 1 33.36 ? 8 B 1 .
+226 O OP2 . DG A 1 8 ? -7.195 9.934 57.285 1 33.74 ? 8 B 1 .
+227 O "O5'" . DG A 1 8 ? -7.71 11.186 55.188 1 32.02 ? 8 B 1 .
+228 C "C5'" . DG A 1 8 ? -7.983 12.368 54.419 1 30.39 ? 8 B 1 .
+229 C "C4'" . DG A 1 8 ? -8.524 11.998 53.059 1 30.36 ? 8 B 1 .
+230 O "O4'" . DG A 1 8 ? -7.453 11.536 52.203 1 30.02 ? 8 B 1 .
+231 C "C3'" . DG A 1 8 ? -9.576 10.89 53.075 1 31.32 ? 8 B 1 .
+232 O "O3'" . DG A 1 8 ? -10.651 11.225 52.198 1 32.74 ? 8 B 1 .
+233 C "C2'" . DG A 1 8 ? -8.821 9.671 52.57 1 29.7 ? 8 B 1 .
+234 C "C1'" . DG A 1 8 ? -7.791 10.281 51.634 1 28.96 ? 8 B 1 .
+235 N N9 . DG A 1 8 ? -6.561 9.502 51.514 1 27.67 ? 8 B 1 .
+236 C C8 . DG A 1 8 ? -5.896 8.854 52.527 1 27.96 ? 8 B 1 .
+237 N N7 . DG A 1 8 ? -4.825 8.229 52.118 1 27.05 ? 8 B 1 .
+238 C C5 . DG A 1 8 ? -4.779 8.477 50.754 1 26.48 ? 8 B 1 .
+239 C C6 . DG A 1 8 ? -3.848 8.048 49.776 1 26.09 ? 8 B 1 .
+240 O O6 . DG A 1 8 ? -2.85 7.335 49.925 1 27.44 ? 8 B 1 .
+241 N N1 . DG A 1 8 ? -4.173 8.529 48.511 1 25.02 ? 8 B 1 .
+242 C C2 . DG A 1 8 ? -5.258 9.315 48.225 1 25.82 ? 8 B 1 .
+243 N N2 . DG A 1 8 ? -5.405 9.666 46.941 1 25.54 ? 8 B 1 .
+244 N N3 . DG A 1 8 ? -6.138 9.723 49.129 1 26.63 ? 8 B 1 .
+245 C C4 . DG A 1 8 ? -5.84 9.267 50.364 1 26.78 ? 8 B 1 .
+246 H "H5'" . DG A 1 8 ? -7.15518097 12.8988566 54.3139861 1 30.39 ? 8 B 1 c
+247 H "H5''" . DG A 1 8 ? -8.63970165 12.9339671 54.8949676 1 30.39 ? 8 B 1 c
+248 H "H4'" . DG A 1 8 ? -8.93004573 12.8032893 52.657995 1 30.36 ? 8 B 1 c
+249 H "H3'" . DG A 1 8 ? -9.90860007 10.7357731 53.9924613 1 31.32 ? 8 B 1 c
+250 H "H2'" . DG A 1 8 ? -9.41533828 9.06043425 52.0919828 1 29.7 ? 8 B 1 c
+251 H "H2''" . DG A 1 8 ? -8.39097658 9.1922974 53.3051549 1 29.7 ? 8 B 1 c
+252 H "H1'" . DG A 1 8 ? -8.2046289 10.4295362 50.7435523 1 28.96 ? 8 B 1 c
+253 H H8 . DG A 1 8 ? -6.18398915 8.86062174 53.4238737 1 27.96 ? 8 B 1 c
+254 H H1 . DG A 1 8 ? -3.62778139 8.30472395 47.8349483 1 25.02 ? 8 B 1 c
+255 H H21 . DG A 1 8 ? -6.08213959 10.1687269 46.7004243 1 25.54 ? 8 B 1 c
+256 H H22 . DG A 1 8 ? -4.82374145 9.39221359 46.3440842 1 25.54 ? 8 B 1 c
+257 P P . DC A 1 9 ? -11.914 10.243 52.082 1 35.61 ? 9 B 1 .
+258 O OP1 . DC A 1 9 ? -13.09 11.049 51.664 1 34.95 ? 9 B 1 .
+259 O OP2 . DC A 1 9 ? -11.982 9.435 53.326 1 36.98 ? 9 B 1 .
+260 O "O5'" . DC A 1 9 ? -11.506 9.27 50.889 1 35.88 ? 9 B 1 .
+261 C "C5'" . DC A 1 9 ? -11.158 9.808 49.606 1 34.71 ? 9 B 1 .
+262 C "C4'" . DC A 1 9 ? -10.712 8.709 48.671 1 34.13 ? 9 B 1 .
+263 O "O4'" . DC A 1 9 ? -9.352 8.289 48.938 1 32.37 ? 9 B 1 .
+264 C "C3'" . DC A 1 9 ? -11.561 7.433 48.695 1 33.67 ? 9 B 1 .
+265 O "O3'" . DC A 1 9 ? -11.683 6.954 47.36 1 34.19 ? 9 B 1 .
+266 C "C2'" . DC A 1 9 ? -10.674 6.453 49.437 1 32.94 ? 9 B 1 .
+267 C "C1'" . DC A 1 9 ? -9.347 6.879 48.856 1 31.69 ? 9 B 1 .
+268 N N1 . DC A 1 9 ? -8.132 6.37 49.494 1 28.95 ? 9 B 1 .
+269 C C2 . DC A 1 9 ? -6.996 6.207 48.7 1 28.37 ? 9 B 1 .
+270 O O2 . DC A 1 9 ? -7.045 6.558 47.509 1 27.63 ? 9 B 1 .
+271 N N3 . DC A 1 9 ? -5.879 5.678 49.241 1 27.2 ? 9 B 1 .
+272 C C4 . DC A 1 9 ? -5.865 5.334 50.529 1 27.4 ? 9 B 1 .
+273 N N4 . DC A 1 9 ? -4.744 4.8 51.016 1 27.12 ? 9 B 1 .
+274 C C5 . DC A 1 9 ? -7.003 5.518 51.373 1 27.55 ? 9 B 1 .
+275 C C6 . DC A 1 9 ? -8.104 6.038 50.819 1 28.08 ? 9 B 1 .
+276 H "H5'" . DC A 1 9 ? -10.4331192 10.4732872 49.7063081 1 34.71 ? 9 B 1 c
+277 H "H5''" . DC A 1 9 ? -11.9357623 10.2794031 49.2174309 1 34.71 ? 9 B 1 c
+278 H "H4'" . DC A 1 9 ? -10.7619768 9.05030951 47.746241 1 34.13 ? 9 B 1 c
+279 H "H3'" . DC A 1 9 ? -12.4510773 7.61157816 49.0848926 1 33.67 ? 9 B 1 c
+280 H "H2'" . DC A 1 9 ? -10.8862007 5.52536395 49.1945413 1 32.94 ? 9 B 1 c
+281 H "H2''" . DC A 1 9 ? -10.7033399 6.60827233 50.4062026 1 32.94 ? 9 B 1 c
+282 H "H1'" . DC A 1 9 ? -9.29324464 6.60226207 47.9059434 1 31.69 ? 9 B 1 c
+283 H H41 . DC A 1 9 ? -4.05073131 4.68719932 50.490849 1 27.12 ? 9 B 1 c
+284 H H42 . DC A 1 9 ? -4.70423631 4.56361309 51.8596048 1 27.12 ? 9 B 1 c
+285 H H5 . DC A 1 9 ? -6.98287743 5.28367566 52.2841357 1 27.55 ? 9 B 1 c
+286 H H6 . DC A 1 9 ? -8.87119783 6.18126747 51.3338853 1 28.08 ? 9 B 1 c
+287 P P . DG A 1 10 ? -13.129 6.828 46.691 1 33.95 ? 10 B 1 .
+288 O OP1 . DG A 1 10 ? -13.705 8.189 46.587 1 34.89 ? 10 B 1 .
+289 O OP2 . DG A 1 10 ? -13.864 5.767 47.423 1 36 ? 10 B 1 .
+290 O "O5'" . DG A 1 10 ? -12.799 6.304 45.226 1 34.27 ? 10 B 1 .
+291 C "C5'" . DG A 1 10 ? -12.063 7.121 44.305 1 31.29 ? 10 B 1 .
+292 C "C4'" . DG A 1 10 ? -11.117 6.267 43.495 1 30.82 ? 10 B 1 .
+293 O "O4'" . DG A 1 10 ? -10.006 5.838 44.317 1 29.88 ? 10 B 1 .
+294 C "C3'" . DG A 1 10 ? -11.74 4.992 42.928 1 30.3 ? 10 B 1 .
+295 O "O3'" . DG A 1 10 ? -11.251 4.77 41.604 1 30.48 ? 10 B 1 .
+296 C "C2'" . DG A 1 10 ? -11.24 3.906 43.866 1 29.26 ? 10 B 1 .
+297 C "C1'" . DG A 1 10 ? -9.867 4.431 44.234 1 29.02 ? 10 B 1 .
+298 N N9 . DG A 1 10 ? -9.338 3.962 45.509 1 28.81 ? 10 B 1 .
+299 C C8 . DG A 1 10 ? -9.881 4.145 46.758 1 28.23 ? 10 B 1 .
+300 N N7 . DG A 1 10 ? -9.155 3.629 47.711 1 27.89 ? 10 B 1 .
+301 C C5 . DG A 1 10 ? -8.07 3.067 47.051 1 27.51 ? 10 B 1 .
+302 C C6 . DG A 1 10 ? -6.94 2.373 47.559 1 27.33 ? 10 B 1 .
+303 O O6 . DG A 1 10 ? -6.655 2.117 48.733 1 27.23 ? 10 B 1 .
+304 N N1 . DG A 1 10 ? -6.088 1.966 46.539 1 27.55 ? 10 B 1 .
+305 C C2 . DG A 1 10 ? -6.291 2.203 45.203 1 27.45 ? 10 B 1 .
+306 N N2 . DG A 1 10 ? -5.355 1.728 44.375 1 26.86 ? 10 B 1 .
+307 N N3 . DG A 1 10 ? -7.332 2.856 44.717 1 27.75 ? 10 B 1 .
+308 C C4 . DG A 1 10 ? -8.175 3.256 45.691 1 27.84 ? 10 B 1 .
+309 H "H5'" . DG A 1 10 ? -11.550303 7.80668218 44.8000785 1 31.29 ? 10 B 1 c
+310 H "H5''" . DG A 1 10 ? -12.6880035 7.59057546 43.6992026 1 31.29 ? 10 B 1 c
+311 H "H4'" . DG A 1 10 ? -10.7713661 6.8114695 42.7478326 1 30.82 ? 10 B 1 c
+312 H "H3'" . DG A 1 10 ? -12.7261347 5.05262219 42.9307154 1 30.3 ? 10 B 1 c
+313 H "H2'" . DG A 1 10 ? -11.178286 3.04497383 43.4084475 1 29.26 ? 10 B 1 c
+314 H "H2''" . DG A 1 10 ? -11.8120724 3.82921543 44.6542679 1 29.26 ? 10 B 1 c
+315 H "H1'" . DG A 1 10 ? -9.22644389 4.21071923 43.5079055 1 29.02 ? 10 B 1 c
+316 H H8 . DG A 1 10 ? -10.6937166 4.59662606 46.9092932 1 28.23 ? 10 B 1 c
+317 H H1 . DG A 1 10 ? -5.35056381 1.51430768 46.7772665 1 27.55 ? 10 B 1 c
+318 H H21 . DG A 1 10 ? -5.43392966 1.85067721 43.5102171 1 26.86 ? 10 B 1 c
+319 H H22 . DG A 1 10 ? -4.66451115 1.29496958 44.6987882 1 26.86 ? 10 B 1 c
+320 P P . DT A 1 11 ? -11.969 3.689 40.66 1 30.12 ? 11 B 1 .
+321 O OP1 . DT A 1 11 ? -12.019 4.234 39.283 1 29.76 ? 11 B 1 .
+322 O OP2 . DT A 1 11 ? -13.224 3.261 41.325 1 29.58 ? 11 B 1 .
+323 O "O5'" . DT A 1 11 ? -10.951 2.468 40.664 1 30.18 ? 11 B 1 .
+324 C "C5'" . DT A 1 11 ? -9.738 2.537 39.905 1 29.52 ? 11 B 1 .
+325 C "C4'" . DT A 1 11 ? -9.009 1.218 39.96 1 30.1 ? 11 B 1 .
+326 O "O4'" . DT A 1 11 ? -8.452 1.029 41.284 1 30.01 ? 11 B 1 .
+327 C "C3'" . DT A 1 11 ? -9.884 -0.006 39.684 1 30.37 ? 11 B 1 .
+328 O "O3'" . DT A 1 11 ? -9.125 -1.02 39.022 1 31.51 ? 11 B 1 .
+329 C "C2'" . DT A 1 11 ? -10.168 -0.542 41.075 1 30.63 ? 11 B 1 .
+330 C "C1'" . DT A 1 11 ? -8.853 -0.241 41.77 1 30.23 ? 11 B 1 .
+331 N N1 . DT A 1 11 ? -8.904 -0.178 43.242 1 28.86 ? 11 B 1 .
+332 C C2 . DT A 1 11 ? -7.82 -0.669 43.937 1 28.3 ? 11 B 1 .
+333 O O2 . DT A 1 11 ? -6.824 -1.118 43.389 1 27.89 ? 11 B 1 .
+334 N N3 . DT A 1 11 ? -7.945 -0.616 45.301 1 27.13 ? 11 B 1 .
+335 C C4 . DT A 1 11 ? -9.015 -0.129 46.024 1 27.25 ? 11 B 1 .
+336 O O4 . DT A 1 11 ? -8.988 -0.168 47.251 1 25.87 ? 11 B 1 .
+337 C C5 . DT A 1 11 ? -10.111 0.392 45.23 1 26.57 ? 11 B 1 .
+338 C C7 . DT A 1 11 ? -11.306 0.964 45.925 1 26.29 ? 11 B 1 .
+339 C C6 . DT A 1 11 ? -10.002 0.34 43.897 1 27.47 ? 11 B 1 .
+340 H "H5'" . DT A 1 11 ? -9.15745313 3.25259967 40.2641705 1 29.52 ? 11 B 1 c
+341 H "H5''" . DT A 1 11 ? -9.94288694 2.76430459 38.9645347 1 29.52 ? 11 B 1 c
+342 H "H4'" . DT A 1 11 ? -8.26968386 1.24563971 39.3066879 1 30.1 ? 11 B 1 c
+343 H "H3'" . DT A 1 11 ? -10.6761784 0.243047555 39.1486751 1 30.37 ? 11 B 1 c
+344 H "HO3'" . DT A 1 11 ? -9.62560498 -1.69023247 38.8771411 0 31.51 ? 11 B 1 c
+345 H "H2'" . DT A 1 11 ? -10.3464626 -1.50745797 41.0558685 1 30.63 ? 11 B 1 c
+346 H "H2''" . DT A 1 11 ? -10.911573 -0.0600290109 41.4982342 1 30.63 ? 11 B 1 c
+347 H "H1'" . DT A 1 11 ? -8.17429591 -0.924410925 41.5163738 1 30.23 ? 11 B 1 c
+348 H H3 . DT A 1 11 ? -7.25072396 -0.934826633 45.7633628 1 27.13 ? 11 B 1 c
+349 H H71 . DT A 1 11 ? -11.7026392 1.6584962 45.37437 1 26.29 ? 11 B 1 c
+350 H H72 . DT A 1 11 ? -11.0372125 1.34449876 46.7769477 1 26.29 ? 11 B 1 c
+351 H H73 . DT A 1 11 ? -11.9606599 0.263562905 46.0787831 1 26.29 ? 11 B 1 c
+352 H H6 . DT A 1 11 ? -10.7165506 0.676665997 43.3674016 1 27.47 ? 11 B 1 c
+353 O "O5'" . DT B 2 1 ? -4.642 -6.077 55.177 1 47.96 ? 51 C 1 .
+354 C "C5'" . DT B 2 1 ? -4.419 -7.49 55.289 1 46.16 ? 51 C 1 .
+355 C "C4'" . DT B 2 1 ? -3.924 -8.083 53.992 1 44.99 ? 51 C 1 .
+356 O "O4'" . DT B 2 1 ? -4.928 -7.9 52.967 1 44.27 ? 51 C 1 .
+357 C "C3'" . DT B 2 1 ? -2.655 -7.424 53.453 1 44.83 ? 51 C 1 .
+358 O "O3'" . DT B 2 1 ? -1.842 -8.399 52.794 1 45.04 ? 51 C 1 .
+359 C "C2'" . DT B 2 1 ? -3.184 -6.389 52.476 1 43.51 ? 51 C 1 .
+360 C "C1'" . DT B 2 1 ? -4.44 -7.053 51.931 1 42.55 ? 51 C 1 .
+361 N N1 . DT B 2 1 ? -5.522 -6.113 51.573 1 39.54 ? 51 C 1 .
+362 C C2 . DT B 2 1 ? -5.886 -6.004 50.249 1 38.31 ? 51 C 1 .
+363 O O2 . DT B 2 1 ? -5.329 -6.614 49.35 1 36.54 ? 51 C 1 .
+364 N N3 . DT B 2 1 ? -6.931 -5.143 50.014 1 37.28 ? 51 C 1 .
+365 C C4 . DT B 2 1 ? -7.623 -4.391 50.944 1 36.86 ? 51 C 1 .
+366 O O4 . DT B 2 1 ? -8.552 -3.678 50.582 1 37.64 ? 51 C 1 .
+367 C C5 . DT B 2 1 ? -7.167 -4.532 52.309 1 36.97 ? 51 C 1 .
+368 C C7 . DT B 2 1 ? -7.832 -3.73 53.385 1 35.46 ? 51 C 1 .
+369 C C6 . DT B 2 1 ? -6.158 -5.376 52.552 1 38.33 ? 51 C 1 .
+370 H "H5'" . DT B 2 1 ? -5.25541431 -7.94124734 55.5626931 1 46.16 ? 51 C 1 c
+371 H "H5''" . DT B 2 1 ? -3.76439412 -7.67063619 56.0080151 1 46.16 ? 51 C 1 c
+372 H "H4'" . DT B 2 1 ? -3.78325614 -9.05041142 54.1279239 1 44.99 ? 51 C 1 c
+373 H "H3'" . DT B 2 1 ? -2.15223232 -6.98414225 54.1809381 1 44.83 ? 51 C 1 c
+374 H "H2'" . DT B 2 1 ? -2.53683348 -6.21140355 51.7590907 1 43.51 ? 51 C 1 c
+375 H "H2''" . DT B 2 1 ? -3.39743057 -5.54523223 52.9307827 1 43.51 ? 51 C 1 c
+376 H "H1'" . DT B 2 1 ? -4.21077685 -7.60179262 51.1320636 1 42.55 ? 51 C 1 c
+377 H H3 . DT B 2 1 ? -7.18290035 -5.06893382 49.1604724 1 37.28 ? 51 C 1 c
+378 H H71 . DT B 2 1 ? -7.79683764 -4.21703286 54.2242876 1 35.46 ? 51 C 1 c
+379 H H72 . DT B 2 1 ? -8.75929231 -3.56879022 53.1462923 1 35.46 ? 51 C 1 c
+380 H H73 . DT B 2 1 ? -7.37484356 -2.87959234 53.4882269 1 35.46 ? 51 C 1 c
+381 H H6 . DT B 2 1 ? -5.85701179 -5.47860652 53.4482583 1 38.33 ? 51 C 1 c
+382 P P . DA B 2 2 ? -0.338 -8.027 52.374 1 43.85 ? 52 C 1 .
+383 O OP1 . DA B 2 2 ? 0.381 -9.285 52.045 1 43.75 ? 52 C 1 .
+384 O OP2 . DA B 2 2 ? 0.21 -7.116 53.414 1 43.64 ? 52 C 1 .
+385 O "O5'" . DA B 2 2 ? -0.528 -7.197 51.029 1 42.38 ? 52 C 1 .
+386 C "C5'" . DA B 2 2 ? -0.835 -7.87 49.799 1 38.83 ? 52 C 1 .
+387 C "C4'" . DA B 2 2 ? -0.629 -6.941 48.627 1 35.32 ? 52 C 1 .
+388 O "O4'" . DA B 2 2 ? -1.799 -6.118 48.398 1 34.27 ? 52 C 1 .
+389 C "C3'" . DA B 2 2 ? 0.551 -5.984 48.779 1 35.17 ? 52 C 1 .
+390 O "O3'" . DA B 2 2 ? 1.323 -5.994 47.581 1 36.57 ? 52 C 1 .
+391 C "C2'" . DA B 2 2 ? -0.105 -4.633 49.028 1 32.54 ? 52 C 1 .
+392 C "C1'" . DA B 2 2 ? -1.417 -4.757 48.272 1 32.18 ? 52 C 1 .
+393 N N9 . DA B 2 2 ? -2.523 -3.934 48.774 1 29.42 ? 52 C 1 .
+394 C C8 . DA B 2 2 ? -2.791 -3.571 50.072 1 27.81 ? 52 C 1 .
+395 N N7 . DA B 2 2 ? -3.879 -2.848 50.206 1 26.81 ? 52 C 1 .
+396 C C5 . DA B 2 2 ? -4.357 -2.72 48.908 1 26.69 ? 52 C 1 .
+397 C C6 . DA B 2 2 ? -5.488 -2.069 48.373 1 26.58 ? 52 C 1 .
+398 N N6 . DA B 2 2 ? -6.375 -1.394 49.106 1 25.99 ? 52 C 1 .
+399 N N1 . DA B 2 2 ? -5.677 -2.135 47.037 1 25.94 ? 52 C 1 .
+400 C C2 . DA B 2 2 ? -4.787 -2.808 46.298 1 26.42 ? 52 C 1 .
+401 N N3 . DA B 2 2 ? -3.688 -3.458 46.682 1 28.06 ? 52 C 1 .
+402 C C4 . DA B 2 2 ? -3.529 -3.377 48.015 1 28.06 ? 52 C 1 .
+403 H "H5'" . DA B 2 2 ? -1.77270938 -8.18404367 49.8130958 1 38.83 ? 52 C 1 c
+404 H "H5''" . DA B 2 2 ? -0.256145185 -8.66551844 49.6980123 1 38.83 ? 52 C 1 c
+405 H "H4'" . DA B 2 2 ? -0.460492883 -7.48908727 47.8236478 1 35.32 ? 52 C 1 c
+406 H "H3'" . DA B 2 2 ? 1.10783138 -6.23481308 49.5556438 1 35.17 ? 52 C 1 c
+407 H "H2'" . DA B 2 2 ? 0.440438285 -3.90460159 48.6723853 1 32.54 ? 52 C 1 c
+408 H "H2''" . DA B 2 2 ? -0.258968351 -4.48548024 49.9814467 1 32.54 ? 52 C 1 c
+409 H "H1'" . DA B 2 2 ? -1.26334738 -4.55080022 47.3128746 1 32.18 ? 52 C 1 c
+410 H H8 . DA B 2 2 ? -2.24408211 -3.81847883 50.797947 1 27.81 ? 52 C 1 c
+411 H H61 . DA B 2 2 ? -7.05949346 -1.00958698 48.7150725 1 25.99 ? 52 C 1 c
+412 H H62 . DA B 2 2 ? -6.26872881 -1.33839043 49.9747595 1 25.99 ? 52 C 1 c
+413 H H2 . DA B 2 2 ? -4.96324287 -2.82478105 45.3697318 1 26.42 ? 52 C 1 c
+414 P P . DC B 2 3 ? 2.469 -4.897 47.361 1 37.7 ? 53 C 1 .
+415 O OP1 . DC B 2 3 ? 3.59 -5.541 46.64 1 39.49 ? 53 C 1 .
+416 O OP2 . DC B 2 3 ? 2.721 -4.2 48.646 1 40.75 ? 53 C 1 .
+417 O "O5'" . DC B 2 3 ? 1.756 -3.88 46.376 1 39.27 ? 53 C 1 .
+418 C "C5'" . DC B 2 3 ? 0.772 -4.372 45.462 1 38.07 ? 53 C 1 .
+419 C "C4'" . DC B 2 3 ? 0.111 -3.228 44.739 1 36.2 ? 53 C 1 .
+420 O "O4'" . DC B 2 3 ? -0.954 -2.64 45.524 1 34.84 ? 53 C 1 .
+421 C "C3'" . DC B 2 3 ? 1.056 -2.089 44.367 1 35.91 ? 53 C 1 .
+422 O "O3'" . DC B 2 3 ? 0.832 -1.767 43.002 1 37.29 ? 53 C 1 .
+423 C "C2'" . DC B 2 3 ? 0.622 -0.95 45.278 1 34.42 ? 53 C 1 .
+424 C "C1'" . DC B 2 3 ? -0.859 -1.233 45.412 1 32.59 ? 53 C 1 .
+425 N N1 . DC B 2 3 ? -1.564 -0.634 46.559 1 29.97 ? 53 C 1 .
+426 C C2 . DC B 2 3 ? -2.792 0.005 46.324 1 27.62 ? 53 C 1 .
+427 O O2 . DC B 2 3 ? -3.223 0.065 45.165 1 25.53 ? 53 C 1 .
+428 N N3 . DC B 2 3 ? -3.473 0.539 47.361 1 27.17 ? 53 C 1 .
+429 C C4 . DC B 2 3 ? -2.974 0.459 48.596 1 27.94 ? 53 C 1 .
+430 N N4 . DC B 2 3 ? -3.692 0.986 49.59 1 27.01 ? 53 C 1 .
+431 C C5 . DC B 2 3 ? -1.717 -0.171 48.866 1 26.94 ? 53 C 1 .
+432 C C6 . DC B 2 3 ? -1.052 -0.7 47.827 1 28.14 ? 53 C 1 .
+433 H "H5'" . DC B 2 3 ? 0.0896347378 -4.8938066 45.9521189 1 38.07 ? 53 C 1 c
+434 H "H5''" . DC B 2 3 ? 1.19642024 -4.9785358 44.8061778 1 38.07 ? 53 C 1 c
+435 H "H4'" . DC B 2 3 ? -0.270370131 -3.57335753 43.8967091 1 36.2 ? 53 C 1 c
+436 H "H3'" . DC B 2 3 ? 1.99689963 -2.35207185 44.5141227 1 35.91 ? 53 C 1 c
+437 H "H2'" . DC B 2 3 ? 0.779837004 -0.0767405297 44.8574891 1 34.42 ? 53 C 1 c
+438 H "H2''" . DC B 2 3 ? 1.07277534 -0.998177456 46.1490939 1 34.42 ? 53 C 1 c
+439 H "H1'" . DC B 2 3 ? -1.33245408 -0.932659229 44.5948601 1 32.59 ? 53 C 1 c
+440 H H41 . DC B 2 3 ? -4.46256078 1.36726627 49.4167917 1 27.01 ? 53 C 1 c
+441 H H42 . DC B 2 3 ? -3.39063989 0.949119181 50.4127703 1 27.01 ? 53 C 1 c
+442 H H5 . DC B 2 3 ? -1.36655001 -0.214674329 49.7382146 1 26.94 ? 53 C 1 c
+443 H H6 . DC B 2 3 ? -0.227691137 -1.12173174 47.9569317 1 28.14 ? 53 C 1 c
+444 P P . DG B 2 4 ? 1.859 -0.819 42.229 1 37.83 ? 54 C 1 .
+445 O OP1 . DG B 2 4 ? 2.117 -1.426 40.9 1 38 ? 54 C 1 .
+446 O OP2 . DG B 2 4 ? 2.998 -0.509 43.132 1 37.82 ? 54 C 1 .
+447 O "O5'" . DG B 2 4 ? 0.99 0.496 42.024 1 38.46 ? 54 C 1 .
+448 C "C5'" . DG B 2 4 ? -0.31 0.413 41.421 1 35.91 ? 54 C 1 .
+449 C "C4'" . DG B 2 4 ? -0.959 1.773 41.406 1 35.55 ? 54 C 1 .
+450 O "O4'" . DG B 2 4 ? -1.566 2.06 42.689 1 33.91 ? 54 C 1 .
+451 C "C3'" . DG B 2 4 ? 0.022 2.911 41.128 1 36.43 ? 54 C 1 .
+452 O "O3'" . DG B 2 4 ? -0.557 3.834 40.206 1 39.4 ? 54 C 1 .
+453 C "C2'" . DG B 2 4 ? 0.219 3.55 42.493 1 34.55 ? 54 C 1 .
+454 C "C1'" . DG B 2 4 ? -1.14 3.336 43.133 1 32.24 ? 54 C 1 .
+455 N N9 . DG B 2 4 ? -1.166 3.337 44.594 1 30.11 ? 54 C 1 .
+456 C C8 . DG B 2 4 ? -0.198 2.863 45.449 1 29.49 ? 54 C 1 .
+457 N N7 . DG B 2 4 ? -0.519 2.996 46.709 1 28.2 ? 54 C 1 .
+458 C C5 . DG B 2 4 ? -1.769 3.602 46.685 1 28.18 ? 54 C 1 .
+459 C C6 . DG B 2 4 ? -2.622 4.004 47.751 1 28.57 ? 54 C 1 .
+460 O O6 . DG B 2 4 ? -2.436 3.905 48.97 1 29.28 ? 54 C 1 .
+461 N N1 . DG B 2 4 ? -3.798 4.576 47.278 1 27.51 ? 54 C 1 .
+462 C C2 . DG B 2 4 ? -4.114 4.742 45.953 1 28.01 ? 54 C 1 .
+463 N N2 . DG B 2 4 ? -5.304 5.308 45.696 1 28 ? 54 C 1 .
+464 N N3 . DG B 2 4 ? -3.327 4.379 44.953 1 28.61 ? 54 C 1 .
+465 C C4 . DG B 2 4 ? -2.181 3.818 45.387 1 28.55 ? 54 C 1 .
+466 H "H5'" . DG B 2 4 ? -0.875879211 -0.219491892 41.928795 1 35.91 ? 54 C 1 c
+467 H "H5''" . DG B 2 4 ? -0.229839748 0.0729962659 40.4957472 1 35.91 ? 54 C 1 c
+468 H "H4'" . DG B 2 4 ? -1.66095514 1.77319663 40.7121499 1 35.55 ? 54 C 1 c
+469 H "H3'" . DG B 2 4 ? 0.877148865 2.55931978 40.779883 1 36.43 ? 54 C 1 c
+470 H "H2'" . DG B 2 4 ? 0.425322022 4.50145066 42.411135 1 34.55 ? 54 C 1 c
+471 H "H2''" . DG B 2 4 ? 0.922472557 3.09658041 42.9970496 1 34.55 ? 54 C 1 c
+472 H "H1'" . DG B 2 4 ? -1.77241541 4.02398023 42.7971683 1 32.24 ? 54 C 1 c
+473 H H8 . DG B 2 4 ? 0.612083701 2.48213407 45.1556239 1 29.49 ? 54 C 1 c
+474 H H1 . DG B 2 4 ? -4.39191679 4.85615129 47.8890541 1 27.51 ? 54 C 1 c
+475 H H21 . DG B 2 4 ? -5.555899 5.4375005 44.8659967 1 28 ? 54 C 1 c
+476 H H22 . DG B 2 4 ? -5.82633226 5.54674731 46.3587954 1 28 ? 54 C 1 c
+477 P P . DC B 2 5 ? 0.392 4.686 39.233 1 41.23 ? 55 C 1 .
+478 O OP1 . DC B 2 5 ? -0.119 4.536 37.846 1 43.67 ? 55 C 1 .
+479 O OP2 . DC B 2 5 ? 1.808 4.344 39.541 1 42.12 ? 55 C 1 .
+480 O "O5'" . DC B 2 5 ? 0.128 6.177 39.71 1 41.38 ? 55 C 1 .
+481 C "C5'" . DC B 2 5 ? -0.572 6.406 40.936 1 40.47 ? 55 C 1 .
+482 C "C4'" . DC B 2 5 ? -1.605 7.49 40.759 1 39 ? 55 C 1 .
+483 O "O4'" . DC B 2 5 ? -2.496 7.413 41.893 1 38.09 ? 55 C 1 .
+484 C "C3'" . DC B 2 5 ? -1.015 8.897 40.769 1 38.01 ? 55 C 1 .
+485 O "O3'" . DC B 2 5 ? -1.742 9.79 39.92 1 36.39 ? 55 C 1 .
+486 C "C2'" . DC B 2 5 ? -1.105 9.307 42.225 1 38.35 ? 55 C 1 .
+487 C "C1'" . DC B 2 5 ? -2.26 8.484 42.792 1 37.56 ? 55 C 1 .
+488 N N1 . DC B 2 5 ? -1.9 7.9 44.093 1 35.45 ? 55 C 1 .
+489 C C2 . DC B 2 5 ? -2.812 7.972 45.145 1 33.13 ? 55 C 1 .
+490 O O2 . DC B 2 5 ? -3.935 8.453 44.934 1 33.76 ? 55 C 1 .
+491 N N3 . DC B 2 5 ? -2.448 7.511 46.363 1 31.26 ? 55 C 1 .
+492 C C4 . DC B 2 5 ? -1.233 6.982 46.542 1 30.28 ? 55 C 1 .
+493 N N4 . DC B 2 5 ? -0.901 6.576 47.769 1 28.91 ? 55 C 1 .
+494 C C5 . DC B 2 5 ? -0.302 6.857 45.474 1 30.15 ? 55 C 1 .
+495 C C6 . DC B 2 5 ? -0.674 7.321 44.278 1 32.51 ? 55 C 1 .
+496 H "H5'" . DC B 2 5 ? 0.0671608216 6.66861059 41.6435522 1 40.47 ? 55 C 1 c
+497 H "H5''" . DC B 2 5 ? -1.01329569 5.57171193 41.2315377 1 40.47 ? 55 C 1 c
+498 H "H4'" . DC B 2 5 ? -2.11908978 7.29654476 39.938966 1 39 ? 55 C 1 c
+499 H "H3'" . DC B 2 5 ? -0.0592273047 8.87800231 40.5194371 1 38.01 ? 55 C 1 c
+500 H "H2'" . DC B 2 5 ? -1.27751553 10.2695578 42.3146936 1 38.35 ? 55 C 1 c
+501 H "H2''" . DC B 2 5 ? -0.267288676 9.11819155 42.7013561 1 38.35 ? 55 C 1 c
+502 H "H1'" . DC B 2 5 ? -3.07248018 9.04769633 42.8568336 1 37.56 ? 55 C 1 c
+503 H H41 . DC B 2 5 ? -1.47486277 6.6611312 48.4266954 1 28.91 ? 55 C 1 c
+504 H H42 . DC B 2 5 ? -0.11013829 6.22550263 47.9132856 1 28.91 ? 55 C 1 c
+505 H H5 . DC B 2 5 ? 0.543397046 6.46368123 45.6008274 1 30.15 ? 55 C 1 c
+506 H H6 . DC B 2 5 ? -0.0960741731 7.25528843 43.5459421 1 32.51 ? 55 C 1 c
+507 P P . DC B 2 6 ? -1.379 11.359 39.92 1 35.35 ? 56 C 1 .
+508 O OP1 . DC B 2 6 ? -1.685 11.921 38.581 1 36.52 ? 56 C 1 .
+509 O OP2 . DC B 2 6 ? -0.016 11.519 40.489 1 34.38 ? 56 C 1 .
+510 O "O5'" . DC B 2 6 ? -2.421 11.971 40.952 1 33.89 ? 56 C 1 .
+511 C "C5'" . DC B 2 6 ? -3.827 11.767 40.762 1 32.44 ? 56 C 1 .
+512 C "C4'" . DC B 2 6 ? -4.603 12.484 41.838 1 32.62 ? 56 C 1 .
+513 O "O4'" . DC B 2 6 ? -4.36 11.841 43.113 1 32.24 ? 56 C 1 .
+514 C "C3'" . DC B 2 6 ? -4.202 13.947 42.016 1 32.44 ? 56 C 1 .
+515 O "O3'" . DC B 2 6 ? -5.362 14.745 42.261 1 31.83 ? 56 C 1 .
+516 C "C2'" . DC B 2 6 ? -3.274 13.921 43.219 1 32.71 ? 56 C 1 .
+517 C "C1'" . DC B 2 6 ? -3.821 12.767 44.044 1 31.65 ? 56 C 1 .
+518 N N1 . DC B 2 6 ? -2.8 12.06 44.833 1 30.33 ? 56 C 1 .
+519 C C2 . DC B 2 6 ? -2.978 11.923 46.218 1 30.28 ? 56 C 1 .
+520 O O2 . DC B 2 6 ? -3.981 12.424 46.751 1 30.8 ? 56 C 1 .
+521 N N3 . DC B 2 6 ? -2.052 11.251 46.939 1 29.17 ? 56 C 1 .
+522 C C4 . DC B 2 6 ? -0.98 10.736 46.333 1 29.29 ? 56 C 1 .
+523 N N4 . DC B 2 6 ? -0.093 10.078 47.083 1 28.49 ? 56 C 1 .
+524 C C5 . DC B 2 6 ? -0.768 10.872 44.929 1 30.21 ? 56 C 1 .
+525 C C6 . DC B 2 6 ? -1.696 11.534 44.225 1 30.26 ? 56 C 1 .
+526 H "H5'" . DC B 2 6 ? -4.03307117 10.8001764 40.7921291 1 32.44 ? 56 C 1 c
+527 H "H5''" . DC B 2 6 ? -4.09862371 12.1071464 39.8739448 1 32.44 ? 56 C 1 c
+528 H "H4'" . DC B 2 6 ? -5.56428441 12.4127492 41.62581 1 32.62 ? 56 C 1 c
+529 H "H3'" . DC B 2 6 ? -3.71312634 14.2753818 41.2227082 1 32.44 ? 56 C 1 c
+530 H "H2'" . DC B 2 6 ? -3.31425217 14.7651724 43.7190767 1 32.71 ? 56 C 1 c
+531 H "H2''" . DC B 2 6 ? -2.34449036 13.7550901 42.9491672 1 32.71 ? 56 C 1 c
+532 H "H1'" . DC B 2 6 ? -4.54109922 13.0941774 44.6410704 1 31.65 ? 56 C 1 c
+533 H H41 . DC B 2 6 ? -0.226795678 9.99640699 47.9458849 1 28.49 ? 56 C 1 c
+534 H H42 . DC B 2 6 ? 0.620281413 9.7297152 46.7100974 1 28.49 ? 56 C 1 c
+535 H H5 . DC B 2 6 ? -0.00660665942 10.5118994 44.5093707 1 30.21 ? 56 C 1 c
+536 H H6 . DC B 2 6 ? -1.59841988 11.6448398 43.3017353 1 30.26 ? 56 C 1 c
+537 P P . DC B 2 7 ? -5.215 16.336 42.402 1 30.25 ? 57 C 1 .
+538 O OP1 . DC B 2 7 ? -6.561 16.941 42.282 1 30.34 ? 57 C 1 .
+539 O OP2 . DC B 2 7 ? -4.128 16.781 41.498 1 30.39 ? 57 C 1 .
+540 O "O5'" . DC B 2 7 ? -4.729 16.509 43.906 1 31.57 ? 57 C 1 .
+541 C "C5'" . DC B 2 7 ? -5.602 16.152 44.982 1 32.15 ? 57 C 1 .
+542 C "C4'" . DC B 2 7 ? -5.039 16.636 46.295 1 33.72 ? 57 C 1 .
+543 O "O4'" . DC B 2 7 ? -4.075 15.692 46.822 1 33.56 ? 57 C 1 .
+544 C "C3'" . DC B 2 7 ? -4.339 17.994 46.239 1 34.24 ? 57 C 1 .
+545 O "O3'" . DC B 2 7 ? -4.838 18.823 47.29 1 36.29 ? 57 C 1 .
+546 C "C2'" . DC B 2 7 ? -2.868 17.65 46.431 1 33.04 ? 57 C 1 .
+547 C "C1'" . DC B 2 7 ? -2.935 16.392 47.283 1 31.83 ? 57 C 1 .
+548 N N1 . DC B 2 7 ? -1.775 15.484 47.183 1 29.28 ? 57 C 1 .
+549 C C2 . DC B 2 7 ? -1.303 14.861 48.348 1 28.11 ? 57 C 1 .
+550 O O2 . DC B 2 7 ? -1.873 15.086 49.424 1 27.2 ? 57 C 1 .
+551 N N3 . DC B 2 7 ? -0.239 14.031 48.271 1 26.44 ? 57 C 1 .
+552 C C4 . DC B 2 7 ? 0.353 13.816 47.095 1 26.32 ? 57 C 1 .
+553 N N4 . DC B 2 7 ? 1.409 13.002 47.069 1 26.57 ? 57 C 1 .
+554 C C5 . DC B 2 7 ? -0.109 14.43 45.894 1 26.16 ? 57 C 1 .
+555 C C6 . DC B 2 7 ? -1.166 15.249 45.983 1 27.9 ? 57 C 1 .
+556 H "H5'" . DC B 2 7 ? -5.71503701 15.1699065 45.0109137 1 32.15 ? 57 C 1 c
+557 H "H5''" . DC B 2 7 ? -6.49509879 16.5510713 44.8362686 1 32.15 ? 57 C 1 c
+558 H "H4'" . DC B 2 7 ? -5.78289289 16.7208827 46.9381075 1 33.72 ? 57 C 1 c
+559 H "H3'" . DC B 2 7 ? -4.47686828 18.4233398 45.3599075 1 34.24 ? 57 C 1 c
+560 H "H2'" . DC B 2 7 ? -2.39113536 18.3701279 46.8982686 1 33.04 ? 57 C 1 c
+561 H "H2''" . DC B 2 7 ? -2.42764932 17.4733175 45.5712334 1 33.04 ? 57 C 1 c
+562 H "H1'" . DC B 2 7 ? -3.05964111 16.6385375 48.2347168 1 31.83 ? 57 C 1 c
+563 H H41 . DC B 2 7 ? 1.69064531 12.6292363 47.8111942 1 26.57 ? 57 C 1 c
+564 H H42 . DC B 2 7 ? 1.81799129 12.842398 46.3098015 1 26.57 ? 57 C 1 c
+565 H H5 . DC B 2 7 ? 0.310188046 14.2686523 45.0671207 1 26.16 ? 57 C 1 c
+566 H H6 . DC B 2 7 ? -1.50177023 15.6723446 45.2199386 1 27.9 ? 57 C 1 c
+567 P P . DA B 2 8 ? -4.157 20.247 47.581 1 37.96 ? 58 C 1 .
+568 O OP1 . DA B 2 8 ? -5.195 21.144 48.152 1 38.41 ? 58 C 1 .
+569 O OP2 . DA B 2 8 ? -3.392 20.677 46.382 1 38.32 ? 58 C 1 .
+570 O "O5'" . DA B 2 8 ? -3.133 19.882 48.739 1 38.26 ? 58 C 1 .
+571 C "C5'" . DA B 2 8 ? -3.556 19.033 49.814 1 37.56 ? 58 C 1 .
+572 C "C4'" . DA B 2 8 ? -2.534 19.049 50.921 1 36.23 ? 58 C 1 .
+573 O "O4'" . DA B 2 8 ? -1.542 18.017 50.719 1 35.49 ? 58 C 1 .
+574 C "C3'" . DA B 2 8 ? -1.78 20.37 51.047 1 36.37 ? 58 C 1 .
+575 O "O3'" . DA B 2 8 ? -1.763 20.768 52.413 1 38.7 ? 58 C 1 .
+576 C "C2'" . DA B 2 8 ? -0.387 20.042 50.538 1 34.83 ? 58 C 1 .
+577 C "C1'" . DA B 2 8 ? -0.244 18.563 50.85 1 33.65 ? 58 C 1 .
+578 N N9 . DA B 2 8 ? 0.636 17.84 49.932 1 31.76 ? 58 C 1 .
+579 C C8 . DA B 2 8 ? 0.766 18.022 48.58 1 30.41 ? 58 C 1 .
+580 N N7 . DA B 2 8 ? 1.651 17.231 48.022 1 28.72 ? 58 C 1 .
+581 C C5 . DA B 2 8 ? 2.134 16.476 49.08 1 28.86 ? 58 C 1 .
+582 C C6 . DA B 2 8 ? 3.102 15.461 49.15 1 28.83 ? 58 C 1 .
+583 N N6 . DA B 2 8 ? 3.794 15.025 48.094 1 27.42 ? 58 C 1 .
+584 N N1 . DA B 2 8 ? 3.344 14.906 50.359 1 28.65 ? 58 C 1 .
+585 C C2 . DA B 2 8 ? 2.66 15.355 51.418 1 27.88 ? 58 C 1 .
+586 N N3 . DA B 2 8 ? 1.733 16.307 51.479 1 29.29 ? 58 C 1 .
+587 C C4 . DA B 2 8 ? 1.513 16.834 50.262 1 30.15 ? 58 C 1 .
+588 H "H5'" . DA B 2 8 ? -3.67443544 18.1080099 49.4846259 1 37.56 ? 58 C 1 c
+589 H "H5''" . DA B 2 8 ? -4.42827894 19.3422341 50.1627473 1 37.56 ? 58 C 1 c
+590 H "H4'" . DA B 2 8 ? -3.00019878 18.8826543 51.7749068 1 36.23 ? 58 C 1 c
+591 H "H3'" . DA B 2 8 ? -2.1978801 21.0670028 50.4851216 1 36.37 ? 58 C 1 c
+592 H "H2'" . DA B 2 8 ? 0.292014429 20.5686306 51.0028963 1 34.83 ? 58 C 1 c
+593 H "H2''" . DA B 2 8 ? -0.313055936 20.2096111 49.5783293 1 34.83 ? 58 C 1 c
+594 H "H1'" . DA B 2 8 ? 0.0603694092 18.4540415 51.7889017 1 33.65 ? 58 C 1 c
+595 H H8 . DA B 2 8 ? 0.265364769 18.6570223 48.0968074 1 30.41 ? 58 C 1 c
+596 H H61 . DA B 2 8 ? 4.38735927 14.3873279 48.1961177 1 27.42 ? 58 C 1 c
+597 H H62 . DA B 2 8 ? 3.65118711 15.3788019 47.3043433 1 27.42 ? 58 C 1 c
+598 H H2 . DA B 2 8 ? 2.8650542 14.9356675 52.2396678 1 27.88 ? 58 C 1 c
+599 P P . DC B 2 9 ? -1.037 22.13 52.846 1 40 ? 59 C 1 .
+600 O OP1 . DC B 2 9 ? -2.015 22.966 53.584 1 39.38 ? 59 C 1 .
+601 O OP2 . DC B 2 9 ? -0.3 22.705 51.688 1 40.44 ? 59 C 1 .
+602 O "O5'" . DC B 2 9 ? 0.024 21.583 53.888 1 40.05 ? 59 C 1 .
+603 C "C5'" . DC B 2 9 ? -0.286 20.425 54.675 1 37.46 ? 59 C 1 .
+604 C "C4'" . DC B 2 9 ? 0.97 19.885 55.305 1 36.69 ? 59 C 1 .
+605 O "O4'" . DC B 2 9 ? 1.709 19.068 54.362 1 35.62 ? 59 C 1 .
+606 C "C3'" . DC B 2 9 ? 1.915 20.997 55.75 1 36.65 ? 59 C 1 .
+607 O "O3'" . DC B 2 9 ? 2.375 20.745 57.071 1 37.49 ? 59 C 1 .
+608 C "C2'" . DC B 2 9 ? 3.042 20.951 54.729 1 35.2 ? 59 C 1 .
+609 C "C1'" . DC B 2 9 ? 3.062 19.487 54.328 1 34.46 ? 59 C 1 .
+610 N N1 . DC B 2 9 ? 3.592 19.206 52.982 1 32.54 ? 59 C 1 .
+611 C C2 . DC B 2 9 ? 4.473 18.126 52.816 1 31.13 ? 59 C 1 .
+612 O O2 . DC B 2 9 ? 4.772 17.434 53.803 1 30.4 ? 59 C 1 .
+613 N N3 . DC B 2 9 ? 4.974 17.865 51.587 1 29.61 ? 59 C 1 .
+614 C C4 . DC B 2 9 ? 4.631 18.63 50.55 1 28.62 ? 59 C 1 .
+615 N N4 . DC B 2 9 ? 5.163 18.34 49.359 1 27.1 ? 59 C 1 .
+616 C C5 . DC B 2 9 ? 3.73 19.729 50.687 1 29.04 ? 59 C 1 .
+617 C C6 . DC B 2 9 ? 3.241 19.979 51.91 1 30.37 ? 59 C 1 .
+618 H "H5'" . DC B 2 9 ? -0.695873161 19.7301422 54.1029007 1 37.46 ? 59 C 1 c
+619 H "H5''" . DC B 2 9 ? -0.93594643 20.6632655 55.3813428 1 37.46 ? 59 C 1 c
+620 H "H4'" . DC B 2 9 ? 0.713225107 19.3246195 56.0758498 1 36.69 ? 59 C 1 c
+621 H "H3'" . DC B 2 9 ? 1.46974751 21.8773901 55.6970137 1 36.65 ? 59 C 1 c
+622 H "H2'" . DC B 2 9 ? 3.89718468 21.2211273 55.129018 1 35.2 ? 59 C 1 c
+623 H "H2''" . DC B 2 9 ? 2.84875442 21.5275729 53.9579333 1 35.2 ? 59 C 1 c
+624 H "H1'" . DC B 2 9 ? 3.58706725 18.9663633 54.98779 1 34.46 ? 59 C 1 c
+625 H H41 . DC B 2 9 ? 5.71748086 17.6649321 49.2817774 1 27.1 ? 59 C 1 c
+626 H H42 . DC B 2 9 ? 4.95575159 18.825787 48.6588657 1 27.1 ? 59 C 1 c
+627 H H5 . DC B 2 9 ? 3.48615887 20.2600742 49.9494482 1 29.04 ? 59 C 1 c
+628 H H6 . DC B 2 9 ? 2.64954689 20.6902823 52.0459623 1 30.37 ? 59 C 1 c
+629 P P . DG B 2 10 ? 3.389 21.772 57.757 1 38.15 ? 60 C 1 .
+630 O OP1 . DG B 2 10 ? 3.228 21.661 59.229 1 39.91 ? 60 C 1 .
+631 O OP2 . DG B 2 10 ? 3.224 23.091 57.096 1 38.63 ? 60 C 1 .
+632 O "O5'" . DG B 2 10 ? 4.803 21.174 57.347 1 38.19 ? 60 C 1 .
+633 C "C5'" . DG B 2 10 ? 5.12 19.804 57.636 1 36.2 ? 60 C 1 .
+634 C "C4'" . DG B 2 10 ? 6.573 19.534 57.335 1 35.37 ? 60 C 1 .
+635 O "O4'" . DG B 2 10 ? 6.747 19.163 55.944 1 34.81 ? 60 C 1 .
+636 C "C3'" . DG B 2 10 ? 7.483 20.737 57.582 1 35.19 ? 60 C 1 .
+637 O "O3'" . DG B 2 10 ? 8.627 20.348 58.329 1 36.71 ? 60 C 1 .
+638 C "C2'" . DG B 2 10 ? 7.897 21.175 56.187 1 33.84 ? 60 C 1 .
+639 C "C1'" . DG B 2 10 ? 7.848 19.876 55.408 1 32.35 ? 60 C 1 .
+640 N N9 . DG B 2 10 ? 7.624 20.043 53.977 1 29.97 ? 60 C 1 .
+641 C C8 . DG B 2 10 ? 6.724 20.89 53.376 1 29.61 ? 60 C 1 .
+642 N N7 . DG B 2 10 ? 6.764 20.839 52.075 1 29.08 ? 60 C 1 .
+643 C C5 . DG B 2 10 ? 7.745 19.898 51.796 1 27.76 ? 60 C 1 .
+644 C C6 . DG B 2 10 ? 8.236 19.426 50.55 1 27.41 ? 60 C 1 .
+645 O O6 . DG B 2 10 ? 7.892 19.759 49.413 1 28.03 ? 60 C 1 .
+646 N N1 . DG B 2 10 ? 9.233 18.47 50.721 1 27.02 ? 60 C 1 .
+647 C C2 . DG B 2 10 ? 9.7 18.025 51.934 1 27 ? 60 C 1 .
+648 N N2 . DG B 2 10 ? 10.667 17.095 51.889 1 23.62 ? 60 C 1 .
+649 N N3 . DG B 2 10 ? 9.251 18.46 53.104 1 28.12 ? 60 C 1 .
+650 C C4 . DG B 2 10 ? 8.28 19.391 52.958 1 28.4 ? 60 C 1 .
+651 H "H5'" . DG B 2 10 ? 4.55122023 19.2056853 57.0913624 1 36.2 ? 60 C 1 c
+652 H "H5''" . DG B 2 10 ? 4.93660068 19.6106602 58.5884208 1 36.2 ? 60 C 1 c
+653 H "H4'" . DG B 2 10 ? 6.87361938 18.7870958 57.9059037 1 35.37 ? 60 C 1 c
+654 H "H3'" . DG B 2 10 ? 6.9920431 21.4585625 58.0450906 1 35.19 ? 60 C 1 c
+655 H "H2'" . DG B 2 10 ? 8.79803855 21.5526996 56.1882275 1 33.84 ? 60 C 1 c
+656 H "H2''" . DG B 2 10 ? 7.2706343 21.8299489 55.8219836 1 33.84 ? 60 C 1 c
+657 H "H1'" . DG B 2 10 ? 8.68043843 19.3613961 55.5761609 1 32.35 ? 60 C 1 c
+658 H H8 . DG B 2 10 ? 6.13843447 21.4498507 53.8566706 1 29.61 ? 60 C 1 c
+659 H H1 . DG B 2 10 ? 9.59571128 18.12022 49.978906 1 27.02 ? 60 C 1 c
+660 H H21 . DG B 2 10 ? 11.0012622 16.7760738 52.634442 1 23.62 ? 60 C 1 c
+661 H H22 . DG B 2 10 ? 10.9619677 16.8087723 51.1142763 1 23.62 ? 60 C 1 c
+662 P P . DC B 2 11 ? 9.555 21.47 59.002 1 37.12 ? 61 C 1 .
+663 O OP1 . DC B 2 11 ? 9.593 21.213 60.465 1 36.59 ? 61 C 1 .
+664 O OP2 . DC B 2 11 ? 9.129 22.801 58.503 1 37.61 ? 61 C 1 .
+665 O "O5'" . DC B 2 11 ? 10.983 21.141 58.384 1 36.58 ? 61 C 1 .
+666 C "C5'" . DC B 2 11 ? 11.484 19.792 58.394 1 33.03 ? 61 C 1 .
+667 C "C4'" . DC B 2 11 ? 12.649 19.655 57.442 1 31.92 ? 61 C 1 .
+668 O "O4'" . DC B 2 11 ? 12.188 19.58 56.069 1 30.71 ? 61 C 1 .
+669 C "C3'" . DC B 2 11 ? 13.663 20.798 57.495 1 30.3 ? 61 C 1 .
+670 O "O3'" . DC B 2 11 ? 14.976 20.277 57.355 1 33.3 ? 61 C 1 .
+671 C "C2'" . DC B 2 11 ? 13.359 21.589 56.236 1 30.65 ? 61 C 1 .
+672 C "C1'" . DC B 2 11 ? 12.943 20.484 55.282 1 29.29 ? 61 C 1 .
+673 N N1 . DC B 2 11 ? 12.112 20.916 54.142 1 27.57 ? 61 C 1 .
+674 C C2 . DC B 2 11 ? 12.293 20.291 52.905 1 26.41 ? 61 C 1 .
+675 O O2 . DC B 2 11 ? 13.109 19.364 52.816 1 26.47 ? 61 C 1 .
+676 N N3 . DC B 2 11 ? 11.574 20.71 51.84 1 26.43 ? 61 C 1 .
+677 C C4 . DC B 2 11 ? 10.699 21.708 51.977 1 24.84 ? 61 C 1 .
+678 N N4 . DC B 2 11 ? 10.034 22.108 50.889 1 23.35 ? 61 C 1 .
+679 C C5 . DC B 2 11 ? 10.473 22.344 53.231 1 25.08 ? 61 C 1 .
+680 C C6 . DC B 2 11 ? 11.193 21.92 54.278 1 26.42 ? 61 C 1 .
+681 H "H5'" . DC B 2 11 ? 10.7654169 19.1650281 58.1319589 1 33.03 ? 61 C 1 c
+682 H "H5''" . DC B 2 11 ? 11.7715084 19.5473954 59.3081272 1 33.03 ? 61 C 1 c
+683 H "H4'" . DC B 2 11 ? 13.1304116 18.8214303 57.6601133 1 31.92 ? 61 C 1 c
+684 H "H3'" . DC B 2 11 ? 13.5762069 21.3046238 58.3387673 1 30.3 ? 61 C 1 c
+685 H "HO3'" . DC B 2 11 ? 15.5325764 20.9173879 57.3854471 0 33.3 ? 61 C 1 c
+686 H "H2'" . DC B 2 11 ? 14.1566088 22.0589989 55.9085167 1 30.65 ? 61 C 1 c
+687 H "H2''" . DC B 2 11 ? 12.6259631 22.2257214 56.3828565 1 30.65 ? 61 C 1 c
+688 H "H1'" . DC B 2 11 ? 13.7477368 20.0251067 54.9300105 1 29.29 ? 61 C 1 c
+689 H H41 . DC B 2 11 ? 10.181406 21.7152236 50.1188525 1 23.35 ? 61 C 1 c
+690 H H42 . DC B 2 11 ? 9.45259767 22.7618268 50.9490904 1 23.35 ? 61 C 1 c
+691 H H5 . DC B 2 11 ? 9.84260607 23.0363138 53.3247341 1 25.08 ? 61 C 1 c
+692 H H6 . DC B 2 11 ? 11.0753826 22.3078729 55.1205828 1 26.42 ? 61 C 1 c
+693 N N . ARG C 3 3 ? -15.679 8.266 61.776 1 48.66 ? 103 A 1 .
+694 C CA . ARG C 3 3 ? -14.378 7.7 62.118 1 47.87 ? 103 A 1 .
+695 C C . ARG C 3 3 ? -14.467 6.819 63.35 1 47.3 ? 103 A 1 .
+696 O O . ARG C 3 3 ? -14.292 7.283 64.478 1 47.1 ? 103 A 1 .
+697 C CB . ARG C 3 3 ? -13.353 8.808 62.349 1 48.28 ? 103 A 1 .
+698 C CG . ARG C 3 3 ? -13.096 9.646 61.124 1 48.91 ? 103 A 1 .
+699 C CD . ARG C 3 3 ? -12.175 10.806 61.434 1 50.32 ? 103 A 1 .
+700 N NE . ARG C 3 3 ? -12.061 11.694 60.28 1 51.46 ? 103 A 1 .
+701 C CZ . ARG C 3 3 ? -10.954 11.86 59.563 1 51.5 ? 103 A 1 .
+702 N NH1 . ARG C 3 3 ? -9.848 11.208 59.883 1 51.85 ? 103 A 1 .
+703 N NH2 . ARG C 3 3 ? -10.973 12.637 58.489 1 51.65 ? 103 A 1 .
+704 H H . ARG C 3 3 ? -15.6063451 8.79114386 61.035145 1 48.66 ? 103 A 1 c
+705 H H2 . ARG C 3 3 ? -15.9909489 8.77192098 62.4664005 1 48.66 ? 103 A 1 c
+706 H H3 . ARG C 3 3 ? -16.2754551 7.59852774 61.6067572 1 48.66 ? 103 A 1 c
+707 H HA . ARG C 3 3 ? -14.0653425 7.15497031 61.3594402 1 47.87 ? 103 A 1 c
+708 H HB3 . ARG C 3 3 ? -12.5095093 8.39804795 62.6333637 1 48.28 ? 103 A 1 c
+709 H HB2 . ARG C 3 3 ? -13.679552 9.39012913 63.066558 1 48.28 ? 103 A 1 c
+710 H HG3 . ARG C 3 3 ? -13.9480213 9.99675181 60.7872599 1 48.91 ? 103 A 1 c
+711 H HG2 . ARG C 3 3 ? -12.68328 9.08784361 60.43083 1 48.91 ? 103 A 1 c
+712 H HD3 . ARG C 3 3 ? -11.2862319 10.4598434 61.6634077 1 50.32 ? 103 A 1 c
+713 H HD2 . ARG C 3 3 ? -12.5358541 11.310135 62.1942587 1 50.32 ? 103 A 1 c
+714 H HE . ARG C 3 3 ? -12.7671672 12.1476039 60.0434513 1 51.46 ? 103 A 1 c
+715 H HH11 . ARG C 3 3 ? -9.11745035 11.3221383 59.4040108 1 51.85 ? 103 A 1 c
+716 H HH12 . ARG C 3 3 ? -9.84536905 10.6616432 60.574121 1 51.85 ? 103 A 1 c
+717 H HH21 . ARG C 3 3 ? -11.7177371 13.0403954 58.2538834 1 51.65 ? 103 A 1 c
+718 H HH22 . ARG C 3 3 ? -10.2408052 12.7465189 58.0151462 1 51.65 ? 103 A 1 c
+719 N N . PRO C 3 4 ? -14.758 5.529 63.147 1 46.94 ? 104 A 1 .
+720 C CA . PRO C 3 4 ? -14.878 4.561 64.242 1 46.45 ? 104 A 1 .
+721 C C . PRO C 3 4 ? -13.56 3.868 64.59 1 45.88 ? 104 A 1 .
+722 O O . PRO C 3 4 ? -13.515 3.055 65.512 1 45.33 ? 104 A 1 .
+723 C CB . PRO C 3 4 ? -15.882 3.535 63.69 1 46.74 ? 104 A 1 .
+724 C CG . PRO C 3 4 ? -16.371 4.118 62.358 1 46.55 ? 104 A 1 .
+725 C CD . PRO C 3 4 ? -15.219 4.935 61.885 1 46.44 ? 104 A 1 .
+726 H HA . PRO C 3 4 ? -15.2432485 5.01563887 65.0419982 1 46.45 ? 104 A 1 c
+727 H HB3 . PRO C 3 4 ? -16.6303714 3.40581041 64.310976 1 46.74 ? 104 A 1 c
+728 H HB2 . PRO C 3 4 ? -15.4546184 2.66252497 63.5540101 1 46.74 ? 104 A 1 c
+729 H HG3 . PRO C 3 4 ? -17.16266 4.67808945 62.4922211 1 46.55 ? 104 A 1 c
+730 H HG2 . PRO C 3 4 ? -16.5767358 3.40470949 61.7197756 1 46.55 ? 104 A 1 c
+731 H HD3 . PRO C 3 4 ? -14.5270677 4.36798662 61.4972494 1 46.44 ? 104 A 1 c
+732 H HD2 . PRO C 3 4 ? -15.5152384 5.62719374 61.265536 1 46.44 ? 104 A 1 c
+733 N N . TYR C 3 5 ? -12.496 4.184 63.852 1 45.48 ? 105 A 1 .
+734 C CA . TYR C 3 5 ? -11.2 3.547 64.077 1 45.26 ? 105 A 1 .
+735 C C . TYR C 3 5 ? -10.105 4.48 64.56 1 45.05 ? 105 A 1 .
+736 O O . TYR C 3 5 ? -9.466 5.169 63.769 1 44.88 ? 105 A 1 .
+737 C CB . TYR C 3 5 ? -10.737 2.841 62.811 1 45.09 ? 105 A 1 .
+738 C CG . TYR C 3 5 ? -11.757 1.881 62.267 1 45.25 ? 105 A 1 .
+739 C CD1 . TYR C 3 5 ? -11.867 0.596 62.78 1 45.13 ? 105 A 1 .
+740 C CD2 . TYR C 3 5 ? -12.618 2.259 61.238 1 45.05 ? 105 A 1 .
+741 C CE1 . TYR C 3 5 ? -12.81 -0.296 62.283 1 45.68 ? 105 A 1 .
+742 C CE2 . TYR C 3 5 ? -13.562 1.376 60.733 1 45.33 ? 105 A 1 .
+743 C CZ . TYR C 3 5 ? -13.654 0.098 61.26 1 45.76 ? 105 A 1 .
+744 O OH . TYR C 3 5 ? -14.589 -0.79 60.771 1 47.37 ? 105 A 1 .
+745 H H . TYR C 3 5 ? -12.5750274 4.81086697 63.1915543 1 45.48 ? 105 A 1 c
+746 H HA . TYR C 3 5 ? -11.3145633 2.82498246 64.7460642 1 45.26 ? 105 A 1 c
+747 H HB3 . TYR C 3 5 ? -9.91469187 2.3481019 63.0141275 1 45.09 ? 105 A 1 c
+748 H HB2 . TYR C 3 5 ? -10.5456663 3.51942312 62.1301671 1 45.09 ? 105 A 1 c
+749 H HD1 . TYR C 3 5 ? -11.2932259 0.323027112 63.4767913 1 45.13 ? 105 A 1 c
+750 H HD2 . TYR C 3 5 ? -12.5586799 3.12880366 60.8785953 1 45.05 ? 105 A 1 c
+751 H HE1 . TYR C 3 5 ? -12.8752134 -1.1661101 62.6406376 1 45.68 ? 105 A 1 c
+752 H HE2 . TYR C 3 5 ? -14.1377992 1.64295764 60.035549 1 45.33 ? 105 A 1 c
+753 H HH . TYR C 3 5 ? -14.6442525 -1.58280941 61.1022422 0 47.37 ? 105 A 1 c
+754 N N . ALA C 3 6 ? -9.867 4.464 65.866 1 44.42 ? 106 A 1 .
+755 C CA . ALA C 3 6 ? -8.843 5.311 66.454 1 43.38 ? 106 A 1 .
+756 C C . ALA C 3 6 ? -7.56 4.537 66.71 1 42.32 ? 106 A 1 .
+757 O O . ALA C 3 6 ? -7.569 3.307 66.856 1 41.67 ? 106 A 1 .
+758 C CB . ALA C 3 6 ? -9.351 5.934 67.751 1 43.68 ? 106 A 1 .
+759 H H . ALA C 3 6 ? -10.3539409 3.9117433 66.4075691 1 44.42 ? 106 A 1 c
+760 H HA . ALA C 3 6 ? -8.64601027 6.04584611 65.8267901 1 43.38 ? 106 A 1 c
+761 H HB3 . ALA C 3 6 ? -9.5805458 5.23073771 68.3814878 1 43.68 ? 106 A 1 c
+762 H HB2 . ALA C 3 6 ? -10.1392275 6.4719802 67.5664498 1 43.68 ? 106 A 1 c
+763 H HB1 . ALA C 3 6 ? -8.65801543 6.49759576 68.1342965 1 43.68 ? 106 A 1 c
+764 N N . CYS C 3 7 ? -6.46 5.282 66.738 1 41.69 ? 107 A 1 .
+765 C CA . CYS C 3 7 ? -5.127 4.745 66.992 1 41.09 ? 107 A 1 .
+766 C C . CYS C 3 7 ? -5.031 4.418 68.48 1 40.85 ? 107 A 1 .
+767 O O . CYS C 3 7 ? -5.284 5.281 69.317 1 40.99 ? 107 A 1 .
+768 C CB . CYS C 3 7 ? -4.084 5.799 66.637 1 40.7 ? 107 A 1 .
+769 S SG . CYS C 3 7 ? -2.404 5.219 66.703 1 39.44 ? 107 A 1 .
+770 H H . CYS C 3 7 ? -6.53930436 6.1805165 66.5904367 1 41.69 ? 107 A 1 c
+771 H HA . CYS C 3 7 ? -5.03329899 3.90887987 66.4798006 1 41.09 ? 107 A 1 c
+772 H HB3 . CYS C 3 7 ? -4.17528389 6.55881376 67.2475664 1 40.7 ? 107 A 1 c
+773 H HB2 . CYS C 3 7 ? -4.26208984 6.13525275 65.7349695 1 40.7 ? 107 A 1 c
+774 N N . PRO C 3 8 ? -4.689 3.164 68.827 1 40.5 ? 108 A 1 .
+775 C CA . PRO C 3 8 ? -4.58 2.766 70.231 1 40.43 ? 108 A 1 .
+776 C C . PRO C 3 8 ? -3.321 3.256 70.937 1 40.81 ? 108 A 1 .
+777 O O . PRO C 3 8 ? -3.206 3.146 72.147 1 41 ? 108 A 1 .
+778 C CB . PRO C 3 8 ? -4.643 1.247 70.15 1 40.36 ? 108 A 1 .
+779 C CG . PRO C 3 8 ? -3.943 0.954 68.872 1 40.72 ? 108 A 1 .
+780 C CD . PRO C 3 8 ? -4.509 1.999 67.94 1 41.18 ? 108 A 1 .
+781 H HA . PRO C 3 8 ? -5.38400399 3.07177529 70.7210807 1 40.43 ? 108 A 1 c
+782 H HB3 . PRO C 3 8 ? -5.57240018 0.93453397 70.1193196 1 40.36 ? 108 A 1 c
+783 H HB2 . PRO C 3 8 ? -4.17543806 0.834571591 70.9073966 1 40.36 ? 108 A 1 c
+784 H HG3 . PRO C 3 8 ? -4.15777582 0.0528250289 68.5554625 1 40.72 ? 108 A 1 c
+785 H HG2 . PRO C 3 8 ? -2.97529556 1.06414481 68.9712836 1 40.72 ? 108 A 1 c
+786 H HD3 . PRO C 3 8 ? -3.87918711 2.20390409 67.2244757 1 41.18 ? 108 A 1 c
+787 H HD2 . PRO C 3 8 ? -5.36437035 1.709652 67.5722442 1 41.18 ? 108 A 1 c
+788 N N . VAL C 3 9 ? -2.386 3.817 70.186 1 41.04 ? 109 A 1 .
+789 C CA . VAL C 3 9 ? -1.159 4.321 70.778 1 42.25 ? 109 A 1 .
+790 C C . VAL C 3 9 ? -1.477 5.472 71.738 1 43.26 ? 109 A 1 .
+791 O O . VAL C 3 9 ? -2.292 6.344 71.432 1 43.31 ? 109 A 1 .
+792 C CB . VAL C 3 9 ? -0.156 4.752 69.686 1 42.62 ? 109 A 1 .
+793 C CG1 . VAL C 3 9 ? 1.028 5.493 70.308 1 42.94 ? 109 A 1 .
+794 C CG2 . VAL C 3 9 ? 0.326 3.515 68.898 1 41.44 ? 109 A 1 .
+795 H H . VAL C 3 9 ? -2.51098796 3.88962377 69.2835036 1 41.04 ? 109 A 1 c
+796 H HA . VAL C 3 9 ? -0.743803782 3.60047444 71.2850809 1 42.25 ? 109 A 1 c
+797 H HB . VAL C 3 9 ? -0.62589196 5.38602646 69.0899019 1 42.62 ? 109 A 1 c
+798 H HG11 . VAL C 3 9 ? 1.48144173 4.90841461 70.9399648 1 42.94 ? 109 A 1 c
+799 H HG12 . VAL C 3 9 ? 0.707484392 6.28554273 70.7726232 1 42.94 ? 109 A 1 c
+800 H HG13 . VAL C 3 9 ? 1.64986231 5.75742291 69.6079309 1 42.94 ? 109 A 1 c
+801 H HG21 . VAL C 3 9 ? 0.957396763 3.79269163 68.2117388 1 41.44 ? 109 A 1 c
+802 H HG22 . VAL C 3 9 ? -0.436487919 3.07920435 68.4791643 1 41.44 ? 109 A 1 c
+803 H HG23 . VAL C 3 9 ? 0.761406854 2.89211124 69.5055849 1 41.44 ? 109 A 1 c
+804 N N . GLU C 3 10 ? -0.849 5.437 72.911 1 44.61 ? 110 A 1 .
+805 C CA . GLU C 3 10 ? -1.055 6.431 73.961 1 46.01 ? 110 A 1 .
+806 C C . GLU C 3 10 ? -0.919 7.886 73.547 1 45.98 ? 110 A 1 .
+807 O O . GLU C 3 10 ? -1.816 8.692 73.781 1 47.02 ? 110 A 1 .
+808 C CB . GLU C 3 10 ? -0.11 6.169 75.131 1 47.71 ? 110 A 1 .
+809 C CG . GLU C 3 10 ? -0.276 4.806 75.767 1 50.82 ? 110 A 1 .
+810 C CD . GLU C 3 10 ? -0.114 4.842 77.275 1 52.54 ? 110 A 1 .
+811 O OE1 . GLU C 3 10 ? -1.138 5.068 77.961 1 54.17 ? 110 A 1 .
+812 O OE2 . GLU C 3 10 ? 1.024 4.648 77.77 1 53.13 ? 110 A 1 .
+813 H H . GLU C 3 10 ? -0.258417162 4.75790513 73.0704931 1 44.61 ? 110 A 1 c
+814 H HA . GLU C 3 10 ? -1.9493931 6.29353946 74.3500894 1 46.01 ? 110 A 1 c
+815 H HB3 . GLU C 3 10 ? -0.259161702 6.85736393 75.8123999 1 47.71 ? 110 A 1 c
+816 H HB2 . GLU C 3 10 ? 0.812500771 6.2605976 74.8131916 1 47.71 ? 110 A 1 c
+817 H HG3 . GLU C 3 10 ? 0.399616028 4.19833564 75.3973407 1 50.82 ? 110 A 1 c
+818 H HG2 . GLU C 3 10 ? -1.17243053 4.46562062 75.5598402 1 50.82 ? 110 A 1 c
+819 N N . SER C 3 11 ? 0.205 8.222 72.932 1 45.81 ? 111 A 1 .
+820 C CA . SER C 3 11 ? 0.468 9.596 72.518 1 45.7 ? 111 A 1 .
+821 C C . SER C 3 11 ? -0.337 10.089 71.325 1 45.19 ? 111 A 1 .
+822 O O . SER C 3 11 ? -0.451 11.294 71.113 1 45.45 ? 111 A 1 .
+823 C CB . SER C 3 11 ? 1.953 9.751 72.186 1 46.63 ? 111 A 1 .
+824 O OG . SER C 3 11 ? 2.322 8.906 71.102 1 47.78 ? 111 A 1 .
+825 H H . SER C 3 11 ? 0.832897414 7.58009282 72.7614245 1 45.81 ? 111 A 1 c
+826 H HA . SER C 3 11 ? 0.277029942 10.1927777 73.2909242 1 45.7 ? 111 A 1 c
+827 H HB3 . SER C 3 11 ? 2.48925324 9.51990801 72.9780132 1 46.63 ? 111 A 1 c
+828 H HB2 . SER C 3 11 ? 2.13700557 10.6878097 71.947703 1 46.63 ? 111 A 1 c
+829 H HG . SER C 3 11 ? 2.21475373 9.33307621 70.3796288 0 47.78 ? 111 A 1 c
+830 N N . CYS C 3 12 ? -0.912 9.162 70.564 1 44.89 ? 112 A 1 .
+831 C CA . CYS C 3 12 ? -1.644 9.511 69.35 1 43.61 ? 112 A 1 .
+832 C C . CYS C 3 12 ? -3.157 9.625 69.445 1 43.48 ? 112 A 1 .
+833 O O . CYS C 3 12 ? -3.836 8.731 69.958 1 43.14 ? 112 A 1 .
+834 C CB . CYS C 3 12 ? -1.274 8.531 68.243 1 43.23 ? 112 A 1 .
+835 S SG . CYS C 3 12 ? -1.65 9.125 66.612 1 40.33 ? 112 A 1 .
+836 H H . CYS C 3 12 ? -0.849065707 8.28248618 70.8046049 1 44.89 ? 112 A 1 c
+837 H HA . CYS C 3 12 ? -1.28508435 10.3641923 69.0131507 1 43.61 ? 112 A 1 c
+838 H HB3 . CYS C 3 12 ? -1.75355418 7.6895883 68.3861613 1 43.23 ? 112 A 1 c
+839 H HB2 . CYS C 3 12 ? -0.315071349 8.33979403 68.2913438 1 43.23 ? 112 A 1 c
+840 N N . ASP C 3 13 ? -3.681 10.706 68.871 1 42.73 ? 113 A 1 .
+841 C CA . ASP C 3 13 ? -5.111 10.948 68.889 1 42.16 ? 113 A 1 .
+842 C C . ASP C 3 13 ? -5.803 10.835 67.536 1 42.44 ? 113 A 1 .
+843 O O . ASP C 3 13 ? -7.016 11.05 67.435 1 43.43 ? 113 A 1 .
+844 C CB . ASP C 3 13 ? -5.395 12.297 69.535 1 40.99 ? 113 A 1 .
+845 C CG . ASP C 3 13 ? -4.966 12.334 70.983 1 40.29 ? 113 A 1 .
+846 O OD1 . ASP C 3 13 ? -5.031 11.283 71.655 1 39.58 ? 113 A 1 .
+847 O OD2 . ASP C 3 13 ? -4.558 13.414 71.448 1 40.26 ? 113 A 1 .
+848 H H . ASP C 3 13 ? -3.13234793 11.3086095 68.45719 1 42.73 ? 113 A 1 c
+849 H HA . ASP C 3 13 ? -5.52826815 10.3097244 69.51405 1 42.16 ? 113 A 1 c
+850 H HB3 . ASP C 3 13 ? -6.35998027 12.4591219 69.5038461 1 40.99 ? 113 A 1 c
+851 H HB2 . ASP C 3 13 ? -4.88911826 12.9838784 69.054664 1 40.99 ? 113 A 1 c
+852 N N . ARG C 3 14 ? -5.047 10.465 66.505 1 41.58 ? 114 A 1 .
+853 C CA . ARG C 3 14 ? -5.591 10.311 65.157 1 41.23 ? 114 A 1 .
+854 C C . ARG C 3 14 ? -6.752 9.324 65.1 1 40.3 ? 114 A 1 .
+855 O O . ARG C 3 14 ? -6.868 8.438 65.941 1 39.66 ? 114 A 1 .
+856 C CB . ARG C 3 14 ? -4.492 9.867 64.189 1 42.77 ? 114 A 1 .
+857 C CG . ARG C 3 14 ? -3.599 10.994 63.681 1 45.25 ? 114 A 1 .
+858 C CD . ARG C 3 14 ? -4.142 11.576 62.384 1 47.33 ? 114 A 1 .
+859 N NE . ARG C 3 14 ? -3.714 12.958 62.177 1 49.68 ? 114 A 1 .
+860 C CZ . ARG C 3 14 ? -4.137 13.741 61.183 1 50.73 ? 114 A 1 .
+861 N NH1 . ARG C 3 14 ? -5.002 13.279 60.281 1 50.85 ? 114 A 1 .
+862 N NH2 . ARG C 3 14 ? -3.738 15.01 61.124 1 51.45 ? 114 A 1 .
+863 H H . ARG C 3 14 ? -4.15815882 10.3010717 66.6409591 1 41.58 ? 114 A 1 c
+864 H HA . ARG C 3 14 ? -5.90597936 11.1905621 64.8449367 1 41.23 ? 114 A 1 c
+865 H HB3 . ARG C 3 14 ? -4.91228938 9.42695336 63.4208101 1 42.77 ? 114 A 1 c
+866 H HB2 . ARG C 3 14 ? -3.93251555 9.19911982 64.6376794 1 42.77 ? 114 A 1 c
+867 H HG3 . ARG C 3 14 ? -2.69661021 10.6444172 63.5202346 1 45.25 ? 114 A 1 c
+868 H HG2 . ARG C 3 14 ? -3.5583193 11.7041771 64.3565402 1 45.25 ? 114 A 1 c
+869 H HD3 . ARG C 3 14 ? -5.12224508 11.5411309 62.4002703 1 47.33 ? 114 A 1 c
+870 H HD2 . ARG C 3 14 ? -3.8352282 11.0273056 61.6308821 1 47.33 ? 114 A 1 c
+871 H HE . ARG C 3 14 ? -3.14211664 13.2962156 62.741751 1 49.68 ? 114 A 1 c
+872 H HH11 . ARG C 3 14 ? -5.27617052 13.8027766 59.6278158 1 50.85 ? 114 A 1 c
+873 H HH12 . ARG C 3 14 ? -5.2972724 12.4510816 60.3403836 1 50.85 ? 114 A 1 c
+874 H HH21 . ARG C 3 14 ? -3.19734391 15.3277848 61.7399097 1 51.45 ? 114 A 1 c
+875 H HH22 . ARG C 3 14 ? -4.01641974 15.5262451 60.4693135 1 51.45 ? 114 A 1 c
+876 N N . ARG C 3 15 ? -7.627 9.518 64.118 1 40.16 ? 115 A 1 .
+877 C CA . ARG C 3 15 ? -8.794 8.663 63.911 1 40.28 ? 115 A 1 .
+878 C C . ARG C 3 15 ? -8.992 8.423 62.412 1 40.13 ? 115 A 1 .
+879 O O . ARG C 3 15 ? -8.71 9.301 61.594 1 39.73 ? 115 A 1 .
+880 C CB . ARG C 3 15 ? -10.04 9.307 64.506 1 40.67 ? 115 A 1 .
+881 C CG . ARG C 3 15 ? -9.864 9.744 65.947 1 41.39 ? 115 A 1 .
+882 C CD . ARG C 3 15 ? -11.192 10.132 66.54 1 41.58 ? 115 A 1 .
+883 N NE . ARG C 3 15 ? -12.103 8.996 66.522 1 41.08 ? 115 A 1 .
+884 C CZ . ARG C 3 15 ? -12.233 8.14 67.527 1 41.9 ? 115 A 1 .
+885 N NH1 . ARG C 3 15 ? -11.516 8.31 68.627 1 42.19 ? 115 A 1 .
+886 N NH2 . ARG C 3 15 ? -13.061 7.106 67.424 1 41.75 ? 115 A 1 .
+887 H H . ARG C 3 15 ? -7.49545587 10.2173131 63.5443683 1 40.16 ? 115 A 1 c
+888 H HA . ARG C 3 15 ? -8.62961966 7.79791105 64.3523901 1 40.28 ? 115 A 1 c
+889 H HB3 . ARG C 3 15 ? -10.7765793 8.6622501 64.4596475 1 40.67 ? 115 A 1 c
+890 H HB2 . ARG C 3 15 ? -10.2746847 10.0899728 63.9653738 1 40.67 ? 115 A 1 c
+891 H HG3 . ARG C 3 15 ? -9.26224173 10.5180861 65.9792288 1 41.39 ? 115 A 1 c
+892 H HG2 . ARG C 3 15 ? -9.48761828 9.00187436 66.4665646 1 41.39 ? 115 A 1 c
+893 H HD3 . ARG C 3 15 ? -11.5788797 10.863817 66.0135695 1 41.58 ? 115 A 1 c
+894 H HD2 . ARG C 3 15 ? -11.0584697 10.4234492 67.4671397 1 41.58 ? 115 A 1 c
+895 H HE . ARG C 3 15 ? -12.5916813 8.86967131 65.8109334 1 41.08 ? 115 A 1 c
+896 H HH11 . ARG C 3 15 ? -11.5993843 7.74373787 69.2967427 1 42.19 ? 115 A 1 c
+897 H HH12 . ARG C 3 15 ? -10.9576128 8.98888485 68.6859925 1 42.19 ? 115 A 1 c
+898 H HH21 . ARG C 3 15 ? -13.52477 6.98856077 66.6865948 1 41.75 ? 115 A 1 c
+899 H HH22 . ARG C 3 15 ? -13.1426043 6.54238 68.0935627 1 41.75 ? 115 A 1 c
+900 N N . PHE C 3 16 ? -9.519 7.253 62.06 1 39.21 ? 116 A 1 .
+901 C CA . PHE C 3 16 ? -9.701 6.888 60.66 1 38.72 ? 116 A 1 .
+902 C C . PHE C 3 16 ? -11.079 6.331 60.315 1 38.37 ? 116 A 1 .
+903 O O . PHE C 3 16 ? -11.733 5.684 61.139 1 38.65 ? 116 A 1 .
+904 C CB . PHE C 3 16 ? -8.629 5.863 60.235 1 37.77 ? 116 A 1 .
+905 C CG . PHE C 3 16 ? -7.237 6.434 60.124 1 37.53 ? 116 A 1 .
+906 C CD1 . PHE C 3 16 ? -6.385 6.458 61.23 1 36.66 ? 116 A 1 .
+907 C CD2 . PHE C 3 16 ? -6.781 6.966 58.915 1 36.76 ? 116 A 1 .
+908 C CE1 . PHE C 3 16 ? -5.099 7.009 61.129 1 36.73 ? 116 A 1 .
+909 C CE2 . PHE C 3 16 ? -5.494 7.518 58.806 1 36.49 ? 116 A 1 .
+910 C CZ . PHE C 3 16 ? -4.655 7.54 59.913 1 36.6 ? 116 A 1 .
+911 H H . PHE C 3 16 ? -9.77402563 6.66178916 62.7087123 1 39.21 ? 116 A 1 c
+912 H HA . PHE C 3 16 ? -9.53763671 7.68950607 60.1005525 1 38.72 ? 116 A 1 c
+913 H HB3 . PHE C 3 16 ? -8.88698659 5.48627284 59.367867 1 37.77 ? 116 A 1 c
+914 H HB2 . PHE C 3 16 ? -8.62098053 5.13358217 60.8894351 1 37.77 ? 116 A 1 c
+915 H HD1 . PHE C 3 16 ? -6.67854043 6.09975305 62.0525747 1 36.66 ? 116 A 1 c
+916 H HD2 . PHE C 3 16 ? -7.34803181 6.95351396 58.1603776 1 36.76 ? 116 A 1 c
+917 H HE1 . PHE C 3 16 ? -4.5321726 7.02126048 61.8837797 1 36.73 ? 116 A 1 c
+918 H HE2 . PHE C 3 16 ? -5.20049274 7.87306014 57.9820329 1 36.49 ? 116 A 1 c
+919 H HZ . PHE C 3 16 ? -3.78974181 7.91130257 59.8451865 1 36.6 ? 116 A 1 c
+920 N N . SER C 3 17 ? -11.478 6.565 59.066 1 38.18 ? 117 A 1 .
+921 C CA . SER C 3 17 ? -12.748 6.097 58.515 1 37.48 ? 117 A 1 .
+922 C C . SER C 3 17 ? -12.722 4.604 58.209 1 37.49 ? 117 A 1 .
+923 O O . SER C 3 17 ? -13.65 3.871 58.567 1 37.99 ? 117 A 1 .
+924 C CB . SER C 3 17 ? -13.054 6.844 57.223 1 36.54 ? 117 A 1 .
+925 O OG . SER C 3 17 ? -13.411 8.173 57.508 1 37.8 ? 117 A 1 .
+926 H H . SER C 3 17 ? -10.9269431 7.04663887 58.5184999 1 38.18 ? 117 A 1 c
+927 H HA . SER C 3 17 ? -13.4579516 6.26412714 59.191803 1 37.48 ? 117 A 1 c
+928 H HB3 . SER C 3 17 ? -13.7976992 6.39818301 56.757796 1 36.54 ? 117 A 1 c
+929 H HB2 . SER C 3 17 ? -12.2569419 6.83603312 56.6460331 1 36.54 ? 117 A 1 c
+930 H HG . SER C 3 17 ? -12.7095731 8.64598472 57.5066883 0 37.8 ? 117 A 1 c
+931 N N . ARG C 3 18 ? -11.675 4.179 57.502 1 36.21 ? 118 A 1 .
+932 C CA . ARG C 3 18 ? -11.498 2.786 57.111 1 34.87 ? 118 A 1 .
+933 C C . ARG C 3 18 ? -10.364 2.185 57.947 1 35.06 ? 118 A 1 .
+934 O O . ARG C 3 18 ? -9.302 2.802 58.112 1 35.17 ? 118 A 1 .
+935 C CB . ARG C 3 18 ? -11.204 2.711 55.609 0.5 33.29 ? 118 A 1 .
+936 C CG . ARG C 3 18 ? -12.357 3.241 54.744 0.5 30.54 ? 118 A 1 .
+937 C CD . ARG C 3 18 ? -11.905 3.691 53.353 0.5 28.08 ? 118 A 1 .
+938 N NE . ARG C 3 18 ? -11.051 4.875 53.405 0.5 24.39 ? 118 A 1 .
+939 C CZ . ARG C 3 18 ? -11.491 6.125 53.358 0.5 22.68 ? 118 A 1 .
+940 N NH1 . ARG C 3 18 ? -12.785 6.381 53.249 0.5 22.6 ? 118 A 1 .
+941 N NH2 . ARG C 3 18 ? -10.636 7.123 53.477 0.5 21.94 ? 118 A 1 .
+942 H H . ARG C 3 18 ? -11.0387376 4.78482127 57.2499152 1 36.21 ? 118 A 1 c
+943 H HA . ARG C 3 18 ? -12.3308041 2.2981592 57.3076562 1 34.87 ? 118 A 1 c
+944 H HB3 . ARG C 3 18 ? -11.0351216 1.77553159 55.3707167 0.5 33.29 ? 118 A 1 c
+945 H HB2 . ARG C 3 18 ? -10.4004048 3.23977805 55.4218407 0.5 33.29 ? 118 A 1 c
+946 H HG3 . ARG C 3 18 ? -12.783073 3.99739665 55.2008226 0.5 30.54 ? 118 A 1 c
+947 H HG2 . ARG C 3 18 ? -13.0371718 2.54076946 54.6470233 0.5 30.54 ? 118 A 1 c
+948 H HD3 . ARG C 3 18 ? -12.6946717 3.88695183 52.8049284 0.5 28.08 ? 118 A 1 c
+949 H HD2 . ARG C 3 18 ? -11.4154085 2.95916541 52.9204734 0.5 28.08 ? 118 A 1 c
+950 H HE . ARG C 3 18 ? -10.190158 4.752996 53.4717089 0.5 24.39 ? 118 A 1 c
+951 H HH11 . ARG C 3 18 ? -13.0659532 7.21545008 53.218679 0.5 22.6 ? 118 A 1 c
+952 H HH12 . ARG C 3 18 ? -13.3615823 5.71620146 53.2070865 0.5 22.6 ? 118 A 1 c
+953 H HH21 . ARG C 3 18 ? -9.78015529 6.95525794 53.5866971 0.5 21.94 ? 118 A 1 c
+954 H HH22 . ARG C 3 18 ? -10.924793 7.95263399 53.4462259 0.5 21.94 ? 118 A 1 c
+955 N N . SER C 3 19 ? -10.605 0.991 58.49 1 35.04 ? 119 A 1 .
+956 C CA . SER C 3 19 ? -9.626 0.296 59.326 1 35.35 ? 119 A 1 .
+957 C C . SER C 3 19 ? -8.291 0.062 58.627 1 35.72 ? 119 A 1 .
+958 O O . SER C 3 19 ? -7.242 0.115 59.268 1 36.38 ? 119 A 1 .
+959 C CB . SER C 3 19 ? -10.196 -1.026 59.862 1 35.11 ? 119 A 1 .
+960 O OG . SER C 3 19 ? -10.658 -1.869 58.821 1 35.78 ? 119 A 1 .
+961 H H . SER C 3 19 ? -11.4112828 0.589037947 58.3359527 1 35.04 ? 119 A 1 c
+962 H HA . SER C 3 19 ? -9.4612091 0.851868629 60.1346279 1 35.35 ? 119 A 1 c
+963 H HB3 . SER C 3 19 ? -10.9369289 -0.833843322 60.4803495 1 35.11 ? 119 A 1 c
+964 H HB2 . SER C 3 19 ? -9.50128925 -1.49431532 60.3780559 1 35.11 ? 119 A 1 c
+965 H HG . SER C 3 19 ? -10.0184523 -2.36349963 58.5716711 0 35.78 ? 119 A 1 c
+966 N N . ALA C 3 20 ? -8.329 -0.167 57.314 1 34.99 ? 120 A 1 .
+967 C CA . ALA C 3 20 ? -7.113 -0.393 56.535 1 34.1 ? 120 A 1 .
+968 C C . ALA C 3 20 ? -6.191 0.836 56.583 1 33.38 ? 120 A 1 .
+969 O O . ALA C 3 20 ? -4.97 0.71 56.502 1 33.26 ? 120 A 1 .
+970 C CB . ALA C 3 20 ? -7.469 -0.742 55.099 1 34.09 ? 120 A 1 .
+971 H H . ALA C 3 20 ? -9.13645221 -0.183776698 56.8860567 1 34.99 ? 120 A 1 c
+972 H HA . ALA C 3 20 ? -6.63140572 -1.16154382 56.9217859 1 34.1 ? 120 A 1 c
+973 H HB3 . ALA C 3 20 ? -7.97024058 -0.0103541488 54.7012108 1 34.09 ? 120 A 1 c
+974 H HB2 . ALA C 3 20 ? -8.01029201 -1.54921424 55.0851387 1 34.09 ? 120 A 1 c
+975 H HB1 . ALA C 3 20 ? -6.65494871 -0.890420304 54.5890236 1 34.09 ? 120 A 1 c
+976 N N . ASP C 3 21 ? -6.779 2.02 56.744 1 32.52 ? 121 A 1 .
+977 C CA . ASP C 3 21 ? -6.002 3.251 56.828 1 31.56 ? 121 A 1 .
+978 C C . ASP C 3 21 ? -5.277 3.375 58.165 1 30.89 ? 121 A 1 .
+979 O O . ASP C 3 21 ? -4.249 4.044 58.258 1 30.73 ? 121 A 1 .
+980 C CB . ASP C 3 21 ? -6.906 4.472 56.625 0.5 31.7 ? 121 A 1 .
+981 C CG . ASP C 3 21 ? -7.2 4.749 55.168 0.5 31.37 ? 121 A 1 .
+982 O OD1 . ASP C 3 21 ? -6.258 4.689 54.355 0.5 32.03 ? 121 A 1 .
+983 O OD2 . ASP C 3 21 ? -8.365 5.042 54.833 0.5 30.96 ? 121 A 1 .
+984 H H . ASP C 3 21 ? -7.68992428 2.0654723 56.8035418 1 32.52 ? 121 A 1 c
+985 H HA . ASP C 3 21 ? -5.33395274 3.24915476 56.1028066 1 31.56 ? 121 A 1 c
+986 H HB3 . ASP C 3 21 ? -6.45388983 5.25785622 56.9944149 0.5 31.7 ? 121 A 1 c
+987 H HB2 . ASP C 3 21 ? -7.75851693 4.30560958 57.0766305 0.5 31.7 ? 121 A 1 c
+988 N N . LEU C 3 22 ? -5.836 2.762 59.205 1 30.28 ? 122 A 1 .
+989 C CA . LEU C 3 22 ? -5.205 2.783 60.523 1 30.08 ? 122 A 1 .
+990 C C . LEU C 3 22 ? -4.032 1.796 60.502 1 30.14 ? 122 A 1 .
+991 O O . LEU C 3 22 ? -2.977 2.076 61.066 1 30.51 ? 122 A 1 .
+992 C CB . LEU C 3 22 ? -6.207 2.412 61.631 1 29.11 ? 122 A 1 .
+993 C CG . LEU C 3 22 ? -5.632 2.219 63.042 1 28.52 ? 122 A 1 .
+994 C CD1 . LEU C 3 22 ? -5.034 3.512 63.57 1 28.82 ? 122 A 1 .
+995 C CD2 . LEU C 3 22 ? -6.708 1.734 63.98 1 29.2 ? 122 A 1 .
+996 H H . LEU C 3 22 ? -6.62823448 2.31923175 59.0967558 1 30.28 ? 122 A 1 c
+997 H HA . LEU C 3 22 ? -4.85513951 3.68898018 60.6873854 1 30.08 ? 122 A 1 c
+998 H HB3 . LEU C 3 22 ? -6.66572332 1.58926549 61.3680079 1 29.11 ? 122 A 1 c
+999 H HB2 . LEU C 3 22 ? -6.89475593 3.10629359 61.6688443 1 29.11 ? 122 A 1 c
+1000 H HG . LEU C 3 22 ? -4.90905964 1.54619546 62.988969 1 28.52 ? 122 A 1 c
+1001 H HD11 . LEU C 3 22 ? -4.47512016 3.31934672 64.3428305 1 28.82 ? 122 A 1 c
+1002 H HD12 . LEU C 3 22 ? -5.74937959 4.11793845 63.8303836 1 28.82 ? 122 A 1 c
+1003 H HD13 . LEU C 3 22 ? -4.49420504 3.92747854 62.8752137 1 28.82 ? 122 A 1 c
+1004 H HD21 . LEU C 3 22 ? -7.05889474 0.884734919 63.660077 1 29.2 ? 122 A 1 c
+1005 H HD22 . LEU C 3 22 ? -7.42680257 2.38880904 64.0157349 1 29.2 ? 122 A 1 c
+1006 H HD23 . LEU C 3 22 ? -6.33332664 1.61517852 64.8700732 1 29.2 ? 122 A 1 c
+1007 N N . THR C 3 23 ? -4.22 0.662 59.821 1 29.61 ? 123 A 1 .
+1008 C CA . THR C 3 23 ? -3.189 -0.365 59.681 1 29.43 ? 123 A 1 .
+1009 C C . THR C 3 23 ? -1.954 0.228 59.005 1 29.98 ? 123 A 1 .
+1010 O O . THR C 3 23 ? -0.826 -0.139 59.33 1 30.39 ? 123 A 1 .
+1011 C CB . THR C 3 23 ? -3.708 -1.572 58.854 1 29.64 ? 123 A 1 .
+1012 O OG1 . THR C 3 23 ? -4.665 -2.314 59.627 1 30.03 ? 123 A 1 .
+1013 C CG2 . THR C 3 23 ? -2.569 -2.499 58.457 1 27.84 ? 123 A 1 .
+1014 H H . THR C 3 23 ? -5.03010654 0.518590408 59.4228077 1 29.61 ? 123 A 1 c
+1015 H HA . THR C 3 23 ? -2.93749305 -0.669533396 60.5833462 1 29.43 ? 123 A 1 c
+1016 H HB . THR C 3 23 ? -4.15237666 -1.22411567 58.0442625 1 29.64 ? 123 A 1 c
+1017 H HG1 . THR C 3 23 ? -4.2984781 -2.59806931 60.3369791 0 30.03 ? 123 A 1 c
+1018 H HG21 . THR C 3 23 ? -2.92126017 -3.2458458 57.9404633 1 27.84 ? 123 A 1 c
+1019 H HG22 . THR C 3 23 ? -2.13037265 -2.83823263 59.2577517 1 27.84 ? 123 A 1 c
+1020 H HG23 . THR C 3 23 ? -1.92277767 -2.00915554 57.9174399 1 27.84 ? 123 A 1 c
+1021 N N . ARG C 3 24 ? -2.174 1.139 58.058 1 30.29 ? 124 A 1 .
+1022 C CA . ARG C 3 24 ? -1.077 1.808 57.357 1 30.63 ? 124 A 1 .
+1023 C C . ARG C 3 24 ? -0.446 2.843 58.293 1 31.21 ? 124 A 1 .
+1024 O O . ARG C 3 24 ? 0.775 2.947 58.415 1 31.11 ? 124 A 1 .
+1025 C CB . ARG C 3 24 ? -1.586 2.518 56.091 1 29.94 ? 124 A 1 .
+1026 C CG . ARG C 3 24 ? -0.462 3.139 55.241 1 29 ? 124 A 1 .
+1027 C CD . ARG C 3 24 ? -0.969 3.871 54.015 1 27.89 ? 124 A 1 .
+1028 N NE . ARG C 3 24 ? -1.889 4.946 54.376 1 28.57 ? 124 A 1 .
+1029 C CZ . ARG C 3 24 ? -2.4 5.822 53.515 1 28.7 ? 124 A 1 .
+1030 N NH1 . ARG C 3 24 ? -2.083 5.773 52.226 1 28.26 ? 124 A 1 .
+1031 N NH2 . ARG C 3 24 ? -3.262 6.729 53.944 1 29.13 ? 124 A 1 .
+1032 H H . ARG C 3 24 ? -3.03426213 1.35484759 57.8371949 1 30.29 ? 124 A 1 c
+1033 H HA . ARG C 3 24 ? -0.397614708 1.13374083 57.1245453 1 30.63 ? 124 A 1 c
+1034 H HB3 . ARG C 3 24 ? -2.20685389 3.22710781 56.3595266 1 29.94 ? 124 A 1 c
+1035 H HB2 . ARG C 3 24 ? -2.07300086 1.86749499 55.5432104 1 29.94 ? 124 A 1 c
+1036 H HG3 . ARG C 3 24 ? 0.156966718 2.43279924 54.9572366 1 29 ? 124 A 1 c
+1037 H HG2 . ARG C 3 24 ? 0.0546267566 3.76327463 55.7939367 1 29 ? 124 A 1 c
+1038 H HD3 . ARG C 3 24 ? -1.43072352 3.2352205 53.4276697 1 27.89 ? 124 A 1 c
+1039 H HD2 . ARG C 3 24 ? -0.206725919 4.24937418 53.5270121 1 27.89 ? 124 A 1 c
+1040 H HE . ARG C 3 24 ? -2.12057386 5.02044454 55.2133861 1 28.57 ? 124 A 1 c
+1041 H HH11 . ARG C 3 24 ? -2.42874357 6.35938632 51.6667385 1 28.26 ? 124 A 1 c
+1042 H HH12 . ARG C 3 24 ? -1.52792904 5.15425708 51.9340849 1 28.26 ? 124 A 1 c
+1043 H HH21 . ARG C 3 24 ? -3.49150337 6.74780509 54.7923016 1 29.13 ? 124 A 1 c
+1044 H HH22 . ARG C 3 24 ? -3.60279336 7.31026351 53.3795236 1 29.13 ? 124 A 1 c
+1045 N N . HIS C 3 25 ? -1.306 3.61 58.945 1 32.11 ? 125 A 1 .
+1046 C CA . HIS C 3 25 ? -0.881 4.642 59.867 1 33.43 ? 125 A 1 .
+1047 C C . HIS C 3 25 ? -0.007 4.102 60.987 1 34.1 ? 125 A 1 .
+1048 O O . HIS C 3 25 ? 1.026 4.698 61.324 1 34.13 ? 125 A 1 .
+1049 C CB . HIS C 3 25 ? -2.113 5.306 60.464 1 33.63 ? 125 A 1 .
+1050 C CG . HIS C 3 25 ? -1.824 6.129 61.676 1 34.24 ? 125 A 1 .
+1051 N ND1 . HIS C 3 25 ? -1.254 7.379 61.606 1 34.96 ? 125 A 1 .
+1052 C CD2 . HIS C 3 25 ? -2.038 5.885 62.99 1 34.32 ? 125 A 1 .
+1053 C CE1 . HIS C 3 25 ? -1.132 7.874 62.825 1 34.59 ? 125 A 1 .
+1054 N NE2 . HIS C 3 25 ? -1.6 6.987 63.683 1 34.67 ? 125 A 1 .
+1055 H H . HIS C 3 25 ? -2.20145675 3.48590797 58.8102618 1 32.11 ? 125 A 1 c
+1056 H HA . HIS C 3 25 ? -0.357145328 5.30942479 59.3588254 1 33.43 ? 125 A 1 c
+1057 H HB3 . HIS C 3 25 ? -2.76332951 4.60892747 60.6995534 1 33.63 ? 125 A 1 c
+1058 H HB2 . HIS C 3 25 ? -2.52442431 5.87855563 59.7804548 1 33.63 ? 125 A 1 c
+1059 H HD1 . HIS C 3 25 ? -1.00862715 7.78590488 60.8641229 0 34.96 ? 125 A 1 c
+1060 H HD2 . HIS C 3 25 ? -2.41353759 5.11283853 63.3651096 1 34.32 ? 125 A 1 c
+1061 H HE1 . HIS C 3 25 ? -0.771914786 8.71690134 63.0423015 1 34.59 ? 125 A 1 c
+1062 N N . ILE C 3 26 ? -0.427 2.967 61.546 1 34.57 ? 126 A 1 .
+1063 C CA . ILE C 3 26 ? 0.264 2.31 62.658 1 35.33 ? 126 A 1 .
+1064 C C . ILE C 3 26 ? 1.752 2.039 62.403 1 35.89 ? 126 A 1 .
+1065 O O . ILE C 3 26 ? 2.519 1.872 63.347 1 36.13 ? 126 A 1 .
+1066 C CB . ILE C 3 26 ? -0.484 1.019 63.102 1 34.5 ? 126 A 1 .
+1067 C CG1 . ILE C 3 26 ? -0.287 0.781 64.591 1 35.96 ? 126 A 1 .
+1068 C CG2 . ILE C 3 26 ? 0.012 -0.199 62.358 1 35.32 ? 126 A 1 .
+1069 C CD1 . ILE C 3 26 ? -0.987 1.789 65.457 1 36.83 ? 126 A 1 .
+1070 H H . ILE C 3 26 ? -1.18604337 2.57554305 61.2204073 1 34.57 ? 126 A 1 c
+1071 H HA . ILE C 3 26 ? 0.182884293 2.87507459 63.4471685 1 35.33 ? 126 A 1 c
+1072 H HB . ILE C 3 26 ? -1.44978982 1.17007325 62.9518405 1 34.5 ? 126 A 1 c
+1073 H HG12 . ILE C 3 26 ? 0.673308012 0.808211647 64.7895675 1 35.96 ? 126 A 1 c
+1074 H HG13 . ILE C 3 26 ? -0.62341512 -0.113158976 64.8138578 1 35.96 ? 126 A 1 c
+1075 H HG21 . ILE C 3 26 ? 0.96165018 -0.323251255 62.5296251 1 35.32 ? 126 A 1 c
+1076 H HG22 . ILE C 3 26 ? -0.128826742 -0.0789860983 61.4027547 1 35.32 ? 126 A 1 c
+1077 H HG23 . ILE C 3 26 ? -0.474417568 -0.986477058 62.6580114 1 35.32 ? 126 A 1 c
+1078 H HD11 . ILE C 3 26 ? -1.94378867 1.76001044 65.2825178 1 36.83 ? 126 A 1 c
+1079 H HD12 . ILE C 3 26 ? -0.649463734 2.67967706 65.2582724 1 36.83 ? 126 A 1 c
+1080 H HD13 . ILE C 3 26 ? -0.823329071 1.58334983 66.3938291 1 36.83 ? 126 A 1 c
+1081 N N . ARG C 3 27 ? 2.156 2.045 61.13 1 37.05 ? 127 A 1 .
+1082 C CA . ARG C 3 27 ? 3.554 1.83 60.74 1 37.95 ? 127 A 1 .
+1083 C C . ARG C 3 27 ? 4.446 3.003 61.165 1 36.69 ? 127 A 1 .
+1084 O O . ARG C 3 27 ? 5.669 2.88 61.238 1 36.18 ? 127 A 1 .
+1085 C CB . ARG C 3 27 ? 3.672 1.59 59.23 1 40.75 ? 127 A 1 .
+1086 C CG . ARG C 3 27 ? 3.699 0.118 58.847 1 44.19 ? 127 A 1 .
+1087 C CD . ARG C 3 27 ? 4.139 -0.105 57.397 1 47.04 ? 127 A 1 .
+1088 N NE . ARG C 3 27 ? 3.042 0.071 56.448 1 50.66 ? 127 A 1 .
+1089 C CZ . ARG C 3 27 ? 2.084 -0.831 56.228 1 51.99 ? 127 A 1 .
+1090 N NH1 . ARG C 3 27 ? 2.083 -1.993 56.885 1 52.9 ? 127 A 1 .
+1091 N NH2 . ARG C 3 27 ? 1.124 -0.574 55.345 1 51.82 ? 127 A 1 .
+1092 H H . ARG C 3 27 ? 1.53821977 2.188771 60.4719168 1 37.05 ? 127 A 1 c
+1093 H HA . ARG C 3 27 ? 3.87784049 1.00942325 61.178185 1 37.95 ? 127 A 1 c
+1094 H HB3 . ARG C 3 27 ? 4.49553808 2.01425199 58.91032 1 40.75 ? 127 A 1 c
+1095 H HB2 . ARG C 3 27 ? 2.91016804 2.01754356 58.785907 1 40.75 ? 127 A 1 c
+1096 H HG3 . ARG C 3 27 ? 2.80448099 -0.265142807 58.97109 1 44.19 ? 127 A 1 c
+1097 H HG2 . ARG C 3 27 ? 4.31342264 -0.360414959 59.443628 1 44.19 ? 127 A 1 c
+1098 H HD3 . ARG C 3 27 ? 4.50172547 -1.01190536 57.3058194 1 47.04 ? 127 A 1 c
+1099 H HD2 . ARG C 3 27 ? 4.85885806 0.524418012 57.1779148 1 47.04 ? 127 A 1 c
+1100 H HE . ARG C 3 27 ? 3.00970835 0.814861755 55.9941157 1 50.66 ? 127 A 1 c
+1101 H HH11 . ARG C 3 27 ? 1.44603777 -2.58230731 56.7328257 1 52.9 ? 127 A 1 c
+1102 H HH12 . ARG C 3 27 ? 2.71930514 -2.16723281 57.4688833 1 52.9 ? 127 A 1 c
+1103 H HH21 . ARG C 3 27 ? 1.12342759 0.189228965 54.9089699 1 51.82 ? 127 A 1 c
+1104 H HH22 . ARG C 3 27 ? 0.492610272 -1.16804744 55.1997566 1 51.82 ? 127 A 1 c
+1105 N N . ILE C 3 28 ? 3.82 4.142 61.43 1 35.41 ? 128 A 1 .
+1106 C CA . ILE C 3 28 ? 4.529 5.32 61.887 1 34.64 ? 128 A 1 .
+1107 C C . ILE C 3 28 ? 5.088 5.031 63.287 1 33.6 ? 128 A 1 .
+1108 O O . ILE C 3 28 ? 6.203 5.434 63.612 1 33.01 ? 128 A 1 .
+1109 C CB . ILE C 3 28 ? 3.568 6.53 61.97 1 35.18 ? 128 A 1 .
+1110 C CG1 . ILE C 3 28 ? 3.181 6.999 60.57 1 35.31 ? 128 A 1 .
+1111 C CG2 . ILE C 3 28 ? 4.191 7.676 62.749 1 36.14 ? 128 A 1 .
+1112 C CD1 . ILE C 3 28 ? 2.182 8.134 60.576 1 34.44 ? 128 A 1 .
+1113 H H . ILE C 3 28 ? 2.91359099 4.18844898 61.3220129 1 35.41 ? 128 A 1 c
+1114 H HA . ILE C 3 28 ? 5.27551085 5.48307047 61.2830086 1 34.64 ? 128 A 1 c
+1115 H HB . ILE C 3 28 ? 2.74175215 6.22155934 62.4175487 1 35.18 ? 128 A 1 c
+1116 H HG12 . ILE C 3 28 ? 2.7944221 6.24196169 60.0802945 1 35.31 ? 128 A 1 c
+1117 H HG13 . ILE C 3 28 ? 3.9909452 7.29499648 60.1023079 1 35.31 ? 128 A 1 c
+1118 H HG21 . ILE C 3 28 ? 5.01058889 7.96287741 62.3100189 1 36.14 ? 128 A 1 c
+1119 H HG22 . ILE C 3 28 ? 4.39671939 7.38315684 63.6537936 1 36.14 ? 128 A 1 c
+1120 H HG23 . ILE C 3 28 ? 3.56843165 8.42280036 62.786774 1 36.14 ? 128 A 1 c
+1121 H HD11 . ILE C 3 28 ? 2.55913672 8.89755452 61.0466181 1 34.44 ? 128 A 1 c
+1122 H HD12 . ILE C 3 28 ? 1.36718586 7.84854364 61.0246887 1 34.44 ? 128 A 1 c
+1123 H HD13 . ILE C 3 28 ? 1.97381208 8.3896928 59.6605722 1 34.44 ? 128 A 1 c
+1124 N N . HIS C 3 29 ? 4.321 4.294 64.087 1 32.64 ? 129 A 1 .
+1125 C CA . HIS C 3 29 ? 4.709 3.972 65.46 1 32.6 ? 129 A 1 .
+1126 C C . HIS C 3 29 ? 5.557 2.715 65.629 1 32.3 ? 129 A 1 .
+1127 O O . HIS C 3 29 ? 6.411 2.656 66.513 1 31.6 ? 129 A 1 .
+1128 C CB . HIS C 3 29 ? 3.471 3.879 66.353 1 32.29 ? 129 A 1 .
+1129 C CG . HIS C 3 29 ? 2.516 5.023 66.187 1 33.17 ? 129 A 1 .
+1130 N ND1 . HIS C 3 29 ? 2.825 6.315 66.552 1 33.34 ? 129 A 1 .
+1131 C CD2 . HIS C 3 29 ? 1.247 5.064 65.713 1 33.45 ? 129 A 1 .
+1132 C CE1 . HIS C 3 29 ? 1.79 7.101 66.314 1 33 ? 129 A 1 .
+1133 N NE2 . HIS C 3 29 ? 0.819 6.366 65.804 1 32.28 ? 129 A 1 .
+1134 H H . HIS C 3 29 ? 3.52426494 3.97685188 63.7707306 1 32.64 ? 129 A 1 c
+1135 H HA . HIS C 3 29 ? 5.21626292 4.73967819 65.8225956 1 32.6 ? 129 A 1 c
+1136 H HB3 . HIS C 3 29 ? 3.76121319 3.83933765 67.2902978 1 32.29 ? 129 A 1 c
+1137 H HB2 . HIS C 3 29 ? 3.00128595 3.04000825 66.1535368 1 32.29 ? 129 A 1 c
+1138 H HD1 . HIS C 3 29 ? 3.59450015 6.57676777 66.8918649 0 33.34 ? 129 A 1 c
+1139 H HD2 . HIS C 3 29 ? 0.74710819 4.34354003 65.3828264 1 33.45 ? 129 A 1 c
+1140 H HE1 . HIS C 3 29 ? 1.75341624 8.0274323 66.4805798 1 33 ? 129 A 1 c
+1141 N N . THR C 3 30 ? 5.301 1.699 64.81 1 32.81 ? 130 A 1 .
+1142 C CA . THR C 3 30 ? 6.065 0.458 64.898 1 33.44 ? 130 A 1 .
+1143 C C . THR C 3 30 ? 7.387 0.615 64.147 1 34.85 ? 130 A 1 .
+1144 O O . THR C 3 30 ? 8.34 -0.13 64.392 1 34.6 ? 130 A 1 .
+1145 C CB . THR C 3 30 ? 5.293 -0.749 64.325 1 33.17 ? 130 A 1 .
+1146 O OG1 . THR C 3 30 ? 5.42 -0.778 62.894 1 33.19 ? 130 A 1 .
+1147 C CG2 . THR C 3 30 ? 3.816 -0.667 64.71 1 32.21 ? 130 A 1 .
+1148 H H . THR C 3 30 ? 4.63976255 1.7752274 64.1836212 1 32.81 ? 130 A 1 c
+1149 H HA . THR C 3 30 ? 6.26166113 0.287752698 65.8480343 1 33.44 ? 130 A 1 c
+1150 H HB . THR C 3 30 ? 5.68735657 -1.57361275 64.6973785 1 33.17 ? 130 A 1 c
+1151 H HG1 . THR C 3 30 ? 5.10274763 -0.0634259591 62.5656117 0 33.19 ? 130 A 1 c
+1152 H HG21 . THR C 3 30 ? 3.34020735 -1.43348659 64.3428547 1 32.21 ? 130 A 1 c
+1153 H HG22 . THR C 3 30 ? 3.43103205 0.153505001 64.3532827 1 32.21 ? 130 A 1 c
+1154 H HG23 . THR C 3 30 ? 3.73130181 -0.668528483 65.6803092 1 32.21 ? 130 A 1 c
+1155 N N . GLY C 3 31 ? 7.426 1.586 63.231 1 34.62 ? 131 A 1 .
+1156 C CA . GLY C 3 31 ? 8.624 1.846 62.459 1 35.93 ? 131 A 1 .
+1157 C C . GLY C 3 31 ? 8.913 0.853 61.35 1 36.79 ? 131 A 1 .
+1158 O O . GLY C 3 31 ? 10.047 0.768 60.876 1 37.27 ? 131 A 1 .
+1159 H H . GLY C 3 31 ? 6.68347947 2.09879116 63.0857262 1 34.62 ? 131 A 1 c
+1160 H HA3 . GLY C 3 31 ? 9.40020762 1.89016624 63.0719038 1 35.93 ? 131 A 1 c
+1161 H HA2 . GLY C 3 31 ? 8.57161079 2.75845802 62.0785059 1 35.93 ? 131 A 1 c
+1162 N N . GLN C 3 32 ? 7.897 0.104 60.935 1 37.42 ? 132 A 1 .
+1163 C CA . GLN C 3 32 ? 8.05 -0.886 59.875 1 38.61 ? 132 A 1 .
+1164 C C . GLN C 3 32 ? 8.147 -0.235 58.49 1 38.46 ? 132 A 1 .
+1165 O O . GLN C 3 32 ? 7.298 0.575 58.113 1 38.61 ? 132 A 1 .
+1166 C CB . GLN C 3 32 ? 6.871 -1.866 59.891 1 40.38 ? 132 A 1 .
+1167 C CG . GLN C 3 32 ? 7.013 -3.018 58.897 1 44.04 ? 132 A 1 .
+1168 C CD . GLN C 3 32 ? 5.703 -3.76 58.597 1 46.43 ? 132 A 1 .
+1169 O OE1 . GLN C 3 32 ? 5.675 -4.653 57.743 1 47.88 ? 132 A 1 .
+1170 N NE2 . GLN C 3 32 ? 4.621 -3.391 59.284 1 46.88 ? 132 A 1 .
+1171 H H . GLN C 3 32 ? 7.07641617 0.209900763 61.3233596 1 37.42 ? 132 A 1 c
+1172 H HA . GLN C 3 32 ? 8.8737581 -1.3991191 60.0433935 1 38.61 ? 132 A 1 c
+1173 H HB3 . GLN C 3 32 ? 6.05008259 -1.36938005 59.6913422 1 40.38 ? 132 A 1 c
+1174 H HB2 . GLN C 3 32 ? 6.78213228 -2.23205005 60.7957154 1 40.38 ? 132 A 1 c
+1175 H HG3 . GLN C 3 32 ? 7.67358198 -3.65838025 59.2374491 1 44.04 ? 132 A 1 c
+1176 H HG2 . GLN C 3 32 ? 7.38708192 -2.6754231 58.0573186 1 44.04 ? 132 A 1 c
+1177 H HE21 . GLN C 3 32 ? 3.84731465 -3.79383734 59.1405111 1 46.88 ? 132 A 1 c
+1178 H HE22 . GLN C 3 32 ? 4.67705949 -2.74342704 59.8831349 1 46.88 ? 132 A 1 c
+1179 N N . LYS C 3 33 ? 9.185 -0.6 57.738 1 37.92 ? 133 A 1 .
+1180 C CA . LYS C 3 33 ? 9.401 -0.087 56.384 1 36.44 ? 133 A 1 .
+1181 C C . LYS C 3 33 ? 9.643 -1.31 55.476 1 35.54 ? 133 A 1 .
+1182 O O . LYS C 3 33 ? 10.78 -1.66 55.161 1 35.39 ? 133 A 1 .
+1183 C CB . LYS C 3 33 ? 10.586 0.887 56.375 1 35.71 ? 133 A 1 .
+1184 C CG . LYS C 3 33 ? 10.332 2.201 57.126 1 34.59 ? 133 A 1 .
+1185 C CD . LYS C 3 33 ? 11.542 3.112 57.057 1 35.36 ? 133 A 1 .
+1186 C CE . LYS C 3 33 ? 11.335 4.428 57.777 1 36.31 ? 133 A 1 .
+1187 N NZ . LYS C 3 33 ? 12.566 5.272 57.706 1 37.38 ? 133 A 1 .
+1188 H H . LYS C 3 33 ? 9.78898815 -1.19527167 58.0789486 1 37.92 ? 133 A 1 c
+1189 H HA . LYS C 3 33 ? 8.58023872 0.370604124 56.0887469 1 36.44 ? 133 A 1 c
+1190 H HB3 . LYS C 3 33 ? 10.8104478 1.09630675 55.4442939 1 35.71 ? 133 A 1 c
+1191 H HB2 . LYS C 3 33 ? 11.3597358 0.440346997 56.7777829 1 35.71 ? 133 A 1 c
+1192 H HG3 . LYS C 3 33 ? 10.1459831 1.99298516 58.0664725 1 34.59 ? 133 A 1 c
+1193 H HG2 . LYS C 3 33 ? 9.56906295 2.65654236 56.7103448 1 34.59 ? 133 A 1 c
+1194 H HD3 . LYS C 3 33 ? 11.7521334 3.29429809 56.1162703 1 35.36 ? 133 A 1 c
+1195 H HD2 . LYS C 3 33 ? 12.3124501 2.65129626 57.4526258 1 35.36 ? 133 A 1 c
+1196 H HE3 . LYS C 3 33 ? 11.1201068 4.25798496 58.7137453 1 36.31 ? 133 A 1 c
+1197 H HE2 . LYS C 3 33 ? 10.5937651 4.91232967 57.3664253 1 36.31 ? 133 A 1 c
+1198 H HZ1 . LYS C 3 33 ? 12.7699549 5.44489278 56.8393054 1 37.38 ? 133 A 1 c
+1199 H HZ2 . LYS C 3 33 ? 13.2600692 4.83558574 58.0938912 1 37.38 ? 133 A 1 c
+1200 H HZ3 . LYS C 3 33 ? 12.4263873 6.05550457 58.1410608 1 37.38 ? 133 A 1 c
+1201 N N . PRO C 3 34 ? 8.552 -1.928 54.992 1 34.33 ? 134 A 1 .
+1202 C CA . PRO C 3 34 ? 8.486 -3.118 54.13 1 34.48 ? 134 A 1 .
+1203 C C . PRO C 3 34 ? 9.017 -3.076 52.713 1 33.6 ? 134 A 1 .
+1204 O O . PRO C 3 34 ? 9.168 -4.121 52.099 1 34.9 ? 134 A 1 .
+1205 C CB . PRO C 3 34 ? 6.982 -3.44 54.094 1 34.25 ? 134 A 1 .
+1206 C CG . PRO C 3 34 ? 6.388 -2.626 55.216 1 34.99 ? 134 A 1 .
+1207 C CD . PRO C 3 34 ? 7.205 -1.378 55.194 1 34.43 ? 134 A 1 .
+1208 H HA . PRO C 3 34 ? 8.86891392 -3.89306566 54.6124419 1 34.48 ? 134 A 1 c
+1209 H HB3 . PRO C 3 34 ? 6.82377182 -4.39782634 54.2350445 1 34.25 ? 134 A 1 c
+1210 H HB2 . PRO C 3 34 ? 6.5884883 -3.18670092 53.231823 1 34.25 ? 134 A 1 c
+1211 H HG3 . PRO C 3 34 ? 6.48493186 -3.08999726 56.0725931 1 34.99 ? 134 A 1 c
+1212 H HG2 . PRO C 3 34 ? 5.4453084 -2.42758445 55.0416302 1 34.99 ? 134 A 1 c
+1213 H HD3 . PRO C 3 34 ? 6.94883066 -0.80835639 54.4453289 1 34.43 ? 134 A 1 c
+1214 H HD2 . PRO C 3 34 ? 7.14751969 -0.910184179 56.0475042 1 34.43 ? 134 A 1 c
+1215 N N . PHE C 3 35 ? 9.284 -1.894 52.182 1 33.39 ? 135 A 1 .
+1216 C CA . PHE C 3 35 ? 9.734 -1.783 50.8 1 33.59 ? 135 A 1 .
+1217 C C . PHE C 3 35 ? 11.157 -1.288 50.711 1 33.43 ? 135 A 1 .
+1218 O O . PHE C 3 35 ? 11.485 -0.243 51.247 1 34.72 ? 135 A 1 .
+1219 C CB . PHE C 3 35 ? 8.783 -0.858 50.036 1 32.87 ? 135 A 1 .
+1220 C CG . PHE C 3 35 ? 7.332 -1.192 50.247 1 33.35 ? 135 A 1 .
+1221 C CD1 . PHE C 3 35 ? 6.689 -2.118 49.428 1 33.39 ? 135 A 1 .
+1222 C CD2 . PHE C 3 35 ? 6.624 -0.629 51.303 1 32.52 ? 135 A 1 .
+1223 C CE1 . PHE C 3 35 ? 5.362 -2.48 49.664 1 33.08 ? 135 A 1 .
+1224 C CE2 . PHE C 3 35 ? 5.302 -0.985 51.546 1 32.83 ? 135 A 1 .
+1225 C CZ . PHE C 3 35 ? 4.67 -1.912 50.726 1 32.06 ? 135 A 1 .
+1226 H H . PHE C 3 35 ? 9.18626433 -1.13678 52.6844556 1 33.39 ? 135 A 1 c
+1227 H HA . PHE C 3 35 ? 9.68671876 -2.67899065 50.3792314 1 33.59 ? 135 A 1 c
+1228 H HB3 . PHE C 3 35 ? 8.98761729 -0.92443429 49.0799047 1 32.87 ? 135 A 1 c
+1229 H HB2 . PHE C 3 35 ? 8.94237637 0.0627251407 50.3314055 1 32.87 ? 135 A 1 c
+1230 H HD1 . PHE C 3 35 ? 7.1578292 -2.50418485 48.7053684 1 33.39 ? 135 A 1 c
+1231 H HD2 . PHE C 3 35 ? 7.04777274 0.00315461672 51.8615098 1 32.52 ? 135 A 1 c
+1232 H HE1 . PHE C 3 35 ? 4.93662702 -3.10902971 49.1031832 1 33.08 ? 135 A 1 c
+1233 H HE2 . PHE C 3 35 ? 4.83440371 -0.596552846 52.2682178 1 32.83 ? 135 A 1 c
+1234 H HZ . PHE C 3 35 ? 3.77274332 -2.15504784 50.8902991 1 32.06 ? 135 A 1 c
+1235 N N . GLN C 3 36 ? 11.993 -2.028 49.997 1 33.77 ? 136 A 1 .
+1236 C CA . GLN C 3 36 ? 13.398 -1.667 49.87 1 34.21 ? 136 A 1 .
+1237 C C . GLN C 3 36 ? 13.884 -1.305 48.472 1 33.58 ? 136 A 1 .
+1238 O O . GLN C 3 36 ? 13.444 -1.876 47.465 1 32.54 ? 136 A 1 .
+1239 C CB . GLN C 3 36 ? 14.28 -2.788 50.439 1 35.11 ? 136 A 1 .
+1240 C CG . GLN C 3 36 ? 15.766 -2.472 50.463 1 35.94 ? 136 A 1 .
+1241 C CD . GLN C 3 36 ? 16.565 -3.517 51.201 1 37.71 ? 136 A 1 .
+1242 O OE1 . GLN C 3 36 ? 16.337 -4.716 51.031 1 39.17 ? 136 A 1 .
+1243 N NE2 . GLN C 3 36 ? 17.493 -3.074 52.049 1 36.86 ? 136 A 1 .
+1244 H H . GLN C 3 36 ? 11.6855874 -2.7786037 49.5757072 1 33.77 ? 136 A 1 c
+1245 H HA . GLN C 3 36 ? 13.5826691 -0.912688846 50.4759183 1 34.21 ? 136 A 1 c
+1246 H HB3 . GLN C 3 36 ? 14.1331042 -3.59943336 49.9094742 1 35.11 ? 136 A 1 c
+1247 H HB2 . GLN C 3 36 ? 13.9799616 -2.98868989 51.3500985 1 35.11 ? 136 A 1 c
+1248 H HG3 . GLN C 3 36 ? 15.9037216 -1.6006872 50.8921943 1 35.94 ? 136 A 1 c
+1249 H HG2 . GLN C 3 36 ? 16.0969174 -2.40663614 49.5418148 1 35.94 ? 136 A 1 c
+1250 H HE21 . GLN C 3 36 ? 17.9865075 -3.64887406 52.5044406 1 36.86 ? 136 A 1 c
+1251 H HE22 . GLN C 3 36 ? 17.6153806 -2.20511901 52.1563537 1 36.86 ? 136 A 1 c
+1252 N N . CYS C 3 37 ? 14.805 -0.344 48.438 1 32.52 ? 137 A 1 .
+1253 C CA . CYS C 3 37 ? 15.399 0.108 47.202 1 32.38 ? 137 A 1 .
+1254 C C . CYS C 3 37 ? 16.593 -0.803 46.907 1 32.54 ? 137 A 1 .
+1255 O O . CYS C 3 37 ? 17.526 -0.939 47.704 1 31.44 ? 137 A 1 .
+1256 C CB . CYS C 3 37 ? 15.83 1.573 47.307 1 32.13 ? 137 A 1 .
+1257 S SG . CYS C 3 37 ? 16.557 2.24 45.792 1 28.44 ? 137 A 1 .
+1258 H H . CYS C 3 37 ? 15.0721589 0.0443542805 49.2210728 1 32.52 ? 137 A 1 c
+1259 H HA . CYS C 3 37 ? 14.732844 -0.00500461941 46.4852775 1 32.38 ? 137 A 1 c
+1260 H HB3 . CYS C 3 37 ? 16.4819697 1.66427212 48.0316005 1 32.13 ? 137 A 1 c
+1261 H HB2 . CYS C 3 37 ? 15.0536666 2.11924347 47.5465111 1 32.13 ? 137 A 1 c
+1262 N N . ARG C 3 38 ? 16.468 -1.502 45.79 1 32.87 ? 138 A 1 .
+1263 C CA . ARG C 3 38 ? 17.483 -2.435 45.339 1 34.08 ? 138 A 1 .
+1264 C C . ARG C 3 38 ? 18.8 -1.739 45.036 1 33.6 ? 138 A 1 .
+1265 O O . ARG C 3 38 ? 19.879 -2.294 45.223 1 34.4 ? 138 A 1 .
+1266 C CB . ARG C 3 38 ? 16.929 -3.107 44.09 1 36.63 ? 138 A 1 .
+1267 C CG . ARG C 3 38 ? 17.957 -3.668 43.126 1 39.54 ? 138 A 1 .
+1268 C CD . ARG C 3 38 ? 17.335 -3.903 41.758 1 40.1 ? 138 A 1 .
+1269 N NE . ARG C 3 38 ? 16.026 -4.537 41.846 1 39.91 ? 138 A 1 .
+1270 C CZ . ARG C 3 38 ? 15.652 -5.581 41.12 1 40.37 ? 138 A 1 .
+1271 N NH1 . ARG C 3 38 ? 16.498 -6.125 40.247 1 41.3 ? 138 A 1 .
+1272 N NH2 . ARG C 3 38 ? 14.428 -6.072 41.265 1 40.57 ? 138 A 1 .
+1273 H H . ARG C 3 38 ? 15.7157462 -1.39518032 45.2819648 1 32.87 ? 138 A 1 c
+1274 H HA . ARG C 3 38 ? 17.6317803 -3.10174802 46.0486031 1 34.08 ? 138 A 1 c
+1275 H HB3 . ARG C 3 38 ? 16.3673759 -2.46172854 43.6118754 1 36.63 ? 138 A 1 c
+1276 H HB2 . ARG C 3 38 ? 16.3275778 -3.82997248 44.3656849 1 36.63 ? 138 A 1 c
+1277 H HG3 . ARG C 3 38 ? 18.2946808 -4.52105334 43.4733222 1 39.54 ? 138 A 1 c
+1278 H HG2 . ARG C 3 38 ? 18.6967046 -3.03018193 43.0344234 1 39.54 ? 138 A 1 c
+1279 H HD3 . ARG C 3 38 ? 17.9325192 -4.46981786 41.2250373 1 40.1 ? 138 A 1 c
+1280 H HD2 . ARG C 3 38 ? 17.2465741 -3.04426887 41.2920357 1 40.1 ? 138 A 1 c
+1281 H HE . ARG C 3 38 ? 15.4497766 -4.20959551 42.4127071 1 39.91 ? 138 A 1 c
+1282 H HH11 . ARG C 3 38 ? 16.2460317 -6.81884699 39.7661161 1 41.3 ? 138 A 1 c
+1283 H HH12 . ARG C 3 38 ? 17.3071374 -5.78942723 40.1529328 1 41.3 ? 138 A 1 c
+1284 H HH21 . ARG C 3 38 ? 13.8739966 -5.70366724 41.8395017 1 40.57 ? 138 A 1 c
+1285 H HH22 . ARG C 3 38 ? 14.1746384 -6.76420222 40.786142 1 40.57 ? 138 A 1 c
+1286 N N . ILE C 3 39 ? 18.698 -0.476 44.665 1 32.76 ? 139 A 1 .
+1287 C CA . ILE C 3 39 ? 19.838 0.326 44.296 1 31.48 ? 139 A 1 .
+1288 C C . ILE C 3 39 ? 20.654 0.813 45.472 1 32.25 ? 139 A 1 .
+1289 O O . ILE C 3 39 ? 21.853 0.517 45.553 1 34.21 ? 139 A 1 .
+1290 C CB . ILE C 3 39 ? 19.396 1.501 43.4 0.5 30.74 ? 139 A 1 .
+1291 C CG1 . ILE C 3 39 ? 18.679 0.948 42.155 0.5 29.74 ? 139 A 1 .
+1292 C CG2 . ILE C 3 39 ? 20.596 2.38 43.051 0.5 30.28 ? 139 A 1 .
+1293 C CD1 . ILE C 3 39 ? 18.047 1.979 41.263 0.5 28.68 ? 139 A 1 .
+1294 H H . ILE C 3 39 ? 17.8697874 -0.0902123692 44.639943 1 32.76 ? 139 A 1 c
+1295 H HA . ILE C 3 39 ? 20.41412 -0.206077244 43.7183707 1 31.48 ? 139 A 1 c
+1296 H HB . ILE C 3 39 ? 18.735303 2.03060196 43.9110013 0.5 30.74 ? 139 A 1 c
+1297 H HG12 . ILE C 3 39 ? 17.9870236 0.316096347 42.4452195 0.5 29.74 ? 139 A 1 c
+1298 H HG13 . ILE C 3 39 ? 19.3212902 0.426687071 41.6276888 0.5 29.74 ? 139 A 1 c
+1299 H HG21 . ILE C 3 39 ? 21.2611901 1.85229691 42.5758363 0.5 30.28 ? 139 A 1 c
+1300 H HG22 . ILE C 3 39 ? 20.990226 2.73476324 43.866756 0.5 30.28 ? 139 A 1 c
+1301 H HG23 . ILE C 3 39 ? 20.3079688 3.11797931 42.4860632 0.5 30.28 ? 139 A 1 c
+1302 H HD11 . ILE C 3 39 ? 18.7300038 2.59046486 40.9368933 0.5 28.68 ? 139 A 1 c
+1303 H HD12 . ILE C 3 39 ? 17.3793557 2.47851636 41.7644613 0.5 28.68 ? 139 A 1 c
+1304 H HD13 . ILE C 3 39 ? 17.6205004 1.53872369 40.5073653 0.5 28.68 ? 139 A 1 c
+1305 N N . CYS C 3 40 ? 20.022 1.519 46.404 1 31.84 ? 140 A 1 .
+1306 C CA . CYS C 3 40 ? 20.763 2.058 47.537 1 31.37 ? 140 A 1 .
+1307 C C . CYS C 3 40 ? 20.448 1.37 48.851 1 31.54 ? 140 A 1 .
+1308 O O . CYS C 3 40 ? 20.875 1.821 49.909 1 32.53 ? 140 A 1 .
+1309 C CB . CYS C 3 40 ? 20.51 3.56 47.666 1 30.55 ? 140 A 1 .
+1310 S SG . CYS C 3 40 ? 18.876 3.958 48.3 1 28.71 ? 140 A 1 .
+1311 H H . CYS C 3 40 ? 19.1227408 1.66827677 46.337327 1 31.84 ? 140 A 1 c
+1312 H HA . CYS C 3 40 ? 21.7242438 1.95258967 47.3495859 1 31.37 ? 140 A 1 c
+1313 H HB3 . CYS C 3 40 ? 20.6136901 3.97924201 46.7874071 1 30.55 ? 140 A 1 c
+1314 H HB2 . CYS C 3 40 ? 21.1796234 3.94759237 48.265848 1 30.55 ? 140 A 1 c
+1315 N N . MET C 3 41 ? 19.678 0.293 48.781 1 31.81 ? 141 A 1 .
+1316 C CA . MET C 3 41 ? 19.29 -0.48 49.955 1 32.35 ? 141 A 1 .
+1317 C C . MET C 3 41 ? 18.467 0.241 51.031 1 31.5 ? 141 A 1 .
+1318 O O . MET C 3 41 ? 18.2 -0.334 52.085 1 31.47 ? 141 A 1 .
+1319 C CB . MET C 3 41 ? 20.509 -1.171 50.586 1 33.98 ? 141 A 1 .
+1320 C CG . MET C 3 41 ? 21.236 -2.111 49.638 1 36.69 ? 141 A 1 .
+1321 S SD . MET C 3 41 ? 20.141 -2.924 48.428 1 40.72 ? 141 A 1 .
+1322 C CE . MET C 3 41 ? 19.391 -4.168 49.389 1 38.09 ? 141 A 1 .
+1323 H H . MET C 3 41 ? 19.3755359 0.0205585227 47.9626559 1 31.81 ? 141 A 1 c
+1324 H HA . MET C 3 41 ? 18.7930403 -1.27569429 49.654789 1 32.35 ? 141 A 1 c
+1325 H HB3 . MET C 3 41 ? 20.2118873 -1.67646663 51.3687589 1 33.98 ? 141 A 1 c
+1326 H HB2 . MET C 3 41 ? 21.1337161 -0.484234745 50.893518 1 33.98 ? 141 A 1 c
+1327 H HG3 . MET C 3 41 ? 21.6995196 -2.80048714 50.1596494 1 36.69 ? 141 A 1 c
+1328 H HG2 . MET C 3 41 ? 21.927071 -1.61038408 49.1540935 1 36.69 ? 141 A 1 c
+1329 H HE3 . MET C 3 41 ? 18.7782077 -4.67211646 48.8398395 1 38.09 ? 141 A 1 c
+1330 H HE2 . MET C 3 41 ? 18.9095326 -3.76216967 50.1202427 1 38.09 ? 141 A 1 c
+1331 H HE1 . MET C 3 41 ? 20.0706682 -4.75738282 49.7381475 1 38.09 ? 141 A 1 c
+1332 N N . ARG C 3 42 ? 18.071 1.487 50.781 1 30.57 ? 142 A 1 .
+1333 C CA . ARG C 3 42 ? 17.254 2.229 51.754 1 30.04 ? 142 A 1 .
+1334 C C . ARG C 3 42 ? 15.82 1.684 51.843 1 29.54 ? 142 A 1 .
+1335 O O . ARG C 3 42 ? 15.226 1.341 50.828 1 29.77 ? 142 A 1 .
+1336 C CB . ARG C 3 42 ? 17.204 3.719 51.41 1 28.7 ? 142 A 1 .
+1337 C CG . ARG C 3 42 ? 16.364 4.533 52.378 1 28.14 ? 142 A 1 .
+1338 C CD . ARG C 3 42 ? 16.353 6.008 52.017 1 27.51 ? 142 A 1 .
+1339 N NE . ARG C 3 42 ? 15.572 6.756 52.997 1 27.69 ? 142 A 1 .
+1340 C CZ . ARG C 3 42 ? 15.633 8.069 53.192 1 26.14 ? 142 A 1 .
+1341 N NH1 . ARG C 3 42 ? 16.439 8.836 52.472 1 25.17 ? 142 A 1 .
+1342 N NH2 . ARG C 3 42 ? 14.931 8.603 54.172 1 26.86 ? 142 A 1 .
+1343 H H . ARG C 3 42 ? 18.3079961 1.88984728 49.9955429 1 30.57 ? 142 A 1 c
+1344 H HA . ARG C 3 42 ? 17.6781457 2.15376138 52.639813 1 30.04 ? 142 A 1 c
+1345 H HB3 . ARG C 3 42 ? 16.8320851 3.81858211 50.5087993 1 28.7 ? 142 A 1 c
+1346 H HB2 . ARG C 3 42 ? 18.1187471 4.07060513 51.4133958 1 28.7 ? 142 A 1 c
+1347 H HG3 . ARG C 3 42 ? 16.7237397 4.42952828 53.2847756 1 28.14 ? 142 A 1 c
+1348 H HG2 . ARG C 3 42 ? 15.4427467 4.19598057 52.3695624 1 28.14 ? 142 A 1 c
+1349 H HD3 . ARG C 3 42 ? 15.9494393 6.11997324 51.1298913 1 27.51 ? 142 A 1 c
+1350 H HD2 . ARG C 3 42 ? 17.2739339 6.3459721 52.0129354 1 27.51 ? 142 A 1 c
+1351 H HE . ARG C 3 42 ? 15.0183149 6.30507547 53.4974836 1 27.69 ? 142 A 1 c
+1352 H HH11 . ARG C 3 42 ? 16.4638483 9.70450222 52.6177651 1 25.17 ? 142 A 1 c
+1353 H HH12 . ARG C 3 42 ? 16.9476085 8.47514217 51.8496978 1 25.17 ? 142 A 1 c
+1354 H HH21 . ARG C 3 42 ? 14.4329987 8.09010474 54.6834432 1 26.86 ? 142 A 1 c
+1355 H HH22 . ARG C 3 42 ? 14.9630432 9.47034204 54.3110397 1 26.86 ? 142 A 1 c
+1356 N N . ASN C 3 43 ? 15.271 1.625 53.057 1 29.76 ? 143 A 1 .
+1357 C CA . ASN C 3 43 ? 13.908 1.122 53.286 1 29.44 ? 143 A 1 .
+1358 C C . ASN C 3 43 ? 12.88 2.248 53.348 1 28 ? 143 A 1 .
+1359 O O . ASN C 3 43 ? 13.186 3.358 53.799 1 26.71 ? 143 A 1 .
+1360 C CB . ASN C 3 43 ? 13.84 0.288 54.577 1 30.5 ? 143 A 1 .
+1361 C CG . ASN C 3 43 ? 14.887 -0.808 54.617 1 31.47 ? 143 A 1 .
+1362 O OD1 . ASN C 3 43 ? 15.844 -0.736 55.389 1 33.27 ? 143 A 1 .
+1363 N ND2 . ASN C 3 43 ? 14.742 -1.801 53.749 1 31.29 ? 143 A 1 .
+1364 H H . ASN C 3 43 ? 15.7582094 1.90743587 53.7768979 1 29.76 ? 143 A 1 c
+1365 H HA . ASN C 3 43 ? 13.6704738 0.51472329 52.5464107 1 29.44 ? 143 A 1 c
+1366 H HB3 . ASN C 3 43 ? 12.9510222 -0.116028508 54.6471459 1 30.5 ? 143 A 1 c
+1367 H HB2 . ASN C 3 43 ? 13.9684084 0.881343189 55.345047 1 30.5 ? 143 A 1 c
+1368 H HD21 . ASN C 3 43 ? 15.3268534 -2.46368903 53.7333252 1 31.29 ? 143 A 1 c
+1369 H HD22 . ASN C 3 43 ? 14.0604767 -1.80033301 53.1859889 1 31.29 ? 143 A 1 c
+1370 N N . PHE C 3 44 ? 11.656 1.932 52.923 1 27.05 ? 144 A 1 .
+1371 C CA . PHE C 3 44 ? 10.554 2.896 52.886 1 27.05 ? 144 A 1 .
+1372 C C . PHE C 3 44 ? 9.263 2.321 53.436 1 27.24 ? 144 A 1 .
+1373 O O . PHE C 3 44 ? 9.005 1.134 53.308 1 27.13 ? 144 A 1 .
+1374 C CB . PHE C 3 44 ? 10.323 3.381 51.453 1 27.04 ? 144 A 1 .
+1375 C CG . PHE C 3 44 ? 11.47 4.161 50.894 1 26.82 ? 144 A 1 .
+1376 C CD1 . PHE C 3 44 ? 11.611 5.512 51.185 1 27.41 ? 144 A 1 .
+1377 C CD2 . PHE C 3 44 ? 12.432 3.539 50.103 1 26.94 ? 144 A 1 .
+1378 C CE1 . PHE C 3 44 ? 12.7 6.235 50.696 1 26.97 ? 144 A 1 .
+1379 C CE2 . PHE C 3 44 ? 13.521 4.249 49.611 1 25.78 ? 144 A 1 .
+1380 C CZ . PHE C 3 44 ? 13.652 5.599 49.91 1 26.24 ? 144 A 1 .
+1381 H H . PHE C 3 44 ? 11.4946008 1.07740511 52.6419059 1 27.05 ? 144 A 1 c
+1382 H HA . PHE C 3 44 ? 10.8045336 3.68364204 53.4327485 1 27.05 ? 144 A 1 c
+1383 H HB3 . PHE C 3 44 ? 9.52132563 3.94455801 51.4420196 1 27.04 ? 144 A 1 c
+1384 H HB2 . PHE C 3 44 ? 10.1635936 2.5996888 50.8833137 1 27.04 ? 144 A 1 c
+1385 H HD1 . PHE C 3 44 ? 10.9631489 5.94384156 51.7187957 1 27.41 ? 144 A 1 c
+1386 H HD2 . PHE C 3 44 ? 12.342117 2.62177554 49.8986563 1 26.94 ? 144 A 1 c
+1387 H HE1 . PHE C 3 44 ? 12.7884775 7.15263544 50.8991082 1 26.97 ? 144 A 1 c
+1388 H HE2 . PHE C 3 44 ? 14.1674105 3.81549977 49.0768025 1 25.78 ? 144 A 1 c
+1389 H HZ . PHE C 3 44 ? 14.3898808 6.08536592 49.5781626 1 26.24 ? 144 A 1 c
+1390 N N . SER C 3 45 ? 8.435 3.177 54.023 1 27.84 ? 145 A 1 .
+1391 C CA . SER C 3 45 ? 7.165 2.737 54.593 1 29.05 ? 145 A 1 .
+1392 C C . SER C 3 45 ? 6.11 2.431 53.534 1 29.9 ? 145 A 1 .
+1393 O O . SER C 3 45 ? 5.23 1.593 53.753 1 30.63 ? 145 A 1 .
+1394 C CB . SER C 3 45 ? 6.613 3.792 55.569 1 28.69 ? 145 A 1 .
+1395 O OG . SER C 3 45 ? 6.278 5.007 54.91 1 27.48 ? 145 A 1 .
+1396 H H . SER C 3 45 ? 8.6618742 4.06098465 54.0729523 1 27.84 ? 145 A 1 c
+1397 H HA . SER C 3 45 ? 7.33258341 1.90669175 55.1150431 1 29.05 ? 145 A 1 c
+1398 H HB3 . SER C 3 45 ? 7.28335774 3.97229217 56.2664032 1 28.69 ? 145 A 1 c
+1399 H HB2 . SER C 3 45 ? 5.81478151 3.43303599 56.01872 1 28.69 ? 145 A 1 c
+1400 H HG . SER C 3 45 ? 5.47095081 4.96358047 54.6599953 0 27.48 ? 145 A 1 c
+1401 N N . ARG C 3 46 ? 6.235 3.062 52.367 1 30.2 ? 146 A 1 .
+1402 C CA . ARG C 3 46 ? 5.246 2.891 51.305 1 29.65 ? 146 A 1 .
+1403 C C . ARG C 3 46 ? 5.792 2.592 49.909 1 29.77 ? 146 A 1 .
+1404 O O . ARG C 3 46 ? 6.765 3.202 49.465 1 28.64 ? 146 A 1 .
+1405 C CB . ARG C 3 46 ? 4.354 4.13 51.282 1 29.43 ? 146 A 1 .
+1406 C CG . ARG C 3 46 ? 3.507 4.274 52.542 1 29.06 ? 146 A 1 .
+1407 C CD . ARG C 3 46 ? 2.951 5.655 52.703 1 27.94 ? 146 A 1 .
+1408 N NE . ARG C 3 46 ? 2.273 6.097 51.496 1 27.44 ? 146 A 1 .
+1409 C CZ . ARG C 3 46 ? 1.281 6.976 51.479 1 27.25 ? 146 A 1 .
+1410 N NH1 . ARG C 3 46 ? 0.835 7.51 52.61 1 27.55 ? 146 A 1 .
+1411 N NH2 . ARG C 3 46 ? 0.763 7.356 50.323 1 27.37 ? 146 A 1 .
+1412 H H . ARG C 3 46 ? 6.95087846 3.61224685 52.225076 1 30.2 ? 146 A 1 c
+1413 H HA . ARG C 3 46 ? 4.62884215 2.16912453 51.5662221 1 29.65 ? 146 A 1 c
+1414 H HB3 . ARG C 3 46 ? 3.75797027 4.07068315 50.5063518 1 29.43 ? 146 A 1 c
+1415 H HB2 . ARG C 3 46 ? 4.92348186 4.92251312 51.1924826 1 29.43 ? 146 A 1 c
+1416 H HG3 . ARG C 3 46 ? 4.05464863 4.05748861 53.3265794 1 29.06 ? 146 A 1 c
+1417 H HG2 . ARG C 3 46 ? 2.76466693 3.63357993 52.5078717 1 29.06 ? 146 A 1 c
+1418 H HD3 . ARG C 3 46 ? 3.68279429 6.27556792 52.907288 1 27.94 ? 146 A 1 c
+1419 H HD2 . ARG C 3 46 ? 2.31570304 5.66184229 53.4504704 1 27.94 ? 146 A 1 c
+1420 H HE . ARG C 3 46 ? 2.53398426 5.76388575 50.7335657 1 27.44 ? 146 A 1 c
+1421 H HH11 . ARG C 3 46 ? 0.175228177 8.09346514 52.5892497 1 27.55 ? 146 A 1 c
+1422 H HH12 . ARG C 3 46 ? 1.20016237 7.27927353 53.3778429 1 27.55 ? 146 A 1 c
+1423 H HH21 . ARG C 3 46 ? 1.07812834 7.0247001 49.5722833 1 27.37 ? 146 A 1 c
+1424 H HH22 . ARG C 3 46 ? 0.105098316 7.93875525 50.308763 1 27.37 ? 146 A 1 c
+1425 N N . SER C 3 47 ? 5.134 1.659 49.216 1 30.03 ? 147 A 1 .
+1426 C CA . SER C 3 47 ? 5.539 1.255 47.869 1 30.56 ? 147 A 1 .
+1427 C C . SER C 3 47 ? 5.454 2.382 46.842 1 30.28 ? 147 A 1 .
+1428 O O . SER C 3 47 ? 6.213 2.413 45.871 1 31.51 ? 147 A 1 .
+1429 C CB . SER C 3 47 ? 4.714 0.056 47.388 1 30.98 ? 147 A 1 .
+1430 O OG . SER C 3 47 ? 3.34 0.367 47.338 1 31.74 ? 147 A 1 .
+1431 H H . SER C 3 47 ? 4.40502368 1.25694657 49.5932831 1 30.03 ? 147 A 1 c
+1432 H HA . SER C 3 47 ? 6.48272434 0.94258757 47.9115188 1 30.56 ? 147 A 1 c
+1433 H HB3 . SER C 3 47 ? 4.8556278 -0.702366191 47.9988013 1 30.98 ? 147 A 1 c
+1434 H HB2 . SER C 3 47 ? 5.02139656 -0.212163233 46.4925382 1 30.98 ? 147 A 1 c
+1435 H HG . SER C 3 47 ? 3.1614413 0.673203105 46.5698383 0 31.74 ? 147 A 1 c
+1436 N N . ASP C 3 48 ? 4.518 3.296 47.042 1 29.18 ? 148 A 1 .
+1437 C CA . ASP C 3 48 ? 4.377 4.399 46.115 1 27.99 ? 148 A 1 .
+1438 C C . ASP C 3 48 ? 5.554 5.351 46.285 1 26.25 ? 148 A 1 .
+1439 O O . ASP C 3 48 ? 6.065 5.886 45.309 1 25.79 ? 148 A 1 .
+1440 C CB . ASP C 3 48 ? 3.016 5.115 46.286 1 28.11 ? 148 A 1 .
+1441 C CG . ASP C 3 48 ? 2.83 5.734 47.665 1 28.46 ? 148 A 1 .
+1442 O OD1 . ASP C 3 48 ? 3.198 5.105 48.669 1 30.45 ? 148 A 1 .
+1443 O OD2 . ASP C 3 48 ? 2.295 6.855 47.754 1 28.84 ? 148 A 1 .
+1444 H H . ASP C 3 48 ? 3.95987023 3.23398347 47.7631388 1 29.18 ? 148 A 1 c
+1445 H HA . ASP C 3 48 ? 4.38873418 4.03934415 45.1970098 1 27.99 ? 148 A 1 c
+1446 H HB3 . ASP C 3 48 ? 2.30134906 4.4592971 46.1527005 1 28.11 ? 148 A 1 c
+1447 H HB2 . ASP C 3 48 ? 2.95820397 5.83409599 45.6241831 1 28.11 ? 148 A 1 c
+1448 N N . HIS C 3 49 ? 6.003 5.525 47.525 1 25.47 ? 149 A 1 .
+1449 C CA . HIS C 3 49 ? 7.127 6.411 47.813 1 25.24 ? 149 A 1 .
+1450 C C . HIS C 3 49 ? 8.427 5.746 47.414 1 25.13 ? 149 A 1 .
+1451 O O . HIS C 3 49 ? 9.432 6.414 47.17 1 24.3 ? 149 A 1 .
+1452 C CB . HIS C 3 49 ? 7.138 6.803 49.281 1 24.17 ? 149 A 1 .
+1453 C CG . HIS C 3 49 ? 5.963 7.635 49.676 1 24.05 ? 149 A 1 .
+1454 N ND1 . HIS C 3 49 ? 5.261 8.396 48.77 1 23.59 ? 149 A 1 .
+1455 C CD2 . HIS C 3 49 ? 5.375 7.842 50.877 1 24.22 ? 149 A 1 .
+1456 C CE1 . HIS C 3 49 ? 4.293 9.041 49.395 1 24.43 ? 149 A 1 .
+1457 N NE2 . HIS C 3 49 ? 4.34 8.721 50.675 1 24.29 ? 149 A 1 .
+1458 H H . HIS C 3 49 ? 5.60059831 5.0809334 48.2151259 1 25.47 ? 149 A 1 c
+1459 H HA . HIS C 3 49 ? 7.01786537 7.23015464 47.2696803 1 25.24 ? 149 A 1 c
+1460 H HB3 . HIS C 3 49 ? 7.96117453 7.30527725 49.4665404 1 24.17 ? 149 A 1 c
+1461 H HB2 . HIS C 3 49 ? 7.14720527 5.98553531 49.8250503 1 24.17 ? 149 A 1 c
+1462 H HD1 . HIS C 3 49 ? 5.43097121 8.44525922 47.9069564 0 23.59 ? 149 A 1 c
+1463 H HD2 . HIS C 3 49 ? 5.62116182 7.46139006 51.6970667 1 24.22 ? 149 A 1 c
+1464 H HE1 . HIS C 3 49 ? 3.67554901 9.62860578 48.9939542 1 24.43 ? 149 A 1 c
+1465 H HE2 . HIS C 3 49 ? 3.79761996 9.0216232 51.295144 0 24.29 ? 149 A 1 c
+1466 N N . LEU C 3 50 ? 8.4 4.419 47.356 1 25.01 ? 150 A 1 .
+1467 C CA . LEU C 3 50 ? 9.564 3.677 46.933 1 24.96 ? 150 A 1 .
+1468 C C . LEU C 3 50 ? 9.703 3.894 45.424 1 24.78 ? 150 A 1 .
+1469 O O . LEU C 3 50 ? 10.802 4.141 44.923 1 24.86 ? 150 A 1 .
+1470 C CB . LEU C 3 50 ? 9.402 2.192 47.256 1 24.71 ? 150 A 1 .
+1471 C CG . LEU C 3 50 ? 10.446 1.305 46.572 1 25.22 ? 150 A 1 .
+1472 C CD1 . LEU C 3 50 ? 11.855 1.67 47.036 1 24.84 ? 150 A 1 .
+1473 C CD2 . LEU C 3 50 ? 10.132 -0.148 46.851 1 25.35 ? 150 A 1 .
+1474 H H . LEU C 3 50 ? 7.6386739 3.96829814 47.5854481 1 25.01 ? 150 A 1 c
+1475 H HA . LEU C 3 50 ? 10.3551548 4.05412144 47.3825315 1 24.96 ? 150 A 1 c
+1476 H HB3 . LEU C 3 50 ? 8.51352869 1.90832547 46.9616677 1 24.71 ? 150 A 1 c
+1477 H HB2 . LEU C 3 50 ? 9.48373447 2.07700275 48.2237702 1 24.71 ? 150 A 1 c
+1478 H HG . LEU C 3 50 ? 10.3931368 1.46518288 45.5974909 1 25.22 ? 150 A 1 c
+1479 H HD11 . LEU C 3 50 ? 12.5080063 1.27547487 46.4321278 1 24.84 ? 150 A 1 c
+1480 H HD12 . LEU C 3 50 ? 11.9987499 1.32948936 47.9360653 1 24.84 ? 150 A 1 c
+1481 H HD13 . LEU C 3 50 ? 11.956399 2.63770195 47.0355799 1 24.84 ? 150 A 1 c
+1482 H HD21 . LEU C 3 50 ? 9.24799156 -0.361304953 46.5049378 1 25.35 ? 150 A 1 c
+1483 H HD22 . LEU C 3 50 ? 10.1509364 -0.305658546 47.8109553 1 25.35 ? 150 A 1 c
+1484 H HD23 . LEU C 3 50 ? 10.7949063 -0.712536112 46.4167383 1 25.35 ? 150 A 1 c
+1485 N N . THR C 3 51 ? 8.573 3.841 44.722 1 24.39 ? 151 A 1 .
+1486 C CA . THR C 3 51 ? 8.535 4.038 43.277 1 24.69 ? 151 A 1 .
+1487 C C . THR C 3 51 ? 9.12 5.388 42.873 1 25.11 ? 151 A 1 .
+1488 O O . THR C 3 51 ? 9.918 5.469 41.935 1 25.87 ? 151 A 1 .
+1489 C CB . THR C 3 51 ? 7.086 3.939 42.736 1 25.27 ? 151 A 1 .
+1490 O OG1 . THR C 3 51 ? 6.563 2.637 43.016 1 25.35 ? 151 A 1 .
+1491 C CG2 . THR C 3 51 ? 7.037 4.201 41.222 1 24.11 ? 151 A 1 .
+1492 H H . THR C 3 51 ? 7.78811036 3.67476207 45.1598461 1 24.39 ? 151 A 1 c
+1493 H HA . THR C 3 51 ? 9.07059803 3.32542646 42.857955 1 24.69 ? 151 A 1 c
+1494 H HB . THR C 3 51 ? 6.53481022 4.61170999 43.202712 1 25.27 ? 151 A 1 c
+1495 H HG1 . THR C 3 51 ? 7.04556542 2.04962102 42.6402068 0 25.35 ? 151 A 1 c
+1496 H HG21 . THR C 3 51 ? 6.11725606 4.13280391 40.9087966 1 24.11 ? 151 A 1 c
+1497 H HG22 . THR C 3 51 ? 7.58567102 3.54266588 40.7591476 1 24.11 ? 151 A 1 c
+1498 H HG23 . THR C 3 51 ? 7.3768851 5.09428958 41.0344158 1 24.11 ? 151 A 1 c
+1499 N N . THR C 3 52 ? 8.753 6.446 43.59 1 24.97 ? 152 A 1 .
+1500 C CA . THR C 3 52 ? 9.261 7.762 43.255 1 25.64 ? 152 A 1 .
+1501 C C . THR C 3 52 ? 10.696 7.992 43.704 1 26.24 ? 152 A 1 .
+1502 O O . THR C 3 52 ? 11.41 8.768 43.074 1 27.17 ? 152 A 1 .
+1503 C CB . THR C 3 52 ? 8.349 8.917 43.74 1 25.12 ? 152 A 1 .
+1504 O OG1 . THR C 3 52 ? 8.267 8.927 45.167 1 26.22 ? 152 A 1 .
+1505 C CG2 . THR C 3 52 ? 6.958 8.775 43.149 1 25.49 ? 152 A 1 .
+1506 H H . THR C 3 52 ? 8.18013759 6.34707236 44.2952928 1 24.97 ? 152 A 1 c
+1507 H HA . THR C 3 52 ? 9.21756541 7.86556582 42.2764232 1 25.64 ? 152 A 1 c
+1508 H HB . THR C 3 52 ? 8.74223312 9.76997593 43.4367365 1 25.12 ? 152 A 1 c
+1509 H HG1 . THR C 3 52 ? 7.94490835 8.19110571 45.4386994 0 26.22 ? 152 A 1 c
+1510 H HG21 . THR C 3 52 ? 6.39491763 9.50596885 43.4609275 1 25.49 ? 152 A 1 c
+1511 H HG22 . THR C 3 52 ? 6.57005236 7.92636109 43.4282573 1 25.49 ? 152 A 1 c
+1512 H HG23 . THR C 3 52 ? 7.01243127 8.80114092 42.1768735 1 25.49 ? 152 A 1 c
+1513 N N . HIS C 3 53 ? 11.13 7.31 44.762 1 26.22 ? 153 A 1 .
+1514 C CA . HIS C 3 53 ? 12.496 7.467 45.241 1 25.59 ? 153 A 1 .
+1515 C C . HIS C 3 53 ? 13.467 6.938 44.204 1 26.69 ? 153 A 1 .
+1516 O O . HIS C 3 53 ? 14.495 7.54 43.935 1 27.67 ? 153 A 1 .
+1517 C CB . HIS C 3 53 ? 12.705 6.715 46.542 1 25.42 ? 153 A 1 .
+1518 C CG . HIS C 3 53 ? 14.15 6.51 46.881 1 25.99 ? 153 A 1 .
+1519 N ND1 . HIS C 3 53 ? 14.936 7.503 47.42 1 25.87 ? 153 A 1 .
+1520 C CD2 . HIS C 3 53 ? 14.96 5.436 46.724 1 26.08 ? 153 A 1 .
+1521 C CE1 . HIS C 3 53 ? 16.168 7.056 47.581 1 26.1 ? 153 A 1 .
+1522 N NE2 . HIS C 3 53 ? 16.21 5.804 47.165 1 26.49 ? 153 A 1 .
+1523 H H . HIS C 3 53 ? 10.5662293 6.73554749 45.1950853 1 26.22 ? 153 A 1 c
+1524 H HA . HIS C 3 53 ? 12.6682288 8.43320361 45.3631017 1 25.59 ? 153 A 1 c
+1525 H HB3 . HIS C 3 53 ? 12.2662234 5.83916636 46.4733377 1 25.42 ? 153 A 1 c
+1526 H HB2 . HIS C 3 53 ? 12.2751931 7.21703412 47.2683276 1 25.42 ? 153 A 1 c
+1527 H HD1 . HIS C 3 53 ? 14.6591252 8.31354637 47.6261939 0 25.87 ? 153 A 1 c
+1528 H HD2 . HIS C 3 53 ? 14.7224793 4.59709852 46.380784 1 26.08 ? 153 A 1 c
+1529 H HE1 . HIS C 3 53 ? 16.8906467 7.54763474 47.9323418 1 26.1 ? 153 A 1 c
+1530 N N . ILE C 3 54 ? 13.129 5.797 43.623 1 28.13 ? 154 A 1 .
+1531 C CA . ILE C 3 54 ? 13.958 5.162 42.613 1 28.04 ? 154 A 1 .
+1532 C C . ILE C 3 54 ? 14.156 6.04 41.383 1 28.76 ? 154 A 1 .
+1533 O O . ILE C 3 54 ? 15.105 5.838 40.621 1 29.29 ? 154 A 1 .
+1534 C CB . ILE C 3 54 ? 13.357 3.814 42.216 1 28.55 ? 154 A 1 .
+1535 C CG1 . ILE C 3 54 ? 13.343 2.899 43.437 1 28.52 ? 154 A 1 .
+1536 C CG2 . ILE C 3 54 ? 14.136 3.178 41.067 1 29.25 ? 154 A 1 .
+1537 C CD1 . ILE C 3 54 ? 12.765 1.531 43.158 1 30.25 ? 154 A 1 .
+1538 H H . ILE C 3 54 ? 12.3460917 5.39159897 43.8640407 1 28.13 ? 154 A 1 c
+1539 H HA . ILE C 3 54 ? 14.8303169 4.97551641 43.004105 1 28.04 ? 154 A 1 c
+1540 H HB . ILE C 3 54 ? 12.4164254 3.97443284 41.9558045 1 28.55 ? 154 A 1 c
+1541 H HG12 . ILE C 3 54 ? 12.8138643 3.32607869 44.1440927 1 28.52 ? 154 A 1 c
+1542 H HG13 . ILE C 3 54 ? 14.2629233 2.79205857 43.7605206 1 28.52 ? 154 A 1 c
+1543 H HG21 . ILE C 3 54 ? 15.0600243 3.03626683 41.3368513 1 29.25 ? 154 A 1 c
+1544 H HG22 . ILE C 3 54 ? 14.114226 3.76570971 40.2918534 1 29.25 ? 154 A 1 c
+1545 H HG23 . ILE C 3 54 ? 13.7348189 2.32293492 40.8332343 1 29.25 ? 154 A 1 c
+1546 H HD11 . ILE C 3 54 ? 13.2917634 1.0888856 42.4696801 1 30.25 ? 154 A 1 c
+1547 H HD12 . ILE C 3 54 ? 11.8456906 1.62180518 42.8524618 1 30.25 ? 154 A 1 c
+1548 H HD13 . ILE C 3 54 ? 12.7836239 0.997317014 43.9713662 1 30.25 ? 154 A 1 c
+1549 N N . ARG C 3 55 ? 13.271 7.017 41.186 1 28.31 ? 155 A 1 .
+1550 C CA . ARG C 3 55 ? 13.407 7.916 40.048 1 28.11 ? 155 A 1 .
+1551 C C . ARG C 3 55 ? 14.55 8.903 40.272 1 28.23 ? 155 A 1 .
+1552 O O . ARG C 3 55 ? 15.051 9.51 39.328 1 29.44 ? 155 A 1 .
+1553 C CB . ARG C 3 55 ? 12.102 8.651 39.763 1 29.05 ? 155 A 1 .
+1554 C CG . ARG C 3 55 ? 10.998 7.739 39.295 1 28.47 ? 155 A 1 .
+1555 C CD . ARG C 3 55 ? 9.836 8.496 38.688 1 29.65 ? 155 A 1 .
+1556 N NE . ARG C 3 55 ? 8.86 7.537 38.178 1 30.84 ? 155 A 1 .
+1557 C CZ . ARG C 3 55 ? 7.565 7.537 38.478 1 31.32 ? 155 A 1 .
+1558 N NH1 . ARG C 3 55 ? 7.059 8.473 39.274 1 30.33 ? 155 A 1 .
+1559 N NH2 . ARG C 3 55 ? 6.802 6.522 38.079 1 30.8 ? 155 A 1 .
+1560 H H . ARG C 3 55 ? 12.5735115 7.12627783 41.7664861 1 28.31 ? 155 A 1 c
+1561 H HA . ARG C 3 55 ? 13.6040661 7.3780172 39.2467732 1 28.11 ? 155 A 1 c
+1562 H HB3 . ARG C 3 55 ? 12.2685286 9.32524757 39.0715823 1 29.05 ? 155 A 1 c
+1563 H HB2 . ARG C 3 55 ? 11.8123224 9.10156374 40.5836578 1 29.05 ? 155 A 1 c
+1564 H HG3 . ARG C 3 55 ? 10.6719314 7.20970967 40.0538755 1 28.47 ? 155 A 1 c
+1565 H HG2 . ARG C 3 55 ? 11.3549683 7.11467767 38.6277997 1 28.47 ? 155 A 1 c
+1566 H HD3 . ARG C 3 55 ? 10.1631055 9.04839925 37.9462332 1 29.65 ? 155 A 1 c
+1567 H HD2 . ARG C 3 55 ? 9.41391252 9.04825377 39.3802564 1 29.65 ? 155 A 1 c
+1568 H HE . ARG C 3 55 ? 9.14639453 6.91703 37.6357829 1 30.84 ? 155 A 1 c
+1569 H HH11 . ARG C 3 55 ? 6.19966149 8.4660524 39.4680362 1 30.33 ? 155 A 1 c
+1570 H HH12 . ARG C 3 55 ? 7.58433363 9.09779063 39.6053944 1 30.33 ? 155 A 1 c
+1571 H HH21 . ARG C 3 55 ? 7.15739305 5.86083188 37.6216232 1 30.8 ? 155 A 1 c
+1572 H HH22 . ARG C 3 55 ? 5.94493254 6.51580308 38.2740333 1 30.8 ? 155 A 1 c
+1573 N N . THR C 3 56 ? 14.957 9.065 41.526 1 27.56 ? 156 A 1 .
+1574 C CA . THR C 3 56 ? 16.062 9.945 41.854 1 27.12 ? 156 A 1 .
+1575 C C . THR C 3 56 ? 17.375 9.271 41.416 1 28.3 ? 156 A 1 .
+1576 O O . THR C 3 56 ? 18.418 9.919 41.356 1 29.03 ? 156 A 1 .
+1577 C CB . THR C 3 56 ? 16.098 10.247 43.354 1 26.53 ? 156 A 1 .
+1578 O OG1 . THR C 3 56 ? 16.309 9.038 44.089 1 25.22 ? 156 A 1 .
+1579 C CG2 . THR C 3 56 ? 14.797 10.873 43.79 1 25.77 ? 156 A 1 .
+1580 H H . THR C 3 56 ? 14.5337676 8.61371864 42.198767 1 27.56 ? 156 A 1 c
+1581 H HA . THR C 3 56 ? 15.9504799 10.7785868 41.3412415 1 27.12 ? 156 A 1 c
+1582 H HB . THR C 3 56 ? 16.8502476 10.8618626 43.5278865 1 26.53 ? 156 A 1 c
+1583 H HG1 . THR C 3 56 ? 15.6783455 8.49407968 43.9292202 0 25.22 ? 156 A 1 c
+1584 H HG21 . THR C 3 56 ? 14.8295915 11.061318 44.7450655 1 25.77 ? 156 A 1 c
+1585 H HG22 . THR C 3 56 ? 14.0625134 10.2602521 43.606301 1 25.77 ? 156 A 1 c
+1586 H HG23 . THR C 3 56 ? 14.654841 11.703562 43.3014987 1 25.77 ? 156 A 1 c
+1587 N N . HIS C 3 57 ? 17.313 7.967 41.127 1 28.15 ? 157 A 1 .
+1588 C CA . HIS C 3 57 ? 18.47 7.196 40.67 1 28.97 ? 157 A 1 .
+1589 C C . HIS C 3 57 ? 18.484 7.084 39.14 1 29.58 ? 157 A 1 .
+1590 O O . HIS C 3 57 ? 19.518 7.289 38.5 1 30.84 ? 157 A 1 .
+1591 C CB . HIS C 3 57 ? 18.453 5.77 41.235 1 27.59 ? 157 A 1 .
+1592 C CG . HIS C 3 57 ? 18.541 5.697 42.723 1 27.46 ? 157 A 1 .
+1593 N ND1 . HIS C 3 57 ? 19.677 6.038 43.423 1 27.66 ? 157 A 1 .
+1594 C CD2 . HIS C 3 57 ? 17.638 5.296 43.648 1 28.35 ? 157 A 1 .
+1595 C CE1 . HIS C 3 57 ? 19.472 5.848 44.714 1 28.01 ? 157 A 1 .
+1596 N NE2 . HIS C 3 57 ? 18.241 5.397 44.877 1 27.91 ? 157 A 1 .
+1597 H H . HIS C 3 57 ? 16.5129749 7.53447487 41.2179823 1 28.15 ? 157 A 1 c
+1598 H HA . HIS C 3 57 ? 19.2878078 7.67436701 40.9536836 1 28.97 ? 157 A 1 c
+1599 H HB3 . HIS C 3 57 ? 19.2024203 5.26842224 40.8462674 1 27.59 ? 157 A 1 c
+1600 H HB2 . HIS C 3 57 ? 17.6279452 5.32518874 40.9421664 1 27.59 ? 157 A 1 c
+1601 H HD1 . HIS C 3 57 ? 20.4245816 6.33660241 43.0650623 0 27.66 ? 157 A 1 c
+1602 H HD2 . HIS C 3 57 ? 16.7625511 5.00264614 43.4883075 1 28.35 ? 157 A 1 c
+1603 H HE1 . HIS C 3 57 ? 20.098094 6.00752671 45.3995082 1 28.01 ? 157 A 1 c
+1604 N N . THR C 3 58 ? 17.326 6.75 38.569 1 29.22 ? 158 A 1 .
+1605 C CA . THR C 3 58 ? 17.17 6.564 37.125 1 28.34 ? 158 A 1 .
+1606 C C . THR C 3 58 ? 17.009 7.837 36.29 1 27.66 ? 158 A 1 .
+1607 O O . THR C 3 58 ? 17.276 7.819 35.088 1 26.77 ? 158 A 1 .
+1608 C CB . THR C 3 58 ? 15.996 5.597 36.807 1 28.54 ? 158 A 1 .
+1609 O OG1 . THR C 3 58 ? 14.79 6.1 37.388 1 28.33 ? 158 A 1 .
+1610 C CG2 . THR C 3 58 ? 16.267 4.187 37.363 1 28.61 ? 158 A 1 .
+1611 H H . THR C 3 58 ? 16.5929131 6.63078557 39.1016984 1 29.22 ? 158 A 1 c
+1612 H HA . THR C 3 58 ? 17.9548849 6.06886364 36.7948172 1 28.34 ? 158 A 1 c
+1613 H HB . THR C 3 58 ? 15.8855338 5.55614082 35.8270527 1 28.54 ? 158 A 1 c
+1614 H HG1 . THR C 3 58 ? 14.8832828 6.16176914 38.2285872 0 28.33 ? 158 A 1 c
+1615 H HG21 . THR C 3 58 ? 15.5172997 3.6027967 37.150087 1 28.61 ? 158 A 1 c
+1616 H HG22 . THR C 3 58 ? 16.3764052 4.233083 38.3297383 1 28.61 ? 158 A 1 c
+1617 H HG23 . THR C 3 58 ? 17.0795121 3.82908344 36.9625056 1 28.61 ? 158 A 1 c
+1618 N N . GLY C 3 59 ? 16.594 8.935 36.926 1 27.5 ? 159 A 1 .
+1619 C CA . GLY C 3 59 ? 16.404 10.193 36.217 1 26.9 ? 159 A 1 .
+1620 C C . GLY C 3 59 ? 15.144 10.196 35.377 1 27.6 ? 159 A 1 .
+1621 O O . GLY C 3 59 ? 14.939 11.062 34.526 1 27.64 ? 159 A 1 .
+1622 H H . GLY C 3 59 ? 16.4249802 8.8999973 37.823554 1 27.5 ? 159 A 1 c
+1623 H HA3 . GLY C 3 59 ? 17.187918 10.35771 35.6352413 1 26.9 ? 159 A 1 c
+1624 H HA2 . GLY C 3 59 ? 16.3629078 10.9317163 36.8748067 1 26.9 ? 159 A 1 c
+1625 N N . GLU C 3 60 ? 14.311 9.186 35.587 1 28.09 ? 160 A 1 .
+1626 C CA . GLU C 3 60 ? 13.061 9.072 34.856 1 28.18 ? 160 A 1 .
+1627 C C . GLU C 3 60 ? 12.137 10.186 35.338 1 27.82 ? 160 A 1 .
+1628 O O . GLU C 3 60 ? 11.972 10.399 36.544 1 27.98 ? 160 A 1 .
+1629 C CB . GLU C 3 60 ? 12.418 7.709 35.099 1 28.31 ? 160 A 1 .
+1630 C CG . GLU C 3 60 ? 11.123 7.52 34.334 1 29.99 ? 160 A 1 .
+1631 C CD . GLU C 3 60 ? 10.214 6.459 34.933 1 32.16 ? 160 A 1 .
+1632 O OE1 . GLU C 3 60 ? 10.518 5.915 36.016 1 33.27 ? 160 A 1 .
+1633 O OE2 . GLU C 3 60 ? 9.169 6.176 34.317 1 35.21 ? 160 A 1 .
+1634 H H . GLU C 3 60 ? 14.5248324 8.54644073 36.2039567 1 28.09 ? 160 A 1 c
+1635 H HA . GLU C 3 60 ? 13.2462912 9.20506885 33.8977804 1 28.18 ? 160 A 1 c
+1636 H HB3 . GLU C 3 60 ? 12.23665 7.61630049 36.0576026 1 28.31 ? 160 A 1 c
+1637 H HB2 . GLU C 3 60 ? 13.0515875 7.01249829 34.8272424 1 28.31 ? 160 A 1 c
+1638 H HG3 . GLU C 3 60 ? 11.3336613 7.26228157 33.4111977 1 29.99 ? 160 A 1 c
+1639 H HG2 . GLU C 3 60 ? 10.6362505 8.37156973 34.3177225 1 29.99 ? 160 A 1 c
+1640 N N . LYS C 3 61 ? 11.571 10.916 34.385 1 27.23 ? 161 A 1 .
+1641 C CA . LYS C 3 61 ? 10.68 12.023 34.68 1 27.02 ? 161 A 1 .
+1642 C C . LYS C 3 61 ? 9.545 11.977 33.679 1 26.66 ? 161 A 1 .
+1643 O O . LYS C 3 61 ? 9.624 12.561 32.601 1 28.05 ? 161 A 1 .
+1644 C CB . LYS C 3 61 ? 11.455 13.337 34.593 1 26.26 ? 161 A 1 .
+1645 C CG . LYS C 3 61 ? 12.515 13.453 35.679 1 27.21 ? 161 A 1 .
+1646 C CD . LYS C 3 61 ? 13.477 14.562 35.423 1 26.94 ? 161 A 1 .
+1647 C CE . LYS C 3 61 ? 14.514 14.602 36.517 1 28.9 ? 161 A 1 .
+1648 N NZ . LYS C 3 61 ? 15.377 15.807 36.369 1 30.55 ? 161 A 1 .
+1649 H H . LYS C 3 61 ? 11.7466287 10.7169733 33.5103921 1 27.23 ? 161 A 1 c
+1650 H HA . LYS C 3 61 ? 10.3114965 11.8948625 35.5844396 1 27.02 ? 161 A 1 c
+1651 H HB3 . LYS C 3 61 ? 10.8225751 14.0790744 34.6918146 1 26.26 ? 161 A 1 c
+1652 H HB2 . LYS C 3 61 ? 11.8957319 13.3817035 33.7188393 1 26.26 ? 161 A 1 c
+1653 H HG3 . LYS C 3 61 ? 13.0111804 12.6079052 35.7235061 1 27.21 ? 161 A 1 c
+1654 H HG2 . LYS C 3 61 ? 12.0675897 13.6142113 36.5370186 1 27.21 ? 161 A 1 c
+1655 H HD3 . LYS C 3 61 ? 12.9895737 15.4133107 35.4161609 1 26.94 ? 161 A 1 c
+1656 H HD2 . LYS C 3 61 ? 13.9261873 14.4044205 34.5652352 1 26.94 ? 161 A 1 c
+1657 H HE3 . LYS C 3 61 ? 15.0726586 13.803241 36.4673956 1 28.9 ? 161 A 1 c
+1658 H HE2 . LYS C 3 61 ? 14.0712804 14.6332659 37.3862513 1 28.9 ? 161 A 1 c
+1659 H HZ1 . LYS C 3 61 ? 14.8686895 16.55651 36.4190418 1 30.55 ? 161 A 1 c
+1660 H HZ2 . LYS C 3 61 ? 15.7982861 15.7859835 35.5660521 1 30.55 ? 161 A 1 c
+1661 H HZ3 . LYS C 3 61 ? 15.9973929 15.8232447 37.0304362 1 30.55 ? 161 A 1 c
+1662 N N . PRO C 3 62 ? 8.448 11.306 34.051 1 26.55 ? 162 A 1 .
+1663 C CA . PRO C 3 62 ? 7.257 11.14 33.216 1 25.75 ? 162 A 1 .
+1664 C C . PRO C 3 62 ? 6.345 12.347 33.099 1 25.9 ? 162 A 1 .
+1665 O O . PRO C 3 62 ? 5.458 12.351 32.253 1 26.52 ? 162 A 1 .
+1666 C CB . PRO C 3 62 ? 6.496 10.011 33.921 1 25.53 ? 162 A 1 .
+1667 C CG . PRO C 3 62 ? 7.451 9.496 34.994 1 25.8 ? 162 A 1 .
+1668 C CD . PRO C 3 62 ? 8.245 10.68 35.366 1 25.32 ? 162 A 1 .
+1669 H HA . PRO C 3 62 ? 7.52926604 10.8325235 32.3152062 1 25.75 ? 162 A 1 c
+1670 H HB3 . PRO C 3 62 ? 6.2612485 9.29743047 33.2900711 1 25.53 ? 162 A 1 c
+1671 H HB2 . PRO C 3 62 ? 5.66531077 10.3439951 34.3227844 1 25.53 ? 162 A 1 c
+1672 H HG3 . PRO C 3 62 ? 8.02695752 8.78896224 34.6378939 1 25.8 ? 162 A 1 c
+1673 H HG2 . PRO C 3 62 ? 6.95595747 9.15282236 35.7657532 1 25.8 ? 162 A 1 c
+1674 H HD3 . PRO C 3 62 ? 7.73634662 11.2686042 35.953743 1 25.32 ? 162 A 1 c
+1675 H HD2 . PRO C 3 62 ? 9.09785986 10.4169122 35.7584791 1 25.32 ? 162 A 1 c
+1676 N N . PHE C 3 63 ? 6.565 13.377 33.907 1 25.56 ? 163 A 1 .
+1677 C CA . PHE C 3 63 ? 5.662 14.52 33.901 1 25.46 ? 163 A 1 .
+1678 C C . PHE C 3 63 ? 6.207 15.844 33.389 1 25.81 ? 163 A 1 .
+1679 O O . PHE C 3 63 ? 6.908 16.546 34.104 1 26.07 ? 163 A 1 .
+1680 C CB . PHE C 3 63 ? 5.068 14.675 35.301 1 24.23 ? 163 A 1 .
+1681 C CG . PHE C 3 63 ? 4.528 13.383 35.87 1 24.7 ? 163 A 1 .
+1682 C CD1 . PHE C 3 63 ? 3.275 12.911 35.498 1 25.03 ? 163 A 1 .
+1683 C CD2 . PHE C 3 63 ? 5.283 12.631 36.754 1 25.47 ? 163 A 1 .
+1684 C CE1 . PHE C 3 63 ? 2.779 11.719 35.994 1 25.23 ? 163 A 1 .
+1685 C CE2 . PHE C 3 63 ? 4.796 11.431 37.261 1 26.11 ? 163 A 1 .
+1686 C CZ . PHE C 3 63 ? 3.539 10.977 36.877 1 27.2 ? 163 A 1 .
+1687 H H . PHE C 3 63 ? 7.28471573 13.372207 34.4703669 1 25.56 ? 163 A 1 c
+1688 H HA . PHE C 3 63 ? 4.85857404 14.2853406 33.3704129 1 25.46 ? 163 A 1 c
+1689 H HB3 . PHE C 3 63 ? 4.34094512 15.330719 35.2582944 1 24.23 ? 163 A 1 c
+1690 H HB2 . PHE C 3 63 ? 5.76622281 15.0166507 35.8977912 1 24.23 ? 163 A 1 c
+1691 H HD1 . PHE C 3 63 ? 2.75292137 13.4152648 34.8944381 1 25.03 ? 163 A 1 c
+1692 H HD2 . PHE C 3 63 ? 6.13711241 12.9372985 37.014402 1 25.47 ? 163 A 1 c
+1693 H HE1 . PHE C 3 63 ? 1.92529491 11.4146821 35.7299654 1 25.23 ? 163 A 1 c
+1694 H HE2 . PHE C 3 63 ? 5.31806186 10.9264285 37.86432 1 26.11 ? 163 A 1 c
+1695 H HZ . PHE C 3 63 ? 3.20556408 10.1628774 37.2192877 1 27.2 ? 163 A 1 c
+1696 N N . ALA C 3 64 ? 5.812 16.22 32.171 1 26.45 ? 164 A 1 .
+1697 C CA . ALA C 3 64 ? 6.277 17.466 31.545 1 25.95 ? 164 A 1 .
+1698 C C . ALA C 3 64 ? 5.29 18.616 31.638 1 25.89 ? 164 A 1 .
+1699 O O . ALA C 3 64 ? 4.088 18.439 31.443 1 26.73 ? 164 A 1 .
+1700 C CB . ALA C 3 64 ? 6.639 17.219 30.095 1 25.05 ? 164 A 1 .
+1701 H H . ALA C 3 64 ? 5.23237949 15.6865705 31.7074388 1 26.45 ? 164 A 1 c
+1702 H HA . ALA C 3 64 ? 7.11894915 17.7395517 31.979151 1 25.95 ? 164 A 1 c
+1703 H HB3 . ALA C 3 64 ? 5.85810032 16.8948036 29.6155458 1 25.05 ? 164 A 1 c
+1704 H HB2 . ALA C 3 64 ? 7.34707224 16.5549713 30.045164 1 25.05 ? 164 A 1 c
+1705 H HB1 . ALA C 3 64 ? 6.9449722 18.0481457 29.6904231 1 25.05 ? 164 A 1 c
+1706 N N . CYS C 3 65 ? 5.809 19.8 31.934 1 25.95 ? 165 A 1 .
+1707 C CA . CYS C 3 65 ? 4.999 20.999 32.046 1 26.1 ? 165 A 1 .
+1708 C C . CYS C 3 65 ? 4.299 21.352 30.726 1 27 ? 165 A 1 .
+1709 O O . CYS C 3 65 ? 4.933 21.393 29.668 1 27.27 ? 165 A 1 .
+1710 C CB . CYS C 3 65 ? 5.879 22.154 32.478 1 25.55 ? 165 A 1 .
+1711 S SG . CYS C 3 65 ? 5.002 23.684 32.491 1 28.19 ? 165 A 1 .
+1712 H H . CYS C 3 65 ? 6.70986971 19.8667143 32.0732084 1 25.95 ? 165 A 1 c
+1713 H HA . CYS C 3 65 ? 4.3116983 20.8385939 32.7331035 1 26.1 ? 165 A 1 c
+1714 H HB3 . CYS C 3 65 ? 6.63256366 22.2323264 31.8579615 1 25.55 ? 165 A 1 c
+1715 H HB2 . CYS C 3 65 ? 6.21564779 21.9804103 33.3807601 1 25.55 ? 165 A 1 c
+1716 N N . ASP C 3 66 ? 2.999 21.628 30.804 1 26.98 ? 166 A 1 .
+1717 C CA . ASP C 3 66 ? 2.188 21.972 29.64 1 27.46 ? 166 A 1 .
+1718 C C . ASP C 3 66 ? 2.587 23.245 28.924 1 27.93 ? 166 A 1 .
+1719 O O . ASP C 3 66 ? 2.276 23.415 27.749 1 28.42 ? 166 A 1 .
+1720 C CB . ASP C 3 66 ? 0.72 22.094 30.03 1 27.72 ? 166 A 1 .
+1721 C CG . ASP C 3 66 ? 0.005 20.758 30.066 1 28.25 ? 166 A 1 .
+1722 O OD1 . ASP C 3 66 ? 0.414 19.804 29.359 1 27.14 ? 166 A 1 .
+1723 O OD2 . ASP C 3 66 ? -0.997 20.677 30.797 1 29.39 ? 166 A 1 .
+1724 H H . ASP C 3 66 ? 2.59273194 21.6017616 31.6223238 1 26.98 ? 166 A 1 c
+1725 H HA . ASP C 3 66 ? 2.22501367 21.2223613 29.0005723 1 27.46 ? 166 A 1 c
+1726 H HB3 . ASP C 3 66 ? 0.268967836 22.6578418 29.3688696 1 27.72 ? 166 A 1 c
+1727 H HB2 . ASP C 3 66 ? 0.668256283 22.4860975 30.9255575 1 27.72 ? 166 A 1 c
+1728 N N . ILE C 3 67 ? 3.234 24.157 29.643 1 28.46 ? 167 A 1 .
+1729 C CA . ILE C 3 67 ? 3.668 25.433 29.068 1 28.13 ? 167 A 1 .
+1730 C C . ILE C 3 67 ? 5.078 25.399 28.462 1 28.14 ? 167 A 1 .
+1731 O O . ILE C 3 67 ? 5.26 25.75 27.291 1 28.46 ? 167 A 1 .
+1732 C CB . ILE C 3 67 ? 3.591 26.582 30.119 1 27.84 ? 167 A 1 .
+1733 C CG1 . ILE C 3 67 ? 2.169 26.691 30.683 1 27.44 ? 167 A 1 .
+1734 C CG2 . ILE C 3 67 ? 4.037 27.919 29.505 1 27.09 ? 167 A 1 .
+1735 C CD1 . ILE C 3 67 ? 1.119 26.93 29.639 1 26.43 ? 167 A 1 .
+1736 H H . ILE C 3 67 ? 3.41505359 23.9861111 30.5224388 1 28.46 ? 167 A 1 c
+1737 H HA . ILE C 3 67 ? 3.03711436 25.6862441 28.3704853 1 28.13 ? 167 A 1 c
+1738 H HB . ILE C 3 67 ? 4.18854305 26.3381387 30.8683964 1 27.84 ? 167 A 1 c
+1739 H HG12 . ILE C 3 67 ? 2.14289416 27.4277796 31.3301748 1 27.44 ? 167 A 1 c
+1740 H HG13 . ILE C 3 67 ? 1.95533577 25.8608939 31.1601084 1 27.44 ? 167 A 1 c
+1741 H HG21 . ILE C 3 67 ? 3.45889014 28.1440619 28.7554234 1 27.09 ? 167 A 1 c
+1742 H HG22 . ILE C 3 67 ? 4.95522615 27.8452673 29.1917059 1 27.09 ? 167 A 1 c
+1743 H HG23 . ILE C 3 67 ? 3.98181507 28.6218261 30.175611 1 27.09 ? 167 A 1 c
+1744 H HD11 . ILE C 3 67 ? 1.11988244 26.1947849 29.001672 1 26.43 ? 167 A 1 c
+1745 H HD12 . ILE C 3 67 ? 1.30753089 27.762423 29.1718201 1 26.43 ? 167 A 1 c
+1746 H HD13 . ILE C 3 67 ? 0.245233493 26.9885639 30.0630653 1 26.43 ? 167 A 1 c
+1747 N N . CYS C 3 68 ? 6.071 24.973 29.247 1 27.98 ? 168 A 1 .
+1748 C CA . CYS C 3 68 ? 7.454 24.945 28.768 1 26.91 ? 168 A 1 .
+1749 C C . CYS C 3 68 ? 8.016 23.568 28.486 1 27.08 ? 168 A 1 .
+1750 O O . CYS C 3 68 ? 9.061 23.45 27.847 1 29.23 ? 168 A 1 .
+1751 C CB . CYS C 3 68 ? 8.376 25.67 29.751 1 26.37 ? 168 A 1 .
+1752 S SG . CYS C 3 68 ? 8.679 24.806 31.297 1 25.26 ? 168 A 1 .
+1753 H H . CYS C 3 68 ? 5.88747131 24.6937039 30.0977097 1 27.98 ? 168 A 1 c
+1754 H HA . CYS C 3 68 ? 7.50040741 25.4787052 27.9414227 1 26.91 ? 168 A 1 c
+1755 H HB3 . CYS C 3 68 ? 7.99875234 26.5500806 29.9549201 1 26.37 ? 168 A 1 c
+1756 H HB2 . CYS C 3 68 ? 9.23632924 25.8417906 29.3165318 1 26.37 ? 168 A 1 c
+1757 N N . GLY C 3 69 ? 7.373 22.535 29.014 1 25.65 ? 169 A 1 .
+1758 C CA . GLY C 3 69 ? 7.853 21.195 28.774 1 25.18 ? 169 A 1 .
+1759 C C . GLY C 3 69 ? 8.923 20.673 29.71 1 24.77 ? 169 A 1 .
+1760 O O . GLY C 3 69 ? 9.462 19.608 29.45 1 25.79 ? 169 A 1 .
+1761 H H . GLY C 3 69 ? 6.62894461 22.667504 29.5280236 1 25.65 ? 169 A 1 c
+1762 H HA3 . GLY C 3 69 ? 8.17232891 21.1286514 27.8392664 1 25.18 ? 169 A 1 c
+1763 H HA2 . GLY C 3 69 ? 7.08394267 20.5715825 28.7727955 1 25.18 ? 169 A 1 c
+1764 N N . ARG C 3 70 ? 9.248 21.392 30.781 1 24.86 ? 170 A 1 .
+1765 C CA . ARG C 3 70 ? 10.261 20.917 31.724 1 25.6 ? 170 A 1 .
+1766 C C . ARG C 3 70 ? 9.715 19.653 32.393 1 26.56 ? 170 A 1 .
+1767 O O . ARG C 3 70 ? 8.559 19.636 32.824 1 28.24 ? 170 A 1 .
+1768 C CB . ARG C 3 70 ? 10.566 21.988 32.775 1 26.68 ? 170 A 1 .
+1769 C CG . ARG C 3 70 ? 11.675 21.601 33.732 1 27.31 ? 170 A 1 .
+1770 C CD . ARG C 3 70 ? 12.012 22.711 34.692 1 28.36 ? 170 A 1 .
+1771 N NE . ARG C 3 70 ? 13.083 22.308 35.604 1 28.61 ? 170 A 1 .
+1772 C CZ . ARG C 3 70 ? 13.763 23.148 36.379 1 29.07 ? 170 A 1 .
+1773 N NH1 . ARG C 3 70 ? 13.497 24.45 36.358 1 27.84 ? 170 A 1 .
+1774 N NH2 . ARG C 3 70 ? 14.706 22.685 37.185 1 28.43 ? 170 A 1 .
+1775 H H . ARG C 3 70 ? 8.83523516 22.1932578 30.932681 1 24.86 ? 170 A 1 c
+1776 H HA . ARG C 3 70 ? 11.0733457 20.6833551 31.218303 1 25.6 ? 170 A 1 c
+1777 H HB3 . ARG C 3 70 ? 9.75044682 22.1602216 33.2903763 1 26.68 ? 170 A 1 c
+1778 H HB2 . ARG C 3 70 ? 10.8215716 22.8138672 32.313452 1 26.68 ? 170 A 1 c
+1779 H HG3 . ARG C 3 70 ? 12.4783217 21.368236 33.219305 1 27.31 ? 170 A 1 c
+1780 H HG2 . ARG C 3 70 ? 11.4000467 20.8101199 34.2431462 1 27.31 ? 170 A 1 c
+1781 H HD3 . ARG C 3 70 ? 11.2133839 22.9397894 35.2137554 1 28.36 ? 170 A 1 c
+1782 H HD2 . ARG C 3 70 ? 12.3002458 23.4997004 34.1848245 1 28.36 ? 170 A 1 c
+1783 H HE . ARG C 3 70 ? 13.2903593 21.461923 35.6432401 1 28.61 ? 170 A 1 c
+1784 H HH11 . ARG C 3 70 ? 13.9525608 24.9990904 36.8748414 1 27.84 ? 170 A 1 c
+1785 H HH12 . ARG C 3 70 ? 12.865888 24.7601862 35.8272993 1 27.84 ? 170 A 1 c
+1786 H HH21 . ARG C 3 70 ? 14.8799237 21.8236237 37.2055511 1 28.43 ? 170 A 1 c
+1787 H HH22 . ARG C 3 70 ? 15.1553358 23.2403645 37.6971607 1 28.43 ? 170 A 1 c
+1788 N N . LYS C 3 71 ? 10.539 18.606 32.479 1 26.59 ? 171 A 1 .
+1789 C CA . LYS C 3 71 ? 10.128 17.315 33.06 1 25.92 ? 171 A 1 .
+1790 C C . LYS C 3 71 ? 10.356 17.128 34.559 1 25.29 ? 171 A 1 .
+1791 O O . LYS C 3 71 ? 11.341 17.603 35.113 1 25.22 ? 171 A 1 .
+1792 C CB . LYS C 3 71 ? 10.794 16.152 32.312 1 27.04 ? 171 A 1 .
+1793 C CG . LYS C 3 71 ? 10.463 16.047 30.829 1 27.99 ? 171 A 1 .
+1794 C CD . LYS C 3 71 ? 11.161 14.85 30.226 1 30.43 ? 171 A 1 .
+1795 C CE . LYS C 3 71 ? 10.998 14.798 28.719 1 31.94 ? 171 A 1 .
+1796 N NZ . LYS C 3 71 ? 11.874 13.722 28.157 1 34.83 ? 171 A 1 .
+1797 H H . LYS C 3 71 ? 11.3935269 18.6898898 32.1657234 1 26.59 ? 171 A 1 c
+1798 H HA . LYS C 3 71 ? 9.17309923 17.1740302 32.8637424 1 25.92 ? 171 A 1 c
+1799 H HB3 . LYS C 3 71 ? 10.5395217 15.3131063 32.7500617 1 27.04 ? 171 A 1 c
+1800 H HB2 . LYS C 3 71 ? 11.7655789 16.2331141 32.4112716 1 27.04 ? 171 A 1 c
+1801 H HG3 . LYS C 3 71 ? 10.7813771 16.8585346 30.3791015 1 27.99 ? 171 A 1 c
+1802 H HG2 . LYS C 3 71 ? 9.4938396 15.9298491 30.7322282 1 27.99 ? 171 A 1 c
+1803 H HD3 . LYS C 3 71 ? 10.7854253 14.0312372 30.6144998 1 30.43 ? 171 A 1 c
+1804 H HD2 . LYS C 3 71 ? 12.1171543 14.8953847 30.4406395 1 30.43 ? 171 A 1 c
+1805 H HE3 . LYS C 3 71 ? 11.2596274 15.6549541 28.3320158 1 31.94 ? 171 A 1 c
+1806 H HE2 . LYS C 3 71 ? 10.0685881 14.5989804 28.4972779 1 31.94 ? 171 A 1 c
+1807 H HZ1 . LYS C 3 71 ? 11.6408327 12.9202409 28.5112096 1 34.83 ? 171 A 1 c
+1808 H HZ2 . LYS C 3 71 ? 12.7410914 13.8957287 28.3585436 1 34.83 ? 171 A 1 c
+1809 H HZ3 . LYS C 3 71 ? 11.7787787 13.6883361 27.2556407 1 34.83 ? 171 A 1 c
+1810 N N . PHE C 3 72 ? 9.479 16.336 35.175 1 24.81 ? 172 A 1 .
+1811 C CA . PHE C 3 72 ? 9.51 16.05 36.612 1 23.94 ? 172 A 1 .
+1812 C C . PHE C 3 72 ? 9.254 14.56 36.942 1 23.93 ? 172 A 1 .
+1813 O O . PHE C 3 72 ? 8.532 13.861 36.229 1 22.76 ? 172 A 1 .
+1814 C CB . PHE C 3 72 ? 8.482 16.942 37.337 1 22.78 ? 172 A 1 .
+1815 C CG . PHE C 3 72 ? 8.73 18.428 37.165 1 22 ? 172 A 1 .
+1816 C CD1 . PHE C 3 72 ? 8.179 19.123 36.093 1 21.05 ? 172 A 1 .
+1817 C CD2 . PHE C 3 72 ? 9.541 19.123 38.061 1 21.11 ? 172 A 1 .
+1818 C CE1 . PHE C 3 72 ? 8.437 20.485 35.917 1 20.53 ? 172 A 1 .
+1819 C CE2 . PHE C 3 72 ? 9.799 20.475 37.886 1 20.2 ? 172 A 1 .
+1820 C CZ . PHE C 3 72 ? 9.247 21.151 36.814 1 19.75 ? 172 A 1 .
+1821 H H . PHE C 3 72 ? 8.81939584 15.9475485 34.6755765 1 24.81 ? 172 A 1 c
+1822 H HA . PHE C 3 72 ? 10.4013763 16.3007611 36.9650556 1 23.94 ? 172 A 1 c
+1823 H HB3 . PHE C 3 72 ? 8.50342765 16.7257392 38.2926004 1 22.78 ? 172 A 1 c
+1824 H HB2 . PHE C 3 72 ? 7.58936549 16.7279554 36.9937967 1 22.78 ? 172 A 1 c
+1825 H HD1 . PHE C 3 72 ? 7.62503209 18.6681381 35.4787067 1 21.05 ? 172 A 1 c
+1826 H HD2 . PHE C 3 72 ? 9.9188182 18.6664821 38.7958339 1 21.11 ? 172 A 1 c
+1827 H HE1 . PHE C 3 72 ? 8.0580182 20.9474643 35.1864963 1 20.53 ? 172 A 1 c
+1828 H HE2 . PHE C 3 72 ? 10.3516331 20.9326242 38.4994433 1 20.2 ? 172 A 1 c
+1829 H HZ . PHE C 3 72 ? 9.42458456 22.070511 36.6952596 1 19.75 ? 172 A 1 c
+1830 N N . ALA C 3 73 ? 9.863 14.088 38.031 1 24.59 ? 173 A 1 .
+1831 C CA . ALA C 3 73 ? 9.733 12.701 38.477 1 24.17 ? 173 A 1 .
+1832 C C . ALA C 3 73 ? 8.344 12.392 39.037 1 24.95 ? 173 A 1 .
+1833 O O . ALA C 3 73 ? 7.843 11.272 38.908 1 25.44 ? 173 A 1 .
+1834 C CB . ALA C 3 73 ? 10.802 12.391 39.522 1 23.7 ? 173 A 1 .
+1835 H H . ALA C 3 73 ? 10.3856307 14.6541554 38.5226515 1 24.59 ? 173 A 1 c
+1836 H HA . ALA C 3 73 ? 9.89999365 12.107483 37.7075543 1 24.17 ? 173 A 1 c
+1837 H HB3 . ALA C 3 73 ? 10.6934617 12.9843876 40.2841644 1 23.7 ? 173 A 1 c
+1838 H HB2 . ALA C 3 73 ? 11.6835843 12.5217628 39.1340641 1 23.7 ? 173 A 1 c
+1839 H HB1 . ALA C 3 73 ? 10.7120525 11.4687574 39.8155338 1 23.7 ? 173 A 1 c
+1840 N N . ARG C 3 74 ? 7.732 13.378 39.682 1 25.38 ? 174 A 1 .
+1841 C CA . ARG C 3 74 ? 6.405 13.196 40.267 1 25.94 ? 174 A 1 .
+1842 C C . ARG C 3 74 ? 5.453 14.259 39.731 1 25.96 ? 174 A 1 .
+1843 O O . ARG C 3 74 ? 5.868 15.383 39.421 1 25.66 ? 174 A 1 .
+1844 C CB . ARG C 3 74 ? 6.453 13.289 41.797 1 25.51 ? 174 A 1 .
+1845 C CG . ARG C 3 74 ? 7.661 12.662 42.46 1 24.04 ? 174 A 1 .
+1846 C CD . ARG C 3 74 ? 7.447 12.515 43.963 1 23.84 ? 174 A 1 .
+1847 N NE . ARG C 3 74 ? 7.163 13.78 44.651 1 24.1 ? 174 A 1 .
+1848 C CZ . ARG C 3 74 ? 7.621 14.108 45.859 1 22.06 ? 174 A 1 .
+1849 N NH1 . ARG C 3 74 ? 8.4 13.275 46.536 1 21.91 ? 174 A 1 .
+1850 N NH2 . ARG C 3 74 ? 7.294 15.274 46.398 1 21.61 ? 174 A 1 .
+1851 H H . ARG C 3 74 ? 8.14633647 14.1885871 39.7636695 1 25.38 ? 174 A 1 c
+1852 H HA . ARG C 3 74 ? 6.06824618 12.3075961 40.0070763 1 25.94 ? 174 A 1 c
+1853 H HB3 . ARG C 3 74 ? 5.64293639 12.8738684 42.160129 1 25.51 ? 174 A 1 c
+1854 H HB2 . ARG C 3 74 ? 6.40728827 14.2337343 42.0534908 1 25.51 ? 174 A 1 c
+1855 H HG3 . ARG C 3 74 ? 8.44640132 13.2286803 42.3038615 1 24.04 ? 174 A 1 c
+1856 H HG2 . ARG C 3 74 ? 7.81885746 11.7747901 42.0723137 1 24.04 ? 174 A 1 c
+1857 H HD3 . ARG C 3 74 ? 8.24171451 12.1018187 44.3630888 1 23.84 ? 174 A 1 c
+1858 H HD2 . ARG C 3 74 ? 6.7099827 11.8879272 44.1240784 1 23.84 ? 174 A 1 c
+1859 H HE . ARG C 3 74 ? 6.65788148 14.3606393 44.2410033 1 24.1 ? 174 A 1 c
+1860 H HH11 . ARG C 3 74 ? 8.69679338 13.5025626 47.3336778 1 21.91 ? 174 A 1 c
+1861 H HH12 . ARG C 3 74 ? 8.61839246 12.496539 46.1860511 1 21.91 ? 174 A 1 c
+1862 H HH21 . ARG C 3 74 ? 6.77488424 15.8296661 45.9570975 1 21.61 ? 174 A 1 c
+1863 H HH22 . ARG C 3 74 ? 7.59722166 15.4881581 47.1947647 1 21.61 ? 174 A 1 c
+1864 N N . SER C 3 75 ? 4.172 13.907 39.646 1 26.68 ? 175 A 1 .
+1865 C CA . SER C 3 75 ? 3.156 14.825 39.138 1 27.48 ? 175 A 1 .
+1866 C C . SER C 3 75 ? 2.984 16.074 40.01 1 27.65 ? 175 A 1 .
+1867 O O . SER C 3 75 ? 2.664 17.149 39.495 1 28.05 ? 175 A 1 .
+1868 C CB . SER C 3 75 ? 1.825 14.102 38.985 1 26.81 ? 175 A 1 .
+1869 O OG . SER C 3 75 ? 1.387 13.594 40.231 1 29 ? 175 A 1 .
+1870 H H . SER C 3 75 ? 3.91846334 13.0699895 39.9115722 1 26.68 ? 175 A 1 c
+1871 H HA . SER C 3 75 ? 3.43132619 15.1162046 38.2272748 1 27.48 ? 175 A 1 c
+1872 H HB3 . SER C 3 75 ? 1.92943824 13.3596223 38.3476429 1 26.81 ? 175 A 1 c
+1873 H HB2 . SER C 3 75 ? 1.15300287 14.7286365 38.63286 1 26.81 ? 175 A 1 c
+1874 H HG . SER C 3 75 ? 0.914404782 14.184044 40.6107603 0 29 ? 175 A 1 c
+1875 N N . ASP C 3 76 ? 3.234 15.937 41.316 1 27.92 ? 176 A 1 .
+1876 C CA . ASP C 3 76 ? 3.1 17.053 42.258 1 27.34 ? 176 A 1 .
+1877 C C . ASP C 3 76 ? 4.208 18.087 42.112 1 26.72 ? 176 A 1 .
+1878 O O . ASP C 3 76 ? 4.022 19.252 42.452 1 26.73 ? 176 A 1 .
+1879 C CB . ASP C 3 76 ? 2.976 16.562 43.716 1 27.06 ? 176 A 1 .
+1880 C CG . ASP C 3 76 ? 4.227 15.87 44.224 1 26.73 ? 176 A 1 .
+1881 O OD1 . ASP C 3 76 ? 4.46 14.712 43.836 1 26.37 ? 176 A 1 .
+1882 O OD2 . ASP C 3 76 ? 4.963 16.472 45.033 1 27.88 ? 176 A 1 .
+1883 H H . ASP C 3 76 ? 3.49732941 15.1222047 41.6356282 1 27.92 ? 176 A 1 c
+1884 H HA . ASP C 3 76 ? 2.23168816 17.4927234 42.1002854 1 27.34 ? 176 A 1 c
+1885 H HB3 . ASP C 3 76 ? 2.23749456 15.921262 43.7660551 1 27.06 ? 176 A 1 c
+1886 H HB2 . ASP C 3 76 ? 2.80699011 17.336138 44.290967 1 27.06 ? 176 A 1 c
+1887 N N . GLU C 3 77 ? 5.369 17.664 41.625 1 26.07 ? 177 A 1 .
+1888 C CA . GLU C 3 77 ? 6.459 18.609 41.404 1 26.67 ? 177 A 1 .
+1889 C C . GLU C 3 77 ? 6.101 19.419 40.159 1 26.1 ? 177 A 1 .
+1890 O O . GLU C 3 77 ? 6.293 20.636 40.118 1 25.82 ? 177 A 1 .
+1891 C CB . GLU C 3 77 ? 7.773 17.874 41.179 1 27.95 ? 177 A 1 .
+1892 C CG . GLU C 3 77 ? 8.093 16.85 42.258 1 30.94 ? 177 A 1 .
+1893 C CD . GLU C 3 77 ? 9.378 16.082 41.981 1 32.01 ? 177 A 1 .
+1894 O OE1 . GLU C 3 77 ? 9.487 15.473 40.893 1 31.54 ? 177 A 1 .
+1895 O OE2 . GLU C 3 77 ? 10.276 16.084 42.856 1 33.35 ? 177 A 1 .
+1896 H H . GLU C 3 77 ? 5.48894499 16.7798547 41.4267672 1 26.07 ? 177 A 1 c
+1897 H HA . GLU C 3 77 ? 6.50588987 19.2179953 42.1767555 1 26.67 ? 177 A 1 c
+1898 H HB3 . GLU C 3 77 ? 8.49692132 18.5335681 41.142836 1 27.95 ? 177 A 1 c
+1899 H HB2 . GLU C 3 77 ? 7.73116976 17.4189025 40.312088 1 27.95 ? 177 A 1 c
+1900 H HG3 . GLU C 3 77 ? 7.3541966 16.2071542 42.3152695 1 30.94 ? 177 A 1 c
+1901 H HG2 . GLU C 3 77 ? 8.1881421 17.3131299 43.1175462 1 30.94 ? 177 A 1 c
+1902 N N . ARG C 3 78 ? 5.562 18.742 39.142 1 26.21 ? 178 A 1 .
+1903 C CA . ARG C 3 78 ? 5.167 19.446 37.929 1 26.46 ? 178 A 1 .
+1904 C C . ARG C 3 78 ? 4.086 20.443 38.278 1 26.26 ? 178 A 1 .
+1905 O O . ARG C 3 78 ? 4.068 21.549 37.747 1 27.2 ? 178 A 1 .
+1906 C CB . ARG C 3 78 ? 4.643 18.509 36.844 1 27.17 ? 178 A 1 .
+1907 C CG . ARG C 3 78 ? 4.09 19.294 35.648 1 29.32 ? 178 A 1 .
+1908 C CD . ARG C 3 78 ? 3.506 18.411 34.562 1 32.12 ? 178 A 1 .
+1909 N NE . ARG C 3 78 ? 2.545 17.435 35.064 1 34.41 ? 178 A 1 .
+1910 C CZ . ARG C 3 78 ? 2.025 16.442 34.343 1 35.61 ? 178 A 1 .
+1911 N NH1 . ARG C 3 78 ? 2.358 16.278 33.065 1 35.57 ? 178 A 1 .
+1912 N NH2 . ARG C 3 78 ? 1.199 15.575 34.916 1 37.19 ? 178 A 1 .
+1913 H H . ARG C 3 78 ? 5.43963161 17.8383114 39.2033906 1 26.21 ? 178 A 1 c
+1914 H HA . ARG C 3 78 ? 5.94930027 19.9338057 37.5821904 1 26.46 ? 178 A 1 c
+1915 H HB3 . ARG C 3 78 ? 3.92251899 17.9640875 37.2239704 1 27.17 ? 178 A 1 c
+1916 H HB2 . ARG C 3 78 ? 5.38237721 17.9443262 36.5359986 1 27.17 ? 178 A 1 c
+1917 H HG3 . ARG C 3 78 ? 4.80586859 19.8425693 35.2620403 1 29.32 ? 178 A 1 c
+1918 H HG2 . ARG C 3 78 ? 3.39770436 19.9148051 35.960552 1 29.32 ? 178 A 1 c
+1919 H HD3 . ARG C 3 78 ? 4.2339249 17.9399976 34.1030413 1 32.12 ? 178 A 1 c
+1920 H HD2 . ARG C 3 78 ? 3.07051753 18.9746285 33.8874343 1 32.12 ? 178 A 1 c
+1921 H HE . ARG C 3 78 ? 2.29138469 17.5047452 35.8953837 1 34.41 ? 178 A 1 c
+1922 H HH11 . ARG C 3 78 ? 2.00580197 15.6168043 32.6013862 1 35.57 ? 178 A 1 c
+1923 H HH12 . ARG C 3 78 ? 2.92967712 16.8311039 32.6862886 1 35.57 ? 178 A 1 c
+1924 H HH21 . ARG C 3 78 ? 0.998396761 15.6589941 35.7676715 1 37.19 ? 178 A 1 c
+1925 H HH22 . ARG C 3 78 ? 0.855074887 14.9194489 34.4420703 1 37.19 ? 178 A 1 c
+1926 N N . LYS C 3 79 ? 3.183 20.038 39.17 1 25.77 ? 179 A 1 .
+1927 C CA . LYS C 3 79 ? 2.1 20.902 39.594 1 25.12 ? 179 A 1 .
+1928 C C . LYS C 3 79 ? 2.643 22.158 40.289 1 24.99 ? 179 A 1 .
+1929 O O . LYS C 3 79 ? 2.208 23.27 39.989 1 25.15 ? 179 A 1 .
+1930 C CB . LYS C 3 79 ? 1.137 20.141 40.508 1 25.03 ? 179 A 1 .
+1931 C CG . LYS C 3 79 ? 0.027 21.017 41.058 1 25.18 ? 179 A 1 .
+1932 C CD . LYS C 3 79 ? -0.813 20.303 42.09 1 24.79 ? 179 A 1 .
+1933 C CE . LYS C 3 79 ? -1.839 19.414 41.433 1 24.59 ? 179 A 1 .
+1934 N NZ . LYS C 3 79 ? -2.795 18.922 42.447 1 22.53 ? 179 A 1 .
+1935 H H . LYS C 3 79 ? 3.24521132 19.1976323 39.5239886 1 25.77 ? 179 A 1 c
+1936 H HA . LYS C 3 79 ? 1.58851206 21.1753332 38.7978254 1 25.12 ? 179 A 1 c
+1937 H HB3 . LYS C 3 79 ? 1.64644004 19.7719377 41.2594412 1 25.03 ? 179 A 1 c
+1938 H HB2 . LYS C 3 79 ? 0.733983342 19.4090472 39.9959232 1 25.03 ? 179 A 1 c
+1939 H HG3 . LYS C 3 79 ? -0.551389635 21.2925161 40.3150886 1 25.18 ? 179 A 1 c
+1940 H HG2 . LYS C 3 79 ? 0.430064758 21.8098502 41.4718699 1 25.18 ? 179 A 1 c
+1941 H HD3 . LYS C 3 79 ? -1.27634019 20.9687433 42.6417814 1 24.79 ? 179 A 1 c
+1942 H HD2 . LYS C 3 79 ? -0.228440055 19.7514268 42.6525102 1 24.79 ? 179 A 1 c
+1943 H HE3 . LYS C 3 79 ? -1.39336695 18.6503254 41.0197346 1 24.59 ? 179 A 1 c
+1944 H HE2 . LYS C 3 79 ? -2.32651216 19.9215954 40.7567938 1 24.59 ? 179 A 1 c
+1945 H HZ1 . LYS C 3 79 ? -3.21546682 19.6238984 42.8384016 1 22.53 ? 179 A 1 c
+1946 H HZ2 . LYS C 3 79 ? -2.35261279 18.4483896 43.0815358 1 22.53 ? 179 A 1 c
+1947 H HZ3 . LYS C 3 79 ? -3.41241488 18.3872441 42.0526854 1 22.53 ? 179 A 1 c
+1948 N N . ARG C 3 80 ? 3.625 21.975 41.175 1 24.7 ? 180 A 1 .
+1949 C CA . ARG C 3 80 ? 4.256 23.077 41.907 1 24.15 ? 180 A 1 .
+1950 C C . ARG C 3 80 ? 5.005 24 40.953 1 23.99 ? 180 A 1 .
+1951 O O . ARG C 3 80 ? 5.171 25.194 41.217 1 23.83 ? 180 A 1 .
+1952 C CB . ARG C 3 80 ? 5.234 22.515 42.942 1 24.99 ? 180 A 1 .
+1953 C CG . ARG C 3 80 ? 5.794 23.541 43.918 1 24.32 ? 180 A 1 .
+1954 C CD . ARG C 3 80 ? 6.72 22.877 44.945 1 24.69 ? 180 A 1 .
+1955 N NE . ARG C 3 80 ? 7.924 22.285 44.351 1 23.86 ? 180 A 1 .
+1956 C CZ . ARG C 3 80 ? 8.954 21.834 45.06 1 21.94 ? 180 A 1 .
+1957 N NH1 . ARG C 3 80 ? 8.928 21.907 46.381 1 21.83 ? 180 A 1 .
+1958 N NH2 . ARG C 3 80 ? 10.003 21.3 44.455 1 21.82 ? 180 A 1 .
+1959 H H . ARG C 3 80 ? 3.91953244 21.1246077 41.3346232 1 24.7 ? 180 A 1 c
+1960 H HA . ARG C 3 80 ? 3.55145302 23.5938385 42.3616608 1 24.15 ? 180 A 1 c
+1961 H HB3 . ARG C 3 80 ? 5.97954647 22.0906448 42.4682035 1 24.99 ? 180 A 1 c
+1962 H HB2 . ARG C 3 80 ? 4.77947558 21.8112521 43.4504746 1 24.99 ? 180 A 1 c
+1963 H HG3 . ARG C 3 80 ? 5.05276951 23.9756073 44.3913444 1 24.32 ? 180 A 1 c
+1964 H HG2 . ARG C 3 80 ? 6.30221771 24.2169087 43.4207846 1 24.32 ? 180 A 1 c
+1965 H HD3 . ARG C 3 80 ? 6.22244166 22.181573 45.4258097 1 24.69 ? 180 A 1 c
+1966 H HD2 . ARG C 3 80 ? 6.98505161 23.5407533 45.6169674 1 24.69 ? 180 A 1 c
+1967 H HE . ARG C 3 80 ? 7.96824546 22.2246634 43.4822159 1 23.86 ? 180 A 1 c
+1968 H HH11 . ARG C 3 80 ? 9.61098518 21.6079067 46.8502925 1 21.83 ? 180 A 1 c
+1969 H HH12 . ARG C 3 80 ? 8.22778062 22.2544817 46.7873377 1 21.83 ? 180 A 1 c
+1970 H HH21 . ARG C 3 80 ? 10.0200349 21.2425311 43.5780461 1 21.82 ? 180 A 1 c
+1971 H HH22 . ARG C 3 80 ? 10.6796143 21.0043624 44.9318988 1 21.82 ? 180 A 1 c
+1972 N N . HIS C 3 81 ? 5.455 23.428 39.842 1 24.62 ? 181 A 1 .
+1973 C CA . HIS C 3 81 ? 6.192 24.165 38.83 1 25.61 ? 181 A 1 .
+1974 C C . HIS C 3 81 ? 5.317 24.979 37.882 1 26.05 ? 181 A 1 .
+1975 O O . HIS C 3 81 ? 5.608 26.138 37.613 1 26.29 ? 181 A 1 .
+1976 C CB . HIS C 3 81 ? 7.058 23.202 38.006 1 25.89 ? 181 A 1 .
+1977 C CG . HIS C 3 81 ? 7.525 23.784 36.709 1 26 ? 181 A 1 .
+1978 N ND1 . HIS C 3 81 ? 8.639 24.585 36.612 1 25.93 ? 181 A 1 .
+1979 C CD2 . HIS C 3 81 ? 6.98 23.748 35.47 1 26.89 ? 181 A 1 .
+1980 C CE1 . HIS C 3 81 ? 8.76 25.025 35.373 1 26.94 ? 181 A 1 .
+1981 N NE2 . HIS C 3 81 ? 7.763 24.534 34.66 1 27.41 ? 181 A 1 .
+1982 H H . HIS C 3 81 ? 5.29682997 22.5380999 39.7061471 1 24.62 ? 181 A 1 c
+1983 H HA . HIS C 3 81 ? 6.80933693 24.7845986 39.2916424 1 25.61 ? 181 A 1 c
+1984 H HB3 . HIS C 3 81 ? 6.53770477 22.3897329 37.8220463 1 25.89 ? 181 A 1 c
+1985 H HB2 . HIS C 3 81 ? 7.84077712 22.9463639 38.5410086 1 25.89 ? 181 A 1 c
+1986 H HD1 . HIS C 3 81 ? 9.18740264 24.7751524 37.2747651 0 25.93 ? 181 A 1 c
+1987 H HD2 . HIS C 3 81 ? 6.21349627 23.2782324 35.2058799 1 26.89 ? 181 A 1 c
+1988 H HE1 . HIS C 3 81 ? 9.44160043 25.5919351 35.0546143 1 26.94 ? 181 A 1 c
+1989 N N . THR C 3 82 ? 4.274 24.359 37.34 1 26.72 ? 182 A 1 .
+1990 C CA . THR C 3 82 ? 3.405 25.033 36.381 1 27.4 ? 182 A 1 .
+1991 C C . THR C 3 82 ? 2.932 26.41 36.832 1 27.56 ? 182 A 1 .
+1992 O O . THR C 3 82 ? 2.833 27.33 36.019 1 27.51 ? 182 A 1 .
+1993 C CB . THR C 3 82 ? 2.179 24.173 36.019 1 27.91 ? 182 A 1 .
+1994 O OG1 . THR C 3 82 ? 2.6 22.828 35.774 1 28.55 ? 182 A 1 .
+1995 C CG2 . THR C 3 82 ? 1.515 24.709 34.751 1 27.38 ? 182 A 1 .
+1996 H H . THR C 3 82 ? 4.0945881 23.492914 37.5704396 1 26.72 ? 182 A 1 c
+1997 H HA . THR C 3 82 ? 3.90221039 25.132602 35.5365556 1 27.4 ? 182 A 1 c
+1998 H HB . THR C 3 82 ? 1.55929152 24.1787412 36.787178 1 27.91 ? 182 A 1 c
+1999 H HG1 . THR C 3 82 ? 3.1536413 22.8156165 35.1317913 0 28.55 ? 182 A 1 c
+2000 H HG21 . THR C 3 82 ? 0.741754034 24.1593464 34.530438 1 27.38 ? 182 A 1 c
+2001 H HG22 . THR C 3 82 ? 2.15098108 24.6828214 34.0137628 1 27.38 ? 182 A 1 c
+2002 H HG23 . THR C 3 82 ? 1.22718248 25.627971 34.8970455 1 27.38 ? 182 A 1 c
+2003 N N . LYS C 3 83 ? 2.7 26.561 38.134 1 27.36 ? 183 A 1 .
+2004 C CA . LYS C 3 83 ? 2.23 27.824 38.687 1 26.87 ? 183 A 1 .
+2005 C C . LYS C 3 83 ? 3.18 29.011 38.516 1 26.33 ? 183 A 1 .
+2006 O O . LYS C 3 83 ? 2.758 30.159 38.671 1 25.91 ? 183 A 1 .
+2007 C CB . LYS C 3 83 ? 1.857 27.661 40.16 1 27.48 ? 183 A 1 .
+2008 C CG . LYS C 3 83 ? 3.037 27.391 41.076 1 28.7 ? 183 A 1 .
+2009 C CD . LYS C 3 83 ? 2.658 27.642 42.512 1 29.01 ? 183 A 1 .
+2010 C CE . LYS C 3 83 ? 3.832 27.466 43.421 1 29.07 ? 183 A 1 .
+2011 N NZ . LYS C 3 83 ? 3.475 27.923 44.785 1 30.19 ? 183 A 1 .
+2012 H H . LYS C 3 83 ? 2.83824547 25.8556265 38.6985639 1 27.36 ? 183 A 1 c
+2013 H HA . LYS C 3 83 ? 1.36599628 28.0456548 38.2691583 1 26.87 ? 183 A 1 c
+2014 H HB3 . LYS C 3 83 ? 1.22164474 26.9192123 40.2404655 1 27.48 ? 183 A 1 c
+2015 H HB2 . LYS C 3 83 ? 1.40789909 28.4786735 40.4601973 1 27.48 ? 183 A 1 c
+2016 H HG3 . LYS C 3 83 ? 3.76826126 27.9974145 40.8312973 1 28.7 ? 183 A 1 c
+2017 H HG2 . LYS C 3 83 ? 3.30048062 26.4511291 40.978114 1 28.7 ? 183 A 1 c
+2018 H HD3 . LYS C 3 83 ? 1.95623933 27.0082517 42.7732586 1 29.01 ? 183 A 1 c
+2019 H HD2 . LYS C 3 83 ? 2.32382202 28.5602136 42.5990048 1 29.01 ? 183 A 1 c
+2020 H HE3 . LYS C 3 83 ? 4.58167907 27.9984108 43.0937447 1 29.07 ? 183 A 1 c
+2021 H HE2 . LYS C 3 83 ? 4.07935624 26.5225422 43.4567525 1 29.07 ? 183 A 1 c
+2022 H HZ1 . LYS C 3 83 ? 2.77718525 27.4360373 45.0989601 1 30.19 ? 183 A 1 c
+2023 H HZ2 . LYS C 3 83 ? 3.24110127 28.7990634 44.7637072 1 30.19 ? 183 A 1 c
+2024 H HZ3 . LYS C 3 83 ? 4.18497596 27.8177482 45.3395315 1 30.19 ? 183 A 1 c
+2025 N N . ILE C 3 84 ? 4.45 28.75 38.203 1 25.51 ? 184 A 1 .
+2026 C CA . ILE C 3 84 ? 5.404 29.84 38.021 1 26.03 ? 184 A 1 .
+2027 C C . ILE C 3 84 ? 5.208 30.576 36.688 1 26.52 ? 184 A 1 .
+2028 O O . ILE C 3 84 ? 5.764 31.65 36.479 1 27.41 ? 184 A 1 .
+2029 C CB . ILE C 3 84 ? 6.876 29.376 38.163 1 25.06 ? 184 A 1 .
+2030 C CG1 . ILE C 3 84 ? 7.317 28.557 36.938 1 25.06 ? 184 A 1 .
+2031 C CG2 . ILE C 3 84 ? 7.043 28.591 39.446 1 25.62 ? 184 A 1 .
+2032 C CD1 . ILE C 3 84 ? 8.781 28.111 36.956 1 23.53 ? 184 A 1 .
+2033 H H . ILE C 3 84 ? 4.72782015 27.8852212 38.1011686 1 25.51 ? 184 A 1 c
+2034 H HA . ILE C 3 84 ? 5.2843481 30.4777071 38.7474221 1 26.03 ? 184 A 1 c
+2035 H HB . ILE C 3 84 ? 7.44034439 30.1875503 38.1949781 1 25.06 ? 184 A 1 c
+2036 H HG12 . ILE C 3 84 ? 7.16040117 29.0906339 36.1298709 1 25.06 ? 184 A 1 c
+2037 H HG13 . ILE C 3 84 ? 6.74651909 27.7619008 36.8692263 1 25.06 ? 184 A 1 c
+2038 H HG21 . ILE C 3 84 ? 6.46109313 27.8113306 39.4308674 1 25.62 ? 184 A 1 c
+2039 H HG22 . ILE C 3 84 ? 6.80890591 29.151898 40.2058173 1 25.62 ? 184 A 1 c
+2040 H HG23 . ILE C 3 84 ? 7.96738391 28.3003067 39.5339818 1 25.62 ? 184 A 1 c
+2041 H HD11 . ILE C 3 84 ? 8.94228518 27.5537277 37.7371298 1 23.53 ? 184 A 1 c
+2042 H HD12 . ILE C 3 84 ? 9.35933614 28.8926343 36.9921134 1 23.53 ? 184 A 1 c
+2043 H HD13 . ILE C 3 84 ? 8.97643428 27.6017782 36.1502534 1 23.53 ? 184 A 1 c
+2044 N N . HIS C 3 85 ? 4.406 30.012 35.792 1 26.87 ? 185 A 1 .
+2045 C CA . HIS C 3 85 ? 4.146 30.659 34.508 1 27.28 ? 185 A 1 .
+2046 C C . HIS C 3 85 ? 3.04 31.714 34.628 1 28.16 ? 185 A 1 .
+2047 O O . HIS C 3 85 ? 2.725 32.397 33.654 1 27.55 ? 185 A 1 .
+2048 C CB . HIS C 3 85 ? 3.779 29.629 33.431 1 26.92 ? 185 A 1 .
+2049 C CG . HIS C 3 85 ? 4.819 28.576 33.221 1 26.42 ? 185 A 1 .
+2050 N ND1 . HIS C 3 85 ? 6.053 28.847 32.673 1 26.71 ? 185 A 1 .
+2051 C CD2 . HIS C 3 85 ? 4.806 27.246 33.484 1 26.25 ? 185 A 1 .
+2052 C CE1 . HIS C 3 85 ? 6.755 27.729 32.606 1 26.89 ? 185 A 1 .
+2053 N NE2 . HIS C 3 85 ? 6.021 26.742 33.091 1 25.61 ? 185 A 1 .
+2054 H H . HIS C 3 85 ? 4.01028614 29.2093139 35.9777458 1 26.87 ? 185 A 1 c
+2055 H HA . HIS C 3 85 ? 4.97674652 31.1116403 34.2197327 1 27.28 ? 185 A 1 c
+2056 H HB3 . HIS C 3 85 ? 3.62699278 30.1006083 32.5831773 1 26.92 ? 185 A 1 c
+2057 H HB2 . HIS C 3 85 ? 2.93414448 29.1968597 33.6835825 1 26.92 ? 185 A 1 c
+2058 H HD1 . HIS C 3 85 ? 6.33060607 29.6402908 32.4088303 0 26.71 ? 185 A 1 c
+2059 H HD2 . HIS C 3 85 ? 4.10382506 26.7546409 33.8627949 1 26.25 ? 185 A 1 c
+2060 H HE1 . HIS C 3 85 ? 7.63113051 27.6509594 32.2688517 1 26.89 ? 185 A 1 c
+2061 N N . LEU C 3 86 ? 2.437 31.827 35.81 1 29.83 ? 186 A 1 .
+2062 C CA . LEU C 3 86 ? 1.391 32.827 36.048 1 31.41 ? 186 A 1 .
+2063 C C . LEU C 3 86 ? 2.067 34.141 36.435 1 32.38 ? 186 A 1 .
+2064 O O . LEU C 3 86 ? 1.772 35.195 35.876 1 34.63 ? 186 A 1 .
+2065 C CB . LEU C 3 86 ? 0.462 32.397 37.189 1 31.02 ? 186 A 1 .
+2066 C CG . LEU C 3 86 ? -0.285 31.065 37.142 1 30.38 ? 186 A 1 .
+2067 C CD1 . LEU C 3 86 ? -0.958 30.839 38.473 1 30.36 ? 186 A 1 .
+2068 C CD2 . LEU C 3 86 ? -1.306 31.06 36.032 1 30.45 ? 186 A 1 .
+2069 H H . LEU C 3 86 ? 2.67880551 31.2688074 36.4921636 1 29.83 ? 186 A 1 c
+2070 H HA . LEU C 3 86 ? 0.891045723 32.9615328 35.2100432 1 31.41 ? 186 A 1 c
+2071 H HB3 . LEU C 3 86 ? -0.187852913 33.1115827 37.3424497 1 31.02 ? 186 A 1 c
+2072 H HB2 . LEU C 3 86 ? 0.963505596 32.4417184 38.0274369 1 31.02 ? 186 A 1 c
+2073 H HG . LEU C 3 86 ? 0.38000842 30.3451992 37.0086899 1 30.38 ? 186 A 1 c
+2074 H HD11 . LEU C 3 86 ? -1.23203125 29.9081097 38.5442676 1 30.36 ? 186 A 1 c
+2075 H HD12 . LEU C 3 86 ? -1.74028001 31.4133568 38.542866 1 30.36 ? 186 A 1 c
+2076 H HD13 . LEU C 3 86 ? -0.336141689 31.04964 39.1910892 1 30.36 ? 186 A 1 c
+2077 H HD21 . LEU C 3 86 ? -0.858773592 31.1980543 35.178971 1 30.45 ? 186 A 1 c
+2078 H HD22 . LEU C 3 86 ? -1.94968067 31.7745318 36.1798122 1 30.45 ? 186 A 1 c
+2079 H HD23 . LEU C 3 86 ? -1.76879383 30.2041854 36.0205025 1 30.45 ? 186 A 1 c
+2080 ZN ZN . ZN D 4 . ? -1.044 6.948 65.715 1 38.7 ? 201 A 1 .
+2081 ZN ZN . ZN E 4 . ? 17.506 4.074 46.506 1 35.51 ? 202 A 1 .
+2082 ZN ZN . ZN F 4 . ? 6.926 25.091 32.797 1 30.55 ? 203 A 1 .
+2083 O O . HOH G 5 . ? 13.346 15.149 50.768 1 34.39 ? 328 B 1 .
+2084 O O . HOH G 5 . ? 7.09 14.303 56.299 1 44.51 ? 332 B 1 .
+2085 O O . HOH G 5 . ? -4.5 14.031 53.345 1 40.07 ? 336 B 1 .
+2086 O O . HOH G 5 . ? 5.369 10.294 61.101 1 47.42 ? 344 B 1 .
+2087 O O . HOH G 5 . ? 7.002 8.256 60.114 1 50.61 ? 345 B 1 .
+2088 O O . HOH G 5 . ? 9.89 9.938 59.951 1 46.27 ? 346 B 1 .
+2089 O O . HOH G 5 . ? 10.715 7.686 58.162 1 25.38 ? 347 B 1 .
+2090 O O . HOH G 5 . ? 8.515 6.537 57.254 1 27.61 ? 348 B 1 .
+2091 O O . HOH G 5 . ? 9.638 5.737 54.961 1 26.69 ? 349 B 1 .
+2092 O O . HOH G 5 . ? 9.127 7.865 51.69 1 25.58 ? 351 B 1 .
+2093 O O . HOH G 5 . ? 14.532 13.572 40.71 1 51.64 ? 356 B 1 .
+2094 O O . HOH G 5 . ? 15.632 19.596 36.86 1 51.04 ? 360 B 1 .
+2095 O O . HOH G 5 . ? 18.725 21.461 38.389 1 47.61 ? 361 B 1 .
+2096 O O . HOH G 5 . ? 12.265 22.064 39.427 1 33.56 ? 363 B 1 .
+2097 O O . HOH G 5 . ? 8.518 26.068 44.672 1 36.6 ? 367 B 1 .
+2098 O O . HOH G 5 . ? 6.686 18.89 44.818 1 26.19 ? 370 B 1 .
+2099 O O . HOH G 5 . ? 5.286 11.723 46.355 1 27 ? 385 B 1 .
+2100 O O . HOH G 5 . ? -7.905 11.54 48.15 1 39.01 ? 389 B 1 .
+2101 O O . HOH G 5 . ? 12.944 11.547 57.032 1 33.2 ? 404 B 1 .
+2102 O O . HOH G 5 . ? 10.665 14.284 54.454 1 43.46 ? 405 B 1 .
+2103 O O . HOH G 5 . ? -0.044 14.194 55.521 1 42.54 ? 408 B 1 .
+2104 O O . HOH G 5 . ? 5.13 4.991 58.221 1 27.9 ? 411 B 1 .
+2105 O O . HOH G 5 . ? -10.456 0.272 49.36 1 27.85 ? 420 B 1 .
+2106 O O . HOH G 5 . ? -12.524 -1.96 48.813 1 31.87 ? 421 B 1 .
+2107 O O . HOH G 5 . ? -13.25 1.413 42.916 1 24.32 ? 422 B 1 .
+2108 O O . HOH G 5 . ? -12.182 -3.385 40.761 1 25.86 ? 423 B 1 .
+2109 O O . HOH G 5 . ? -10.565 -3.288 38.54 1 24.47 ? 424 B 1 .
+2110 O O . HOH G 5 . ? -8.721 0.191 36.702 1 36.62 ? 425 B 1 .
+2111 O O . HOH G 5 . ? -9.464 2.706 35.88 1 50.96 ? 426 B 1 .
+2112 O O . HOH G 5 . ? -8.093 4.414 37.613 1 43.24 ? 427 B 1 .
+2113 O O . HOH G 5 . ? -5.387 3.461 37.295 1 48.89 ? 428 B 1 .
+2114 O O . HOH G 5 . ? -12.066 9.69 55.78 1 39.8 ? 446 B 1 .
+2115 O O . HOH H 5 . ? 13.8 16.663 53.739 1 32.66 ? 329 C 1 .
+2116 O O . HOH H 5 . ? 10.298 17.276 55.15 1 22.49 ? 330 C 1 .
+2117 O O . HOH H 5 . ? 8.369 16.808 57.18 1 39.64 ? 331 C 1 .
+2118 O O . HOH H 5 . ? 3.863 16.648 55.948 1 42.07 ? 333 C 1 .
+2119 O O . HOH H 5 . ? 0.751 16.504 53.728 1 29.24 ? 334 C 1 .
+2120 O O . HOH H 5 . ? -3.58 15.901 51.306 1 32.95 ? 335 C 1 .
+2121 O O . HOH H 5 . ? 4.974 20.233 46.676 1 34.23 ? 369 C 1 .
+2122 O O . HOH H 5 . ? 1.071 18.286 45.53 1 40.69 ? 372 C 1 .
+2123 O O . HOH H 5 . ? -0.754 20.284 46.528 1 32.13 ? 373 C 1 .
+2124 O O . HOH H 5 . ? -2.558 16.269 39.636 1 26.67 ? 377 C 1 .
+2125 O O . HOH H 5 . ? -0.058 13.19 36.752 1 50.17 ? 379 C 1 .
+2126 O O . HOH H 5 . ? 2.804 12.599 44.708 1 21.86 ? 386 C 1 .
+2127 O O . HOH H 5 . ? 1.697 11.021 42.666 1 45.01 ? 387 C 1 .
+2128 O O . HOH H 5 . ? -6.473 9.149 43.721 1 37.59 ? 388 C 1 .
+2129 O O . HOH H 5 . ? -8.706 15.383 43.995 1 51.11 ? 390 C 1 .
+2130 O O . HOH H 5 . ? -4.365 20.729 43.892 1 27.15 ? 391 C 1 .
+2131 O O . HOH H 5 . ? 8.059 24.435 51.425 1 33.42 ? 406 C 1 .
+2132 O O . HOH H 5 . ? 5.583 23.023 51.089 1 35.13 ? 407 C 1 .
+2133 O O . HOH H 5 . ? -5.207 -1.773 52.194 1 34.89 ? 417 C 1 .
+2134 O O . HOH H 5 . ? -9.62 -1.373 51.343 1 32.87 ? 419 C 1 .
+2135 O O . HOH H 5 . ? -4.425 3.876 42.145 1 37.83 ? 429 C 1 .
+2136 O O . HOH H 5 . ? -4.217 -1.277 43.162 1 30.42 ? 430 C 1 .
+2137 O O . HOH H 5 . ? -2.664 -5.897 45.184 1 39.33 ? 431 C 1 .
+2138 O O . HOH H 5 . ? -0.322 3.611 50.696 1 31.83 ? 436 C 1 .
+2139 O O . HOH H 5 . ? -3.07 0.966 52.36 1 45.68 ? 437 C 1 .
+2140 O O . HOH H 5 . ? 3.636 -5.81 50.761 1 34.41 ? 439 C 1 .
+2141 O O . HOH H 5 . ? 2.995 1.994 44.396 1 39.35 ? 441 C 1 .
+2142 O O . HOH I 5 . ? 6.469 13.671 28.667 1 28 ? 301 A 1 .
+2143 O O . HOH I 5 . ? 8.015 15.343 26.978 1 37.37 ? 302 A 1 .
+2144 O O . HOH I 5 . ? 9.485 17.684 27.543 1 34.52 ? 303 A 1 .
+2145 O O . HOH I 5 . ? 7.845 19.239 25.349 1 39.43 ? 304 A 1 .
+2146 O O . HOH I 5 . ? 5.296 19.079 27.27 1 27.1 ? 305 A 1 .
+2147 O O . HOH I 5 . ? 2.906 18.672 28.85 1 32.17 ? 306 A 1 .
+2148 O O . HOH I 5 . ? 4.251 14.344 30.624 1 54.15 ? 307 A 1 .
+2149 O O . HOH I 5 . ? 3.253 11.05 32.617 1 52.26 ? 308 A 1 .
+2150 O O . HOH I 5 . ? 0.409 11.261 31.983 1 44.4 ? 309 A 1 .
+2151 O O . HOH I 5 . ? 3.538 8.269 34.336 1 43.35 ? 310 A 1 .
+2152 O O . HOH I 5 . ? 12.429 10.344 31.43 1 40.19 ? 311 A 1 .
+2153 O O . HOH I 5 . ? 15.402 6.945 32.699 1 29.94 ? 312 A 1 .
+2154 O O . HOH I 5 . ? 12.505 4.775 37.722 1 30.72 ? 313 A 1 .
+2155 O O . HOH I 5 . ? 10.291 3.839 39.711 1 27.94 ? 314 A 1 .
+2156 O O . HOH I 5 . ? 8.518 4.395 37.499 1 27.53 ? 315 A 1 .
+2157 O O . HOH I 5 . ? 12.836 1.52 36.892 1 28.06 ? 316 A 1 .
+2158 O O . HOH I 5 . ? 13.384 0.262 39.316 1 43.28 ? 317 A 1 .
+2159 O O . HOH I 5 . ? 14.85 -4.33 46.853 1 32.69 ? 318 A 1 .
+2160 O O . HOH I 5 . ? 10.944 -4.602 49.132 1 46.84 ? 319 A 1 .
+2161 O O . HOH I 5 . ? 11.827 -5.417 51.668 1 48.14 ? 320 A 1 .
+2162 O O . HOH I 5 . ? 16.794 1.74 55.932 1 54.51 ? 321 A 1 .
+2163 O O . HOH I 5 . ? 19.061 -1.217 54.853 1 30.46 ? 322 A 1 .
+2164 O O . HOH I 5 . ? 15.299 4.932 58.777 1 43.47 ? 323 A 1 .
+2165 O O . HOH I 5 . ? 14.22 7.91 56.656 1 46.32 ? 324 A 1 .
+2166 O O . HOH I 5 . ? 15.069 11.4 55.16 1 36.18 ? 325 A 1 .
+2167 O O . HOH I 5 . ? 16.632 12.045 52.894 1 34.17 ? 326 A 1 .
+2168 O O . HOH I 5 . ? 17.145 13.217 50.089 1 43.58 ? 327 A 1 .
+2169 O O . HOH I 5 . ? -6.621 10.379 60.186 1 40.36 ? 337 A 1 .
+2170 O O . HOH I 5 . ? -7.949 12.293 62.955 1 42.93 ? 338 A 1 .
+2171 O O . HOH I 5 . ? -6.187 13.509 64.858 1 47.77 ? 339 A 1 .
+2172 O O . HOH I 5 . ? -4.79 7.183 71.549 1 37.79 ? 340 A 1 .
+2173 O O . HOH I 5 . ? -4.205 5.282 73.452 1 48.61 ? 341 A 1 .
+2174 O O . HOH I 5 . ? -1.748 7.879 76.845 1 36.48 ? 342 A 1 .
+2175 O O . HOH I 5 . ? 5.56 7.117 67.386 1 48.78 ? 343 A 1 .
+2176 O O . HOH I 5 . ? 7.561 5.623 52.33 1 21.4 ? 350 A 1 .
+2177 O O . HOH I 5 . ? 10.235 8.314 49.094 1 22.89 ? 352 A 1 .
+2178 O O . HOH I 5 . ? 9.851 10.674 46.071 1 24.79 ? 353 A 1 .
+2179 O O . HOH I 5 . ? 11.079 11.581 43.631 1 24.61 ? 354 A 1 .
+2180 O O . HOH I 5 . ? 12.089 13.876 42.883 1 33.47 ? 355 A 1 .
+2181 O O . HOH I 5 . ? 13.879 11.902 38.269 1 33.98 ? 357 A 1 .
+2182 O O . HOH I 5 . ? 11.9 15.864 39.147 1 24.34 ? 358 A 1 .
+2183 O O . HOH I 5 . ? 13.038 17.946 37.269 1 24.81 ? 359 A 1 .
+2184 O O . HOH I 5 . ? 17.033 23.981 38.383 1 29.7 ? 362 A 1 .
+2185 O O . HOH I 5 . ? 11.029 20.926 41.747 1 43.89 ? 364 A 1 .
+2186 O O . HOH I 5 . ? 8.251 21.931 41.364 1 28.61 ? 365 A 1 .
+2187 O O . HOH I 5 . ? 7.524 26.551 41.832 1 32.81 ? 366 A 1 .
+2188 O O . HOH I 5 . ? 6.809 22.158 48.074 1 38.29 ? 368 A 1 .
+2189 O O . HOH I 5 . ? 2.714 20.032 44.343 1 28.24 ? 371 A 1 .
+2190 O O . HOH I 5 . ? 1.617 22.489 44.017 1 43.91 ? 374 A 1 .
+2191 O O . HOH I 5 . ? -0.967 17.038 43.721 1 26.94 ? 375 A 1 .
+2192 O O . HOH I 5 . ? -0.083 15.878 41.361 1 35.7 ? 376 A 1 .
+2193 O O . HOH I 5 . ? 0.725 17.264 37.061 1 36.11 ? 378 A 1 .
+2194 O O . HOH I 5 . ? 3.891 11.341 40.599 1 25.75 ? 380 A 1 .
+2195 O O . HOH I 5 . ? 4.37 8.685 40.635 1 41.98 ? 381 A 1 .
+2196 O O . HOH I 5 . ? 2.514 7.829 43.583 1 36.27 ? 382 A 1 .
+2197 O O . HOH I 5 . ? 2.448 8.926 46.253 1 30.97 ? 383 A 1 .
+2198 O O . HOH I 5 . ? 5.684 8.971 46.088 1 18.85 ? 384 A 1 .
+2199 O O . HOH I 5 . ? -1.787 21.661 33.451 1 26.49 ? 392 A 1 .
+2200 O O . HOH I 5 . ? 1.313 34.488 32.574 1 31.9 ? 393 A 1 .
+2201 O O . HOH I 5 . ? 6.98 31.613 32.19 1 27.03 ? 394 A 1 .
+2202 O O . HOH I 5 . ? 9.06 31.733 34.97 1 52.16 ? 395 A 1 .
+2203 O O . HOH I 5 . ? 11.526 26.228 34.355 1 31.6 ? 396 A 1 .
+2204 O O . HOH I 5 . ? 13.2 18.747 31.254 1 23.28 ? 397 A 1 .
+2205 O O . HOH I 5 . ? 16.655 15.987 38.847 1 31.53 ? 398 A 1 .
+2206 O O . HOH I 5 . ? 12.461 18.234 41.827 1 32.43 ? 399 A 1 .
+2207 O O . HOH I 5 . ? 20.762 10.103 42.479 1 50.47 ? 400 A 1 .
+2208 O O . HOH I 5 . ? 21.931 7.22 41.782 1 46.46 ? 401 A 1 .
+2209 O O . HOH I 5 . ? 17.61 8.628 49.759 1 33.11 ? 402 A 1 .
+2210 O O . HOH I 5 . ? 12.958 5.703 54.467 1 25.12 ? 403 A 1 .
+2211 O O . HOH I 5 . ? 1.485 6.479 55.416 1 33.97 ? 409 A 1 .
+2212 O O . HOH I 5 . ? 2.698 4.274 57.059 1 26.09 ? 410 A 1 .
+2213 O O . HOH I 5 . ? 7.275 3.054 59.042 1 35.78 ? 412 A 1 .
+2214 O O . HOH I 5 . ? 9.476 4.657 60.291 1 35.72 ? 413 A 1 .
+2215 O O . HOH I 5 . ? 3.376 -2.312 61.458 1 55.59 ? 414 A 1 .
+2216 O O . HOH I 5 . ? 0.537 -2.542 60.209 1 25.99 ? 415 A 1 .
+2217 O O . HOH I 5 . ? -3.954 -1.48 55.318 1 40.99 ? 416 A 1 .
+2218 O O . HOH I 5 . ? -7.242 0.044 51.544 1 40.83 ? 418 A 1 .
+2219 O O . HOH I 5 . ? -1.02 -3.756 52.687 1 32.93 ? 432 A 1 .
+2220 O O . HOH I 5 . ? 1.042 -1.722 51.093 1 40.81 ? 433 A 1 .
+2221 O O . HOH I 5 . ? 2.371 0.457 50.213 1 26.71 ? 434 A 1 .
+2222 O O . HOH I 5 . ? 1.507 2.973 48.668 1 25.48 ? 435 A 1 .
+2223 O O . HOH I 5 . ? 2.603 0.992 53.844 1 35.22 ? 438 A 1 .
+2224 O O . HOH I 5 . ? 7.552 -0.022 44.851 1 35.07 ? 440 A 1 .
+2225 O O . HOH I 5 . ? -3.048 5.997 56.851 1 28.18 ? 442 A 1 .
+2226 O O . HOH I 5 . ? -6.91 7.889 55.336 1 34.85 ? 443 A 1 .
+2227 O O . HOH I 5 . ? -9.993 8.739 57.525 1 27.25 ? 444 A 1 .
+2228 O O . HOH I 5 . ? -9.992 6.179 56.609 1 36.04 ? 445 A 1 .
+2229 O O . HOH I 5 . ? -18.58 8.261 61.416 1 44.28 ? 447 A 1 .
+2230 O O . HOH I 5 . ? -13.153 0.018 57.59 1 34.27 ? 448 A 1 .
+2231 O O . HOH I 5 . ? -10.502 -3.985 56.288 1 36.89 ? 449 A 1 .
+2232 O O . HOH I 5 . ? -10.467 -1.271 55.945 1 55.75 ? 450 A 1 .
+2233 O O . HOH I 5 . ? -7.136 -1.975 61.536 1 36.87 ? 451 A 1 .
+2234 O O . HOH I 5 . ? 20.959 9.694 36.709 1 38.73 ? 452 A 1 .
+2235 O O . HOH I 5 . ? 4.715 33.356 38.826 1 45.58 ? 453 A 1 .
+
+loop_
+_software.pdbx_ordinal
+_software.classification
+_software.name
+_software.version
+_software.date
+1 'model building' X-PLOR . ?
+2 refinement X-PLOR 3.843 ?
+3 'data reduction' DENZO . ?
+4 'data scaling' SCALEPACK . ?
+5 phasing X-PLOR . ?

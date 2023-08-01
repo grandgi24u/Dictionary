@@ -1,0 +1,14 @@
+Residue
+Atom_name
+Atome_type
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-
+NA	NA	-

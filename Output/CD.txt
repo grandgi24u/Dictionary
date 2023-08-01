@@ -1,0 +1,10 @@
+Residue
+Atom_name
+Atome_type
+CD	CD	-
+CD	CD	-
+CD	CD	-
+CD	CD	-
+CD	CD	-
+CD	CD	-
+CD	CD	-

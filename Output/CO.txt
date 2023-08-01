@@ -1,0 +1,11 @@
+Residue
+Atom_name
+Atome_type
+CO	CO	-
+CO	CO	-
+CO	CO	-
+CO	CO	-
+CO	CO	-
+CO	CO	-
+CO	CO	-
+CO	CO	-

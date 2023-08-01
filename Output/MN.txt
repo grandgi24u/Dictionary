@@ -1,0 +1,13 @@
+Residue
+Atom_name
+Atome_type
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-
+MN	MN	-

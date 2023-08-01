@@ -11,9 +11,25 @@ namespace CreateDictionary
     {
         static void Main()
         {
-            string mmcifFilePath = "../../../Input/MMCIF/1A0A.mmcif";
-            string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/ubdbAssign_1A0A.log";
-            WriteOutputToFile(CreateList(ParseMmcifFile(mmcifFilePath),ParseUbdbAssignLog(ubdbAssignLogFilePath)));
+            string mmcifFilePath = "../../../Input/MMCIF/";
+            string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/";
+            Dictionary<string, string> listofFile = new Dictionary<string, string>();           
+            string[] fileEntries = Directory.GetFiles(mmcifFilePath);
+            DirectoryInfo d = new DirectoryInfo(mmcifFilePath);
+            foreach (var file in d.GetFiles("*.mmcif"))
+            {
+                string filename = file.Name.Substring(0, file.Name.IndexOf("."));
+                if(File.Exists(ubdbAssignLogFilePath + "ubdbAssign_" + filename + ".log"))
+                {
+                    listofFile.Add(mmcifFilePath + file.Name, ubdbAssignLogFilePath + "ubdbAssign_" + filename + ".log");
+                }
+            }   
+            foreach(var key in listofFile)
+            {
+                Console.WriteLine("Start process for file : " + key.Key);
+                WriteOutputToFile(CreateList(ParseMmcifFile(key.Key), ParseUbdbAssignLog(key.Value)));
+            }
+            Console.WriteLine("Finish");
             Console.ReadLine();
         }
 

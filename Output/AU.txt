@@ -1,0 +1,9 @@
+Residue
+Atom_name
+Atome_type
+AU	AU	-
+AU	AU	-
+AU	AU	-
+AU	AU	-
+AU	AU	-
+AU	AU	-

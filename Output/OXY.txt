@@ -1,0 +1,9 @@
+Residue
+Atom_name
+Atome_type
+OXY	O1	-
+OXY	O2	-
+OXY	O1	-
+OXY	O2	-
+OXY	O1	-
+OXY	O2	-

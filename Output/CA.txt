@@ -1,0 +1,31 @@
+Residue
+Atom_name
+Atome_type
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-
+CA	CA	-

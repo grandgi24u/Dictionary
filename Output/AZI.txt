@@ -1,0 +1,15 @@
+Residue
+Atom_name
+Atome_type
+AZI	N1	-
+AZI	N2	-
+AZI	N3	-
+AZI	N1	-
+AZI	N2	-
+AZI	N3	-
+AZI	N1	-
+AZI	N2	-
+AZI	N3	-
+AZI	N1	-
+AZI	N2	-
+AZI	N3	-
