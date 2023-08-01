@@ -13,8 +13,7 @@ namespace CreateDictionary
         {
             string mmcifFilePath = "../../../Input/MMCIF/1A0A.mmcif";
             string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/ubdbAssign_1A0A.log";
-            string outputFilePath = "../../../output.txt";
-            WriteOutputToFile(outputFilePath, CreateList(ParseMmcifFile(mmcifFilePath),ParseUbdbAssignLog(ubdbAssignLogFilePath)));
+            WriteOutputToFile(CreateList(ParseMmcifFile(mmcifFilePath),ParseUbdbAssignLog(ubdbAssignLogFilePath)));
             Console.ReadLine();
         }
 
@@ -91,17 +90,28 @@ namespace CreateDictionary
             return output;
         }
 
-        static void WriteOutputToFile(string filePath, List<string[]> residueDictionary)
+        static void WriteOutputToFile(List<string[]> residueDictionary)
         {
-            using (StreamWriter writer = new StreamWriter(filePath))
+            string outputFolder = "../../../output/";
+            foreach (var kvp in residueDictionary)
             {
-                writer.WriteLine("Residue\nAtom_name\nAtome_type");
-                foreach (var kvp in residueDictionary)
+                string file = outputFolder + kvp[0] + ".txt";
+                string residue = kvp[0];
+                string atomName = kvp[1];
+                string atomType = kvp[2];
+                if (File.Exists(file))
                 {
-                    string residue = kvp[0];
-                    string atomName = kvp[1];
-                    string atomType = kvp[2];
-                    writer.WriteLine($"{residue}\t{atomName}\t{atomType}");
+                    using (StreamWriter writer = File.AppendText(file))
+                    {
+                        writer.WriteLine($"{residue}\t{atomName}\t{atomType}");
+                    }
+                } else
+                {
+                    using (StreamWriter writer = new StreamWriter(file))
+                    {
+                        writer.WriteLine("Residue\nAtom_name\nAtome_type");
+                        writer.WriteLine($"{residue}\t{atomName}\t{atomType}");
+                    }                    
                 }
             }
         }
