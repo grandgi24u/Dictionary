@@ -13,12 +13,8 @@ namespace CreateDictionary
         {
             string mmcifFilePath = "../../../Input/MMCIF/1A0A.mmcif";
             string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/ubdbAssign_1A0A.log";
-            List<string[]> res = CreateList(ParseMmcifFile(mmcifFilePath),ParseUbdbAssignLog(ubdbAssignLogFilePath));
-            foreach(string[] r in res)
-            {
-                Console.WriteLine(r[0] + " " + r[1] + " " + r[2] + " " );
-            }
-            string outputFilePath = "../../../votre_fichier_sortie.txt";
+            string outputFilePath = "../../../output.txt";
+            WriteOutputToFile(outputFilePath, CreateList(ParseMmcifFile(mmcifFilePath),ParseUbdbAssignLog(ubdbAssignLogFilePath)));
             Console.ReadLine();
         }
 
@@ -93,6 +89,21 @@ namespace CreateDictionary
                 output.Add(itemToAdd);
             }
             return output;
+        }
+
+        static void WriteOutputToFile(string filePath, List<string[]> residueDictionary)
+        {
+            using (StreamWriter writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("Residue\nAtom_name\nAtome_type");
+                foreach (var kvp in residueDictionary)
+                {
+                    string residue = kvp[0];
+                    string atomName = kvp[1];
+                    string atomType = kvp[2];
+                    writer.WriteLine($"{residue}\t{atomName}\t{atomType}");
+                }
+            }
         }
     }
 }
