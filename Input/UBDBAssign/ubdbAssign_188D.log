@@ -1,0 +1,591 @@
+################################################################################
+
+
+     ubdbAssign, version v0.006
+ compiled at Jul 11 2023, 10:48:25.
+
+
+################################################################################
+
+structure file: C:\Users\grand\Desktop\UW\discamb-gemmi\TesteExe\UbdbAssignReq\src_withH\188D.mmcif
+uses default bank file name: ubdb.bnk
+uses type assignemnt settings from the databank
+   parameters values:
+      ring considered not planar if it contains atoms with more than 3 neighbours
+      ring considered not planar if it contains atoms with planarity above 0.100000
+      ring considered not planar if the planarity is above 0.100000
+      atom considered planar if the planarity is below 0.100000
+      atoms are bonded if the interatomic distance is below sum of their covalent bonds plus 0.230000
+
+################################################################################
+
+       (1) Structural Descriptors and (2) Atom Type Assignemnt Information
+
+################################################################################
+
+(1) Structural Descriptors
+
+################################################################################
+
+
+ number of planar rings: 12
+
+  ring 1
+    planarity esd 0.00309619
+    atoms:  N9_9 C8_10 N7_11 C5_12 C4_19
+
+  ring 2
+    planarity esd 0.00551196
+    atoms:  C5_12 C6_13 N1_15 C2_16 N3_18 C4_19
+
+  ring 3
+    planarity esd 0.00608638
+    atoms:  N9_42 C8_43 N7_44 C5_45 C4_52
+
+  ring 4
+    planarity esd 0.00564182
+    atoms:  C5_45 C6_46 N1_48 C2_49 N3_51 C4_52
+
+  ring 5
+    planarity esd 0.00382398
+    atoms:  N9_75 C8_76 N7_77 C5_78 C4_85
+
+  ring 6
+    planarity esd 0.00175723
+    atoms:  C5_78 C6_79 N1_81 C2_82 N3_84 C4_85
+
+  ring 7
+    planarity esd 0.00439108
+    atoms:  N1_108 C2_109 N3_111 C4_112 C5_114 C6_115
+
+  ring 8
+    planarity esd 0.00487547
+    atoms:  N9_138 C8_139 N7_140 C5_141 C4_148
+
+  ring 9
+    planarity esd 0.00262507
+    atoms:  C5_141 C6_142 N1_144 C2_145 N3_147 C4_148
+
+  ring 10
+    planarity esd 0.00160981
+    atoms:  N1_171 C2_172 N3_174 C4_175 C5_177 C6_178
+
+  ring 11
+    planarity esd 0.00524004
+    atoms:  N1_201 C2_202 N3_204 C4_205 C5_207 C6_208
+
+  ring 12
+    planarity esd 0.00113077
+    atoms:  N1_231 C2_232 N3_234 C4_235 C5_237 C6_238
+
+ Atomic Descriptors
+
+ number of atoms 250
+   O5'_1 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_2
+   C5'_2 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.814490 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_1,C4'_3,H5'_20,H5''_21
+   C4'_3 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.907770 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_2,O4'_4,C3'_5,H4'_22
+   O4'_4 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_3,C1'_8
+   C3'_5 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.911056 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_3,O3'_6,C2'_7,H3'_23
+   O3'_6 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_5,P_31
+   C2'_7 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.807242 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_5,C1'_8,H2'_24,H2''_25
+   C1'_8 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.913204 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_4,C2'_7,N9_9,H1'_26
+    N9_9 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.001704 , belongs to planar rings:            1 , in 3 member rings no , in 4 member rings no , neighbours C1'_8,C8_10,C4_19
+   C8_10 atomic number    6 , neighbours formula          HN2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            1 , in 3 member rings no , in 4 member rings no , neighbours N9_9,N7_11,H8_27
+   N7_11 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            1 , in 3 member rings no , in 4 member rings no , neighbours C8_10,C5_12
+   C5_12 atomic number    6 , neighbours formula          C2N , is planar          PLANAR , planarity esd   0.000194 , belongs to planar rings:          1,2 , in 3 member rings no , in 4 member rings no , neighbours N7_11,C6_13,C4_19
+   C6_13 atomic number    6 , neighbours formula          CNO , is planar          PLANAR , planarity esd   0.001744 , belongs to planar rings:            2 , in 3 member rings no , in 4 member rings no , neighbours C5_12,O6_14,N1_15
+   O6_14 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_13
+   N1_15 atomic number    7 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            2 , in 3 member rings no , in 4 member rings no , neighbours C6_13,C2_16,H1_28
+   C2_16 atomic number    6 , neighbours formula           N3 , is planar          PLANAR , planarity esd   0.004166 , belongs to planar rings:            2 , in 3 member rings no , in 4 member rings no , neighbours N1_15,N2_17,N3_18
+   N2_17 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_16,H21_29,H22_30
+   N3_18 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            2 , in 3 member rings no , in 4 member rings no , neighbours C2_16,C4_19
+   C4_19 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.001609 , belongs to planar rings:          1,2 , in 3 member rings no , in 4 member rings no , neighbours N9_9,C5_12,N3_18
+  H5'_20 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_2
+ H5''_21 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_2
+  H4'_22 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_3
+  H3'_23 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_5
+  H2'_24 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_7
+ H2''_25 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_7
+  H1'_26 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_8
+   H8_27 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C8_10
+   H1_28 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N1_15
+  H21_29 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_17
+  H22_30 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_17
+    P_31 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.127724 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_6,OP1_32,OP2_33,O5'_34
+  OP1_32 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_31
+  OP2_33 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_31
+  O5'_34 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_31,C5'_35
+  C5'_35 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.817911 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_34,C4'_36,H5'_53,H5''_54
+  C4'_36 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.908114 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_35,O4'_37,C3'_38,H4'_55
+  O4'_37 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_36,C1'_41
+  C3'_38 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.912571 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_36,O3'_39,C2'_40,H3'_56
+  O3'_39 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_38,P_64
+  C2'_40 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.805076 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_38,C1'_41,H2'_57,H2''_58
+  C1'_41 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.908950 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_37,C2'_40,N9_42,H1'_59
+   N9_42 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.008779 , belongs to planar rings:            3 , in 3 member rings no , in 4 member rings no , neighbours C1'_41,C8_43,C4_52
+   C8_43 atomic number    6 , neighbours formula          HN2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            3 , in 3 member rings no , in 4 member rings no , neighbours N9_42,N7_44,H8_60
+   N7_44 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            3 , in 3 member rings no , in 4 member rings no , neighbours C8_43,C5_45
+   C5_45 atomic number    6 , neighbours formula          C2N , is planar          PLANAR , planarity esd   0.003551 , belongs to planar rings:          3,4 , in 3 member rings no , in 4 member rings no , neighbours N7_44,C6_46,C4_52
+   C6_46 atomic number    6 , neighbours formula          CNO , is planar          PLANAR , planarity esd   0.002485 , belongs to planar rings:            4 , in 3 member rings no , in 4 member rings no , neighbours C5_45,O6_47,N1_48
+   O6_47 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_46
+   N1_48 atomic number    7 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            4 , in 3 member rings no , in 4 member rings no , neighbours C6_46,C2_49,H1_61
+   C2_49 atomic number    6 , neighbours formula           N3 , is planar          PLANAR , planarity esd   0.003288 , belongs to planar rings:            4 , in 3 member rings no , in 4 member rings no , neighbours N1_48,N2_50,N3_51
+   N2_50 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_49,H21_62,H22_63
+   N3_51 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            4 , in 3 member rings no , in 4 member rings no , neighbours C2_49,C4_52
+   C4_52 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.008054 , belongs to planar rings:          3,4 , in 3 member rings no , in 4 member rings no , neighbours N9_42,C5_45,N3_51
+  H5'_53 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_35
+ H5''_54 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_35
+  H4'_55 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_36
+  H3'_56 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_38
+  H2'_57 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_40
+ H2''_58 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_40
+  H1'_59 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_41
+   H8_60 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C8_43
+   H1_61 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N1_48
+  H21_62 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_50
+  H22_63 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_50
+    P_64 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.181835 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_39,OP1_65,OP2_66,O5'_67
+  OP1_65 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_64
+  OP2_66 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_64
+  O5'_67 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_64,C5'_68
+  C5'_68 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.807428 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_67,C4'_69,H5'_86,H5''_87
+  C4'_69 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.908066 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_68,O4'_70,C3'_71,H4'_88
+  O4'_70 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_69,C1'_74
+  C3'_71 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.911046 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_69,O3'_72,C2'_73,H3'_89
+  O3'_72 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_71,P_97
+  C2'_73 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.804964 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_71,C1'_74,H2'_90,H2''_91
+  C1'_74 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.905924 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_70,C2'_73,N9_75,H1'_92
+   N9_75 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.006453 , belongs to planar rings:            5 , in 3 member rings no , in 4 member rings no , neighbours C1'_74,C8_76,C4_85
+   C8_76 atomic number    6 , neighbours formula          HN2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            5 , in 3 member rings no , in 4 member rings no , neighbours N9_75,N7_77,H8_93
+   N7_77 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            5 , in 3 member rings no , in 4 member rings no , neighbours C8_76,C5_78
+   C5_78 atomic number    6 , neighbours formula          C2N , is planar          PLANAR , planarity esd   0.004909 , belongs to planar rings:          5,6 , in 3 member rings no , in 4 member rings no , neighbours N7_77,C6_79,C4_85
+   C6_79 atomic number    6 , neighbours formula          CNO , is planar          PLANAR , planarity esd   0.000680 , belongs to planar rings:            6 , in 3 member rings no , in 4 member rings no , neighbours C5_78,O6_80,N1_81
+   O6_80 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_79
+   N1_81 atomic number    7 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            6 , in 3 member rings no , in 4 member rings no , neighbours C6_79,C2_82,H1_94
+   C2_82 atomic number    6 , neighbours formula           N3 , is planar          PLANAR , planarity esd   0.000252 , belongs to planar rings:            6 , in 3 member rings no , in 4 member rings no , neighbours N1_81,N2_83,N3_84
+   N2_83 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_82,H21_95,H22_96
+   N3_84 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            6 , in 3 member rings no , in 4 member rings no , neighbours C2_82,C4_85
+   C4_85 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.000151 , belongs to planar rings:          5,6 , in 3 member rings no , in 4 member rings no , neighbours N9_75,C5_78,N3_84
+  H5'_86 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_68
+ H5''_87 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_68
+  H4'_88 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_69
+  H3'_89 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_71
+  H2'_90 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_73
+ H2''_91 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_73
+  H1'_92 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_74
+   H8_93 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C8_76
+   H1_94 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N1_81
+  H21_95 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_83
+  H22_96 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_83
+    P_97 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.204372 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_72,OP1_98,OP2_99,O5'_100
+  OP1_98 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_97
+  OP2_99 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_97
+ O5'_100 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_97,C5'_101
+ C5'_101 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.824029 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_100,C4'_102,H5'_116,H5''_117
+ C4'_102 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.906347 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_101,O4'_103,C3'_104,H4'_118
+ O4'_103 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_102,C1'_107
+ C3'_104 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.910617 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_102,O3'_105,C2'_106,H3'_119
+ O3'_105 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_104,P_127
+ C2'_106 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.794330 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_104,C1'_107,H2'_120,H2''_121
+ C1'_107 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.908508 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_103,C2'_106,N1_108,H1'_122
+  N1_108 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.002896 , belongs to planar rings:            7 , in 3 member rings no , in 4 member rings no , neighbours C1'_107,C2_109,C6_115
+  C2_109 atomic number    6 , neighbours formula          N2O , is planar          PLANAR , planarity esd   0.003365 , belongs to planar rings:            7 , in 3 member rings no , in 4 member rings no , neighbours N1_108,O2_110,N3_111
+  O2_110 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_109
+  N3_111 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            7 , in 3 member rings no , in 4 member rings no , neighbours C2_109,C4_112
+  C4_112 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.005136 , belongs to planar rings:            7 , in 3 member rings no , in 4 member rings no , neighbours N3_111,N4_113,C5_114
+  N4_113 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4_112,H41_123,H42_124
+  C5_114 atomic number    6 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            7 , in 3 member rings no , in 4 member rings no , neighbours C4_112,C6_115,H5_125
+  C6_115 atomic number    6 , neighbours formula          CHN , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            7 , in 3 member rings no , in 4 member rings no , neighbours N1_108,C5_114,H6_126
+ H5'_116 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_101
+H5''_117 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_101
+ H4'_118 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_102
+ H3'_119 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_104
+ H2'_120 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_106
+H2''_121 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_106
+ H1'_122 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_107
+ H41_123 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_113
+ H42_124 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_113
+  H5_125 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5_114
+  H6_126 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_115
+   P_127 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.221347 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_105,OP1_128,OP2_129,O5'_130
+ OP1_128 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_127
+ OP2_129 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_127
+ O5'_130 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_127,C5'_131
+ C5'_131 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.813774 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_130,C4'_132,H5'_149,H5''_150
+ C4'_132 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.902516 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_131,O4'_133,C3'_134,H4'_151
+ O4'_133 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_132,C1'_137
+ C3'_134 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.910865 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_132,O3'_135,C2'_136,H3'_152
+ O3'_135 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_134,P_160
+ C2'_136 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.800908 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_134,C1'_137,H2'_153,H2''_154
+ C1'_137 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.910366 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_133,C2'_136,N9_138,H1'_155
+  N9_138 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.001249 , belongs to planar rings:            8 , in 3 member rings no , in 4 member rings no , neighbours C1'_137,C8_139,C4_148
+  C8_139 atomic number    6 , neighbours formula          HN2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            8 , in 3 member rings no , in 4 member rings no , neighbours N9_138,N7_140,H8_156
+  N7_140 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            8 , in 3 member rings no , in 4 member rings no , neighbours C8_139,C5_141
+  C5_141 atomic number    6 , neighbours formula          C2N , is planar          PLANAR , planarity esd   0.008166 , belongs to planar rings:          8,9 , in 3 member rings no , in 4 member rings no , neighbours N7_140,C6_142,C4_148
+  C6_142 atomic number    6 , neighbours formula          CNO , is planar          PLANAR , planarity esd   0.004503 , belongs to planar rings:            9 , in 3 member rings no , in 4 member rings no , neighbours C5_141,O6_143,N1_144
+  O6_143 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_142
+  N1_144 atomic number    7 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:            9 , in 3 member rings no , in 4 member rings no , neighbours C6_142,C2_145,H1_157
+  C2_145 atomic number    6 , neighbours formula           N3 , is planar          PLANAR , planarity esd   0.004929 , belongs to planar rings:            9 , in 3 member rings no , in 4 member rings no , neighbours N1_144,N2_146,N3_147
+  N2_146 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_145,H21_158,H22_159
+  N3_147 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:            9 , in 3 member rings no , in 4 member rings no , neighbours C2_145,C4_148
+  C4_148 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.001724 , belongs to planar rings:          8,9 , in 3 member rings no , in 4 member rings no , neighbours N9_138,C5_141,N3_147
+ H5'_149 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_131
+H5''_150 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_131
+ H4'_151 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_132
+ H3'_152 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_134
+ H2'_153 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_136
+H2''_154 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_136
+ H1'_155 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_137
+  H8_156 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C8_139
+  H1_157 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N1_144
+ H21_158 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_146
+ H22_159 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N2_146
+   P_160 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.198179 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_135,OP1_161,OP2_162,O5'_163
+ OP1_161 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_160
+ OP2_162 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_160
+ O5'_163 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_160,C5'_164
+ C5'_164 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.818416 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_163,C4'_165,H5'_179,H5''_180
+ C4'_165 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.906711 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_164,O4'_166,C3'_167,H4'_181
+ O4'_166 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_165,C1'_170
+ C3'_167 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.909996 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_165,O3'_168,C2'_169,H3'_182
+ O3'_168 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_167,P_190
+ C2'_169 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.809130 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_167,C1'_170,H2'_183,H2''_184
+ C1'_170 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.909951 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_166,C2'_169,N1_171,H1'_185
+  N1_171 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.001921 , belongs to planar rings:           10 , in 3 member rings no , in 4 member rings no , neighbours C1'_170,C2_172,C6_178
+  C2_172 atomic number    6 , neighbours formula          N2O , is planar          PLANAR , planarity esd   0.004089 , belongs to planar rings:           10 , in 3 member rings no , in 4 member rings no , neighbours N1_171,O2_173,N3_174
+  O2_173 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_172
+  N3_174 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           10 , in 3 member rings no , in 4 member rings no , neighbours C2_172,C4_175
+  C4_175 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.002224 , belongs to planar rings:           10 , in 3 member rings no , in 4 member rings no , neighbours N3_174,N4_176,C5_177
+  N4_176 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4_175,H41_186,H42_187
+  C5_177 atomic number    6 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           10 , in 3 member rings no , in 4 member rings no , neighbours C4_175,C6_178,H5_188
+  C6_178 atomic number    6 , neighbours formula          CHN , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           10 , in 3 member rings no , in 4 member rings no , neighbours N1_171,C5_177,H6_189
+ H5'_179 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_164
+H5''_180 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_164
+ H4'_181 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_165
+ H3'_182 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_167
+ H2'_183 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_169
+H2''_184 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_169
+ H1'_185 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_170
+ H41_186 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_176
+ H42_187 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_176
+  H5_188 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5_177
+  H6_189 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_178
+   P_190 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.209699 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_168,OP1_191,OP2_192,O5'_193
+ OP1_191 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_190
+ OP2_192 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_190
+ O5'_193 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_190,C5'_194
+ C5'_194 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.805046 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_193,C4'_195,H5'_209,H5''_210
+ C4'_195 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.906844 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_194,O4'_196,C3'_197,H4'_211
+ O4'_196 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_195,C1'_200
+ C3'_197 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.910824 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_195,O3'_198,C2'_199,H3'_212
+ O3'_198 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_197,P_220
+ C2'_199 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.796225 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_197,C1'_200,H2'_213,H2''_214
+ C1'_200 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.905152 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_196,C2'_199,N1_201,H1'_215
+  N1_201 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.019166 , belongs to planar rings:           11 , in 3 member rings no , in 4 member rings no , neighbours C1'_200,C2_202,C6_208
+  C2_202 atomic number    6 , neighbours formula          N2O , is planar          PLANAR , planarity esd   0.003168 , belongs to planar rings:           11 , in 3 member rings no , in 4 member rings no , neighbours N1_201,O2_203,N3_204
+  O2_203 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_202
+  N3_204 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           11 , in 3 member rings no , in 4 member rings no , neighbours C2_202,C4_205
+  C4_205 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.001141 , belongs to planar rings:           11 , in 3 member rings no , in 4 member rings no , neighbours N3_204,N4_206,C5_207
+  N4_206 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4_205,H41_216,H42_217
+  C5_207 atomic number    6 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           11 , in 3 member rings no , in 4 member rings no , neighbours C4_205,C6_208,H5_218
+  C6_208 atomic number    6 , neighbours formula          CHN , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           11 , in 3 member rings no , in 4 member rings no , neighbours N1_201,C5_207,H6_219
+ H5'_209 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_194
+H5''_210 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_194
+ H4'_211 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_195
+ H3'_212 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_197
+ H2'_213 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_199
+H2''_214 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_199
+ H1'_215 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_200
+ H41_216 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_206
+ H42_217 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_206
+  H5_218 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5_207
+  H6_219 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_208
+   P_220 atomic number   15 , neighbours formula           O4 , is planar      NOT_PLANAR , planarity esd   1.202367 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_198,OP1_221,OP2_222,O5'_223
+ OP1_221 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_220
+ OP2_222 atomic number    8 , neighbours formula            P , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_220
+ O5'_223 atomic number    8 , neighbours formula           CP , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours P_220,C5'_224
+ C5'_224 atomic number    6 , neighbours formula         CH2O , is planar      NOT_PLANAR , planarity esd   0.802151 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O5'_223,C4'_225,H5'_239,H5''_240
+ C4'_225 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.899738 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_224,O4'_226,C3'_227,H4'_241
+ O4'_226 atomic number    8 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_225,C1'_230
+ C3'_227 atomic number    6 , neighbours formula         C2HO , is planar      NOT_PLANAR , planarity esd   0.905233 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_225,O3'_228,C2'_229,H3'_242
+ O3'_228 atomic number    8 , neighbours formula           CH , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_227,HO3'_243
+ C2'_229 atomic number    6 , neighbours formula         C2H2 , is planar      NOT_PLANAR , planarity esd   0.791622 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_227,C1'_230,H2'_244,H2''_245
+ C1'_230 atomic number    6 , neighbours formula         CHNO , is planar      NOT_PLANAR , planarity esd   0.911394 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O4'_226,C2'_229,N1_231,H1'_246
+  N1_231 atomic number    7 , neighbours formula           C3 , is planar          PLANAR , planarity esd   0.001844 , belongs to planar rings:           12 , in 3 member rings no , in 4 member rings no , neighbours C1'_230,C2_232,C6_238
+  C2_232 atomic number    6 , neighbours formula          N2O , is planar          PLANAR , planarity esd   0.001622 , belongs to planar rings:           12 , in 3 member rings no , in 4 member rings no , neighbours N1_231,O2_233,N3_234
+  O2_233 atomic number    8 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2_232
+  N3_234 atomic number    7 , neighbours formula           C2 , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           12 , in 3 member rings no , in 4 member rings no , neighbours C2_232,C4_235
+  C4_235 atomic number    6 , neighbours formula          CN2 , is planar          PLANAR , planarity esd   0.002575 , belongs to planar rings:           12 , in 3 member rings no , in 4 member rings no , neighbours N3_234,N4_236,C5_237
+  N4_236 atomic number    7 , neighbours formula          CH2 , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4_235,H41_247,H42_248
+  C5_237 atomic number    6 , neighbours formula          C2H , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           12 , in 3 member rings no , in 4 member rings no , neighbours C4_235,C6_238,H5_249
+  C6_238 atomic number    6 , neighbours formula          CHN , is planar          PLANAR , planarity esd   0.000000 , belongs to planar rings:           12 , in 3 member rings no , in 4 member rings no , neighbours N1_231,C5_237,H6_250
+ H5'_239 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_224
+H5''_240 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5'_224
+ H4'_241 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C4'_225
+ H3'_242 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C3'_227
+HO3'_243 atomic number    1 , neighbours formula            O , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours O3'_228
+ H2'_244 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_229
+H2''_245 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C2'_229
+ H1'_246 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C1'_230
+ H41_247 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_236
+ H42_248 atomic number    1 , neighbours formula            N , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours N4_236
+  H5_249 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C5_237
+  H6_250 atomic number    1 , neighbours formula            C , is planar   ANY_PLANARITY , planarity esd   0.000000 , belongs to planar rings:           no , in 3 member rings no , in 4 member rings no , neighbours C6_238
+
+
+################################################################################
+
+     (2) Atom Type Assignemnt
+
+################################################################################
+
+   O5'_1    O       - 
+   C5'_2    C       - 
+   C4'_3    C    C430 X O4'_4 Y H4'_22
+   O4'_4    O   O207a Z average_direction(C1'_8,C4'_3) X C1'_8
+   C3'_5    C    C430 X O3'_6 Y H3'_23
+   O3'_6    O    O209 X C3'_5 Y P_31
+   C2'_7    C   C404a Z average_direction(C1'_8,C3'_5) X H2''_25
+   C1'_8    C   C450a X O4'_4 Y N9_9
+    N9_9    N   N323b X average_position(N9_9,C8_10,N7_11,C5_12,C4_19) Y C8_10
+   C8_10    C    C361 X average_position(N9_9,C8_10,N7_11,C5_12,C4_19) Y N7_11
+   N7_11    N    N211 X average_position(N9_9,C8_10,N7_11,C5_12,C4_19) Y C8_10
+   C5_12    C    C503 X C4_19 Y C6_13
+   C6_13    C   C382b X average_position(C5_12,C6_13,N1_15,C2_16,N3_18,C4_19) Y N1_15
+   O6_14    O   O1062 X C6_13 Y N1_15
+   N1_15    N    N320 X average_position(C5_12,C6_13,N1_15,C2_16,N3_18,C4_19) Y C2_16
+   C2_16    C    C370 X average_position(C5_12,C6_13,N1_15,C2_16,N3_18,C4_19) Y N3_18
+   N2_17    N    N310 Z C2_16 X H22_30
+   N3_18    N    N210 X average_position(C5_12,C6_13,N1_15,C2_16,N3_18,C4_19) Y C2_16
+   C4_19    C   C505a X C5_12 Y N3_18
+  H5'_20    H    H102 Z C5'_2 X O5'_1
+ H5''_21    H    H102 Z C5'_2 X O5'_1
+  H4'_22    H   H1033 Z C4'_3 X C5'_2
+  H3'_23    H   H1033 Z C3'_5 X C4'_3
+  H2'_24    H    H102 Z C2'_7 X C1'_8
+ H2''_25    H    H102 Z C2'_7 X C1'_8
+  H1'_26    H   H1032 Z C1'_8 X C2'_7
+   H8_27    H    H104 Z C8_10 X N7_11
+   H1_28    H    H109 Z N1_15 X C2_16
+  H21_29    H    H107 Z N2_17 X C2_16
+  H22_30    H    H107 Z N2_17 X C2_16
+    P_31    P    P407 Z average_direction(OP2_33,OP1_32) X O5'_34
+  OP1_32    O    O120 X P_31 Y OP2_33
+  OP2_33    O    O120 X P_31 Y OP1_32
+  O5'_34    O    O209 X C5'_35 Y P_31
+  C5'_35    C    C429 X O5'_34 Y C4'_36
+  C4'_36    C    C430 X O4'_37 Y H4'_55
+  O4'_37    O   O207a Z average_direction(C1'_41,C4'_36) X C1'_41
+  C3'_38    C    C430 X O3'_39 Y H3'_56
+  O3'_39    O    O209 X C3'_38 Y P_64
+  C2'_40    C   C404a Z average_direction(C1'_41,C3'_38) X H2''_58
+  C1'_41    C   C450a X O4'_37 Y N9_42
+   N9_42    N   N323b X average_position(N9_42,C8_43,N7_44,C5_45,C4_52) Y C8_43
+   C8_43    C    C361 X average_position(N9_42,C8_43,N7_44,C5_45,C4_52) Y N7_44
+   N7_44    N    N211 X average_position(N9_42,C8_43,N7_44,C5_45,C4_52) Y C8_43
+   C5_45    C    C503 X C4_52 Y C6_46
+   C6_46    C   C382b X average_position(C5_45,C6_46,N1_48,C2_49,N3_51,C4_52) Y N1_48
+   O6_47    O   O1062 X C6_46 Y N1_48
+   N1_48    N    N320 X average_position(C5_45,C6_46,N1_48,C2_49,N3_51,C4_52) Y C2_49
+   C2_49    C    C370 X average_position(C5_45,C6_46,N1_48,C2_49,N3_51,C4_52) Y N3_51
+   N2_50    N    N310 Z C2_49 X H22_63
+   N3_51    N    N210 X average_position(C5_45,C6_46,N1_48,C2_49,N3_51,C4_52) Y C2_49
+   C4_52    C   C505a X C5_45 Y N3_51
+  H5'_53    H    H102 Z C5'_35 X O5'_34
+ H5''_54    H    H102 Z C5'_35 X O5'_34
+  H4'_55    H   H1033 Z C4'_36 X C5'_35
+  H3'_56    H   H1033 Z C3'_38 X C4'_36
+  H2'_57    H    H102 Z C2'_40 X C1'_41
+ H2''_58    H    H102 Z C2'_40 X C1'_41
+  H1'_59    H   H1032 Z C1'_41 X C2'_40
+   H8_60    H    H104 Z C8_43 X N7_44
+   H1_61    H    H109 Z N1_48 X C2_49
+  H21_62    H    H107 Z N2_50 X C2_49
+  H22_63    H    H107 Z N2_50 X C2_49
+    P_64    P    P407 Z average_direction(OP2_66,OP1_65) X O3'_39
+  OP1_65    O    O120 X P_64 Y OP2_66
+  OP2_66    O    O120 X P_64 Y OP1_65
+  O5'_67    O    O209 X C5'_68 Y P_64
+  C5'_68    C    C429 X O5'_67 Y C4'_69
+  C4'_69    C    C430 X O4'_70 Y H4'_88
+  O4'_70    O   O207a Z average_direction(C1'_74,C4'_69) X C1'_74
+  C3'_71    C    C430 X O3'_72 Y H3'_89
+  O3'_72    O    O209 X C3'_71 Y P_97
+  C2'_73    C   C404a Z average_direction(C1'_74,C3'_71) X H2''_91
+  C1'_74    C   C450a X O4'_70 Y N9_75
+   N9_75    N   N323b X average_position(N9_75,C8_76,N7_77,C5_78,C4_85) Y C8_76
+   C8_76    C    C361 X average_position(N9_75,C8_76,N7_77,C5_78,C4_85) Y N7_77
+   N7_77    N    N211 X average_position(N9_75,C8_76,N7_77,C5_78,C4_85) Y C8_76
+   C5_78    C    C503 X C4_85 Y C6_79
+   C6_79    C   C382b X average_position(C5_78,C6_79,N1_81,C2_82,N3_84,C4_85) Y N1_81
+   O6_80    O   O1062 X C6_79 Y N1_81
+   N1_81    N    N320 X average_position(C5_78,C6_79,N1_81,C2_82,N3_84,C4_85) Y C2_82
+   C2_82    C    C370 X average_position(C5_78,C6_79,N1_81,C2_82,N3_84,C4_85) Y N3_84
+   N2_83    N    N310 Z C2_82 X H21_95
+   N3_84    N    N210 X average_position(C5_78,C6_79,N1_81,C2_82,N3_84,C4_85) Y C2_82
+   C4_85    C   C505a X C5_78 Y N3_84
+  H5'_86    H    H102 Z C5'_68 X O5'_67
+ H5''_87    H    H102 Z C5'_68 X O5'_67
+  H4'_88    H   H1033 Z C4'_69 X C5'_68
+  H3'_89    H   H1033 Z C3'_71 X C4'_69
+  H2'_90    H    H102 Z C2'_73 X C1'_74
+ H2''_91    H    H102 Z C2'_73 X C1'_74
+  H1'_92    H   H1032 Z C1'_74 X C2'_73
+   H8_93    H    H104 Z C8_76 X N7_77
+   H1_94    H    H109 Z N1_81 X C2_82
+  H21_95    H    H107 Z N2_83 X C2_82
+  H22_96    H    H107 Z N2_83 X C2_82
+    P_97    P    P407 Z average_direction(OP2_99,OP1_98) X O5'_100
+  OP1_98    O    O120 X P_97 Y OP2_99
+  OP2_99    O    O120 X P_97 Y OP1_98
+ O5'_100    O    O209 X C5'_101 Y P_97
+ C5'_101    C    C429 X O5'_100 Y C4'_102
+ C4'_102    C    C430 X O4'_103 Y H4'_118
+ O4'_103    O   O207a Z average_direction(C1'_107,C4'_102) X C1'_107
+ C3'_104    C    C430 X O3'_105 Y H3'_119
+ O3'_105    O    O209 X C3'_104 Y P_127
+ C2'_106    C   C404a Z average_direction(C1'_107,C3'_104) X H2'_120
+ C1'_107    C   C450a X O4'_103 Y N1_108
+  N1_108    N   N322b X average_position(N1_108,C2_109,N3_111,C4_112,C5_114,C6_115) Y C6_115
+  C2_109    C   C378a X average_position(N1_108,C2_109,N3_111,C4_112,C5_114,C6_115) Y N3_111
+  O2_110    O   O109a X C2_109 Y N1_108
+  N3_111    N    N210 X average_position(N1_108,C2_109,N3_111,C4_112,C5_114,C6_115) Y C4_112
+  C4_112    C    C373 X average_position(N1_108,C2_109,N3_111,C4_112,C5_114,C6_115) Y N3_111
+  N4_113    N    N310 Z C4_112 X H41_123
+  C5_114    C    C330 X average_position(N1_108,C2_109,N3_111,C4_112,C5_114,C6_115) Y C6_115
+  C6_115    C   C352c X average_position(N1_108,C2_109,N3_111,C4_112,C5_114,C6_115) Y N1_108
+ H5'_116    H    H102 Z C5'_101 X O5'_100
+H5''_117    H    H102 Z C5'_101 X O5'_100
+ H4'_118    H   H1033 Z C4'_102 X C5'_101
+ H3'_119    H   H1033 Z C3'_104 X C2'_106
+ H2'_120    H    H102 Z C2'_106 X C1'_107
+H2''_121    H    H102 Z C2'_106 X C1'_107
+ H1'_122    H   H1032 Z C1'_107 X C2'_106
+ H41_123    H    H107 Z N4_113 X C4_112
+ H42_124    H    H107 Z N4_113 X C4_112
+  H5_125    H    H104 Z C5_114 X C6_115
+  H6_126    H    H104 Z C6_115 X N1_108
+   P_127    P    P407 Z average_direction(OP2_129,OP1_128) X O3'_105
+ OP1_128    O    O120 X P_127 Y OP2_129
+ OP2_129    O    O120 X P_127 Y OP1_128
+ O5'_130    O    O209 X C5'_131 Y P_127
+ C5'_131    C    C429 X O5'_130 Y C4'_132
+ C4'_132    C    C430 X O4'_133 Y H4'_151
+ O4'_133    O   O207a Z average_direction(C1'_137,C4'_132) X C1'_137
+ C3'_134    C    C430 X O3'_135 Y H3'_152
+ O3'_135    O    O209 X C3'_134 Y P_160
+ C2'_136    C   C404a Z average_direction(C1'_137,C3'_134) X H2'_153
+ C1'_137    C   C450a X O4'_133 Y N9_138
+  N9_138    N   N323b X average_position(N9_138,C8_139,N7_140,C5_141,C4_148) Y C8_139
+  C8_139    C    C361 X average_position(N9_138,C8_139,N7_140,C5_141,C4_148) Y N7_140
+  N7_140    N    N211 X average_position(N9_138,C8_139,N7_140,C5_141,C4_148) Y C8_139
+  C5_141    C    C503 X C4_148 Y C6_142
+  C6_142    C   C382b X average_position(C5_141,C6_142,N1_144,C2_145,N3_147,C4_148) Y N1_144
+  O6_143    O   O1062 X C6_142 Y N1_144
+  N1_144    N    N320 X average_position(C5_141,C6_142,N1_144,C2_145,N3_147,C4_148) Y C2_145
+  C2_145    C    C370 X average_position(C5_141,C6_142,N1_144,C2_145,N3_147,C4_148) Y N3_147
+  N2_146    N    N310 Z C2_145 X H21_158
+  N3_147    N    N210 X average_position(C5_141,C6_142,N1_144,C2_145,N3_147,C4_148) Y C2_145
+  C4_148    C   C505a X C5_141 Y N3_147
+ H5'_149    H    H102 Z C5'_131 X O5'_130
+H5''_150    H    H102 Z C5'_131 X O5'_130
+ H4'_151    H   H1033 Z C4'_132 X C5'_131
+ H3'_152    H   H1033 Z C3'_134 X C2'_136
+ H2'_153    H    H102 Z C2'_136 X C3'_134
+H2''_154    H    H102 Z C2'_136 X C3'_134
+ H1'_155    H   H1032 Z C1'_137 X C2'_136
+  H8_156    H    H104 Z C8_139 X N7_140
+  H1_157    H    H109 Z N1_144 X C2_145
+ H21_158    H    H107 Z N2_146 X C2_145
+ H22_159    H    H107 Z N2_146 X C2_145
+   P_160    P    P407 Z average_direction(OP2_162,OP1_161) X O3'_135
+ OP1_161    O    O120 X P_160 Y OP2_162
+ OP2_162    O    O120 X P_160 Y OP1_161
+ O5'_163    O    O209 X C5'_164 Y P_160
+ C5'_164    C    C429 X O5'_163 Y C4'_165
+ C4'_165    C    C430 X O4'_166 Y H4'_181
+ O4'_166    O   O207a Z average_direction(C1'_170,C4'_165) X C1'_170
+ C3'_167    C    C430 X O3'_168 Y H3'_182
+ O3'_168    O    O209 X C3'_167 Y P_190
+ C2'_169    C   C404a Z average_direction(C1'_170,C3'_167) X H2'_183
+ C1'_170    C   C450a X O4'_166 Y N1_171
+  N1_171    N   N322b X average_position(N1_171,C2_172,N3_174,C4_175,C5_177,C6_178) Y C6_178
+  C2_172    C   C378a X average_position(N1_171,C2_172,N3_174,C4_175,C5_177,C6_178) Y N3_174
+  O2_173    O   O109a X C2_172 Y N1_171
+  N3_174    N    N210 X average_position(N1_171,C2_172,N3_174,C4_175,C5_177,C6_178) Y C4_175
+  C4_175    C    C373 X average_position(N1_171,C2_172,N3_174,C4_175,C5_177,C6_178) Y N3_174
+  N4_176    N    N310 Z C4_175 X H41_186
+  C5_177    C    C330 X average_position(N1_171,C2_172,N3_174,C4_175,C5_177,C6_178) Y C6_178
+  C6_178    C   C352c X average_position(N1_171,C2_172,N3_174,C4_175,C5_177,C6_178) Y N1_171
+ H5'_179    H    H102 Z C5'_164 X O5'_163
+H5''_180    H    H102 Z C5'_164 X O5'_163
+ H4'_181    H   H1033 Z C4'_165 X C5'_164
+ H3'_182    H   H1033 Z C3'_167 X C4'_165
+ H2'_183    H    H102 Z C2'_169 X C1'_170
+H2''_184    H    H102 Z C2'_169 X C1'_170
+ H1'_185    H   H1032 Z C1'_170 X C2'_169
+ H41_186    H    H107 Z N4_176 X C4_175
+ H42_187    H    H107 Z N4_176 X C4_175
+  H5_188    H    H104 Z C5_177 X C6_178
+  H6_189    H    H104 Z C6_178 X N1_171
+   P_190    P    P407 Z average_direction(OP2_192,OP1_191) X O5'_193
+ OP1_191    O    O120 X P_190 Y OP2_192
+ OP2_192    O    O120 X P_190 Y OP1_191
+ O5'_193    O    O209 X C5'_194 Y P_190
+ C5'_194    C    C429 X O5'_193 Y C4'_195
+ C4'_195    C    C430 X O4'_196 Y H4'_211
+ O4'_196    O   O207a Z average_direction(C4'_195,C1'_200) X C4'_195
+ C3'_197    C    C430 X O3'_198 Y H3'_212
+ O3'_198    O    O209 X C3'_197 Y P_220
+ C2'_199    C   C404a Z average_direction(C1'_200,C3'_197) X H2''_214
+ C1'_200    C   C450a X O4'_196 Y N1_201
+  N1_201    N   N322b X average_position(N1_201,C2_202,N3_204,C4_205,C5_207,C6_208) Y C6_208
+  C2_202    C   C378a X average_position(N1_201,C2_202,N3_204,C4_205,C5_207,C6_208) Y N3_204
+  O2_203    O   O109a X C2_202 Y N1_201
+  N3_204    N    N210 X average_position(N1_201,C2_202,N3_204,C4_205,C5_207,C6_208) Y C4_205
+  C4_205    C    C373 X average_position(N1_201,C2_202,N3_204,C4_205,C5_207,C6_208) Y N3_204
+  N4_206    N    N310 Z C4_205 X H41_216
+  C5_207    C    C330 X average_position(N1_201,C2_202,N3_204,C4_205,C5_207,C6_208) Y C6_208
+  C6_208    C   C352c X average_position(N1_201,C2_202,N3_204,C4_205,C5_207,C6_208) Y N1_201
+ H5'_209    H    H102 Z C5'_194 X O5'_193
+H5''_210    H    H102 Z C5'_194 X O5'_193
+ H4'_211    H   H1033 Z C4'_195 X C5'_194
+ H3'_212    H   H1033 Z C3'_197 X C2'_199
+ H2'_213    H    H102 Z C2'_199 X C1'_200
+H2''_214    H    H102 Z C2'_199 X C1'_200
+ H1'_215    H   H1032 Z C1'_200 X C2'_199
+ H41_216    H    H107 Z N4_206 X C4_205
+ H42_217    H    H107 Z N4_206 X C4_205
+  H5_218    H    H104 Z C5_207 X C6_208
+  H6_219    H    H104 Z C6_208 X N1_201
+   P_220    P    P407 Z average_direction(OP2_222,OP1_221) X O3'_198
+ OP1_221    O    O120 X P_220 Y OP2_222
+ OP2_222    O    O120 X P_220 Y OP1_221
+ O5'_223    O    O209 X C5'_224 Y P_220
+ C5'_224    C    C429 X O5'_223 Y C4'_225
+ C4'_225    C    C430 X O4'_226 Y H4'_241
+ O4'_226    O   O207a Z average_direction(C4'_225,C1'_230) X C4'_225
+ C3'_227    C    C430 X O3'_228 Y H3'_242
+ O3'_228    O   O205a X C3'_227 Y HO3'_243
+ C2'_229    C   C404a Z average_direction(C1'_230,C3'_227) X H2'_244
+ C1'_230    C   C450a X O4'_226 Y N1_231
+  N1_231    N   N322b X average_position(N1_231,C2_232,N3_234,C4_235,C5_237,C6_238) Y C6_238
+  C2_232    C   C378a X average_position(N1_231,C2_232,N3_234,C4_235,C5_237,C6_238) Y N3_234
+  O2_233    O   O109a X C2_232 Y N1_231
+  N3_234    N    N210 X average_position(N1_231,C2_232,N3_234,C4_235,C5_237,C6_238) Y C4_235
+  C4_235    C    C373 X average_position(N1_231,C2_232,N3_234,C4_235,C5_237,C6_238) Y N3_234
+  N4_236    N    N310 Z C4_235 X H42_248
+  C5_237    C    C330 X average_position(N1_231,C2_232,N3_234,C4_235,C5_237,C6_238) Y C6_238
+  C6_238    C   C352c X average_position(N1_231,C2_232,N3_234,C4_235,C5_237,C6_238) Y N1_231
+ H5'_239    H    H102 Z C5'_224 X O5'_223
+H5''_240    H    H102 Z C5'_224 X O5'_223
+ H4'_241    H   H1033 Z C4'_225 X C3'_227
+ H3'_242    H   H1033 Z C3'_227 X C2'_229
+HO3'_243    H    H112 Z O3'_228 X C3'_227
+ H2'_244    H    H102 Z C2'_229 X C1'_230
+H2''_245    H    H102 Z C2'_229 X C1'_230
+ H1'_246    H   H1032 Z C1'_230 X C2'_229
+ H41_247    H    H107 Z N4_236 X C4_235
+ H42_248    H    H107 Z N4_236 X C4_235
+  H5_249    H    H104 Z C5_237 X C6_238
+  H6_250    H    H104 Z C6_238 X N1_231
