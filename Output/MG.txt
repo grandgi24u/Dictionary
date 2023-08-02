@@ -1,22 +1,4 @@
 Residue
 Atom_name
 Atome_type
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
-MG	MG	-
+MG	MG	-	19

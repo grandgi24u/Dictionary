@@ -13,6 +13,7 @@ namespace CreateDictionary
         {
             string mmcifFilePath = "../../../Input/MMCIF/";
             string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/";
+            string outputFolder = "../../../output/";
             Dictionary<string, string> listofFile = new Dictionary<string, string>();           
             string[] fileEntries = Directory.GetFiles(mmcifFilePath);
             DirectoryInfo d = new DirectoryInfo(mmcifFilePath);
@@ -23,11 +24,21 @@ namespace CreateDictionary
                 {
                     listofFile.Add(mmcifFilePath + file.Name, ubdbAssignLogFilePath + "ubdbAssign_" + filename + ".log");
                 }
-            }   
-            foreach(var key in listofFile)
+            }
+            fileEntries = Directory.GetFiles(outputFolder);
+            foreach (var file in fileEntries)
+            {
+                File.Delete(file);
+            }
+            foreach (var key in listofFile)
             {
                 Console.WriteLine("Start process for file : " + key.Key);
-                WriteOutputToFile(CreateList(ParseMmcifFile(key.Key), ParseUbdbAssignLog(key.Value)));
+                WriteOutputToFile(outputFolder, CreateList(ParseMmcifFile(key.Key), ParseUbdbAssignLog(key.Value)));
+            }
+            fileEntries = Directory.GetFiles(outputFolder);
+            foreach (var file in fileEntries)
+            {
+                CountSameLineInFile(file);
             }
             Console.WriteLine("Finish");
             Console.ReadLine();
@@ -106,9 +117,8 @@ namespace CreateDictionary
             return output;
         }
 
-        static void WriteOutputToFile(List<string[]> residueDictionary)
+        static void WriteOutputToFile(string outputFolder, List<string[]> residueDictionary)
         {
-            string outputFolder = "../../../output/";
             foreach (var kvp in residueDictionary)
             {
                 string file = outputFolder + kvp[0] + ".txt";
@@ -130,6 +140,22 @@ namespace CreateDictionary
                     }                    
                 }
             }
+        }
+
+        static void CountSameLineInFile(string file)
+        {
+            string[] lines = File.ReadAllLines(file);
+            lines = lines.Skip(3).ToArray();
+            Dictionary<string, int> counts = lines.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
+            File.Delete(file);
+            using (StreamWriter writer = new StreamWriter(file))
+            {
+                writer.WriteLine("Residue\nAtom_name\nAtome_type");
+                foreach (var item in counts)
+                {
+                    writer.WriteLine($"{item.Key}\t{item.Value}");
+                }      
+            }       
         }
     }
 }

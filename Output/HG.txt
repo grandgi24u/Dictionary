@@ -1,4 +1,4 @@
 Residue
 Atom_name
 Atome_type
-HG	HG	-
+HG	HG	-	1

@@ -1,13 +1,4 @@
 Residue
 Atom_name
 Atome_type
-K	K	-
-K	K	-
-K	K	-
-K	K	-
-K	K	-
-K	K	-
-K	K	-
-K	K	-
-K	K	-
-K	K	-
+K	K	-	10

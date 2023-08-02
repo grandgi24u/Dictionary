@@ -1,15 +1,6 @@
 Residue
 Atom_name
 Atome_type
-AZI	N1	-
-AZI	N2	-
-AZI	N3	-
-AZI	N1	-
-AZI	N2	-
-AZI	N3	-
-AZI	N1	-
-AZI	N2	-
-AZI	N3	-
-AZI	N1	-
-AZI	N2	-
-AZI	N3	-
+AZI	N1	-	4
+AZI	N2	-	4
+AZI	N3	-	4
