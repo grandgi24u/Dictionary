@@ -1,8 +1,0 @@
-Residue
-Atom_name
-Atome_type
-PO4	P	-	3
-PO4	O1	-	3
-PO4	O2	-	3
-PO4	O3	-	3
-PO4	O4	-	3
