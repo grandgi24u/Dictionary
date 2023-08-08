@@ -1,0 +1,8 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+AF3	AL	-	   	2
+AF3	F1	-	   	2
+AF3	F2	-	   	2
+AF3	F3	-	   	2

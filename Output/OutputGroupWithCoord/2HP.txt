@@ -1,0 +1,9 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+2HP	O1	-	   	1
+2HP	O2	-	   	1
+2HP	O3	-	   	1
+2HP	O4	-	   	1
+2HP	P	-	   	1

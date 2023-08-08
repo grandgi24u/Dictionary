@@ -1,0 +1,13 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+OXY	O1	-		   		4585	.	1A4F.mmcif
+OXY	O2	-		   		4586	.	1A4F.mmcif
+OXY	O1	-		   		4660	.	1A4F.mmcif
+OXY	O2	-		   		4661	.	1A4F.mmcif
+OXY	O1	-		   		2531	.	1A6M.mmcif
+OXY	O2	-		   		2532	.	1A6M.mmcif

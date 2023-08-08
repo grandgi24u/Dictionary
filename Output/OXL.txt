@@ -1,0 +1,55 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+OXL	C1	-		   		64402	.	1A49.mmcif
+OXL	C2	-		   		64403	.	1A49.mmcif
+OXL	O1	-		   		64404	.	1A49.mmcif
+OXL	O2	O199		X C2_64403 Y O4_64407		64405	.	1A49.mmcif
+OXL	O3	O199		X C1_64402 Y O1_64404		64406	.	1A49.mmcif
+OXL	O4	-		   		64407	.	1A49.mmcif
+OXL	C1	-		   		64454	.	1A49.mmcif
+OXL	C2	C301		Z C1_64454 X O2_64457		64455	.	1A49.mmcif
+OXL	O1	-		   		64456	.	1A49.mmcif
+OXL	O2	O101		X C2_64455 Y O4_64459		64457	.	1A49.mmcif
+OXL	O3	O199		X C1_64454 Y O1_64456		64458	.	1A49.mmcif
+OXL	O4	O101		X C2_64455 Y O2_64457		64459	.	1A49.mmcif
+OXL	C1	-		   		64462	.	1A49.mmcif
+OXL	C2	-		   		64463	.	1A49.mmcif
+OXL	O1	-		   		64464	.	1A49.mmcif
+OXL	O2	O199		X C2_64463 Y O4_64467		64465	.	1A49.mmcif
+OXL	O3	O199		X C1_64462 Y O1_64464		64466	.	1A49.mmcif
+OXL	O4	-		   		64467	.	1A49.mmcif
+OXL	C1	-		   		64514	.	1A49.mmcif
+OXL	C2	-		   		64515	.	1A49.mmcif
+OXL	O1	-		   		64516	.	1A49.mmcif
+OXL	O2	O199		X C2_64515 Y O4_64519		64517	.	1A49.mmcif
+OXL	O3	O199		X C1_64514 Y O1_64516		64518	.	1A49.mmcif
+OXL	O4	-		   		64519	.	1A49.mmcif
+OXL	C1	-		   		64566	.	1A49.mmcif
+OXL	C2	-		   		64567	.	1A49.mmcif
+OXL	O1	-		   		64568	.	1A49.mmcif
+OXL	O2	O199		X C2_64567 Y O4_64571		64569	.	1A49.mmcif
+OXL	O3	O199		X C1_64566 Y O1_64568		64570	.	1A49.mmcif
+OXL	O4	-		   		64571	.	1A49.mmcif
+OXL	C1	-		   		64618	.	1A49.mmcif
+OXL	C2	-		   		64619	.	1A49.mmcif
+OXL	O1	-		   		64620	.	1A49.mmcif
+OXL	O2	O199		X C2_64619 Y O4_64623		64621	.	1A49.mmcif
+OXL	O3	O199		X C1_64618 Y O1_64620		64622	.	1A49.mmcif
+OXL	O4	-		   		64623	.	1A49.mmcif
+OXL	C1	-		   		64670	.	1A49.mmcif
+OXL	C2	-		   		64671	.	1A49.mmcif
+OXL	O1	-		   		64672	.	1A49.mmcif
+OXL	O2	O199		X C2_64671 Y O4_64675		64673	.	1A49.mmcif
+OXL	O3	O199		X C1_64670 Y O1_64672		64674	.	1A49.mmcif
+OXL	O4	-		   		64675	.	1A49.mmcif
+OXL	C1	-		   		64722	.	1A49.mmcif
+OXL	C2	-		   		64723	.	1A49.mmcif
+OXL	O1	-		   		64724	.	1A49.mmcif
+OXL	O2	O199		X C2_64723 Y O4_64727		64725	.	1A49.mmcif
+OXL	O3	O199		X C1_64722 Y O1_64724		64726	.	1A49.mmcif
+OXL	O4	-		   		64727	.	1A49.mmcif

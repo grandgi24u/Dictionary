@@ -1,0 +1,8 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+O	O	-		   		7571	.	1A65.mmcif

@@ -1,0 +1,26 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+MG	MG	-		   		10875	.	1A05.mmcif
+MG	MG	-		   		10876	.	1A05.mmcif
+MG	MG	-		   		2834	.	1A2B.mmcif
+MG	MG	-		   		64408	.	1A49.mmcif
+MG	MG	-		   		64409	.	1A49.mmcif
+MG	MG	-		   		64460	.	1A49.mmcif
+MG	MG	-		   		64468	.	1A49.mmcif
+MG	MG	-		   		64469	.	1A49.mmcif
+MG	MG	-		   		64520	.	1A49.mmcif
+MG	MG	-		   		64521	.	1A49.mmcif
+MG	MG	-		   		64572	.	1A49.mmcif
+MG	MG	-		   		64573	.	1A49.mmcif
+MG	MG	-		   		64624	.	1A49.mmcif
+MG	MG	-		   		64625	.	1A49.mmcif
+MG	MG	-		   		64676	.	1A49.mmcif
+MG	MG	-		   		64677	.	1A49.mmcif
+MG	MG	-		   		64728	.	1A49.mmcif
+MG	MG	-		   		15429	.	1A6E.mmcif
+MG	MG	-		   		15473	.	1A6E.mmcif

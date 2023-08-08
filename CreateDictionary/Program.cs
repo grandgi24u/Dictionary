@@ -12,9 +12,11 @@ namespace CreateDictionary
         static void Main()
         {
             Console.WriteLine("Program CreateDictionary developped by Clément GRANDGIRARD");
-            string mmcifFilePath = "./Input/MMCIF/";
-            string ubdbAssignLogFilePath = "./Input/UBDBAssign/";
-            string outputFolder = "./output/";
+            string mmcifFilePath = "../../../Input/MMCIF/";
+            string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/";
+            string outputFolder = "../../../output/";
+            string outputFolder2 = "../../../output/OutputGroup/";
+            string outputFolder3 = "../../../output/OutputGroupWithCoord/";
             Dictionary<string, string> listofFile = new Dictionary<string, string>();           
             string[] fileEntries = Directory.GetFiles(mmcifFilePath);
             DirectoryInfo d = new DirectoryInfo(mmcifFilePath);
@@ -31,6 +33,11 @@ namespace CreateDictionary
             {
                 File.Delete(file);
             }
+            fileEntries = Directory.GetFiles(outputFolder2);
+            foreach (var file in fileEntries)
+            {
+                File.Delete(file);
+            }
             foreach (var key in listofFile)
             {
                 Console.WriteLine("Start process for file : " + key.Key);
@@ -39,7 +46,8 @@ namespace CreateDictionary
             fileEntries = Directory.GetFiles(outputFolder);
             foreach (var file in fileEntries)
             {
-                CountSameLineInFile(file);
+                CountSameLineInFile(file, outputFolder2 + file.Substring(file.LastIndexOf('/') + 1));
+                CountSameLineInFile2(file, outputFolder3 + file.Substring(file.LastIndexOf('/') + 1));
             }
             Console.WriteLine("Finish");
             Console.ReadLine();
@@ -49,6 +57,7 @@ namespace CreateDictionary
         {
             List<string[]> output = new List<string[]>();
             string[] lines = File.ReadAllLines(filePath);
+            string fileName = filePath.Substring(filePath.LastIndexOf('/') + 1);
             bool startParsing = false;
             foreach (string line in lines)
             {
@@ -64,7 +73,7 @@ namespace CreateDictionary
                     {
                         if(columns[4] != "HOH")
                         {
-                            string[] toAdd = { columns[2].Replace("\"", "") + "_" + columns[0], columns[1], columns[4] };
+                            string[] toAdd = { columns[2].Replace("\"", "") + "_" + columns[0], columns[1], columns[4], columns[0], columns[7], fileName };
                             output.Add(toAdd);
                         }
                     }
@@ -88,9 +97,13 @@ namespace CreateDictionary
                 if (startParsing && line.Contains("   "))
                 {
                     string[] columns = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                    if (columns.Length >= 3)
+                    if (columns.Length == 3)
                     {
-                        string[] toAdd = { columns[0], columns[1], columns[2] };
+                        string[] toAdd = { columns[0], columns[1], columns[2], "", "", "", "" };
+                        output.Add(toAdd);
+                    } else if(columns.Length > 3)
+                    {
+                        string[] toAdd = { columns[0], columns[1], columns[2], columns[3], columns[4], columns[5], columns[6] };
                         output.Add(toAdd);
                     }
                 }
@@ -103,7 +116,7 @@ namespace CreateDictionary
             List<string[]> output = new List<string[]>();
             foreach (string[] item in listOfMmcif)
             {
-                string[] itemToAdd = new string[3];
+                string[] itemToAdd = new string[10];
                 itemToAdd[0] = item[2];
                 itemToAdd[1] = item[0].Substring(0, item[0].IndexOf('_')) ;
                 foreach (string[] item2 in listofLog)
@@ -111,8 +124,15 @@ namespace CreateDictionary
                     if(item2[0] == item[0])
                     {
                         itemToAdd[2] = item2[2];
+                        itemToAdd[3] = item2[3];
+                        itemToAdd[4] = item2[4];
+                        itemToAdd[5] = item2[5];
+                        itemToAdd[6] = item2[6];
                     }
                 }
+                itemToAdd[7] = item[3];
+                itemToAdd[8] = item[4];
+                itemToAdd[9] = item[5];
                 output.Add(itemToAdd);
             }
             return output;
@@ -123,40 +143,65 @@ namespace CreateDictionary
             foreach (var kvp in residueDictionary)
             {
                 string file = outputFolder + kvp[0] + ".txt";
-                string residue = kvp[0];
-                string atomName = kvp[1];
-                string atomType = kvp[2];
                 if (File.Exists(file))
                 {
                     using (StreamWriter writer = File.AppendText(file))
                     {
-                        writer.WriteLine($"{residue}\t{atomName}\t{atomType}");
+                        writer.WriteLine($"{kvp[0]}\t{kvp[1]}\t{kvp[2]}\t\t{kvp[3]} {kvp[4]} {kvp[5]} {kvp[6]}\t\t{kvp[7]}\t{kvp[8]}\t{kvp[9]}");
                     }
                 } else
                 {
                     using (StreamWriter writer = new StreamWriter(file))
                     {
-                        writer.WriteLine("Residue\nAtom_name\nAtome_type");
-                        writer.WriteLine($"{residue}\t{atomName}\t{atomType}");
+                        writer.WriteLine("Residue\nAtom_name\nAtome_type\nCoord_system\nAtom_number\nResidue_number\nFile_name");
+                        writer.WriteLine($"{kvp[0]}\t{kvp[1]}\t{kvp[2]}\t\t{kvp[3]} {kvp[4]} {kvp[5]} {kvp[6]}\t\t{kvp[7]}\t{kvp[8]}\t{kvp[9]}");
                     }                    
                 }
             }
         }
 
-        static void CountSameLineInFile(string file)
+        static void CountSameLineInFile(string file, string outFile)
         {
             string[] lines = File.ReadAllLines(file);
-            lines = lines.Skip(3).ToArray();
-            Dictionary<string, int> counts = lines.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
-            File.Delete(file);
-            using (StreamWriter writer = new StreamWriter(file))
+            lines = lines.Skip(7).ToArray();
+            List<string> lines2 = new List<string>();
+            foreach(string line in lines)
+            {
+                string[] columns = line.Split(new[] { '\t' }, StringSplitOptions.RemoveEmptyEntries);
+                lines2.Add(columns[0] + "\t" + columns[1] + "\t" + columns[2]);
+            }
+            lines2 = lines2.OrderBy(x => x).ToList();
+            Dictionary<string, int> counts = lines2.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
+            using (StreamWriter writer = new StreamWriter(outFile))
             {
                 writer.WriteLine("Residue\nAtom_name\nAtome_type");
                 foreach (var item in counts)
                 {
                     writer.WriteLine($"{item.Key}\t{item.Value}");
                 }      
-            }       
+            }      
+        }
+
+        static void CountSameLineInFile2(string file, string outFile)
+        {
+            string[] lines = File.ReadAllLines(file);
+            lines = lines.Skip(7).ToArray();
+            List<string> lines2 = new List<string>();
+            foreach (string line in lines)
+            {
+                string[] columns = line.Split(new[] { '\t' }, StringSplitOptions.RemoveEmptyEntries);
+                lines2.Add(columns[0] + "\t" + columns[1] + "\t" + columns[2] + "\t" + columns[3]);
+            }
+            lines2 = lines2.OrderBy(x => x).ToList();
+            Dictionary<string, int> counts = lines2.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
+            using (StreamWriter writer = new StreamWriter(outFile))
+            {
+                writer.WriteLine("Residue\nAtom_name\nAtome_type\nCoord_system");
+                foreach (var item in counts)
+                {
+                    writer.WriteLine($"{item.Key}\t{item.Value}");
+                }
+            }
         }
     }
 }

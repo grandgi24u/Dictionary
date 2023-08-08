@@ -1,0 +1,14 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+CD	CD	-		   		13189	.	1A4K.mmcif
+CD	CD	-		   		13190	.	1A4K.mmcif
+CD	CD	-		   		13244	.	1A4K.mmcif
+CD	CD	-		   		13245	.	1A4K.mmcif
+CD	CD	-		   		4932	.	1A5Z.mmcif
+CD	CD	-		   		4933	.	1A5Z.mmcif
+CD	CD	-		   		4934	.	1A5Z.mmcif

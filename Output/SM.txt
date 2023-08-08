@@ -1,0 +1,11 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+SM	SM	-		   		30257	.	1A4Z.mmcif
+SM	SM	-		   		30328	.	1A4Z.mmcif
+SM	SM	-		   		30399	.	1A4Z.mmcif
+SM	SM	-		   		30470	.	1A4Z.mmcif

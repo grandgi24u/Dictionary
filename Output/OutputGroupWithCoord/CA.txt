@@ -1,0 +1,5 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+CA	CA	-	   	28

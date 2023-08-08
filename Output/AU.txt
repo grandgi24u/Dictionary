@@ -1,0 +1,13 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+Atom_number
+Residue_number
+File_name
+AU	AU	-		   		7769	.	1A52.mmcif
+AU	AU	-		   		7770	.	1A52.mmcif
+AU	AU	-		   		7771	.	1A52.mmcif
+AU	AU	-		   		7816	.	1A52.mmcif
+AU	AU	-		   		7817	.	1A52.mmcif
+AU	AU	-		   		7818	.	1A52.mmcif

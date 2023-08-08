@@ -1,0 +1,7 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+AZI	N1	-	   	4
+AZI	N2	-	   	4
+AZI	N3	-	   	4
