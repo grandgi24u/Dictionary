@@ -2,4 +2,4 @@ Residue
 Atom_name
 Atome_type
 Coord_system
-CD	CD	-	   	7
+CD	CD	-		7

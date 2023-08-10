@@ -2,4 +2,4 @@ Residue
 Atom_name
 Atome_type
 Coord_system
-CO	CO	-	   	8
+CO	CO	-		8

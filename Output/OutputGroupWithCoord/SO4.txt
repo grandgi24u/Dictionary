@@ -1,0 +1,27 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+SO4	O1	O122e	X S Y O2 	18
+SO4	O1	O122e	X S Y O3 	7
+SO4	O1	O122e	X S Y O4 	10
+SO4	O2	O122e	X S Y O1 	10
+SO4	O2	O122e	X S Y O3 	12
+SO4	O2	O122e	X S Y O4 	13
+SO4	O3	O122e	X S Y O1 	7
+SO4	O3	O122e	X S Y O2 	17
+SO4	O3	O122e	X S Y O4 	11
+SO4	O4	O122e	X S Y O1 	10
+SO4	O4	O122e	X S Y O2 	16
+SO4	O4	O122e	X S Y O3 	9
+SO4	S	S442	Z average_position(O2,O1) X O4 	1
+SO4	S	S442	Z average_position(O3,O1) X O2 	3
+SO4	S	S442	Z average_position(O3,O1) X O4 	4
+SO4	S	S442	Z average_position(O3,O2) X O1 	3
+SO4	S	S442	Z average_position(O3,O2) X O4 	5
+SO4	S	S442	Z average_position(O4,O1) X O2 	1
+SO4	S	S442	Z average_position(O4,O1) X O3 	2
+SO4	S	S442	Z average_position(O4,O2) X O1 	8
+SO4	S	S442	Z average_position(O4,O2) X O3 	4
+SO4	S	S442	Z average_position(O4,O3) X O1 	3
+SO4	S	S442	Z average_position(O4,O3) X O2 	1

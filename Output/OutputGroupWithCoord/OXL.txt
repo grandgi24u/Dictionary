@@ -1,0 +1,13 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+OXL	C1	-		8
+OXL	C2	-		7
+OXL	C2	C301	Z C1 X O2 	1
+OXL	O1	-		8
+OXL	O2	O101	X C2 Y O4 	1
+OXL	O2	O199	X C2 Y O4 	7
+OXL	O3	O199	X C1 Y O1 	8
+OXL	O4	-		7
+OXL	O4	O101	X C2 Y O2 	1

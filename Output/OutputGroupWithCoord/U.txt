@@ -1,0 +1,83 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+U	C1'	-		96
+U	C1'	C450a	X O4' Y N1 	18
+U	C2	-		95
+U	C2'	-		96
+U	C2	C378b	X average_position(N1,C2,N3,C4,C5,C6) Y N1 	2
+U	C2	C378b	X average_position(N1,C2,N3,C4,C5,C6) Y N3 	16
+U	C2'	C430	X O2' Y H2' 	18
+U	C3'	-		96
+U	C3'	C430	X O3' Y H3' 	18
+U	C4	-		95
+U	C4'	-		95
+U	C4	C382b	X average_position(N1,C2,N3,C4,C5,C6) Y N3 	18
+U	C4'	C430	X O4' Y H4' 	18
+U	C4'	C431	X O4' Y C3' 	1
+U	C5	-		95
+U	C5'	-		95
+U	C5	C330	X average_position(N1,C2,N3,C4,C5,C6) Y C6 	18
+U	C5'	C429	X O5' Y C4' 	19
+U	C6	-		95
+U	C6	C352c	X average_position(N1,C2,N3,C4,C5,C6) Y N1 	18
+U	H1'	-		95
+U	H1'	H1032	Z C1' X C2' 	19
+U	H2'	-		95
+U	H2'	H1033	Z C2' X C1' 	8
+U	H2'	H1033	Z C2' X C3' 	11
+U	H3	-		95
+U	H3'	-		95
+U	H3'	H1033	Z C3' X C2' 	6
+U	H3'	H1033	Z C3' X C4' 	12
+U	H3'	H104	Z C3' X C2' 	1
+U	H3	H109	Z N3 X C2 	16
+U	H3	H109	Z N3 X C4 	2
+U	H4'	-		95
+U	H4'	H1033	Z C4' X C3' 	9
+U	H4'	H1033	Z C4' X C5' 	10
+U	H5	-		95
+U	H5'	-		95
+U	H5''	-		95
+U	H5'	H102	Z C5' X O5' 	19
+U	H5''	H102	Z C5' X O5' 	19
+U	H5	H104	Z C5 X C6 	18
+U	H6	-		95
+U	H6	H104	Z C6 X N1 	18
+U	HO2'	-		96
+U	HO2'	H112	Z O2' X C2' 	18
+U	HO3'	H112	Z O3' X C3' 	1
+U	N1	-		96
+U	N1	N322b	X average_position(N1,C2,N3,C4,C5,C6) Y C6 	18
+U	N3	-		95
+U	N3	N320	X average_position(N1,C2,N3,C4,C5,C6) Y C2 	16
+U	N3	N320	X average_position(N1,C2,N3,C4,C5,C6) Y C4 	2
+U	O2	-		95
+U	O2'	-		96
+U	O2	O109a	X C2 Y N1 	3
+U	O2	O109a	X C2 Y N3 	15
+U	O2'	O205a	X C2' Y HO2' 	18
+U	O3'	-		95
+U	O3'	O205a	X C3' Y HO3' 	1
+U	O3'	O209	X C3' Y P 	17
+U	O4	-		95
+U	O4'	-		95
+U	O4	O1062	X C4 Y N3 	18
+U	O4'	O207a	Z average_position(C1',C4') X C1' 	19
+U	O5'	-		95
+U	O5'	O209	X C5' Y P 	19
+U	OP1	-		96
+U	OP1	O120	X P Y OP2 	16
+U	OP1	O121	X P Y OP2 	1
+U	OP1	O121	X P Y OP3 	1
+U	OP2	-		96
+U	OP2	O120	X P Y OP1 	16
+U	OP2	O121	X P Y OP3 	2
+U	OP3	O121	X P Y OP1 	1
+U	OP3	O121	X P Y OP2 	1
+U	P	-		96
+U	P	P407	Z average_position(OP2,OP1) X O3' 	5
+U	P	P407	Z average_position(OP2,OP1) X O5' 	11
+U	P	P409c	Z O5' X OP1 	1
+U	P	P409c	Z O5' X OP2 	1

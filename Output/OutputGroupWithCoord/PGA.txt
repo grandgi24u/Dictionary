@@ -1,0 +1,16 @@
+Residue
+Atom_name
+Atome_type
+Coord_system
+PGA	C1	-		2
+PGA	C2	-		2
+PGA	H21	H102	Z C2 X O1P 	2
+PGA	H22	H102	Z C2 X O1P 	2
+PGA	O1	-		2
+PGA	O1P	-		2
+PGA	O2	-		1
+PGA	O2	O199	X C1 Y O1 	1
+PGA	O2P	-		2
+PGA	O3P	-		2
+PGA	O4P	-		2
+PGA	P	-		2

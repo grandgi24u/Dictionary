@@ -38,6 +38,11 @@ namespace CreateDictionary
             {
                 File.Delete(file);
             }
+            fileEntries = Directory.GetFiles(outputFolder3);
+            foreach (var file in fileEntries)
+            {
+                File.Delete(file);
+            }
             foreach (var key in listofFile)
             {
                 Console.WriteLine("Start process for file : " + key.Key);
@@ -190,7 +195,40 @@ namespace CreateDictionary
             foreach (string line in lines)
             {
                 string[] columns = line.Split(new[] { '\t' }, StringSplitOptions.RemoveEmptyEntries);
-                lines2.Add(columns[0] + "\t" + columns[1] + "\t" + columns[2] + "\t" + columns[3]);
+                string[] coord = columns[3].Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                string coords = "";
+                if (coord.Length > 2)
+                {
+                    foreach(string s in coord)
+                    {
+                        if(s.Contains("average"))
+                        {
+                            var start = s.IndexOf("(") + 1;
+                            string[] vals = s.Substring(start, s.IndexOf(")") - start).Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                            string res = "average_position(";
+                            for(int i = 0; i < vals.Length; i++)
+                            {
+                                res += vals[i].Substring(0, vals[i].IndexOf('_'));
+                                if(i != vals.Length-1)
+                                {
+                                    res += ",";
+                                }
+                            }
+                            res += ")";
+                            coords += res;
+                        } 
+                        else if (s.Contains('_'))
+                        {
+                            coords += s.Substring(0, s.IndexOf('_'));
+                        }
+                        else
+                        {
+                            coords += s;
+                        }
+                        coords += " ";
+                    }                   
+                }
+                lines2.Add(columns[0] + "\t" + columns[1] + "\t" + columns[2] + "\t" + coords);
             }
             lines2 = lines2.OrderBy(x => x).ToList();
             Dictionary<string, int> counts = lines2.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());

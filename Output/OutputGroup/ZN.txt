@@ -1,0 +1,4 @@
+Residue
+Atom_name
+Atome_type
+ZN	ZN	-	106
