@@ -14,15 +14,15 @@ The **CreateDictionary** application is designed to process molecular structure 
 
 The application expects a specific directory structure in the **Input** folder:
 
-Input/
-├── MMCIF/
-│ ├── [nameMmcif1].mmcif
-│ ├── [nameMmcif2].mmcif
-│ └── ...
-└── UBDBAssign/
-├── ubdbAssign_[nameMmcif1].log
-├── ubdbAssign_[nameMmcif2].log
-└── ...
+Input/  
+├── MMCIF/  
+│ ├── [nomMmcif1].mmcif  
+│ ├── [nomMmcif2].mmcif  
+│ └── ...  
+└── UBDBAssign/  
+├── ubdbAssign_[nomMmcif1].log  
+├── ubdbAssign_[nomMmcif2].log  
+└── ...  
 
 Place your MMCIF files in the `MMCIF` directory and the corresponding assignment log files in the `UBDBAssign` directory.
 
