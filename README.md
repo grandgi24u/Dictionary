@@ -42,21 +42,23 @@ The application generates output files in two different formats, each in its res
 
 2. **OutputGroup**: This directory contains files for each residue, summarizing information for atoms within that residue. The file format is as follows:
 
-Residue Atom_name Atom_type Count  
-ALA     C         -         926  
-ALA     C         C301      6  
-ALA     C         C304      5547  
-ALA     CA        -         968  
+| Residue | Atom_name | Atom_type | Count | 
+|---------|-----------|-----------|-------|
+| ALA     | C         | -         | 926   | 
+| ALA     | C         | C301      | 6     | 
+| ALA     | C         | C304      | 5547  |
+| ALA     | CA        | -         | 968   |
 ...
 
 3. **OutputGroupWithCoord**: This directory also contains files for each residue, but includes additional coordinate information for specific atom pairs. The file format is as follows:
 
-Residue Atom_name Atom_type Coord_system Count  
-ALA     C         -         -            926  
-ALA     C         C301      Z CA X O     2  
-ALA     C         C301      Z CA X OXT   4  
-ALA     C         C304      X O Y N      5547  
-ALA     CA        -         -            968  
+| Residue | Atom_name | Atom_type | Coord_system | Count | 
+|---------|-----------|-----------|--------------|-------|
+| ALA     | C         | -         | -            | 926   |
+| ALA     | C         | C301      | Z CA X O     | 2     |
+| ALA     | C         | C301      | Z CA X OXT   | 4     |
+| ALA     | C         | C304      | X O Y N      | 5547  |
+| ALA     | CA        | -         | -            | 968   |
 ...
 
 ## Usage
