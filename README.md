@@ -32,11 +32,12 @@ The application generates output files in two different formats, each in its res
 
 1. **Output**: This directory contains files for each residue, we have the details of each corresponding atoms :
 
-Residue Atom_name Atome_type Coord_system         Atom_number Residue_number File_name  
-ALA  	  N	        N315		   X C_1633 Y CA_1656		1655	      45	           1A02.mmcif  
-ALA	    CA	      C421		   X N_1655 Y C_1657		1656	      45	           1A02.mmcif  
-ALA	    C	        C304		   X O_1658 Y N_1665		1657	      45	           1A02.mmcif  
-ALA	    O	        O1051		   X C_1657 Y N_1665		1658	      45	           1A02.mmcif  
+| Residue | Atom_name | Atom_type | Coord_system       | Atom_number | Residue_number | File_name  |
+|---------|-----------|-----------|--------------------|-------------|----------------|------------|
+| ALA     | N         | N315      | X C_1633 Y CA_1656 | 1655        | 45             | 1A02.mmcif |
+| ALA     | CA        | C421      | X N_1655 Y C_1657  | 1656        | 45             | 1A02.mmcif |
+| ALA     | C         | C304      | X O_1658 Y N_1665  | 1657        | 45             | 1A02.mmcif |
+| ALA     | O         | O1051     | X C_1657 Y N_1665  | 1658        | 45             | 1A02.mmcif |
 ...
 
 2. **OutputGroup**: This directory contains files for each residue, summarizing information for atoms within that residue. The file format is as follows:
