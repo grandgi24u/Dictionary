@@ -1,9 +1,0 @@
-Residue
-Atom_name
-Atome_type
-Coord_system
-Atom_number
-Residue_number
-File_name
-CL	CL	-		   		4159	.	1A2D.mmcif
-CL	CL	-		   		4160	.	1A2D.mmcif

@@ -12,11 +12,11 @@ namespace CreateDictionary
         static void Main()
         {
             Console.WriteLine("Program CreateDictionary developped by Clément GRANDGIRARD");
-            string mmcifFilePath = "../../../Input/MMCIF/";
-            string ubdbAssignLogFilePath = "../../../Input/UBDBAssign/";
-            string outputFolder = "../../../output/";
-            string outputFolder2 = "../../../output/OutputGroup/";
-            string outputFolder3 = "../../../output/OutputGroupWithCoord/";
+            string mmcifFilePath = "./Input/MMCIF/";
+            string ubdbAssignLogFilePath = "./Input/UBDBAssign/";
+            string outputFolder = "./output/";
+            string outputFolder2 = "./output/OutputGroup/";
+            string outputFolder3 = "./output/OutputGroupWithCoord/";
             Dictionary<string, string> listofFile = new Dictionary<string, string>();           
             string[] fileEntries = Directory.GetFiles(mmcifFilePath);
             DirectoryInfo d = new DirectoryInfo(mmcifFilePath);

@@ -1,8 +1,0 @@
-Residue
-Atom_name
-Atome_type
-Coord_system
-Atom_number
-Residue_number
-File_name
-HG	HG	-		   		4039	.	1A42.mmcif

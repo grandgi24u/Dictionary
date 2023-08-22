@@ -1,6 +1,0 @@
-Residue
-Atom_name
-Atome_type
-Coord_system
-OXY	O1	-		3
-OXY	O2	-		3
